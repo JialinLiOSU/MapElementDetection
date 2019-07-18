@@ -1,7 +1,7 @@
 <annotation>
-	<folder>preprocessedMaps</folder>
+	<folder>train</folder>
 	<filename>imageLabel27.jpg</filename>
-	<path>C:\Users\li.7957\Desktop\MapElementDetection\dataCollection\preprocessedMaps\imageLabel27.jpg</path>
+	<path>C:\Users\li.7957\Desktop\MapElementDetection\dataCollection\images\train\imageLabel27.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,39 +12,39 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>1</name>
+		<name>legend</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>498</xmin>
-			<ymin>60</ymin>
-			<xmax>720</xmax>
-			<ymax>197</ymax>
+			<xmin>500</xmin>
+			<ymin>59</ymin>
+			<xmax>719</xmax>
+			<ymax>196</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>1</name>
+		<name>legend</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>501</xmin>
-			<ymin>247</ymin>
-			<xmax>727</xmax>
-			<ymax>384</ymax>
+			<xmin>504</xmin>
+			<ymin>249</ymin>
+			<xmax>722</xmax>
+			<ymax>385</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>1</name>
+		<name>legend</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>501</xmin>
-			<ymin>444</ymin>
+			<xmin>504</xmin>
+			<ymin>446</ymin>
 			<xmax>725</xmax>
-			<ymax>581</ymax>
+			<ymax>578</ymax>
 		</bndbox>
 	</object>
 </annotation>

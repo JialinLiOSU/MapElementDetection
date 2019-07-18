@@ -1,7 +1,7 @@
 <annotation>
-	<folder>preprocessedMaps</folder>
+	<folder>train</folder>
 	<filename>imageLabel49.jpg</filename>
-	<path>C:\Users\li.7957\Desktop\MapElementDetection\dataCollection\preprocessedMaps\imageLabel49.jpg</path>
+	<path>C:\Users\li.7957\Desktop\MapElementDetection\dataCollection\images\train\imageLabel49.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,27 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>1</name>
+		<name>legend</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>50</xmin>
-			<ymin>35</ymin>
-			<xmax>244</xmax>
-			<ymax>131</ymax>
+			<ymin>33</ymin>
+			<xmax>242</xmax>
+			<ymax>130</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>1</name>
+		<name>legend</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>52</xmin>
-			<ymin>318</ymin>
+			<xmin>50</xmin>
+			<ymin>319</ymin>
 			<xmax>227</xmax>
-			<ymax>415</ymax>
+			<ymax>416</ymax>
 		</bndbox>
 	</object>
 </annotation>
