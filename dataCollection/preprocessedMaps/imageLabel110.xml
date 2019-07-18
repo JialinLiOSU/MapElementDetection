@@ -1,0 +1,26 @@
+<annotation>
+	<folder>preprocessedMaps</folder>
+	<filename>imageLabel110.jpg</filename>
+	<path>C:\Users\li.7957\Desktop\MapElementDetection\dataCollection\preprocessedMaps\imageLabel110.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>46</xmin>
+			<ymin>531</ymin>
+			<xmax>759</xmax>
+			<ymax>569</ymax>
+		</bndbox>
+	</object>
+</annotation>
