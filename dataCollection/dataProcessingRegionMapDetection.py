@@ -22,8 +22,8 @@ path_target='C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\pro
 
 for i in range(num_images):
     img = Image.open(path + newChoMapImgs[i])
+    img_resized = img.resize((width, height), Image.ANTIALIAS)
     if img not in imageList:
-        img_resized = img.resize((width, height), Image.ANTIALIAS)
         imageList.append(img)
         name_target='newChoImg'+str(i+1)+'.jpg'
         img_resized.save(path_target+name_target)
