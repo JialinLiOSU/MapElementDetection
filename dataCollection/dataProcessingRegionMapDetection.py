@@ -18,12 +18,16 @@ imageList = []
 newChoMapImgs = os.listdir(path)
 num_images = len(newChoMapImgs)
 
-for imgName in newChoMapImgs:
-    img = Image.open(path + imgName)
-    img_resized = img.resize((width, height), Image.ANTIALIAS)
-    pixel_values = list(img_resized.getdata())
-    if pixel_values not in imageList:
-        imageList.append(pixel_values)
+path_target='C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\processed new choropleth map\\'
+
+for i in range(num_images):
+    img = Image.open(path + newChoMapImgs[i])
+    if img not in imageList:
+        img_resized = img.resize((width, height), Image.ANTIALIAS)
+        imageList.append(img)
+        name_target='newChoImg'+str(i+1)+'.jpg'
+        img_resized.save(path_target+name_target)
+
 print('number of images',num_images)
 print('non repeated image number',len(imageList))
 
