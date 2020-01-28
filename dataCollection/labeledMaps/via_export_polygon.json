@@ -1,0 +1,349 @@
+{
+    "imageLabel1.jpg85558": {
+        "filename": "imageLabel1.jpg",
+        "size": 85558,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        690,
+                        692,
+                        776,
+                        774
+                    ],
+                    "all_points_y": [
+                        405,
+                        541,
+                        541,
+                        404
+                    ]
+                },
+                "region_attributes": {
+                    
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        447,
+                        447,
+                        564,
+                        562
+                    ],
+                    "all_points_y": [
+                        497,
+                        543,
+                        543,
+                        492
+                    ]
+                },
+                "region_attributes": {
+                    
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        252,
+                        255,
+                        305,
+                        306
+                    ],
+                    "all_points_y": [
+                        461,
+                        533,
+                        533,
+                        465
+                    ]
+                },
+                "region_attributes": {
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "imageLabel2.jpg63782": {
+        "filename": "imageLabel2.jpg",
+        "size": 63782,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        722,
+                        725,
+                        785,
+                        784
+                    ],
+                    "all_points_y": [
+                        415,
+                        581,
+                        583,
+                        418
+                    ]
+                },
+                "region_attributes": {
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "imageLabel3.jpg45379": {
+        "filename": "imageLabel3.jpg",
+        "size": 45379,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        42,
+                        40,
+                        164,
+                        170
+                    ],
+                    "all_points_y": [
+                        86,
+                        153,
+                        156,
+                        86
+                    ]
+                },
+                "region_attributes": {
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "imageLabel4.jpg26401": {
+        "filename": "imageLabel4.jpg",
+        "size": 26401,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        722,
+                        723,
+                        796,
+                        797
+                    ],
+                    "all_points_y": [
+                        461,
+                        583,
+                        581,
+                        460
+                    ]
+                },
+                "region_attributes": {
+               
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "imageLabel5.jpg65706": {
+        "filename": "imageLabel5.jpg",
+        "size": 65706,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        616,
+                        616,
+                        798,
+                        799
+                    ],
+                    "all_points_y": [
+                        351,
+                        595,
+                        597,
+                        349
+                    ]
+                },
+                "region_attributes": {
+        
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "imageLabel6.jpg61874": {
+        "filename": "imageLabel6.jpg",
+        "size": 61874,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        20,
+                        21,
+                        116,
+                        116
+                    ],
+                    "all_points_y": [
+                        37,
+                        208,
+                        206,
+                        35
+                    ]
+                },
+                "region_attributes": {
+                   
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        421,
+                        552,
+                        554,
+                        420
+                    ],
+                    "all_points_y": [
+                        125,
+                        124,
+                        10,
+                        11
+                    ]
+                },
+                "region_attributes": {
+                   
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "imageLabel7.jpg57022": {
+        "filename": "imageLabel7.jpg",
+        "size": 57022,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        9,
+                        4,
+                        128,
+                        148
+                    ],
+                    "all_points_y": [
+                        5,
+                        436,
+                        437,
+                        4
+                    ]
+                },
+                "region_attributes": {
+                    
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        467,
+                        469,
+                        756,
+                        757
+                    ],
+                    "all_points_y": [
+                        18,
+                        45,
+                        44,
+                        12
+                    ]
+                },
+                "region_attributes": {
+                   
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "imageLabel8.jpg61345": {
+        "filename": "imageLabel8.jpg",
+        "size": 61345,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        9,
+                        11,
+                        209,
+                        203
+                    ],
+                    "all_points_y": [
+                        325,
+                        456,
+                        453,
+                        317
+                    ]
+                },
+                "region_attributes": {
+                   
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "imageLabel9.jpg71656": {
+        "filename": "imageLabel9.jpg",
+        "size": 71656,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        22,
+                        18,
+                        306,
+                        306
+                    ],
+                    "all_points_y": [
+                        491,
+                        593,
+                        591,
+                        490
+                    ]
+                },
+                "region_attributes": {
+                    
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "imageLabel10.jpg51754": {
+        "filename": "imageLabel10.jpg",
+        "size": 51754,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        3,
+                        175,
+                        174,
+                        3
+                    ],
+                    "all_points_y": [
+                        5,
+                        5,
+                        593,
+                        593
+                    ]
+                },
+                "region_attributes": {
+                    
+                }
+            }
+        ],
+        "file_attributes": {}
+    }
+}
