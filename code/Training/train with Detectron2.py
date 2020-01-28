@@ -80,9 +80,9 @@ trainer = DefaultTrainer(cfg)
 trainer.resume_or_load(resume=False)
 trainer.train()
 
-# Look at training curves in tensorboard:
-%load_ext tensorboard
-%tensorboard --logdir output
+# # Look at training curves in tensorboard:
+# %load_ext tensorboard
+# %tensorboard --logdir output
 
 # Now, let's run inference with the trained model on the balloon validation dataset. First, let's create a predictor using the model we just trained:
 cfg.MODEL.WEIGHTS = os.path.join(cfg.OUTPUT_DIR, "model_final.pth")
