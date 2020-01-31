@@ -1,4 +1,5 @@
 # training code for map image elements
+# working version is on google drive colab
 import os
 import numpy as np
 import json
