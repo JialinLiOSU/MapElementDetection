@@ -381,7 +381,6 @@ def getLegend(a):
     patch_5 = mpatches.Patch(color=getColor(9, a), label=frequent_words[labels[4]])
     return patch_1, patch_2, patch_3, patch_4, patch_5
 
-
 # draw US map
 def drawUSmap(index, filename):
 
@@ -405,7 +404,7 @@ def drawUSmap(index, filename):
         shp_info = m.readshapefile('data/us/USA_adm0', 'state', drawbounds=True, linewidth=0.5)
 
     else:
-        shp_info = m.readshapefile('data/us/st99_d00', 'state', drawbounds=True, linewidth=0.5)
+        shp_info = m.readshapefile('/shpFiles/st99_d00', 'state', drawbounds=True, linewidth=0.5)
         # draw map
         # 3. color scheme
         colorscheme = getcolor_scheme()
