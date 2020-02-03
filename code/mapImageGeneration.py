@@ -87,8 +87,9 @@ texturePatterns = [ "/" , "\\" , "|" , "-" , "+" , "x", "o", "O", ".", "*" ]
 # configuration of visualization elements
 mapText = 0    # random selected text
 showLegend = 0  # show map color legend
+path = 'C:/Users/li.7957/Desktop/MapElementDetection/code/'
 
-meta_data = pd.read_csv('meta.csv', encoding='utf-8')
+meta_data = pd.read_csv(path + 'meta.csv', encoding='utf-8')
 
 # us state name and acronym
 short_state_names = {
@@ -404,7 +405,8 @@ def drawUSmap(index, filename):
         shp_info = m.readshapefile('data/us/USA_adm0', 'state', drawbounds=True, linewidth=0.5)
 
     else:
-        shp_info = m.readshapefile('/shpFiles/st99_d00', 'state', drawbounds=True, linewidth=0.5)
+        # shp_info = m.readshapefile('/shpFiles/st99_d00', 'state', drawbounds=True, linewidth=0.5)
+        shp_info = m.readshapefile(path + 'shpFiles/st99_d00', 'state', drawbounds=True, linewidth=0.5)
         # draw map
         # 3. color scheme
         colorscheme = getcolor_scheme()
@@ -515,7 +517,7 @@ def drawUSmap(index, filename):
     meta_data.loc[index, 'legend'] = showLegend
 
     # plt.show()
-    plt.savefig(filename)
+    plt.savefig(path+filename)
 
 # draw US map, admin0
 def drawUSmapAdmin2(index, filename):
@@ -531,13 +533,13 @@ def drawUSmapAdmin2(index, filename):
                 projection='lcc', lat_1=33, lat_2=45, lon_0=-95)
 
     # 2. administraitive level
-    admin_level = 2
+    admin_level = 1
 
     ax = plt.gca()  # get current axes instance
 
     # read polygon information from shape file, only show admin0 and admin1
-    if(admin_level == 2):
-        shp_info = m.readshapefile('data/us/USA_adm2', 'state', drawbounds=True, linewidth=0.5)
+    if(admin_level == 1):
+        shp_info = m.readshapefile(path + 'shpFiles/st99_d00', 'state', drawbounds=True, linewidth=0.5)
         # draw map
         # 3. color scheme
         colorscheme = getcolor_scheme()
@@ -637,7 +639,7 @@ def drawUSmapAdmin2(index, filename):
     meta_data.loc[index, 'legend'] = showLegend
 
     #plt.show()
-    plt.savefig('map/us_2/'+filename)
+    plt.savefig(path+filename)
 
 # draw US map, with style
 def drawUSmapStyle(index, filename):
@@ -780,11 +782,10 @@ def drawUSmapStyle(index, filename):
 
 # generate map image
 def main():
-
     for i in range(len(meta_data)):
-        if(i >= 980 and i < 1000):
+        if(i >= 0 and i < 1000):
             filename = 'us_map' + str(meta_data.loc[i,'id']) + '.png'
-            drawUSmapAdmin2(i,filename)
+            drawUSmap(i,filename)
     meta_data.to_csv('result.csv', index=False)
 
 if __name__ == "__main__":    main()
