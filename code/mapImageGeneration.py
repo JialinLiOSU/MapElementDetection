@@ -292,7 +292,7 @@ def getStyleValue():
 # 0: blank 1-3: single color, 4-8: sequential color
 # 9-13: diverging color 14-18: quantitative color
 def getcolor_scheme():
-    a = random.randint(0, 18)
+    a = random.randint(4, 18)# changed to 4-18, make sure there is a legend
     return a
 
 # get color, i: random number, a: color scheme
@@ -360,7 +360,8 @@ def getTexture():
 
 # generate title
 def getTitle():
-    a = random.randint(0, 1)
+    # a = random.randint(0, 1)
+    a = 1 # make sure there is a title
     if (a == 0):
         return ''
     else:
@@ -373,14 +374,23 @@ def getText():
     return frequent_words[a]
 ### need to be modified to make sure that the colors are consistent with colors on map
 # generate legend
-def getLegend(a):
-    labels = random.sample(range(0, 99), 5)
-    patch_1 = mpatches.Patch(color=getColor(1, a), label=frequent_words[labels[0]])
-    patch_2 = mpatches.Patch(color=getColor(3, a), label=frequent_words[labels[1]])
-    patch_3 = mpatches.Patch(color=getColor(5, a), label=frequent_words[labels[2]])
-    patch_4 = mpatches.Patch(color=getColor(7, a), label=frequent_words[labels[3]])
-    patch_5 = mpatches.Patch(color=getColor(9, a), label=frequent_words[labels[4]])
-    return patch_1, patch_2, patch_3, patch_4, patch_5
+# def getLegend(a):
+#     labels = random.sample(range(0, 99), 5)
+#     patch_1 = mpatches.Patch(color=getColor(1, a), label=frequent_words[labels[0]])
+#     patch_2 = mpatches.Patch(color=getColor(3, a), label=frequent_words[labels[1]])
+#     patch_3 = mpatches.Patch(color=getColor(5, a), label=frequent_words[labels[2]])
+#     patch_4 = mpatches.Patch(color=getColor(7, a), label=frequent_words[labels[3]])
+#     patch_5 = mpatches.Patch(color=getColor(9, a), label=frequent_words[labels[4]])
+#     return patch_1, patch_2, patch_3, patch_4, patch_5
+
+def getLegend(colorList):
+    colorNum = len(colorList)
+    labels = random.sample(range(0, 99), colorNum)
+    patchList = []
+    for i in range(colorNum):
+        patch = mpatches.Patch(color=colorList[i], label=frequent_words[labels[i]])
+        patchList.append(patch)
+    return patchList
 
 # draw US map
 def drawUSmap(index, filename):
@@ -422,12 +432,16 @@ def drawUSmap(index, filename):
         # 8. identify the opacity value
         opaVal = getValue()
         printed_names = []
+        colorList = []
         for info, shape in zip(m.state_info, m.state):
             if(mapTexture == 1):
                 poly = Polygon(shape, facecolor=getColor(len(info['NAME']), colorscheme),
                                edgecolor='k', alpha = opaVal, linewidth=0.5, hatch=getTexture())
             else:
-                poly = Polygon(shape, facecolor=getColor(len(info['NAME']), colorscheme), alpha = opaVal, edgecolor='k', linewidth=0.5)
+                color = getColor(len(info['NAME']), colorscheme)
+                poly = Polygon(shape, facecolor=color, alpha = opaVal, edgecolor='k', linewidth=0.5)
+                if color not in colorList:
+                    colorList.append(color)
 
             if(isMainland == 1):
                 if info['NAME'] == 'Alaska':
@@ -470,26 +484,28 @@ def drawUSmap(index, filename):
 
     # 11. if add title
     title = getTitle()
-    plt.title(title)
+    # plt.title(title)
 
     # 12. if add legends
     if(colorscheme >= 4):
         showLegend = 1
-        loc_var = random.randint(1,5)
+        loc_var = random.randint(1,4)
         if(loc_var == 1):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='upper left', prop={'size': 6})
+            patchList = getLegend(colorList)
+            plt.legend(handles = patchList, loc='upper left', prop={'size': 6})
+            plt.title(title,y = 0)
         elif(loc_var == 2):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='upper right', prop={'size': 6})
+            patchList = getLegend(colorList)
+            plt.legend(handles = patchList, loc='upper right', prop={'size': 6})
+            plt.title(title,y = 0)
         elif (loc_var == 3):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='lower left', prop={'size': 6})
-        elif (loc_var == 4):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='lower right', prop={'size': 6})
-        else:
-            showLegend = 0
+            patchList = getLegend(colorList)
+            plt.legend(handles = patchList, loc='lower left', prop={'size': 6})
+            plt.title(title,y = 1)
+        else :
+            patchList = getLegend(colorList)
+            plt.legend(handles = patchList, loc='lower right', prop={'size': 6})
+            plt.title(title,y = 1)
     else:
         showLegend = 0
 
@@ -517,7 +533,7 @@ def drawUSmap(index, filename):
     meta_data.loc[index, 'legend'] = showLegend
 
     # plt.show()
-    plt.savefig(path+filename)
+    plt.savefig(path + 'generatedImages/' + filename)
 
 # draw US map, admin0
 def drawUSmapAdmin2(index, filename):
@@ -786,6 +802,6 @@ def main():
         if(i >= 0 and i < 1000):
             filename = 'us_map' + str(meta_data.loc[i,'id']) + '.png'
             drawUSmap(i,filename)
-    meta_data.to_csv('result.csv', index=False)
+    meta_data.to_csv(path+'result.csv', index=False)
 
 if __name__ == "__main__":    main()

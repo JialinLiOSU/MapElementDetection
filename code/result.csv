@@ -1,0 +1,501 @@
+id,filename,country,statename,mainland,lat and long,background,style,position,size,projection,opacity,color,texture,title,legend
+1,us_map1.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-118,-63,18,50",2.0,llc,0.94,4.0,0.0,fiscal and monetary policies designed to prevent serious inflation ; ;,1.0
+2,us_map2.png,USA,0.0,1.0,1.0,#207ab0,plain,"-118,-65,16,51",2.0,llc,0.97,17.0,0.0,The system is composed of three credit services ,1.0
+3,us_map3.png,USA,1.0,1.0,0.0,#207ab0,plain,"-129,-44,9,48",0.0,llc,0.72,13.0,0.0,The reasons for stressing self-help,1.0
+4,us_map4.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-128,-44,6,49",0.0,llc,0.79,15.0,0.0,They are written by specialists in numerous types of business enterprises ,1.0
+5,us_map5.png,USA,2.0,0.0,1.0,#FFFFFF,plain,"-118,-63,19,49",2.0,llc,0.77,11.0,0.0,and industrial uses for agricultural products .,1.0
+6,us_map6.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-117,-63,18,50",2.0,llc,0.92,11.0,0.0,This is not a short-run goal .,1.0
+7,us_map7.png,USA,0.0,1.0,0.0,#207ab0,plain,"-129,-41,6,48",0.0,llc,0.96,14.0,0.0,Neither growth nor a development program can be imposed on a country ; ;,1.0
+8,us_map8.png,USA,1.0,0.0,0.0,#207ab0,plain,"-127,-41,7,48",0.0,llc,0.71,9.0,0.0,To qualify for either type of loan ,1.0
+9,us_map9.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-120,-62,17,51",1.0,llc,0.89,10.0,0.0,New Product Introduction For Small Business Owners ,1.0
+10,us_map10.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-119,-64,17,49",2.0,llc,0.9,7.0,0.0,External aid can be effective only if it is a complement to self-help .,1.0
+11,us_map11.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-120,-61,20,49",1.0,llc,0.89,5.0,0.0,it must express the nation's own will and goal .,1.0
+12,us_map12.png,USA,0.0,0.0,0.0,#207ab0,plain,"-127,-41,7,48",0.0,llc,0.96,8.0,0.0,SBA offers Administrative Management Courses ,1.0
+13,us_map13.png,USA,1.0,0.0,0.0,#aedba8,plain,"-120,-65,19,50",1.0,llc,0.8,5.0,0.0,Neither growth nor a development program can be imposed on a country ; ;,1.0
+14,us_map14.png,USA,2.0,0.0,0.0,#207ab0,plain,"-121,-65,16,50",1.0,llc,0.75,5.0,0.0,Open societies can take many forms ,1.0
+15,us_map15.png,USA,1.0,0.0,0.0,#aedba8,plain,"-118,-65,17,50",1.0,llc,0.71,13.0,0.0,In several significant cases ,1.0
+16,us_map16.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-118,-65,18,47",1.0,llc,0.78,15.0,0.0,( B ) the need to plan investment programs .,1.0
+17,us_map17.png,USA,0.0,1.0,0.0,#333333,plain,"-118,-64,17,50",2.0,llc,0.81,17.0,0.0,Product research and development,1.0
+18,us_map18.png,USA,1.0,0.0,0.0,#207ab0,plain,"-118,-64,17,50",1.0,llc,0.81,13.0,0.0,Small Business Administration ,1.0
+19,us_map19.png,USA,1.0,1.0,0.0,#207ab0,plain,"-119,-64,18,47",1.0,llc,0.71,14.0,0.0,new product potential ; ;,1.0
+20,us_map20.png,USA,2.0,0.0,0.0,#207ab0,plain,"-119,-61,18,50",1.0,llc,0.81,9.0,0.0,But there will be still other countries where ,1.0
+21,us_map21.png,USA,0.0,0.0,1.0,#333333,plain,"-127,-43,8,48",0.0,llc,0.77,4.0,0.0,Section 8-b-2 of the Small Business Act ,1.0
+22,us_map22.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-118,-65,16,49",2.0,llc,0.82,17.0,0.0,The range of self-help,1.0
+23,us_map23.png,USA,1.0,0.0,0.0,#aedba8,plain,"-127,-44,9,48",0.0,llc,0.97,11.0,0.0,The specific reasons for a long-term approach,1.0
+24,us_map24.png,USA,2.0,0.0,0.0,#207ab0,plain,"-119,-62,20,47",1.0,llc,0.83,14.0,0.0,and Small Business Pooling are available ,1.0
+25,us_map25.png,USA,2.0,1.0,0.0,#207ab0,plain,"-118,-63,18,51",1.0,llc,0.91,7.0,0.0,( D ) honesty in government .,1.0
+26,us_map26.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-121,-64,17,50",1.0,llc,0.77,5.0,0.0,Aid advice is not interference,1.0
+27,us_map27.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-117,-64,20,51",2.0,llc,0.86,5.0,0.0,To have any success in this effort ,1.0
+28,us_map28.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-120,-63,16,51",1.0,llc,0.87,4.0,0.0,Technical assistance to small business community,1.0
+29,us_map29.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-121,-62,17,48",1.0,llc,0.81,12.0,0.0,We must use common sense in applying conditions,1.0
+30,us_map30.png,USA,0.0,1.0,0.0,#207ab0,plain,"-118,-65,16,50",1.0,llc,0.77,16.0,0.0,Technical assistance to small business community,1.0
+31,us_map31.png,USA,2.0,1.0,0.0,#333333,plain,"-120,-61,19,50",1.0,llc,0.91,5.0,0.0,U.S. position on self-help,1.0
+32,us_map32.png,USA,2.0,0.0,1.0,#207ab0,plain,"-128,-41,8,48",0.0,llc,0.92,10.0,0.0,Small Business Administration ,1.0
+33,us_map33.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-118,-63,19,48",1.0,llc,0.99,5.0,0.0,new product potential ; ;,1.0
+34,us_map34.png,USA,2.0,0.0,1.0,#207ab0,plain,"-126,-42,6,49",0.0,llc,0.88,7.0,0.0,The system is composed of three credit services ,1.0
+35,us_map35.png,USA,1.0,0.0,1.0,#a8d5e3,plain,"-121,-63,20,50",1.0,llc,0.95,14.0,0.0,Governments are rarely monolithic .,1.0
+36,us_map36.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-120,-64,19,51",1.0,llc,0.9,11.0,0.0,( C ) tapping the energies of the entire population .,1.0
+37,us_map37.png,USA,2.0,0.0,0.0,#207ab0,plain,"-120,-65,20,51",1.0,llc,0.85,18.0,0.0,Through the SBA's Management Counseling Program ,1.0
+38,us_map38.png,USA,2.0,1.0,0.0,#fffdc4,plain,"-119,-65,18,51",2.0,llc,0.72,13.0,0.0,To be eligible to borrow from a Bank for Cooperatives ,1.0
+39,us_map39.png,USA,1.0,0.0,0.0,#207ab0,plain,"-119,-62,17,50",1.0,llc,0.89,12.0,0.0,The system is composed of three credit services ,1.0
+40,us_map40.png,USA,0.0,0.0,0.0,#fffdc4,plain,"-126,-42,6,47",0.0,llc,0.85,9.0,0.0,The applicant pays the rest of the cost ,1.0
+41,us_map41.png,USA,1.0,0.0,0.0,#aedba8,plain,"-120,-64,18,50",1.0,llc,0.91,9.0,0.0,The applicant pays the rest of the cost ,1.0
+42,us_map42.png,USA,2.0,0.0,1.0,#207ab0,plain,"-129,-41,7,48",0.0,llc,0.87,8.0,0.0,To encourage exploration for domestic sources of minerals ,1.0
+43,us_map43.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-120,-65,17,51",1.0,llc,0.89,13.0,0.0,This includes assistance in -- assembling the basic economic ,1.0
+44,us_map44.png,USA,2.0,1.0,1.0,#207ab0,plain,"-128,-43,8,49",0.0,llc,0.82,5.0,0.0,But there will be still other countries where ,1.0
+45,us_map45.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-120,-65,18,48",1.0,llc,0.93,13.0,0.0,If nothing is produced ,1.0
+46,us_map46.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-127,-41,9,47",0.0,llc,0.92,18.0,0.0,The maximum loan which SBA may make to any one borrower is $350,1.0
+47,us_map47.png,USA,1.0,0.0,0.0,#333333,plain,"-128,-42,6,47",0.0,llc,0.71,14.0,0.0,new product potential ; ;,1.0
+48,us_map48.png,USA,1.0,1.0,0.0,#a8d5e3,plain,"-118,-64,20,47",1.0,llc,0.72,5.0,0.0,The reasons for stressing self-help,1.0
+49,us_map49.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-119,-62,16,48",1.0,llc,1.0,16.0,0.0,This is not a short-run goal .,1.0
+50,us_map50.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-118,-65,17,51",1.0,llc,0.87,17.0,0.0,Encouraging a long-term approach,1.0
+51,us_map51.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-121,-65,20,47",1.0,llc,0.91,10.0,0.0,Product research and development,1.0
+52,us_map52.png,USA,2.0,1.0,0.0,#207ab0,plain,"-120,-61,16,49",1.0,llc,0.74,10.0,0.0,Aid is a long-term process,1.0
+53,us_map53.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-117,-63,19,48",2.0,llc,0.86,13.0,0.0,Encouraging self-help,1.0
+54,us_map54.png,USA,0.0,0.0,1.0,#207ab0,plain,"-119,-63,18,48",1.0,llc,0.76,13.0,0.0,For further information contact Director ,1.0
+55,us_map55.png,USA,2.0,1.0,0.0,#207ab0,plain,"-118,-63,18,49",1.0,llc,0.72,14.0,0.0,The third credit service ,1.0
+56,us_map56.png,USA,2.0,0.0,0.0,#207ab0,plain,"-119,-64,16,49",2.0,llc,0.96,11.0,0.0,( A ) the need to budget a period of years .,1.0
+57,us_map57.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-117,-64,18,48",2.0,llc,0.82,4.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+58,us_map58.png,USA,2.0,0.0,0.0,#207ab0,plain,"-118,-61,18,50",1.0,llc,0.79,7.0,0.0,The reasons for stressing self-help,1.0
+59,us_map59.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-128,-42,9,47",0.0,llc,0.71,12.0,0.0,This includes not only development programing ,1.0
+60,us_map60.png,USA,2.0,1.0,0.0,#333333,plain,"-129,-44,7,48",0.0,llc,0.86,13.0,0.0,SBA business loans are of two types : `` participation '' and `` direct '' .,1.0
+61,us_map61.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-126,-41,8,48",0.0,llc,0.74,17.0,0.0,For further information contact Director ,1.0
+62,us_map62.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-120,-64,18,50",1.0,llc,0.84,5.0,0.0,Only rarely is attention given to accurate progress reports and evaluation .,1.0
+63,us_map63.png,USA,2.0,1.0,0.0,#207ab0,plain,"-120,-64,17,49",1.0,llc,0.83,7.0,0.0,Each SBA regional office also maintains a `` want '' list of surplus property ,1.0
+64,us_map64.png,USA,2.0,0.0,1.0,#207ab0,plain,"-120,-65,19,48",1.0,llc,0.73,6.0,0.0,Production assistance,1.0
+65,us_map65.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-120,-62,16,50",1.0,llc,0.83,4.0,0.0,U.S. position on self-help,1.0
+66,us_map66.png,USA,0.0,0.0,1.0,#207ab0,plain,"-128,-43,7,49",0.0,llc,0.95,9.0,0.0,In several significant cases ,1.0
+67,us_map67.png,USA,2.0,0.0,0.0,#207ab0,plain,"-119,-62,16,48",1.0,llc,0.88,5.0,0.0,The number of countries thus favorably situated is small ,1.0
+68,us_map68.png,USA,0.0,1.0,1.0,#207ab0,plain,"-118,-63,20,48",1.0,llc,0.77,14.0,0.0,To have any success in this effort ,1.0
+69,us_map69.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-119,-62,17,50",1.0,llc,0.97,6.0,0.0,Open societies can take many forms ,1.0
+70,us_map70.png,USA,2.0,1.0,0.0,#333333,plain,"-126,-42,9,48",0.0,llc,0.72,6.0,0.0,Through the SBA's Management Counseling Program ,1.0
+71,us_map71.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-120,-62,17,47",1.0,llc,0.91,18.0,0.0,In most of the less developed countries ,1.0
+72,us_map72.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-118,-65,17,48",1.0,llc,0.76,15.0,0.0,Each SBA regional office also maintains a `` want '' list of surplus property ,1.0
+73,us_map73.png,USA,2.0,0.0,1.0,#FFFFFF,plain,"-119,-65,17,49",1.0,llc,0.86,10.0,0.0,To be eligible to borrow from a Bank for Cooperatives ,1.0
+74,us_map74.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-119,-62,19,50",1.0,llc,0.81,6.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+75,us_map75.png,USA,2.0,0.0,1.0,#fffdc4,plain,"-121,-62,18,48",1.0,llc,0.95,17.0,0.0,( C ) tapping the energies of the entire population .,1.0
+76,us_map76.png,USA,2.0,1.0,1.0,#a8d5e3,plain,"-127,-42,9,47",0.0,llc,0.83,11.0,0.0,The reasons for stressing self-help,1.0
+77,us_map77.png,USA,0.0,0.0,0.0,#aedba8,plain,"-126,-41,6,48",0.0,llc,0.93,9.0,0.0,Section 8-b-2 of the Small Business Act ,1.0
+78,us_map78.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-128,-42,7,48",0.0,llc,0.79,18.0,0.0,Product research and development,1.0
+79,us_map79.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-117,-64,18,50",2.0,llc,0.7,7.0,0.0,SBA business loans are of two types : `` participation '' and `` direct '' .,1.0
+80,us_map80.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-127,-44,7,49",0.0,llc,0.84,6.0,0.0,Open societies can take many forms ,1.0
+81,us_map81.png,USA,0.0,1.0,0.0,#207ab0,plain,"-121,-62,17,49",1.0,llc,0.82,5.0,0.0,New Product Introduction For Small Business Owners ,1.0
+82,us_map82.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-118,-63,18,47",1.0,llc,0.89,9.0,0.0,U.S. position on self-help,1.0
+83,us_map83.png,USA,1.0,1.0,1.0,#207ab0,plain,"-129,-41,7,49",0.0,llc,0.82,10.0,0.0,It is not a tool for dealing with these crises after they have erupted .,1.0
+84,us_map84.png,USA,0.0,1.0,0.0,#207ab0,plain,"-121,-64,18,48",1.0,llc,0.92,5.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+85,us_map85.png,USA,0.0,0.0,0.0,#207ab0,plain,"-118,-64,16,50",2.0,llc,0.78,5.0,0.0,We can help in the planning process,1.0
+86,us_map86.png,USA,0.0,1.0,0.0,#333333,plain,"-118,-61,18,49",1.0,llc,0.93,6.0,0.0,Technical assistance to small business community,1.0
+87,us_map87.png,USA,1.0,0.0,1.0,#a8d5e3,plain,"-119,-64,18,47",1.0,llc,0.9,11.0,0.0,For further information contact Director ,1.0
+88,us_map88.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-121,-64,20,51",1.0,llc,0.78,8.0,0.0,( B ) the need to plan investment programs .,1.0
+89,us_map89.png,USA,1.0,0.0,1.0,#207ab0,plain,"-121,-64,20,49",1.0,llc,0.83,5.0,0.0,This is not a short-run goal .,1.0
+90,us_map90.png,USA,1.0,0.0,0.0,#207ab0,plain,"-119,-64,17,49",1.0,llc,0.87,16.0,0.0,Yet an economy cannot get the most out of its resources if dishonesty ,1.0
+91,us_map91.png,USA,2.0,1.0,1.0,#207ab0,plain,"-117,-65,18,48",2.0,llc,0.75,12.0,0.0,Developing And Selling New Products ,1.0
+92,us_map92.png,USA,1.0,1.0,0.0,#207ab0,plain,"-118,-63,19,48",2.0,llc,0.92,7.0,0.0,The third credit service ,1.0
+93,us_map93.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-121,-65,17,50",1.0,llc,0.75,16.0,0.0,new product potential ; ;,1.0
+94,us_map94.png,USA,2.0,0.0,0.0,#a8d5e3,plain,"-121,-63,16,47",1.0,llc,0.89,11.0,0.0,processing methods ; ;,1.0
+95,us_map95.png,USA,1.0,1.0,1.0,#aedba8,plain,"-120,-61,17,51",1.0,llc,0.72,17.0,0.0,SBA offers Administrative Management Courses ,1.0
+96,us_map96.png,USA,2.0,0.0,0.0,#a8d5e3,plain,"-119,-62,16,49",1.0,llc,0.8,17.0,0.0,Product research and development,1.0
+97,us_map97.png,USA,0.0,0.0,1.0,#333333,plain,"-117,-64,20,47",2.0,llc,0.76,16.0,0.0,It develops and analyzes the national income ,1.0
+98,us_map98.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-128,-44,7,47",0.0,llc,0.89,13.0,0.0,One-day conferences covering some specific phase of business management ,1.0
+99,us_map99.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-128,-42,7,49",0.0,llc,0.82,7.0,0.0,The range of self-help,1.0
+100,us_map100.png,USA,0.0,1.0,1.0,#aedba8,plain,"-118,-62,16,48",1.0,llc,0.93,11.0,0.0,Branch Offices are located in other large cities .,1.0
+101,us_map101.png,USA,2.0,1.0,0.0,#207ab0,plain,"-119,-63,20,51",1.0,llc,0.84,12.0,0.0,For further information contact Director ,1.0
+102,us_map102.png,USA,2.0,1.0,0.0,#207ab0,plain,"-118,-64,16,49",1.0,llc,0.98,6.0,0.0,Each SBA regional office also maintains a `` want '' list of surplus property ,1.0
+103,us_map103.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-129,-43,6,49",0.0,llc,0.76,17.0,0.0,Others have so-called development plans ,1.0
+104,us_map104.png,USA,2.0,0.0,0.0,#207ab0,plain,"-118,-65,17,48",1.0,llc,0.99,18.0,0.0,Small Business Administration ,1.0
+105,us_map105.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-118,-65,17,50",1.0,llc,0.94,14.0,0.0,For further information ,1.0
+106,us_map106.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-128,-41,9,47",0.0,llc,0.84,9.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+107,us_map107.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-119,-63,17,48",1.0,llc,0.83,17.0,0.0,The royalty applies to both principal and interest ,1.0
+108,us_map108.png,USA,1.0,1.0,0.0,#333333,plain,"-121,-63,17,48",1.0,llc,0.79,7.0,0.0,It is kept in each Regional office for the small firms within the region .,1.0
+109,us_map109.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-118,-63,20,49",2.0,llc,0.74,7.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+110,us_map110.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-128,-44,9,47",0.0,llc,0.83,12.0,0.0,Development requires a long-term approach,1.0
+111,us_map111.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-119,-62,17,49",1.0,llc,0.76,7.0,0.0,Through the SBA's Management Counseling Program ,1.0
+112,us_map112.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-117,-65,20,51",2.0,llc,0.97,4.0,0.0,If nothing is produced ,1.0
+113,us_map113.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-127,-42,9,49",0.0,llc,0.97,11.0,0.0,The application of conditions in the allocation of aid funds cannot ,1.0
+114,us_map114.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-121,-64,17,48",1.0,llc,0.85,10.0,0.0,This includes assistance in -- assembling the basic economic ,1.0
+115,us_map115.png,USA,0.0,0.0,0.0,#207ab0,plain,"-129,-42,8,49",0.0,llc,0.75,12.0,0.0,It develops and analyzes the national income ,1.0
+116,us_map116.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-118,-64,18,48",1.0,llc,0.96,15.0,0.0,( D ) honesty in government .,1.0
+117,us_map117.png,USA,2.0,0.0,0.0,#a8d5e3,plain,"-118,-65,17,49",1.0,llc,0.73,10.0,0.0,This includes assistance in -- assembling the basic economic ,1.0
+118,us_map118.png,USA,2.0,0.0,0.0,#207ab0,plain,"-118,-64,20,47",1.0,llc,0.75,12.0,0.0,As a source of investment capital ,1.0
+119,us_map119.png,USA,2.0,0.0,0.0,#207ab0,plain,"-127,-43,8,49",0.0,llc,0.97,18.0,0.0,Section 8-b-2 of the Small Business Act ,1.0
+120,us_map120.png,USA,2.0,0.0,1.0,#207ab0,plain,"-118,-62,17,47",1.0,llc,0.84,16.0,0.0,processing methods ; ;,1.0
+121,us_map121.png,USA,0.0,1.0,0.0,#207ab0,plain,"-120,-61,16,50",1.0,llc,0.95,7.0,0.0,In establishing conditions of self-help ,1.0
+122,us_map122.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-120,-65,20,51",1.0,llc,0.8,6.0,0.0,For further information ,1.0
+123,us_map123.png,USA,0.0,1.0,0.0,#a8d5e3,plain,"-120,-63,20,51",1.0,llc,0.77,12.0,0.0,The maximum loan which SBA may make to any one borrower is $350,1.0
+124,us_map124.png,USA,2.0,0.0,0.0,#207ab0,plain,"-121,-65,17,50",1.0,llc,0.94,7.0,0.0,This includes foreseeing balance-of-payments crises ,1.0
+125,us_map125.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-117,-64,18,50",2.0,llc,0.84,13.0,0.0,There are many others .,1.0
+126,us_map126.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-128,-44,9,49",0.0,llc,0.73,5.0,0.0,External aid can only be marginal ,1.0
+127,us_map127.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-121,-62,17,48",1.0,llc,0.85,17.0,0.0,Evidence that other sources of financing are unavailable must be provided .,1.0
+128,us_map128.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-121,-64,16,47",1.0,llc,0.94,8.0,0.0,We must use common sense in applying conditions,1.0
+129,us_map129.png,USA,1.0,1.0,1.0,#207ab0,plain,"-118,-63,17,50",1.0,llc,0.91,13.0,0.0,But there will be still other countries where ,1.0
+130,us_map130.png,USA,0.0,1.0,1.0,#207ab0,plain,"-119,-62,16,47",1.0,llc,0.94,4.0,0.0,The system is composed of three credit services ,1.0
+131,us_map131.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-121,-64,18,47",1.0,llc,0.89,13.0,0.0,and Small Business Pooling are available ,1.0
+132,us_map132.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-120,-65,19,49",1.0,llc,0.85,17.0,0.0,Yet an economy cannot get the most out of its resources if dishonesty ,1.0
+133,us_map133.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-120,-62,18,49",1.0,llc,0.94,17.0,0.0,This includes not only development programing ,1.0
+134,us_map134.png,USA,1.0,1.0,1.0,#aedba8,plain,"-118,-63,19,47",1.0,llc,0.9,10.0,0.0,As a source of investment capital ,1.0
+135,us_map135.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-120,-61,19,50",1.0,llc,0.83,9.0,0.0,( A ) the need to budget a period of years .,1.0
+136,us_map136.png,USA,2.0,0.0,0.0,#207ab0,plain,"-128,-41,9,48",0.0,llc,0.97,13.0,0.0,Through the SBA's Management Counseling Program ,1.0
+137,us_map137.png,USA,1.0,0.0,1.0,#a8d5e3,plain,"-127,-42,6,49",0.0,llc,0.76,18.0,0.0,To encourage exploration for domestic sources of minerals ,1.0
+138,us_map138.png,USA,2.0,1.0,0.0,#207ab0,plain,"-121,-62,19,51",1.0,llc,0.77,18.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+139,us_map139.png,USA,2.0,1.0,0.0,#aedba8,plain,"-128,-42,8,49",0.0,llc,0.89,14.0,0.0,We must use common sense in applying conditions,1.0
+140,us_map140.png,USA,2.0,0.0,1.0,#207ab0,plain,"-127,-43,6,48",0.0,llc,0.85,6.0,0.0,SBA offers Administrative Management Courses ,1.0
+141,us_map141.png,USA,1.0,1.0,0.0,#207ab0,plain,"-118,-64,17,47",2.0,llc,0.91,16.0,0.0,it must express the nation's own will and goal .,1.0
+142,us_map142.png,USA,2.0,1.0,1.0,#207ab0,plain,"-118,-63,16,49",1.0,llc,0.97,14.0,0.0,( A ) the need to budget a period of years .,1.0
+143,us_map143.png,USA,2.0,0.0,0.0,#a8d5e3,plain,"-126,-43,6,48",0.0,llc,0.75,12.0,0.0,The third credit service ,1.0
+144,us_map144.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-118,-65,17,48",1.0,llc,0.94,11.0,0.0,In the more primitive areas ,1.0
+145,us_map145.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-128,-43,8,48",0.0,llc,0.97,11.0,0.0,Small Business Administration ,1.0
+146,us_map146.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-128,-44,7,48",0.0,llc,1.0,12.0,0.0,it must express the nation's own will and goal .,1.0
+147,us_map147.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-118,-63,19,49",1.0,llc,0.78,13.0,0.0,( A ) the need to budget a period of years .,1.0
+148,us_map148.png,USA,2.0,1.0,0.0,#207ab0,plain,"-120,-61,16,47",1.0,llc,0.78,10.0,0.0,new industrial uses for raw ,1.0
+149,us_map149.png,USA,0.0,0.0,0.0,#207ab0,plain,"-119,-63,20,48",1.0,llc,0.81,14.0,0.0,Small Business Administration ,1.0
+150,us_map150.png,USA,0.0,1.0,1.0,#207ab0,plain,"-119,-63,19,51",1.0,llc,0.95,18.0,0.0,Only rarely is attention given to accurate progress reports and evaluation .,1.0
+151,us_map151.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-118,-62,16,49",1.0,llc,0.74,18.0,0.0,it must express the nation's own will and goal .,1.0
+152,us_map152.png,USA,2.0,0.0,1.0,#FFFFFF,plain,"-118,-61,16,48",1.0,llc,0.82,4.0,0.0,Aid advice is not interference,1.0
+153,us_map153.png,USA,1.0,0.0,0.0,#207ab0,plain,"-119,-61,16,50",1.0,llc,0.78,15.0,0.0,fiscal and monetary policies designed to prevent serious inflation ; ;,1.0
+154,us_map154.png,USA,0.0,1.0,1.0,#aedba8,plain,"-121,-64,16,51",1.0,llc,0.97,5.0,0.0,There are many others .,1.0
+155,us_map155.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-121,-61,18,51",1.0,llc,0.81,18.0,0.0,For further information ,1.0
+156,us_map156.png,USA,2.0,0.0,0.0,#207ab0,plain,"-121,-64,16,51",1.0,llc,0.75,7.0,0.0,or to supply working capital .,1.0
+157,us_map157.png,USA,0.0,1.0,0.0,#207ab0,plain,"-119,-62,16,51",1.0,llc,0.81,7.0,0.0,( C ) tapping the energies of the entire population .,1.0
+158,us_map158.png,USA,1.0,1.0,0.0,#fffdc4,plain,"-119,-61,20,49",1.0,llc,0.92,5.0,0.0,External aid can be effective only if it is a complement to self-help .,1.0
+159,us_map159.png,USA,0.0,1.0,0.0,#207ab0,plain,"-118,-62,20,48",1.0,llc,0.8,10.0,0.0,The third credit service ,1.0
+160,us_map160.png,USA,1.0,1.0,0.0,#207ab0,plain,"-119,-64,16,50",2.0,llc,0.76,7.0,0.0,( B ) the need to plan investment programs .,1.0
+161,us_map161.png,USA,2.0,1.0,0.0,#a8d5e3,plain,"-120,-61,17,50",1.0,llc,0.89,5.0,0.0,the purchase of equipment ,1.0
+162,us_map162.png,USA,2.0,0.0,0.0,#aedba8,plain,"-129,-41,8,49",0.0,llc,0.95,14.0,0.0,and industrial uses for agricultural products .,1.0
+163,us_map163.png,USA,1.0,1.0,0.0,#fffdc4,plain,"-127,-41,8,48",0.0,llc,0.76,13.0,0.0,Encouraging self-help,1.0
+164,us_map164.png,USA,1.0,0.0,1.0,#207ab0,plain,"-121,-64,16,49",1.0,llc,0.73,8.0,0.0,External aid can be effective only if it is a complement to self-help .,1.0
+165,us_map165.png,USA,0.0,0.0,0.0,#a8d5e3,plain,"-121,-61,20,50",1.0,llc,0.96,9.0,0.0,The system is composed of three credit services ,1.0
+166,us_map166.png,USA,2.0,1.0,1.0,#aedba8,plain,"-121,-64,18,48",1.0,llc,0.82,12.0,0.0,The range of self-help,1.0
+167,us_map167.png,USA,1.0,1.0,0.0,#207ab0,plain,"-119,-64,18,49",1.0,llc,0.96,7.0,0.0,One-day conferences covering some specific phase of business management ,1.0
+168,us_map168.png,USA,2.0,0.0,0.0,#333333,plain,"-121,-62,18,49",1.0,llc,0.96,9.0,0.0,Aid advice is not interference,1.0
+169,us_map169.png,USA,1.0,0.0,0.0,#207ab0,plain,"-119,-61,19,49",1.0,llc,0.99,4.0,0.0,In the more primitive areas ,1.0
+170,us_map170.png,USA,0.0,1.0,1.0,#333333,plain,"-118,-64,18,48",1.0,llc,0.88,5.0,0.0,The royalty applies to both principal and interest ,1.0
+171,us_map171.png,USA,1.0,1.0,0.0,#207ab0,plain,"-119,-65,18,50",1.0,llc,0.8,5.0,0.0,This includes not only development programing ,1.0
+172,us_map172.png,USA,0.0,1.0,0.0,#207ab0,plain,"-128,-43,6,49",0.0,llc,0.76,18.0,0.0,To qualify for either type of loan ,1.0
+173,us_map173.png,USA,0.0,1.0,0.0,#207ab0,plain,"-129,-42,9,49",0.0,llc,0.88,14.0,0.0,Others have so-called development plans ,1.0
+174,us_map174.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-118,-65,17,48",2.0,llc,0.82,16.0,0.0,If nothing is produced ,1.0
+175,us_map175.png,USA,0.0,1.0,0.0,#207ab0,plain,"-119,-65,17,49",2.0,llc,0.94,6.0,0.0,They are written by specialists in numerous types of business enterprises ,1.0
+176,us_map176.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-127,-41,6,47",0.0,llc,0.83,15.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+177,us_map177.png,USA,0.0,0.0,0.0,#207ab0,plain,"-118,-62,18,50",1.0,llc,0.86,14.0,0.0,SBA business loans are of two types : `` participation '' and `` direct '' .,1.0
+178,us_map178.png,USA,1.0,1.0,0.0,#333333,plain,"-118,-62,18,51",1.0,llc,0.83,7.0,0.0,product and market developments ; ;,1.0
+179,us_map179.png,USA,2.0,1.0,1.0,#333333,plain,"-118,-64,18,50",1.0,llc,0.95,10.0,0.0,U.S. Government Purchasing ,1.0
+180,us_map180.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-120,-65,17,48",1.0,llc,0.86,6.0,0.0,But there will be still other countries where ,1.0
+181,us_map181.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-119,-61,17,47",1.0,llc,0.97,9.0,0.0,new product potential ; ;,1.0
+182,us_map182.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-120,-65,20,51",1.0,llc,0.96,9.0,0.0,The Farm Credit Administration ,1.0
+183,us_map183.png,USA,0.0,1.0,0.0,#207ab0,plain,"-129,-41,8,47",0.0,llc,0.93,14.0,0.0,Gradually others will move up to the same level,1.0
+184,us_map184.png,USA,2.0,1.0,0.0,#207ab0,plain,"-118,-65,18,49",1.0,llc,0.83,4.0,0.0,Neither growth nor a development program can be imposed on a country ; ;,1.0
+185,us_map185.png,USA,1.0,0.0,1.0,#207ab0,plain,"-121,-65,19,50",1.0,llc,0.96,9.0,0.0,The range of self-help,1.0
+186,us_map186.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-119,-62,19,50",1.0,llc,0.75,12.0,0.0,The reasons for stressing self-help,1.0
+187,us_map187.png,USA,1.0,0.0,0.0,#fffdc4,plain,"-119,-61,19,48",1.0,llc,0.94,6.0,0.0,it must express the nation's own will and goal .,1.0
+188,us_map188.png,USA,1.0,1.0,0.0,#207ab0,plain,"-121,-62,19,49",1.0,llc,0.82,4.0,0.0,Small Business Administration ,1.0
+189,us_map189.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-118,-64,18,49",1.0,llc,0.87,14.0,0.0,SBA Business Loans ; ;,1.0
+190,us_map190.png,USA,1.0,1.0,0.0,#207ab0,plain,"-119,-65,19,48",1.0,llc,0.91,7.0,0.0,( C ) tapping the energies of the entire population .,1.0
+191,us_map191.png,USA,1.0,1.0,1.0,#FFFFFF,plain,"-119,-64,18,50",1.0,llc,0.92,9.0,0.0,it must express the nation's own will and goal .,1.0
+192,us_map192.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-120,-64,18,50",1.0,llc,0.92,17.0,0.0,When suitable equipment is located by the SBA representative ,1.0
+193,us_map193.png,USA,2.0,0.0,1.0,#207ab0,plain,"-128,-44,8,47",0.0,llc,0.89,10.0,0.0,But there will be still other countries where ,1.0
+194,us_map194.png,USA,2.0,1.0,0.0,#aedba8,plain,"-126,-41,6,47",0.0,llc,0.93,18.0,0.0,This is not a short-run goal .,1.0
+195,us_map195.png,USA,2.0,1.0,0.0,#207ab0,plain,"-117,-63,20,48",2.0,llc,0.81,14.0,0.0,product and market developments ; ;,1.0
+196,us_map196.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-121,-61,16,50",1.0,llc,0.93,17.0,0.0,Direct loans are those made by SBA alone .,1.0
+197,us_map197.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-118,-64,17,50",1.0,llc,0.89,8.0,0.0,( B ) the reduction of dependence on external sources .,1.0
+198,us_map198.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-120,-64,20,51",1.0,llc,0.72,8.0,0.0,processing methods ; ;,1.0
+199,us_map199.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-127,-42,6,49",0.0,llc,0.96,8.0,0.0,The system is composed of three credit services ,1.0
+200,us_map200.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-118,-63,20,48",1.0,llc,0.75,8.0,0.0,The application of conditions in the allocation of aid funds cannot ,1.0
+201,us_map201.png,USA,1.0,0.0,0.0,#333333,plain,"-126,-44,9,49",0.0,llc,0.76,9.0,0.0,To encourage exploration for domestic sources of minerals ,1.0
+202,us_map202.png,USA,1.0,0.0,0.0,#aedba8,plain,"-129,-43,7,49",0.0,llc,0.76,13.0,0.0,Small Business Administration ,1.0
+203,us_map203.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-117,-64,20,50",2.0,llc,0.79,15.0,0.0,When suitable equipment is located by the SBA representative ,1.0
+204,us_map204.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-120,-64,16,47",1.0,llc,0.99,8.0,0.0,Evidence that other sources of financing are unavailable must be provided .,1.0
+205,us_map205.png,USA,0.0,1.0,0.0,#207ab0,plain,"-118,-65,17,49",1.0,llc,0.84,4.0,0.0,it must express the nation's own will and goal .,1.0
+206,us_map206.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-119,-64,20,48",1.0,llc,0.89,4.0,0.0,the term of loans for working capital is 6 years .,1.0
+207,us_map207.png,USA,1.0,1.0,1.0,#207ab0,plain,"-119,-62,18,49",1.0,llc,0.85,13.0,0.0,In the more primitive areas ,1.0
+208,us_map208.png,USA,0.0,0.0,0.0,#207ab0,plain,"-118,-63,18,48",1.0,llc,0.99,5.0,0.0,The reasons for stressing self-help,1.0
+209,us_map209.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-118,-63,19,49",1.0,llc,0.87,17.0,0.0,Only rarely is attention given to accurate progress reports and evaluation .,1.0
+210,us_map210.png,USA,1.0,1.0,0.0,#aedba8,plain,"-128,-43,8,49",0.0,llc,0.81,10.0,0.0,Encouraging a long-term approach,1.0
+211,us_map211.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-121,-62,18,49",1.0,llc,0.74,10.0,0.0,processing methods ; ;,1.0
+212,us_map212.png,USA,2.0,1.0,0.0,#aedba8,plain,"-121,-64,19,49",1.0,llc,0.71,12.0,0.0,The royalty applies to both principal and interest ,1.0
+213,us_map213.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-120,-64,16,51",1.0,llc,0.9,15.0,0.0,One-day conferences covering some specific phase of business management ,1.0
+214,us_map214.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-129,-44,6,49",0.0,llc,0.8,11.0,0.0,External aid can only be marginal ,1.0
+215,us_map215.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-118,-62,17,51",1.0,llc,0.72,12.0,0.0,For further information ,1.0
+216,us_map216.png,USA,1.0,0.0,0.0,#207ab0,plain,"-128,-42,7,49",0.0,llc,0.88,4.0,0.0,or to supply working capital .,1.0
+217,us_map217.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-118,-64,20,49",1.0,llc,0.72,11.0,0.0,External aid can be effective only if it is a complement to self-help .,1.0
+218,us_map218.png,USA,1.0,1.0,1.0,#207ab0,plain,"-120,-63,20,48",1.0,llc,0.86,5.0,0.0,SBA Business Loans ; ;,1.0
+219,us_map219.png,USA,0.0,1.0,1.0,#207ab0,plain,"-128,-44,9,49",0.0,llc,0.87,13.0,0.0,As a source of investment capital ,1.0
+220,us_map220.png,USA,0.0,1.0,1.0,#aedba8,plain,"-118,-62,19,49",1.0,llc,0.8,9.0,0.0,The third credit service ,1.0
+221,us_map221.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-128,-43,6,49",0.0,llc,0.98,7.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+222,us_map222.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-127,-43,7,49",0.0,llc,0.73,7.0,0.0,product and market developments ; ;,1.0
+223,us_map223.png,USA,1.0,1.0,1.0,#FFFFFF,plain,"-119,-65,19,49",2.0,llc,0.72,9.0,0.0,Small business management,1.0
+224,us_map224.png,USA,2.0,0.0,0.0,#aedba8,plain,"-119,-63,19,48",1.0,llc,0.95,16.0,0.0,The maximum loan which SBA may make to any one borrower is $350,1.0
+225,us_map225.png,USA,1.0,0.0,1.0,#a8d5e3,plain,"-121,-62,18,49",1.0,llc,0.78,5.0,0.0,SBA makes loans to individual small business firms ,1.0
+226,us_map226.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-118,-64,17,51",1.0,llc,0.91,7.0,0.0,fiscal and monetary policies designed to prevent serious inflation ; ;,1.0
+227,us_map227.png,USA,0.0,1.0,0.0,#aedba8,plain,"-121,-65,19,49",1.0,llc,0.7,18.0,0.0,Developing And Selling New Products ,1.0
+228,us_map228.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-119,-61,19,48",1.0,llc,0.91,15.0,0.0,The system is composed of three credit services ,1.0
+229,us_map229.png,USA,2.0,1.0,1.0,#333333,plain,"-128,-42,8,47",0.0,llc,0.87,5.0,0.0,new industrial uses for raw ,1.0
+230,us_map230.png,USA,1.0,0.0,0.0,#fffdc4,plain,"-121,-63,19,49",1.0,llc,0.74,18.0,0.0,fiscal and monetary policies designed to prevent serious inflation ; ;,1.0
+231,us_map231.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-117,-65,19,50",2.0,llc,0.8,13.0,0.0,At the other end of the spectrum ,1.0
+232,us_map232.png,USA,1.0,0.0,0.0,#fffdc4,plain,"-120,-61,19,50",1.0,llc,0.99,15.0,0.0,This includes not only development programing ,1.0
+233,us_map233.png,USA,0.0,1.0,0.0,#fffdc4,plain,"-127,-41,9,49",0.0,llc,0.81,17.0,0.0,In the more primitive areas ,1.0
+234,us_map234.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-121,-62,18,51",1.0,llc,0.75,8.0,0.0,The system is composed of three credit services ,1.0
+235,us_map235.png,USA,2.0,0.0,0.0,#a8d5e3,plain,"-119,-65,17,49",1.0,llc,0.96,13.0,0.0,Branch Offices are located in other large cities .,1.0
+236,us_map236.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-121,-64,17,47",1.0,llc,0.73,5.0,0.0,( B ) the reduction of dependence on external sources .,1.0
+237,us_map237.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-126,-41,6,48",0.0,llc,0.89,6.0,0.0,fiscal and monetary policies designed to prevent serious inflation ; ;,1.0
+238,us_map238.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-118,-61,20,49",1.0,llc,0.98,5.0,0.0,the purchase of equipment ,1.0
+239,us_map239.png,USA,1.0,0.0,0.0,#aedba8,plain,"-118,-62,17,51",1.0,llc,0.97,7.0,0.0,Developing And Selling New Products ,1.0
+240,us_map240.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-119,-61,18,50",1.0,llc,0.82,16.0,0.0,The application of conditions in the allocation of aid funds cannot ,1.0
+241,us_map241.png,USA,2.0,0.0,0.0,#fffdc4,plain,"-121,-64,17,48",1.0,llc,0.97,17.0,0.0,External aid can be effective only if it is a complement to self-help .,1.0
+242,us_map242.png,USA,1.0,1.0,0.0,#207ab0,plain,"-126,-44,6,48",0.0,llc,0.85,12.0,0.0,To have any success in this effort ,1.0
+243,us_map243.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-118,-64,20,50",1.0,llc,0.89,7.0,0.0,In several significant cases ,1.0
+244,us_map244.png,USA,0.0,1.0,0.0,#207ab0,plain,"-119,-64,18,49",2.0,llc,0.94,10.0,0.0,The number of countries thus favorably situated is small ,1.0
+245,us_map245.png,USA,1.0,0.0,1.0,#207ab0,plain,"-118,-64,20,48",1.0,llc,0.94,8.0,0.0,SBA business loans are of two types : `` participation '' and `` direct '' .,1.0
+246,us_map246.png,USA,1.0,0.0,0.0,#207ab0,plain,"-121,-61,16,47",1.0,llc,0.89,13.0,0.0,Only rarely is attention given to accurate progress reports and evaluation .,1.0
+247,us_map247.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-121,-63,17,51",1.0,llc,0.95,18.0,0.0,SBA makes loans to individual small business firms ,1.0
+248,us_map248.png,USA,1.0,1.0,1.0,#207ab0,plain,"-127,-42,7,49",0.0,llc,0.95,18.0,0.0,Most of our aid will go to those nearing self-sufficiency,1.0
+249,us_map249.png,USA,2.0,0.0,0.0,#207ab0,plain,"-119,-65,18,51",1.0,llc,0.73,5.0,0.0,or to supply working capital .,1.0
+250,us_map250.png,USA,1.0,1.0,1.0,#FFFFFF,plain,"-127,-44,8,47",0.0,llc,0.88,11.0,0.0,There are many others .,1.0
+251,us_map251.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-118,-64,19,47",2.0,llc,0.83,11.0,0.0,U.S. position on self-help,1.0
+252,us_map252.png,USA,1.0,0.0,0.0,#207ab0,plain,"-119,-63,17,49",2.0,llc,0.75,5.0,0.0,Aid is a long-term process,1.0
+253,us_map253.png,USA,0.0,0.0,0.0,#207ab0,plain,"-121,-61,17,47",1.0,llc,0.76,5.0,0.0,The Farm Credit Administration ,1.0
+254,us_map254.png,USA,2.0,1.0,0.0,#333333,plain,"-119,-65,18,48",1.0,llc,0.85,4.0,0.0,They are written by specialists in numerous types of business enterprises ,1.0
+255,us_map255.png,USA,1.0,1.0,0.0,#207ab0,plain,"-120,-65,20,51",1.0,llc,0.74,13.0,0.0,For further information ,1.0
+256,us_map256.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-120,-64,17,50",1.0,llc,0.99,15.0,0.0,SBA makes loans to individual small business firms ,1.0
+257,us_map257.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-128,-44,9,49",0.0,llc,0.91,11.0,0.0,For further information ,1.0
+258,us_map258.png,USA,1.0,1.0,1.0,#207ab0,plain,"-118,-65,19,50",1.0,llc,0.93,11.0,0.0,U.S. Government Purchasing ,1.0
+259,us_map259.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-118,-65,19,47",1.0,llc,0.75,5.0,0.0,The applicant pays the rest of the cost ,1.0
+260,us_map260.png,USA,2.0,1.0,1.0,#207ab0,plain,"-117,-64,16,49",2.0,llc,0.8,4.0,0.0,The third credit service ,1.0
+261,us_map261.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-127,-42,8,47",0.0,llc,0.97,9.0,0.0,Aid advice is not interference,1.0
+262,us_map262.png,USA,0.0,1.0,0.0,#207ab0,plain,"-126,-43,9,48",0.0,llc,0.72,18.0,0.0,U.S. Government Purchasing ,1.0
+263,us_map263.png,USA,1.0,0.0,1.0,#207ab0,plain,"-118,-61,20,47",1.0,llc,0.84,15.0,0.0,We must use common sense in applying conditions,1.0
+264,us_map264.png,USA,1.0,1.0,1.0,#207ab0,plain,"-120,-64,16,50",1.0,llc,0.86,18.0,0.0,U.S. Government Purchasing ,1.0
+265,us_map265.png,USA,1.0,1.0,1.0,#207ab0,plain,"-120,-63,16,47",1.0,llc,0.94,11.0,0.0,Guidance and advice are available on new product research and development ; ;,1.0
+266,us_map266.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-118,-65,16,49",1.0,llc,0.8,13.0,0.0,processing methods ; ;,1.0
+267,us_map267.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-118,-63,19,49",1.0,llc,0.83,14.0,0.0,Production assistance,1.0
+268,us_map268.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-118,-65,20,48",1.0,llc,0.87,6.0,0.0,Small Business Administration ,1.0
+269,us_map269.png,USA,2.0,0.0,1.0,#FFFFFF,plain,"-126,-43,9,48",0.0,llc,0.91,17.0,0.0,Development requires a long-term approach,1.0
+270,us_map270.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-118,-62,19,48",1.0,llc,1.0,8.0,0.0,Others have so-called development plans ,1.0
+271,us_map271.png,USA,0.0,0.0,1.0,#333333,plain,"-120,-62,18,49",1.0,llc,0.99,14.0,0.0,To encourage exploration for domestic sources of minerals ,1.0
+272,us_map272.png,USA,0.0,1.0,0.0,#207ab0,plain,"-119,-65,19,47",1.0,llc,0.99,13.0,0.0,Only a very few of the more advanced ones ,1.0
+273,us_map273.png,USA,2.0,1.0,1.0,#207ab0,plain,"-121,-64,18,47",1.0,llc,0.8,6.0,0.0,Others have so-called development plans ,1.0
+274,us_map274.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-120,-61,20,48",1.0,llc,0.86,4.0,0.0,Developing And Selling New Products ,1.0
+275,us_map275.png,USA,0.0,1.0,0.0,#207ab0,plain,"-119,-64,18,51",2.0,llc,0.88,11.0,0.0,product and market developments ; ;,1.0
+276,us_map276.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-119,-64,17,49",1.0,llc,1.0,14.0,0.0,Aid is a long-term process,1.0
+277,us_map277.png,USA,2.0,0.0,0.0,#207ab0,plain,"-119,-65,20,48",1.0,llc,0.78,13.0,0.0,The maximum loan which SBA may make to any one borrower is $350,1.0
+278,us_map278.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-120,-63,17,50",1.0,llc,0.84,4.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+279,us_map279.png,USA,2.0,0.0,0.0,#333333,plain,"-121,-64,19,49",1.0,llc,0.85,10.0,0.0,Gradually others will move up to the same level,1.0
+280,us_map280.png,USA,0.0,1.0,0.0,#333333,plain,"-118,-62,19,49",1.0,llc,0.75,15.0,0.0,To qualify for either type of loan ,1.0
+281,us_map281.png,USA,2.0,0.0,0.0,#207ab0,plain,"-129,-41,6,47",0.0,llc,0.79,6.0,0.0,Only rarely is attention given to accurate progress reports and evaluation .,1.0
+282,us_map282.png,USA,2.0,1.0,0.0,#207ab0,plain,"-127,-41,7,48",0.0,llc,0.8,11.0,0.0,Yet an economy cannot get the most out of its resources if dishonesty ,1.0
+283,us_map283.png,USA,2.0,1.0,0.0,#207ab0,plain,"-127,-43,7,48",0.0,llc,0.83,8.0,0.0,The maximum loan which SBA may make to any one borrower is $350,1.0
+284,us_map284.png,USA,0.0,1.0,1.0,#207ab0,plain,"-129,-44,8,48",0.0,llc,0.97,7.0,0.0,We must use common sense in applying conditions,1.0
+285,us_map285.png,USA,1.0,1.0,0.0,#333333,plain,"-119,-65,19,50",1.0,llc,0.98,16.0,0.0,One-day conferences covering some specific phase of business management ,1.0
+286,us_map286.png,USA,0.0,1.0,0.0,#207ab0,plain,"-121,-63,20,48",1.0,llc,0.74,11.0,0.0,( D ) honesty in government .,1.0
+287,us_map287.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-126,-42,6,48",0.0,llc,0.93,7.0,0.0,( D ) honesty in government .,1.0
+288,us_map288.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-121,-63,17,47",1.0,llc,0.78,6.0,0.0,New Product Introduction For Small Business Owners ,1.0
+289,us_map289.png,USA,1.0,1.0,1.0,#207ab0,plain,"-119,-63,16,51",1.0,llc,0.82,15.0,0.0,External aid can only be marginal ,1.0
+290,us_map290.png,USA,2.0,0.0,0.0,#a8d5e3,plain,"-119,-62,19,51",1.0,llc,0.81,9.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+291,us_map291.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-119,-63,18,49",1.0,llc,0.91,14.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+292,us_map292.png,USA,0.0,0.0,1.0,#207ab0,plain,"-121,-61,16,47",1.0,llc,0.98,11.0,0.0,Small Business Administration ,1.0
+293,us_map293.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-118,-65,16,50",2.0,llc,0.85,14.0,0.0,it must express the nation's own will and goal .,1.0
+294,us_map294.png,USA,1.0,1.0,0.0,#aedba8,plain,"-118,-61,16,48",1.0,llc,0.76,9.0,0.0,SBA business loans are of two types : `` participation '' and `` direct '' .,1.0
+295,us_map295.png,USA,0.0,1.0,0.0,#207ab0,plain,"-119,-65,16,49",1.0,llc,0.79,16.0,0.0,For further information ,1.0
+296,us_map296.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-121,-61,16,50",1.0,llc,0.81,12.0,0.0,SBA Business Loans ; ;,1.0
+297,us_map297.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-119,-62,20,50",1.0,llc,0.83,10.0,0.0,SBA makes loans to individual small business firms ,1.0
+298,us_map298.png,USA,1.0,0.0,0.0,#fffdc4,plain,"-117,-63,20,48",2.0,llc,0.95,6.0,0.0,it must express the nation's own will and goal .,1.0
+299,us_map299.png,USA,2.0,1.0,0.0,#333333,plain,"-121,-62,16,49",1.0,llc,0.96,11.0,0.0,new industrial uses for raw ,1.0
+300,us_map300.png,USA,0.0,1.0,0.0,#aedba8,plain,"-118,-63,17,47",2.0,llc,0.85,13.0,0.0,The whole program must be conceived of as an effort ,1.0
+301,us_map301.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-129,-42,9,49",0.0,llc,0.8,5.0,0.0,There are many others .,1.0
+302,us_map302.png,USA,0.0,0.0,0.0,#207ab0,plain,"-126,-42,6,48",0.0,llc,0.72,7.0,0.0,The Farm Credit Administration ,1.0
+303,us_map303.png,USA,1.0,0.0,0.0,#aedba8,plain,"-126,-41,8,47",0.0,llc,0.88,6.0,0.0,Section 8-b-2 of the Small Business Act ,1.0
+304,us_map304.png,USA,0.0,1.0,1.0,#207ab0,plain,"-120,-61,19,50",1.0,llc,0.72,12.0,0.0,The number of countries thus favorably situated is small ,1.0
+305,us_map305.png,USA,1.0,1.0,1.0,#207ab0,plain,"-128,-44,7,48",0.0,llc,0.85,18.0,0.0,The range of self-help,1.0
+306,us_map306.png,USA,1.0,1.0,1.0,#FFFFFF,plain,"-121,-65,17,51",1.0,llc,0.86,16.0,0.0,The Farm Credit Administration ,1.0
+307,us_map307.png,USA,0.0,1.0,0.0,#fffdc4,plain,"-121,-63,19,47",1.0,llc,0.88,6.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+308,us_map308.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-119,-63,16,50",1.0,llc,0.81,15.0,0.0,This includes foreseeing balance-of-payments crises ,1.0
+309,us_map309.png,USA,1.0,0.0,0.0,#fffdc4,plain,"-117,-64,17,49",2.0,llc,0.85,6.0,0.0,There are other countries where ,1.0
+310,us_map310.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-117,-63,18,51",2.0,llc,0.82,5.0,0.0,When suitable equipment is located by the SBA representative ,1.0
+311,us_map311.png,USA,0.0,0.0,0.0,#207ab0,plain,"-119,-65,19,51",1.0,llc,0.99,8.0,0.0,Property sales assistance,1.0
+312,us_map312.png,USA,1.0,1.0,0.0,#207ab0,plain,"-129,-43,9,47",0.0,llc,0.97,9.0,0.0,Development requires a long-term approach,1.0
+313,us_map313.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-121,-61,17,49",1.0,llc,0.85,11.0,0.0,Encouraging a long-term approach,1.0
+314,us_map314.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-118,-63,17,50",2.0,llc,0.73,11.0,0.0,or to supply working capital .,1.0
+315,us_map315.png,USA,1.0,0.0,0.0,#207ab0,plain,"-126,-44,7,47",0.0,llc,0.89,15.0,0.0,Aid is a long-term process,1.0
+316,us_map316.png,USA,0.0,0.0,0.0,#207ab0,plain,"-117,-65,16,47",2.0,llc,0.71,15.0,0.0,new industrial uses for raw ,1.0
+317,us_map317.png,USA,0.0,0.0,0.0,#a8d5e3,plain,"-119,-62,17,47",1.0,llc,0.77,18.0,0.0,For further information contact Director ,1.0
+318,us_map318.png,USA,2.0,1.0,0.0,#a8d5e3,plain,"-119,-63,18,47",1.0,llc,0.72,17.0,0.0,U.S. position on self-help,1.0
+319,us_map319.png,USA,0.0,1.0,1.0,#207ab0,plain,"-117,-65,19,49",2.0,llc,0.96,15.0,0.0,But there will be still other countries where ,1.0
+320,us_map320.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-119,-65,17,49",1.0,llc,0.74,16.0,0.0,When suitable equipment is located by the SBA representative ,1.0
+321,us_map321.png,USA,1.0,0.0,0.0,#fffdc4,plain,"-121,-63,18,47",1.0,llc,0.81,7.0,0.0,Developing And Selling New Products ,1.0
+322,us_map322.png,USA,2.0,1.0,0.0,#fffdc4,plain,"-120,-64,20,48",1.0,llc,0.93,9.0,0.0,The application of conditions in the allocation of aid funds cannot ,1.0
+323,us_map323.png,USA,0.0,1.0,0.0,#fffdc4,plain,"-118,-61,20,49",1.0,llc,0.98,8.0,0.0,Small Business Administration ,1.0
+324,us_map324.png,USA,0.0,0.0,0.0,#207ab0,plain,"-118,-63,20,49",1.0,llc,0.98,7.0,0.0,It develops and analyzes the national income ,1.0
+325,us_map325.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-121,-65,18,49",1.0,llc,0.87,13.0,0.0,Product research and development,1.0
+326,us_map326.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-118,-63,19,50",1.0,llc,0.99,5.0,0.0,Each SBA regional office also maintains a `` want '' list of surplus property ,1.0
+327,us_map327.png,USA,1.0,1.0,0.0,#207ab0,plain,"-121,-64,20,49",1.0,llc,0.99,8.0,0.0,When suitable equipment is located by the SBA representative ,1.0
+328,us_map328.png,USA,2.0,0.0,1.0,#fffdc4,plain,"-118,-64,16,51",2.0,llc,0.83,8.0,0.0,It is not a tool for dealing with these crises after they have erupted .,1.0
+329,us_map329.png,USA,0.0,0.0,0.0,#207ab0,plain,"-118,-63,16,47",1.0,llc,0.98,13.0,0.0,Evidence that other sources of financing are unavailable must be provided .,1.0
+330,us_map330.png,USA,0.0,1.0,0.0,#207ab0,plain,"-117,-64,18,47",2.0,llc,0.82,9.0,0.0,U.S. Government Purchasing ,1.0
+331,us_map331.png,USA,0.0,0.0,1.0,#207ab0,plain,"-119,-64,19,51",2.0,llc,0.71,12.0,0.0,External aid can only be marginal ,1.0
+332,us_map332.png,USA,2.0,0.0,0.0,#207ab0,plain,"-118,-64,17,50",2.0,llc,0.78,12.0,0.0,At the other end of the spectrum ,1.0
+333,us_map333.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-119,-65,16,47",1.0,llc,0.86,7.0,0.0,This includes not only development programing ,1.0
+334,us_map334.png,USA,1.0,1.0,1.0,#207ab0,plain,"-121,-61,20,49",1.0,llc,0.96,11.0,0.0,SBA offers Administrative Management Courses ,1.0
+335,us_map335.png,USA,2.0,0.0,1.0,#207ab0,plain,"-119,-64,20,51",1.0,llc,0.94,10.0,0.0,This is not a short-run goal .,1.0
+336,us_map336.png,USA,0.0,1.0,0.0,#a8d5e3,plain,"-128,-44,9,48",0.0,llc,0.89,6.0,0.0,Product research and development,1.0
+337,us_map337.png,USA,0.0,1.0,0.0,#207ab0,plain,"-120,-65,20,51",1.0,llc,0.98,18.0,0.0,U.S. position on self-help,1.0
+338,us_map338.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-118,-64,19,47",2.0,llc,0.83,16.0,0.0,If nothing is produced ,1.0
+339,us_map339.png,USA,2.0,1.0,1.0,#207ab0,plain,"-119,-65,17,48",1.0,llc,0.8,10.0,0.0,It is kept in each Regional office for the small firms within the region .,1.0
+340,us_map340.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-120,-62,18,51",1.0,llc,0.78,15.0,0.0,They are written by specialists in numerous types of business enterprises ,1.0
+341,us_map341.png,USA,2.0,0.0,0.0,#207ab0,plain,"-121,-64,16,50",1.0,llc,0.94,8.0,0.0,Property sales assistance,1.0
+342,us_map342.png,USA,1.0,0.0,1.0,#207ab0,plain,"-121,-62,20,49",1.0,llc,0.77,14.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+343,us_map343.png,USA,2.0,1.0,0.0,#207ab0,plain,"-118,-63,19,47",1.0,llc,0.95,6.0,0.0,processing methods ; ;,1.0
+344,us_map344.png,USA,0.0,1.0,0.0,#a8d5e3,plain,"-121,-61,17,47",1.0,llc,0.88,5.0,0.0,U.S. position on self-help,1.0
+345,us_map345.png,USA,1.0,0.0,0.0,#207ab0,plain,"-121,-64,16,49",1.0,llc,0.87,8.0,0.0,Governments are rarely monolithic .,1.0
+346,us_map346.png,USA,0.0,1.0,1.0,#207ab0,plain,"-118,-61,20,48",1.0,llc,0.94,16.0,0.0,Production assistance,1.0
+347,us_map347.png,USA,2.0,1.0,0.0,#a8d5e3,plain,"-120,-65,19,47",1.0,llc,0.82,7.0,0.0,When suitable equipment is located by the SBA representative ,1.0
+348,us_map348.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-128,-41,6,47",0.0,llc,0.82,8.0,0.0,External aid can only be marginal ,1.0
+349,us_map349.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-120,-61,16,49",1.0,llc,0.87,18.0,0.0,For further information contact Director ,1.0
+350,us_map350.png,USA,0.0,0.0,1.0,#aedba8,plain,"-119,-62,20,47",1.0,llc,0.77,15.0,0.0,it must express the nation's own will and goal .,1.0
+351,us_map351.png,USA,2.0,1.0,0.0,#207ab0,plain,"-121,-64,19,47",1.0,llc,0.97,16.0,0.0,New Product Introduction For Small Business Owners ,1.0
+352,us_map352.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-127,-43,6,49",0.0,llc,0.81,16.0,0.0,the term of loans for working capital is 6 years .,1.0
+353,us_map353.png,USA,1.0,1.0,0.0,#fffdc4,plain,"-126,-44,8,48",0.0,llc,0.76,8.0,0.0,Branch Offices are located in other large cities .,1.0
+354,us_map354.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-120,-64,19,47",1.0,llc,0.84,6.0,0.0,Most of our aid will go to those nearing self-sufficiency,1.0
+355,us_map355.png,USA,2.0,0.0,1.0,#aedba8,plain,"-128,-41,8,47",0.0,llc,0.77,18.0,0.0,Direct loans are those made by SBA alone .,1.0
+356,us_map356.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-128,-41,8,47",0.0,llc,0.91,13.0,0.0,Open societies can take many forms ,1.0
+357,us_map357.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-120,-63,19,51",1.0,llc,0.94,12.0,0.0,There are many others .,1.0
+358,us_map358.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-120,-64,20,51",1.0,llc,0.82,14.0,0.0,and Small Business Pooling are available ,1.0
+359,us_map359.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-118,-63,19,49",2.0,llc,0.86,6.0,0.0,For further information ,1.0
+360,us_map360.png,USA,0.0,0.0,0.0,#207ab0,plain,"-118,-65,18,48",2.0,llc,0.86,10.0,0.0,the term of loans for working capital is 6 years .,1.0
+361,us_map361.png,USA,2.0,1.0,1.0,#207ab0,plain,"-119,-63,19,48",1.0,llc,0.92,13.0,0.0,For further information ,1.0
+362,us_map362.png,USA,0.0,1.0,0.0,#aedba8,plain,"-119,-65,20,51",1.0,llc,0.93,4.0,0.0,it must express the nation's own will and goal .,1.0
+363,us_map363.png,USA,2.0,1.0,1.0,#fffdc4,plain,"-119,-61,16,51",1.0,llc,0.75,9.0,0.0,( B ) the need to plan investment programs .,1.0
+364,us_map364.png,USA,2.0,1.0,0.0,#207ab0,plain,"-119,-65,19,48",1.0,llc,0.94,8.0,0.0,Others have so-called development plans ,1.0
+365,us_map365.png,USA,2.0,1.0,0.0,#207ab0,plain,"-128,-43,9,47",0.0,llc,0.83,13.0,0.0,For further information ,1.0
+366,us_map366.png,USA,0.0,1.0,0.0,#207ab0,plain,"-119,-63,17,50",1.0,llc,0.87,11.0,0.0,The reasons for stressing self-help,1.0
+367,us_map367.png,USA,2.0,1.0,0.0,#207ab0,plain,"-121,-62,17,51",1.0,llc,0.91,10.0,0.0,This includes not only development programing ,1.0
+368,us_map368.png,USA,1.0,0.0,0.0,#fffdc4,plain,"-118,-65,17,50",2.0,llc,0.89,7.0,0.0,Branch Offices are located in other large cities .,1.0
+369,us_map369.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-121,-63,18,51",1.0,llc,0.92,4.0,0.0,if the Government certifies that production may be possible from the property ,1.0
+370,us_map370.png,USA,0.0,0.0,1.0,#207ab0,plain,"-127,-44,6,47",0.0,llc,0.93,9.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+371,us_map371.png,USA,2.0,0.0,1.0,#FFFFFF,plain,"-117,-65,20,48",2.0,llc,0.93,5.0,0.0,Development requires a long-term approach,1.0
+372,us_map372.png,USA,2.0,1.0,1.0,#a8d5e3,plain,"-121,-62,16,50",1.0,llc,1.0,4.0,0.0,SBA business loans are of two types : `` participation '' and `` direct '' .,1.0
+373,us_map373.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-119,-61,16,47",1.0,llc,0.95,16.0,0.0,Product research and development,1.0
+374,us_map374.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-118,-65,19,50",1.0,llc,0.98,5.0,0.0,SBA Business Loans ; ;,1.0
+375,us_map375.png,USA,1.0,0.0,0.0,#207ab0,plain,"-117,-65,16,47",2.0,llc,0.88,10.0,0.0,For further information ,1.0
+376,us_map376.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-119,-61,19,50",1.0,llc,0.83,9.0,0.0,There are other countries where ,1.0
+377,us_map377.png,USA,0.0,0.0,0.0,#a8d5e3,plain,"-119,-65,18,50",1.0,llc,0.73,8.0,0.0,It is not a tool for dealing with these crises after they have erupted .,1.0
+378,us_map378.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-127,-43,9,47",0.0,llc,0.99,12.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+379,us_map379.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-118,-63,17,49",1.0,llc,0.91,16.0,0.0,It develops and analyzes the national income ,1.0
+380,us_map380.png,USA,2.0,0.0,1.0,#207ab0,plain,"-129,-42,7,48",0.0,llc,0.86,4.0,0.0,The application of conditions in the allocation of aid funds cannot ,1.0
+381,us_map381.png,USA,2.0,1.0,1.0,#FFFFFF,plain,"-121,-62,17,48",1.0,llc,0.75,7.0,0.0,To be eligible to borrow from a Bank for Cooperatives ,1.0
+382,us_map382.png,USA,2.0,0.0,0.0,#aedba8,plain,"-119,-61,20,48",1.0,llc,0.99,5.0,0.0,Property sales assistance,1.0
+383,us_map383.png,USA,0.0,1.0,0.0,#aedba8,plain,"-128,-43,6,48",0.0,llc,0.88,7.0,0.0,The range of self-help,1.0
+384,us_map384.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-120,-65,16,49",1.0,llc,0.81,12.0,0.0,The application of conditions in the allocation of aid funds cannot ,1.0
+385,us_map385.png,USA,1.0,1.0,0.0,#207ab0,plain,"-128,-41,8,47",0.0,llc,0.96,16.0,0.0,Most of our aid will go to those nearing self-sufficiency,1.0
+386,us_map386.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-117,-63,16,51",2.0,llc,0.94,7.0,0.0,The range of self-help,1.0
+387,us_map387.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-129,-44,7,48",0.0,llc,0.8,12.0,0.0,New Product Introduction For Small Business Owners ,1.0
+388,us_map388.png,USA,1.0,0.0,0.0,#333333,plain,"-127,-42,9,47",0.0,llc,0.94,11.0,0.0,new industrial uses for raw ,1.0
+389,us_map389.png,USA,0.0,0.0,0.0,#207ab0,plain,"-119,-65,19,51",1.0,llc,0.9,15.0,0.0,At the other end of the spectrum ,1.0
+390,us_map390.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-119,-65,19,51",1.0,llc,0.88,11.0,0.0,We can help in the planning process,1.0
+391,us_map391.png,USA,1.0,0.0,1.0,#207ab0,plain,"-126,-42,8,49",0.0,llc,0.81,7.0,0.0,The Farm Credit Administration ,1.0
+392,us_map392.png,USA,0.0,0.0,0.0,#207ab0,plain,"-120,-64,19,49",1.0,llc,0.83,12.0,0.0,Product research and development,1.0
+393,us_map393.png,USA,1.0,1.0,0.0,#a8d5e3,plain,"-119,-63,18,47",1.0,llc,0.84,4.0,0.0,( D ) honesty in government .,1.0
+394,us_map394.png,USA,0.0,1.0,0.0,#aedba8,plain,"-118,-62,17,51",1.0,llc,0.88,14.0,0.0,The royalty applies to both principal and interest ,1.0
+395,us_map395.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-129,-44,7,47",0.0,llc,0.99,13.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+396,us_map396.png,USA,0.0,1.0,0.0,#207ab0,plain,"-119,-61,20,51",1.0,llc,0.75,15.0,0.0,There are other countries where ,1.0
+397,us_map397.png,USA,1.0,0.0,1.0,#207ab0,plain,"-118,-63,19,49",1.0,llc,0.76,5.0,0.0,For further information contact Director ,1.0
+398,us_map398.png,USA,0.0,0.0,1.0,#207ab0,plain,"-120,-64,16,47",1.0,llc,0.85,17.0,0.0,( D ) honesty in government .,1.0
+399,us_map399.png,USA,0.0,0.0,1.0,#333333,plain,"-120,-63,18,49",1.0,llc,0.77,5.0,0.0,Section 8-b-2 of the Small Business Act ,1.0
+400,us_map400.png,USA,1.0,1.0,1.0,#a8d5e3,plain,"-119,-61,17,49",1.0,llc,0.92,15.0,0.0,Direct loans are those made by SBA alone .,1.0
+401,us_map401.png,USA,0.0,1.0,0.0,#fffdc4,plain,"-119,-61,17,47",1.0,llc,0.84,12.0,0.0,At the other end of the spectrum ,1.0
+402,us_map402.png,USA,2.0,0.0,1.0,#207ab0,plain,"-129,-43,6,49",0.0,llc,0.79,17.0,0.0,For further information contact Director ,1.0
+403,us_map403.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-119,-62,20,48",1.0,llc,0.83,8.0,0.0,The maximum loan which SBA may make to any one borrower is $350,1.0
+404,us_map404.png,USA,1.0,0.0,0.0,#207ab0,plain,"-120,-61,17,49",1.0,llc,0.74,6.0,0.0,U.S. Government Purchasing ,1.0
+405,us_map405.png,USA,1.0,0.0,0.0,#207ab0,plain,"-120,-65,19,49",1.0,llc,0.92,15.0,0.0,( A ) the need to budget a period of years .,1.0
+406,us_map406.png,USA,2.0,1.0,0.0,#333333,plain,"-121,-65,18,48",1.0,llc,0.74,13.0,0.0,The third credit service ,1.0
+407,us_map407.png,USA,2.0,1.0,0.0,#207ab0,plain,"-121,-64,20,51",1.0,llc,0.87,8.0,0.0,SBA makes loans to individual small business firms ,1.0
+408,us_map408.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-119,-63,16,50",1.0,llc,0.97,15.0,0.0,This includes assistance in -- assembling the basic economic ,1.0
+409,us_map409.png,USA,2.0,0.0,0.0,#FFFFFF,plain,"-127,-42,7,48",0.0,llc,0.73,13.0,0.0,Aid is a long-term process,1.0
+410,us_map410.png,USA,1.0,1.0,1.0,#207ab0,plain,"-118,-63,18,47",1.0,llc,0.87,17.0,0.0,When suitable equipment is located by the SBA representative ,1.0
+411,us_map411.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-119,-61,20,49",1.0,llc,0.9,13.0,0.0,SBA offers Administrative Management Courses ,1.0
+412,us_map412.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-120,-64,17,47",1.0,llc,0.92,9.0,0.0,it must express the nation's own will and goal .,1.0
+413,us_map413.png,USA,1.0,0.0,0.0,#207ab0,plain,"-118,-62,17,48",1.0,llc,0.96,15.0,0.0,Through the SBA's Management Counseling Program ,1.0
+414,us_map414.png,USA,2.0,0.0,1.0,#207ab0,plain,"-118,-65,19,49",2.0,llc,0.97,17.0,0.0,The range of self-help,1.0
+415,us_map415.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-127,-41,7,47",0.0,llc,0.71,8.0,0.0,For further information ,1.0
+416,us_map416.png,USA,1.0,1.0,0.0,#333333,plain,"-118,-61,17,49",1.0,llc,0.98,6.0,0.0,Neither growth nor a development program can be imposed on a country ; ;,1.0
+417,us_map417.png,USA,2.0,1.0,0.0,#fffdc4,plain,"-121,-61,16,49",1.0,llc,0.95,12.0,0.0,In establishing conditions of self-help ,1.0
+418,us_map418.png,USA,2.0,1.0,0.0,#aedba8,plain,"-119,-65,18,49",1.0,llc,0.81,7.0,0.0,Encouraging a long-term approach,1.0
+419,us_map419.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-121,-62,18,50",1.0,llc,0.83,13.0,0.0,Small Business Administration ,1.0
+420,us_map420.png,USA,0.0,0.0,0.0,#207ab0,plain,"-121,-63,18,49",1.0,llc,0.8,5.0,0.0,External aid can be effective only if it is a complement to self-help .,1.0
+421,us_map421.png,USA,2.0,0.0,0.0,#333333,plain,"-129,-43,7,49",0.0,llc,0.85,4.0,0.0,The Farm Credit Administration ,1.0
+422,us_map422.png,USA,2.0,1.0,0.0,#207ab0,plain,"-118,-62,17,51",1.0,llc,0.76,6.0,0.0,The maximum loan which SBA may make to any one borrower is $350,1.0
+423,us_map423.png,USA,2.0,0.0,0.0,#333333,plain,"-121,-65,16,51",1.0,llc,0.75,11.0,0.0,To have any success in this effort ,1.0
+424,us_map424.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-128,-44,7,48",0.0,llc,0.82,13.0,0.0,Advice is given also on problems of plant location and plant space .,1.0
+425,us_map425.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-117,-63,18,50",2.0,llc,0.92,13.0,0.0,The royalty applies to both principal and interest ,1.0
+426,us_map426.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-129,-43,6,48",0.0,llc,0.82,17.0,0.0,Aid is a long-term process,1.0
+427,us_map427.png,USA,1.0,0.0,0.0,#fffdc4,plain,"-128,-41,6,49",0.0,llc,0.75,12.0,0.0,There are other countries where ,1.0
+428,us_map428.png,USA,1.0,1.0,1.0,#207ab0,plain,"-119,-63,20,48",1.0,llc,0.89,10.0,0.0,Most of our aid will go to those nearing self-sufficiency,1.0
+429,us_map429.png,USA,2.0,1.0,0.0,#333333,plain,"-126,-44,6,49",0.0,llc,0.73,10.0,0.0,New Product Introduction For Small Business Owners ,1.0
+430,us_map430.png,USA,2.0,1.0,1.0,#333333,plain,"-119,-61,17,49",1.0,llc,0.75,18.0,0.0,The application of conditions in the allocation of aid funds cannot ,1.0
+431,us_map431.png,USA,1.0,0.0,0.0,#aedba8,plain,"-118,-65,20,47",1.0,llc,0.73,5.0,0.0,The system is composed of three credit services ,1.0
+432,us_map432.png,USA,2.0,1.0,1.0,#333333,plain,"-118,-64,17,51",2.0,llc,0.79,17.0,0.0,It develops and analyzes the national income ,1.0
+433,us_map433.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-118,-62,16,49",1.0,llc,0.9,14.0,0.0,We must use common sense in applying conditions,1.0
+434,us_map434.png,USA,1.0,1.0,0.0,#FFFFFF,plain,"-117,-65,17,50",2.0,llc,0.84,5.0,0.0,This includes not only development programing ,1.0
+435,us_map435.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-120,-62,20,47",1.0,llc,0.83,4.0,0.0,Encouraging self-help,1.0
+436,us_map436.png,USA,1.0,0.0,1.0,#207ab0,plain,"-118,-63,19,50",1.0,llc,0.75,8.0,0.0,This includes foreseeing balance-of-payments crises ,1.0
+437,us_map437.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-127,-44,6,47",0.0,llc,0.72,10.0,0.0,Only a very few of the more advanced ones ,1.0
+438,us_map438.png,USA,1.0,1.0,0.0,#207ab0,plain,"-121,-62,18,51",1.0,llc,0.91,9.0,0.0,The royalty applies to both principal and interest ,1.0
+439,us_map439.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-121,-61,19,48",1.0,llc,0.96,4.0,0.0,For further information ,1.0
+440,us_map440.png,USA,2.0,0.0,0.0,#207ab0,plain,"-118,-61,18,49",1.0,llc,0.83,6.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+441,us_map441.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-127,-43,9,49",0.0,llc,1.0,12.0,0.0,External aid can be effective only if it is a complement to self-help .,1.0
+442,us_map442.png,USA,0.0,1.0,0.0,#FFFFFF,plain,"-120,-61,20,47",1.0,llc,0.93,9.0,0.0,Development requires a long-term approach,1.0
+443,us_map443.png,USA,2.0,0.0,0.0,#207ab0,plain,"-121,-61,16,47",1.0,llc,0.86,7.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+444,us_map444.png,USA,1.0,1.0,0.0,#aedba8,plain,"-118,-61,18,51",1.0,llc,0.97,15.0,0.0,U.S. position on self-help,1.0
+445,us_map445.png,USA,0.0,1.0,0.0,#207ab0,plain,"-127,-42,9,47",0.0,llc,0.91,18.0,0.0,The system is composed of three credit services ,1.0
+446,us_map446.png,USA,1.0,0.0,0.0,#FFFFFF,plain,"-120,-64,19,49",1.0,llc,0.85,10.0,0.0,To be eligible to borrow from a Bank for Cooperatives ,1.0
+447,us_map447.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-119,-62,18,47",1.0,llc,1.0,5.0,0.0,When suitable equipment is located by the SBA representative ,1.0
+448,us_map448.png,USA,2.0,0.0,0.0,#207ab0,plain,"-120,-61,17,49",1.0,llc,0.97,8.0,0.0,For further information ,1.0
+449,us_map449.png,USA,2.0,1.0,0.0,#207ab0,plain,"-120,-62,18,47",1.0,llc,0.93,6.0,0.0,The system is composed of three credit services ,1.0
+450,us_map450.png,USA,1.0,0.0,0.0,#a8d5e3,plain,"-119,-62,17,49",1.0,llc,0.87,8.0,0.0,It is not a tool for dealing with these crises after they have erupted .,1.0
+451,us_map451.png,USA,0.0,0.0,1.0,#FFFFFF,plain,"-121,-63,20,47",1.0,llc,0.9,12.0,0.0,Only a very few of the more advanced ones ,1.0
+452,us_map452.png,USA,2.0,0.0,0.0,#333333,plain,"-118,-63,17,47",1.0,llc,0.74,4.0,0.0,The applicant pays the rest of the cost ,1.0
+453,us_map453.png,USA,0.0,1.0,0.0,#207ab0,plain,"-126,-44,7,49",0.0,llc,0.96,18.0,0.0,and Small Business Pooling are available ,1.0
+454,us_map454.png,USA,2.0,0.0,1.0,#333333,plain,"-119,-65,16,47",1.0,llc,0.91,13.0,0.0,Developing And Selling New Products ,1.0
+455,us_map455.png,USA,2.0,0.0,1.0,#FFFFFF,plain,"-120,-64,17,47",1.0,llc,0.94,14.0,0.0,There are many others .,1.0
+456,us_map456.png,USA,2.0,0.0,1.0,#FFFFFF,plain,"-118,-61,20,50",1.0,llc,0.99,7.0,0.0,To be eligible to borrow from a Bank for Cooperatives ,1.0
+457,us_map457.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-127,-42,7,48",0.0,llc,0.89,17.0,0.0,( B ) the need to plan investment programs .,1.0
+458,us_map458.png,USA,2.0,1.0,0.0,#207ab0,plain,"-119,-61,17,49",1.0,llc,0.91,5.0,0.0,It develops and analyzes the national income ,1.0
+459,us_map459.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-119,-61,17,51",1.0,llc,0.8,10.0,0.0,( C ) tapping the energies of the entire population .,1.0
+460,us_map460.png,USA,1.0,0.0,0.0,#207ab0,plain,"-118,-63,17,51",1.0,llc,0.79,15.0,0.0,The application of conditions in the allocation of aid funds cannot ,1.0
+461,us_map461.png,USA,0.0,1.0,1.0,#a8d5e3,plain,"-118,-61,17,51",1.0,llc,0.92,10.0,0.0,Section 8-b-2 of the Small Business Act ,1.0
+462,us_map462.png,USA,1.0,1.0,0.0,#207ab0,plain,"-119,-61,16,49",1.0,llc,0.73,11.0,0.0,They are written by specialists in numerous types of business enterprises ,1.0
+463,us_map463.png,USA,2.0,1.0,0.0,#FFFFFF,plain,"-119,-63,18,49",1.0,llc,0.9,17.0,0.0,They are written by specialists in numerous types of business enterprises ,1.0
+464,us_map464.png,USA,0.0,0.0,0.0,#207ab0,plain,"-119,-64,17,50",1.0,llc,0.74,18.0,0.0,There are other countries where ,1.0
+465,us_map465.png,USA,2.0,1.0,1.0,#207ab0,plain,"-119,-64,20,48",1.0,llc,0.93,10.0,0.0,SBA offers Administrative Management Courses ,1.0
+466,us_map466.png,USA,0.0,0.0,0.0,#FFFFFF,plain,"-120,-64,18,48",1.0,llc,0.86,18.0,0.0,surveying the needs and requirements over time of broad sectors of the economy ,1.0
+467,us_map467.png,USA,1.0,0.0,0.0,#207ab0,plain,"-119,-63,20,50",1.0,llc,0.76,11.0,0.0,and Small Business Pooling are available ,1.0
+468,us_map468.png,USA,1.0,1.0,0.0,#207ab0,plain,"-118,-63,16,50",1.0,llc,0.85,15.0,0.0,Technical assistance to small business community,1.0
+469,us_map469.png,USA,1.0,0.0,1.0,#333333,plain,"-121,-63,20,47",1.0,llc,0.71,7.0,0.0,The number of countries thus favorably situated is small ,1.0
+470,us_map470.png,USA,0.0,1.0,1.0,#FFFFFF,plain,"-118,-61,18,50",1.0,llc,0.86,6.0,0.0,Small Business Administration ,1.0
+471,us_map471.png,USA,1.0,1.0,1.0,#207ab0,plain,"-121,-61,20,51",1.0,llc,0.71,14.0,0.0,fiscal and monetary policies designed to prevent serious inflation ; ;,1.0
+472,us_map472.png,USA,1.0,0.0,0.0,#207ab0,plain,"-129,-44,6,48",0.0,llc,0.71,7.0,0.0,( C ) tapping the energies of the entire population .,1.0
+473,us_map473.png,USA,1.0,0.0,0.0,#207ab0,plain,"-119,-63,19,49",1.0,llc,0.82,17.0,0.0,Neither growth nor a development program can be imposed on a country ; ;,1.0
+474,us_map474.png,USA,1.0,0.0,1.0,#207ab0,plain,"-127,-41,7,48",0.0,llc,0.76,16.0,0.0,Aid is a long-term process,1.0
+475,us_map475.png,USA,2.0,0.0,0.0,#207ab0,plain,"-120,-63,16,51",1.0,llc,0.97,4.0,0.0,Aid is a long-term process,1.0
+476,us_map476.png,USA,0.0,1.0,0.0,#207ab0,plain,"-120,-64,20,51",1.0,llc,0.85,16.0,0.0,The maximum loan which SBA may make to any one borrower is $350,1.0
+477,us_map477.png,USA,1.0,0.0,0.0,#333333,plain,"-119,-61,17,47",1.0,llc,0.94,4.0,0.0,There are many others .,1.0
+478,us_map478.png,USA,1.0,0.0,1.0,#207ab0,plain,"-119,-64,17,47",1.0,llc,0.75,4.0,0.0,U.S. position on self-help,1.0
+479,us_map479.png,USA,1.0,1.0,0.0,#207ab0,plain,"-118,-62,18,51",1.0,llc,0.96,9.0,0.0,The specific reasons for a long-term approach,1.0
+480,us_map480.png,USA,0.0,0.0,0.0,#207ab0,plain,"-119,-62,16,49",1.0,llc,0.83,6.0,0.0,Through the SBA's Management Counseling Program ,1.0
+481,us_map481.png,USA,0.0,1.0,0.0,#207ab0,plain,"-129,-42,7,48",0.0,llc,0.97,13.0,0.0,When suitable equipment is located by the SBA representative ,1.0
+482,us_map482.png,USA,0.0,0.0,0.0,#207ab0,plain,"-118,-61,18,47",1.0,llc,0.81,10.0,0.0,But there will be still other countries where ,1.0
+483,us_map483.png,USA,1.0,0.0,0.0,#207ab0,plain,"-121,-64,18,49",1.0,llc,0.73,17.0,0.0,We must use common sense in applying conditions,1.0
+484,us_map484.png,USA,2.0,0.0,0.0,#fffdc4,plain,"-121,-63,16,51",1.0,llc,0.92,11.0,0.0,It is kept in each Regional office for the small firms within the region .,1.0
+485,us_map485.png,USA,1.0,1.0,1.0,#207ab0,plain,"-119,-64,19,48",2.0,llc,0.78,15.0,0.0,Through the SBA's Management Counseling Program ,1.0
+486,us_map486.png,USA,1.0,0.0,1.0,#FFFFFF,plain,"-117,-64,16,47",2.0,llc,0.74,8.0,0.0,if the Government certifies that production may be possible from the property ,1.0
+487,us_map487.png,USA,1.0,1.0,0.0,#207ab0,plain,"-121,-65,18,47",1.0,llc,0.8,8.0,0.0,To be eligible to borrow from a Bank for Cooperatives ,1.0
+488,us_map488.png,USA,1.0,1.0,1.0,#FFFFFF,plain,"-118,-62,16,48",1.0,llc,0.9,10.0,0.0,The whole program must be conceived of as an effort ,1.0
+489,us_map489.png,USA,0.0,0.0,1.0,#207ab0,plain,"-118,-63,20,51",1.0,llc,0.91,17.0,0.0,Governments are rarely monolithic .,1.0
+490,us_map490.png,USA,2.0,0.0,0.0,#207ab0,plain,"-119,-64,20,47",2.0,llc,0.96,6.0,0.0,Technical assistance to small business community,1.0
+491,us_map491.png,USA,0.0,0.0,0.0,#a8d5e3,plain,"-120,-65,16,49",1.0,llc,0.77,17.0,0.0,New Product Introduction For Small Business Owners ,1.0
+492,us_map492.png,USA,0.0,1.0,0.0,#aedba8,plain,"-121,-62,19,51",1.0,llc,0.9,7.0,0.0,The specific reasons for a long-term approach,1.0
+493,us_map493.png,USA,1.0,0.0,1.0,#207ab0,plain,"-119,-65,16,49",1.0,llc,0.94,12.0,0.0,processing methods ; ;,1.0
+494,us_map494.png,USA,2.0,0.0,1.0,#aedba8,plain,"-119,-62,17,50",1.0,llc,0.91,10.0,0.0,Yet an economy cannot get the most out of its resources if dishonesty ,1.0
+495,us_map495.png,USA,2.0,0.0,0.0,#aedba8,plain,"-118,-64,19,48",1.0,llc,0.8,7.0,0.0,New Product Introduction For Small Business Owners ,1.0
+496,us_map496.png,USA,1.0,0.0,1.0,#207ab0,plain,"-120,-64,19,51",1.0,llc,0.8,7.0,0.0,Technical assistance to small business community,1.0
+497,us_map497.png,USA,2.0,0.0,1.0,#207ab0,plain,"-118,-64,19,51",1.0,llc,0.94,13.0,0.0,It is kept in each Regional office for the small firms within the region .,1.0
+498,us_map498.png,USA,2.0,0.0,0.0,#207ab0,plain,"-118,-61,19,51",1.0,llc,0.92,13.0,0.0,To be eligible to borrow from a Bank for Cooperatives ,1.0
+499,us_map499.png,USA,2.0,0.0,1.0,#207ab0,plain,"-121,-65,17,49",1.0,llc,0.83,4.0,0.0,One-day conferences covering some specific phase of business management ,1.0
+500,us_map500.png,USA,0.0,0.0,1.0,#fffdc4,plain,"-118,-61,20,48",1.0,llc,0.91,15.0,0.0,SBA makes loans to individual small business firms ,1.0
