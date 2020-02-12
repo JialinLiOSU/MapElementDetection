@@ -534,19 +534,19 @@ def drawUSmap(index, filename):
         if(loc_var == 1):
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='upper left', prop={'size': 6})
-            plt.title(title,y = 0, fontname= getFontName(), fontsize = random.randint(16,20))
+            plt.title(title,y = 0, fontname= getFontName())
         elif(loc_var == 2):
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='upper right', prop={'size': 6})
-            plt.title(title,y = 0, fontname= getFontName(), fontsize = random.randint(16,20))
+            plt.title(title,y = 0, fontname= getFontName())
         elif (loc_var == 3):
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='lower left', prop={'size': 6})
-            plt.title(title,y = 1, fontname= getFontName(), fontsize = random.randint(16,20))
+            plt.title(title,y = 1, fontname= getFontName())
         else :
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='lower right', prop={'size': 6})
-            plt.title(title,y = 1, fontname= getFontName(), fontsize = random.randint(16,20))
+            plt.title(title,y = 1, fontname= getFontName())
     else:
         showLegend = 0
 
@@ -574,7 +574,7 @@ def drawUSmap(index, filename):
     meta_data.loc[index, 'legend'] = showLegend
 
     # plt.show()
-    plt.savefig(path + 'generatedImages/' + filename)
+    plt.savefig(path + 'generatedImages1/' + filename)
 
 # draw US map, admin0
 def drawUSmapAdmin2(index, filename):
