@@ -172,7 +172,7 @@ for i in range(len(frequent_dist)):
     frequent_words.append(frequent_dist[i][0])
 
 def getFontName():
-    a = random.uniform(0,6)
+    a = random.randint(0,5)
     return fontnameList[a]
 
 # parameters setting
@@ -497,19 +497,19 @@ def drawUSmap(index, filename):
         if(loc_var == 1):
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='upper left', prop={'size': 6})
-            plt.title(title,y = 0, fontname= getFontName())
+            plt.title(title,y = 0, fontname= getFontName(), fontsize = random.randint(16,20))
         elif(loc_var == 2):
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='upper right', prop={'size': 6})
-            plt.title(title,y = 0, fontname= getFontName())
+            plt.title(title,y = 0, fontname= getFontName(), fontsize = random.randint(16,20))
         elif (loc_var == 3):
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='lower left', prop={'size': 6})
-            plt.title(title,y = 1, fontname= getFontName())
+            plt.title(title,y = 1, fontname= getFontName(), fontsize = random.randint(16,20))
         else :
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='lower right', prop={'size': 6})
-            plt.title(title,y = 1, fontname= getFontName())
+            plt.title(title,y = 1, fontname= getFontName(), fontsize = random.randint(16,20))
     else:
         showLegend = 0
 
