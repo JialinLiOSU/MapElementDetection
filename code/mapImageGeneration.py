@@ -72,6 +72,7 @@ serviceList = ["ESRI_Imagery_World_2D",'Ocean_Basemap',"ESRI_StreetMap_World_2D"
                'Reference/World_Transportation', 'Reference/World_Reference_Overlay',
                'Canvas/World_Light_Gray_Base', 'World_Physical_Map'] # map style
 colorList = ['#FFFFFF', '#F7C353', '#CDCDCD', '#f3A581']
+fontnameList = ['Courier New','Arial','Calibri','Times New Roman','Sans','Helvetica']
 
 # configuration of visualization variables
 mapPosition = 0      # center point of map
@@ -170,6 +171,9 @@ frequent_words = []
 for i in range(len(frequent_dist)):
     frequent_words.append(frequent_dist[i][0])
 
+def getFontName():
+    a = random.uniform(0,6)
+    return fontnameList[a]
 
 # parameters setting
 def get_admin_level():
@@ -493,19 +497,19 @@ def drawUSmap(index, filename):
         if(loc_var == 1):
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='upper left', prop={'size': 6})
-            plt.title(title,y = 0)
+            plt.title(title,y = 0, fontname= getFontName())
         elif(loc_var == 2):
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='upper right', prop={'size': 6})
-            plt.title(title,y = 0)
+            plt.title(title,y = 0, fontname= getFontName())
         elif (loc_var == 3):
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='lower left', prop={'size': 6})
-            plt.title(title,y = 1)
+            plt.title(title,y = 1, fontname= getFontName())
         else :
             patchList = getLegend(colorList)
             plt.legend(handles = patchList, loc='lower right', prop={'size': 6})
-            plt.title(title,y = 1)
+            plt.title(title,y = 1, fontname= getFontName())
     else:
         showLegend = 0
 
@@ -656,145 +660,6 @@ def drawUSmapAdmin2(index, filename):
 
     #plt.show()
     plt.savefig(path+filename)
-
-# draw US map, with style
-def drawUSmapStyle(index, filename):
-
-    fig = plt.figure(figsize=(7, 5), dpi=150)
-
-    # 1. size and location
-    mapSize = getSize()
-    x1, y1, x2, y2 = getStylePosition(mapSize)
-
-    # map location and bounding box
-    m = Basemap(llcrnrlon=x1, llcrnrlat=y1, urcrnrlon=x2, urcrnrlat=y2,
-                projection='lcc', lat_1=33, lat_2=45, lon_0=-95, epsg=3395)
-
-    # 2. administraitive level
-    admin_level = 1
-
-    ax = plt.gca()  # get current axes instance
-
-    # read polygon information from shape file, only show admin0 and admin1
-    if(admin_level == 0):
-        shp_info = m.readshapefile('data/us/USA_adm0', 'state', drawbounds=True, linewidth=0.2)
-
-    else:
-        shp_info = m.readshapefile('data/us/st99_d00', 'state', drawbounds=True, linewidth=0.03)
-        # draw map
-        # 3. color scheme
-        colorscheme = getcolor_scheme()
-        # 4. if show text on each state
-        isStateName = 0
-        # 5. identify the text size
-        font_size = random.randint(4, 8)
-        # 6. if add texture
-        mapTexture = isTexture()
-        # 7. if draw Alaska and Hawaii
-        isMainland = 0
-        # 8. identify the opacity value
-        opaVal = getStyleValue()
-        printed_names = []
-        for info, shape in zip(m.state_info, m.state):
-            if(mapTexture == 1):
-                poly = Polygon(shape, facecolor=getColor(len(info['NAME']), colorscheme),
-                               edgecolor='k', alpha = opaVal, linewidth=0.5, hatch=getTexture())
-            else:
-                poly = Polygon(shape, facecolor=getColor(len(info['NAME']), colorscheme), alpha = opaVal, edgecolor='k', linewidth=0.5)
-
-            if(isMainland == 1):
-                if info['NAME'] == 'Alaska':
-                    seg = list(map(lambda x, y: (0.35 * x + 1100000, 0.35 * y - 1300000), list(zip(*shape))[0],
-                                   list(zip(*shape))[1]))
-                    poly = Polygon(np.array(seg), facecolor=getColor(len(info['NAME']), colorscheme),
-                                   alpha = opaVal, edgecolor='k', linewidth=0.5)
-                if info['NAME'] == 'Hawaii':
-                    seg = list(map(lambda x, y: (x + 5200000, y - 1400000), list(zip(*shape))[0], list(zip(*shape))[1]))
-                    poly = Polygon(np.array(seg), facecolor=getColor(len(info['NAME']), colorscheme), edgecolor='k',
-                                   alpha = opaVal, linewidth=0.5)
-
-            ax.add_patch(poly)
-
-            # add text on each state
-            if(isStateName != 0):
-                x, y = np.array(shape).mean(axis=0)
-                hull = ConvexHull(shape)
-                hull_points = np.array(shape)[hull.vertices]
-                x, y = hull_points.mean(axis=0)
-                short_name = list(short_state_names.keys())[list(short_state_names.values()).index(info['NAME'])]
-                if short_name == 'AK' or short_name == 'HI' or short_name == 'PR': continue
-                if short_name in printed_names: continue
-                if(isStateName == 1):
-                    plt.text(x + .1, y, short_name, ha="center", fontsize=font_size)
-                elif(isStateName == 2):
-                    state_text = getText()
-                    plt.text(x + .1, y, state_text, ha="center", fontsize=font_size)
-                printed_names += [short_name, ]
-
-    # 9. if add long and lat
-    isLat, isLong = getLatLong()
-    if(isLat == 1):
-        m.drawparallels(np.arange(25, 65, 20), labels=[1, 0, 0, 0])
-        m.drawmeridians(np.arange(-120, -40, 20), labels=[0, 0, 0, 1])
-
-    # 10. background color
-    mapBackground = getBackgroundColor()
-    ax.set_facecolor(mapBackground)
-
-    # 11. if add title
-    title = getTitle()
-    plt.title(title)
-
-    # 12. if add legends
-    if(colorscheme >= 4):
-        showLegend = 1
-        loc_var = random.randint(1,5)
-        if(loc_var == 1):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='upper left', prop={'size': 6})
-        elif(loc_var == 2):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='upper right', prop={'size': 6})
-        elif (loc_var == 3):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='lower left', prop={'size': 6})
-        elif (loc_var == 4):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='lower right', prop={'size': 6})
-        else:
-            showLegend = 0
-    else:
-        showLegend = 0
-
-    # remove borders
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['bottom'].set_visible(False)
-    ax.spines['left'].set_visible(False)
-
-    mapStyle = getStyle()
-
-    m.arcgisimage(service=mapStyle, xpixels=1000, verbose=True)
-
-    # store the information into meta
-    meta_data.loc[index, 'filename'] = filename
-    meta_data.loc[index, 'country'] = 'USA'
-    meta_data.loc[index, 'statename'] = isStateName
-    meta_data.loc[index, 'mainland'] = isMainland
-    meta_data.loc[index, 'lat and long'] = isLat
-    meta_data.loc[index, 'background'] = mapBackground
-    meta_data.loc[index, 'style'] = mapStyle
-    meta_data.loc[index, 'position'] = str(x1) + ',' +  str(x2) + ',' + str(y1) + ',' + str(y2)
-    meta_data.loc[index, 'size'] = mapSize
-    meta_data.loc[index, 'projection'] = 'Mercator'
-    meta_data.loc[index, 'opacity'] = opaVal
-    meta_data.loc[index, 'color'] = colorscheme
-    meta_data.loc[index, 'texture'] = mapTexture
-    meta_data.loc[index, 'title'] = title
-    meta_data.loc[index, 'legend'] = showLegend
-
-    # plt.show()
-    plt.savefig('map/us_2/' + filename)
 
 # generate map image
 def main():
