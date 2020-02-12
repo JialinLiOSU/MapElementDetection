@@ -402,13 +402,13 @@ def getTitle():
     year = random.randint(1950, 2020)
     
     if (titleTypeID == 0):
-        return Social[random.randint(0,lenSoc-1)] + " in the US by state " + "in " + year 
+        return Social[random.randint(0,lenSoc-1)] + " in the US by state " + "in " + str(year) 
     elif (titleTypeID == 1):
-        return Physic[random.randint(0,lenPhy-1)] + " in the US by state " + "in " + year
+        return Physic[random.randint(0,lenPhy-1)] + " in the US by state " + "in " + str(year) 
     elif (titleTypeID == 2):
-        return Economic[random.randint(0,lenEco-1)] + " in the US by state " + "in " + year
+        return Economic[random.randint(0,lenEco-1)] + " in the US by state " + "in " + str(year) 
     else:
-        return Demographic[random.randint(0,lenDemo-1)] + " of " + subgroupPeople[random.randint(0,lenSub-1)]+ " in the US by state " + "in " + year
+        return Demographic[random.randint(0,lenDemo-1)] + " of " + subgroupPeople[random.randint(0,lenSub-1)]+ " in the US by state " + "in " + str(year) 
 # generate text on state
 def getText():
     a = random.randint(0, 99)
