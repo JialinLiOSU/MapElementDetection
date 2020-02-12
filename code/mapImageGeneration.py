@@ -362,16 +362,53 @@ def getTexture():
     else:
         return texturePatterns[b] * c
 
+# text needed for title generation
+subgroupPeople = ['All Race','White','Under age 18','above age 65','black or African American','American Indian and Alaska Native',
+                    'Asian','Native Hawaiian and Other Pacific Islander','Hispanic or Latino Origin','who believe climate change',
+                    'Christian','Catholic','Jewish','Muslim',' people living in poverty areas','people below poverty level','frauds',
+                    'death among children under 5 due to pediatric cancer','per Walmart store','dentist','retailers of personal computer',
+                    'people living in slums','women that were screened for breast and cervical cancer by jurisdiction','people who are confirm to be infected by 2019-Nov Coronavirus',
+                    'people with elementary occupation','people who are alumni of OSU','people working more than 49 hours per week',
+                    'people whose permanent teeth have been removed because of tooth decay or gum disease','people with a bachelor\'s degree or higher',
+                    'people who changed the job in the past one year','People who is infected by HIV','People whose native language is Russian']
+Demographic = ['Race diversity index','difference in race diversity','Percent of population','Percent change','number of people',
+                    'difference in number of people','Population density','difference in population density']
+Economic = ["unemployment rate","gross domestic income (nominal or ppp)"," gross domestic income (nominal or ppp) per capita",
+                "GDP (nominal or ppp)","GDP (nominal or ppp) per capita","Median household income","Household income","price of land",
+                "percent of houses with annual income of $300,000 and over","percent of houses with annual income of $50,000 and less",
+                "poverty rate","economic growth rate","percent of households above $200k","average price for honey per pound",
+                "federal government expenditure (per capita)","median rent price","sale amounts of beer","NSF funding for \"Catalogue\"",
+                "Agriculture exports","number of McDonald's","import and export statistics","Gross profit of companies"]
+Physic = ["annual average temperature","annual average precipitation","number of fire points","number of earthquake"]
+Social =  ["number of libraries","average age","adult obesity","measles incidence","flu incidence","Human Development Index",
+            "mortality associated with arterial hypertension","number of patent","number of patent per capita","life expectancy",
+            "crime rate","homicide rate","suicide rate","firearm death rate","gun violence rate","social vulnerability index",
+            "freedom index","divorce rate","people living in poverty areas","rate of male","energy consumption (per capita)",
+            "CO2 emission (per capita)"," Percent of planted soybeans by acreage","NBA player origins (per capita)","number of species",
+            "happiness score","availability of safe drinking water","number of cell phones per 100 person","percent of farmland",
+            "number of hospitals","well-being index","food insecurity rate","diabetes rate","helicobacter pylori rate","number of schools",
+            "fertility rate","number of multi-racial households","number of fixed residential broadband providers","lung cancer mortality rate",
+            "renter occupied","burglary per 1000 household","infant mortality rate","number of pedestrian accidents","number of academic articles published",
+            "number of Olympic game awards","percent of forest area","percent of farms with female principal operator","percentage of respondents who did not provide a workplace address at Area unit level",
+            "License plate vanitization rate"]
 # generate title
 def getTitle():
-    # a = random.randint(0, 1)
-    a = 1 # make sure there is a title
-    if (a == 0):
-        return ''
+    titleTypeID = random.randint(0, 3)
+    lenDemo = len(Demographic)
+    lenSub = len(subgroupPeople)
+    lenEco = len(Economic)
+    lenPhy = len(Physic)
+    lenSoc = len(Social)
+    year = random.randint(1950, 2020)
+    
+    if (titleTypeID == 0):
+        return Social[randome.randint(0,lenSoc-1)] + " in the US by state " + "in " + year 
+    elif (titleTypeID == 1):
+        return Physic[randome.randint(0,lenPhy-1)] + " in the US by state " + "in " + year
+    elif (titleTypeID == 2):
+        return Economic[randome.randint(0,lenEco-1)] + " in the US by state " + "in " + year
     else:
-        b = random.randint(0, 99)
-        return brown_title[b]
-
+        return Demographic[randome.randint(0,lenDemo-1)] + " of " + subgroupPeople[randome.randint(0,lenSub-1)]+ " in the US by state " + "in " + year
 # generate text on state
 def getText():
     a = random.randint(0, 99)
