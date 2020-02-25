@@ -370,7 +370,11 @@ subgroupPeople = ['All Race','White','Under age 18','above age 65','black or Afr
                     'people living in slums','women that were screened for breast and cervical cancer by jurisdiction','people who are confirm to be infected by 2019-Nov Coronavirus',
                     'people with elementary occupation','people who are alumni of OSU','people working more than 49 hours per week',
                     'people whose permanent teeth have been removed because of tooth decay or gum disease','people with a bachelor\'s degree or higher',
-                    'people who changed the job in the past one year','People who is infected by HIV','People whose native language is Russian']
+                    'people who changed the job in the past one year','People who is infected by HIV','People whose native language is Russian',
+                    'males 15 years and over', ' never married', 'now married, except separated', 'separated',
+                    'widowed','divorced','people enrolled in Nursery school, people enrolled in preschool', 
+                    'people enrolled in Kindergarten','people enrolled in Elementary school (grades 1-8)','people enrolled in High school (grades 9-12)',
+                    'people enrolled in College or graduate school']
 demographic = ['Race diversity index','difference in race diversity','Percent of population','Percent change','number of people',
                     'difference in number of people','Population density','difference in population density']
 economic = ["unemployment rate","gross domestic income (nominal or ppp)"," gross domestic income (nominal or ppp) per capita",
@@ -404,7 +408,7 @@ retailBusiness = ['total', 'total (excl. motor vehicle & parts)', 'total (excl. 
 
 capitalExpenses = ['Number of employees', 'Annual payroll',	'Production workers average for year', 'Production workers annual hours', 'Production workers annual wages', 'Total cost of materials', 
                     'Total value of shipments and receipts for services', 'Total capital expenditures']
-connectWord = ' of '
+connectWordManu = ' of '
 manufacturingType = ['Manufacturing', 'Food manufacturing', 'Animal food manufacturing', 'Grain and oilseed milling', 'Sugar and confectionery product manufacturing', 
                         'Fruit and vegetable preserving and specialty food manufacturing', 'Dairy product manufacturing','Animal slaughtering and processing','Seafood product preparation and packaging',
                         'Bakeries and tortilla manufacturing','Other food manufacturing','Beverage and tobacco product manufacturing','Beverage manufacturing','Tobacco manufacturing','Textile mills',
@@ -432,6 +436,30 @@ manufacturingType = ['Manufacturing', 'Food manufacturing', 'Animal food manufac
                         'Other transportation equipment manufacturing,Furniture and related product manufacturing','Household and institutional furniture and kitchen cabinet manufacturing',
                         'Office furniture (including fixtures) manufacturing','Other furniture related product manufacturing','Miscellaneous manufacturing','Medical equipment and supplies manufacturing',
                         'Other miscellaneous manufacturing']
+
+exportingFirms= ['Number of firms','Sales, receipts, or value of shipments of firms','Exports value of firms','Number of paid employees','Annual payroll']
+
+schoolFinance = ['Elementary-secondary revenue', 'Elementary-secondary revenue from federal sources', 'Elementary-secondary revenue from state sources','Elementary-secondary revenue from local sources',
+                    'Elementary-secondary expenditure',  'Current spending of elementary-secondary expenditure', 'Capital outlay of elementary-secondary expenditure',
+                    'Elementary-secondary revenue from general formula assistance', 'Elementary-secondary revenue from compensatory programs', 'Elementary-secondary revenue from special education', 
+                    'Elementary-secondary revenue from vocational programs', 'Elementary-secondary revenue from transportation programs', 'Elementary-secondary revenue from other state aid',
+                    'Elementary-secondary revenue from property taxes', 'Elementary-secondary revenue from parent government contributions','Elementary-secondary revenue from school lunch charges', 
+                    'Elementary-secondary revenue from local government']
+
+governFinance = ['Total revenue','General revenue','Intergovernmental revenue','Taxes','General sales','Selective sales','License taxes','Individual income tax',
+                    'Corporate income tax','Other taxes','Current charge','Miscellaneous general revenue','Utility revenue','Liquor stores revenue',
+                    'Insurance trust revenue','Total expenditure','Intergovernmental expenditure','Direct expenditure','Current operation','Capital outlay',
+                    'Insurance benefits and repayments','Assistance and subsidies','Interest on debt','Salaries and wages','Total expenditure',
+                    'General expenditure','Intergovernmental expenditure','Direct expenditure','General expenditure', 'Interest on general debt','Utility expenditure',
+                    'Liquor stores expenditure', 'Insurance trust expenditure', 'Debt at end of fiscal year', 'Cash and security holdings']
+governFinancePost = ' of government finance'
+
+stateGovernmentTax = ['Total Taxes','Property Taxes','Sales and Gross Receipts Taxes','License Taxes','Income Taxes']
+
+socialCharacter = ['Total households','Family households (families)', 'Family households with own children of the householder under 18 years',
+        'Married-couple family', 'Households with male householder, no wife present, family', 'Households with female householder, no husband present, family',
+        'Nonfamily households','Households with householder living alone', 'Households with one or more people under 18 years',
+        'Households with one or more people 65 years and over','Average household size','Average family size']
 
 # generate title
 def getTitle():
