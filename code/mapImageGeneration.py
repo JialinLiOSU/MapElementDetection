@@ -371,16 +371,16 @@ subgroupPeople = ['All Race','White','Under age 18','above age 65','black or Afr
                     'people with elementary occupation','people who are alumni of OSU','people working more than 49 hours per week',
                     'people whose permanent teeth have been removed because of tooth decay or gum disease','people with a bachelor\'s degree or higher',
                     'people who changed the job in the past one year','People who is infected by HIV','People whose native language is Russian']
-Demographic = ['Race diversity index','difference in race diversity','Percent of population','Percent change','number of people',
+demographic = ['Race diversity index','difference in race diversity','Percent of population','Percent change','number of people',
                     'difference in number of people','Population density','difference in population density']
-Economic = ["unemployment rate","gross domestic income (nominal or ppp)"," gross domestic income (nominal or ppp) per capita",
+economic = ["unemployment rate","gross domestic income (nominal or ppp)"," gross domestic income (nominal or ppp) per capita",
                 "GDP (nominal or ppp)","GDP (nominal or ppp) per capita","Median household income","Household income","price of land",
                 "percent of houses with annual income of $300,000 and over","percent of houses with annual income of $50,000 and less",
                 "poverty rate","economic growth rate","percent of households above $200k","average price for honey per pound",
                 "federal government expenditure (per capita)","median rent price","sale amounts of beer","NSF funding for \"Catalogue\"",
                 "Agriculture exports","number of McDonald's","import and export statistics","Gross profit of companies"]
-Physic = ["annual average temperature","annual average precipitation","number of fire points","number of earthquake"]
-Social =  ["number of libraries","average age","adult obesity","measles incidence","flu incidence","Human Development Index",
+physic = ["annual average temperature","annual average precipitation","number of fire points","number of earthquake"]
+social =  ["number of libraries","average age","adult obesity","measles incidence","flu incidence","Human Development Index",
             "mortality associated with arterial hypertension","number of patent","number of patent per capita","life expectancy",
             "crime rate","homicide rate","suicide rate","firearm death rate","gun violence rate","social vulnerability index",
             "freedom index","divorce rate","people living in poverty areas","rate of male","energy consumption (per capita)",
@@ -391,14 +391,56 @@ Social =  ["number of libraries","average age","adult obesity","measles incidenc
             "renter occupied","burglary per 1000 household","infant mortality rate","number of pedestrian accidents","number of academic articles published",
             "number of Olympic game awards","percent of forest area","percent of farms with female principal operator","percentage of respondents who did not provide a workplace address at Area unit level",
             "License plate vanitization rate"]
+housing = ['Average number of bedrooms of houses', 'Average square footage of houses', 'Age of householder', 'Average year built', 'Household income', 'Average monthly housing cost',
+             'Average monthly housing cost as percentage of income', 'Average poverty level for household' ]
+
+salesForRetail = 'Estimated annual sales for '
+retailBusiness = ['total', 'total (excl. motor vehicle & parts)', 'total (excl. gasoline stations)','total (excl. motor vehicle & parts & gasoline stations)',
+                'Motor vehicle & parts Dealers', 'Auto & other motor veh. Dealers', 'New car dealers', 'Auto parts', 'acc. & tire store', 'Furniture & home furn. Stores', 'Furniture stores', 'Home furnishings stores', 
+                'Electronics & appliance stores', 'Building material & garden eq. & supplies dealers', 'Building mat. & sup. dealers', 'Food & beverage stores', 'Grocery stores', 'Beer, wine & liquor stores', 
+                'Health & personal care stores', 'Pharmacies & drug stores','Gasoline stations', 'Clothing & clothing accessories stores', 'Mens clothing stores', 'Womens clothing stores', 'Family clothing stores', 
+                'Shoe stores', 'Sporting goods hobby, musical instrument, & book stores', 'General merchandise stores', 'Department stores', 'Other general merch. Stores', 'Warehouse clubs & supercenters', 
+                'All oth. gen. merch. Stores','Miscellaneous store retailer', 'Nonstore retailers', 'Elect. shopping & m/o houses', 'Food services & drinking places']
+
+capitalExpenses = ['Number of employees', 'Annual payroll',	'Production workers average for year', 'Production workers annual hours', 'Production workers annual wages', 'Total cost of materials', 
+                    'Total value of shipments and receipts for services', 'Total capital expenditures']
+connectWord = ' of '
+manufacturingType = ['Manufacturing', 'Food manufacturing', 'Animal food manufacturing', 'Grain and oilseed milling', 'Sugar and confectionery product manufacturing', 
+                        'Fruit and vegetable preserving and specialty food manufacturing', 'Dairy product manufacturing','Animal slaughtering and processing','Seafood product preparation and packaging',
+                        'Bakeries and tortilla manufacturing','Other food manufacturing','Beverage and tobacco product manufacturing','Beverage manufacturing','Tobacco manufacturing','Textile mills',
+                        'Fiber, yarn, and thread mills','Fabric mills','Textile and fabric finishing and fabric coating mills','Textile product mills','Textile furnishings mills','Other textile product mills',
+                        'Apparel manufacturing','Apparel knitting mills','Cut and sew apparel manufacturing','Apparel accessories and other apparel manufacturing','Leather and allied product manufacturing',
+                        'Leather and hide tanning and finishing','Footwear manufacturing','Other leather and allied product manufacturing','Wood product manufacturing','Sawmills and wood preservation',
+                        'Veneer, plywood, and engineered wood product manufacturing','Other wood product manufacturing','Paper manufacturing','Pulp, paper, and paperboard mills','Converted paper product manufacturing',
+                        'Printing and related support activities','Printing and related support activities','Petroleum and coal products manufacturing','Petroleum and coal products manufacturing',
+                        'Chemical manufacturing','Basic chemical manufacturing','Resin, synthetic rubber, and artificial synthetic fibers and filaments manufacturing',
+                        'Pesticide, fertilizer, and other agricultural chemical manufacturing','Pharmaceutical and medicine manufacturing',
+                        'Paint, coating, and adhesive manufacturing','Soap, cleaning compound, and toilet preparation manufacturing','Other chemical product and preparation manufacturing',
+                        'Plastics and rubber products manufacturing','Plastics product manufacturing','Rubber product manufacturing','Nonmetallic mineral product manufacturing','Clay product and refractory manufacturing',
+                        'Glass and glass product manufacturing','Cement and concrete product manufacturing','Lime and gypsum product manufacturing','Other nonmetallic mineral product manufacturing',
+                        'Primary metal manufacturing', 'Iron and steel mills and ferroalloy manufacturing','Steel product manufacturing from purchased steel','Alumina and aluminum production and processing',
+                        'Nonferrous metal (except aluminum) production and processing', 'Foundries','Fabricated metal product manufacturing','Forging and stamping,Cutlery and handtool manufacturing',
+                        'Architectural and structural metals manufacturing','Boiler, tank, and shipping container manufacturing','Hardware manufacturing,Spring and wire product manufacturing',
+                        'Machine shops; turned product; and screw, nut, and bolt manufacturing', 'Coating, engraving, heat treating, and allied activities','Other fabricated metal product manufacturing',
+                        'Machinery manufacturing','Agriculture, construction, and mining machinery manufacturing','Industrial machinery manufacturing','Commercial and service industry machinery manufacturing',
+                        'Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing','Metalworking machinery manufacturing','Engine, turbine, and power transmission equipment manufacturing',
+                        'Other general purpose machinery manufacturing','Computer and electronic product manufacturing','Computer and peripheral equipment manufacturing','Communications equipment manufacturing',
+                        'Audio and video equipment manufacturing','Semiconductor and other electronic component manufacturing','Navigational, measuring, electromedical, and control instruments manufacturing',
+                        'Manufacturing and reproducing magnetic and optical media','Electrical equipment, appliance, and component manufacturing','Electric lighting equipment manufacturing',
+                        'Household appliance manufacturing','Electrical equipment manufacturing','Other electrical equipment and component manufacturing','Transportation equipment manufacturing','Motor vehicle manufacturing',
+                        'Motor vehicle body and trailer manufacturing','Motor vehicle parts manufacturing','Aerospace product and parts manufacturing','Railroad rolling stock manufacturing','Ship and boat building',
+                        'Other transportation equipment manufacturing,Furniture and related product manufacturing','Household and institutional furniture and kitchen cabinet manufacturing',
+                        'Office furniture (including fixtures) manufacturing','Other furniture related product manufacturing','Miscellaneous manufacturing','Medical equipment and supplies manufacturing',
+                        'Other miscellaneous manufacturing']
+
 # generate title
 def getTitle():
     titleTypeID = random.randint(0, 3)
-    lenDemo = len(Demographic)
+    lenDemo = len(demographic)
     lenSub = len(subgroupPeople)
-    lenEco = len(Economic)
-    lenPhy = len(Physic)
-    lenSoc = len(Social)
+    lenEco = len(economic)
+    lenPhy = len(physic)
+    lenSoc = len(social)
     year = random.randint(1950, 2020)
     
     if (titleTypeID == 0):
