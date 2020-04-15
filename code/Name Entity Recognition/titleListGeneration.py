@@ -196,42 +196,64 @@ def getTitle():
         lenTimeUseType = len(timeUseType)
         theme = timeUse[random.randint(
             0, lenTimeUse-1)] + timeUseType[random.randint(0, lenTimeUseType-1)]
-    title = theme
-    if random.randint(0, 3)<3:
-        title = title + " in " + geoRegion[random.randint(0, lenGeoRegion-1)]
-    if random.randint(0, 3)<3:
-        title = title + " by "+adminLevel[random.randint(0, lenAdminLevel-1)]
-    if random.randint(0, 3)<3:
-        title = title + " in "+ str(year)
-    return title
+    theme = theme + " "
+    title = ""
+    region = "in " + geoRegion[random.randint(0, lenGeoRegion-1)] + " "
+    admin = "by "+adminLevel[random.randint(0, lenAdminLevel-1)] + " "
+    time = "in " + str(year) + " "
+
+    # shuffle the three optional elements
+    shuffleList = []
+    shuffleList.append(region)
+    shuffleList.append(admin)
+    shuffleList.append(time)
+    random.shuffle(shuffleList)
+
+    elementNum = random.randint(1, 3)
+
+    optElements = shuffleList[0:elementNum]
+    optElements.append(theme)
+
+    random.shuffle(optElements)
+
+    for i in range(0, len(optElements)):
+        if optElements[i] == theme:
+            bIndex = len(title)
+            eIndex = bIndex + len(theme) - 1
+        title = title + optElements[i]
+
+    return title, bIndex, eIndex
+
 
 def getTitleList():
     titleList = []
     count = 0
     while count < 1000:
-        title = getTitle()
+        title, bIndex, eIndex = getTitle()
         if title not in titleList:
             titleToList = list(title)
             if titleToList[0].islower():
                 titleToList[0] = titleToList[0].upper()
                 title = "".join(titleToList)
-            titleList.append(title)
+            titleList.append([title, bIndex, eIndex])
             count = count + 1
-    print(titleList)
+    # print(titleList)
     return titleList
 
-# generate map image
+
 def main():
     titleList = getTitleList()
     with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\code\\Name Entity Recognition\\testTitleList.txt', 'w') as f:
-        for item in titleList:
+        for item, bIndex, eIndex in titleList:
             f.write("%s\n" % item)
     with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\code\\Name Entity Recognition\\labelTemplate.txt', 'w') as f:
-        for item in titleList:
+        for item, bIndex, eIndex in titleList:
             f.write("(\n")
             f.write('"%s",\n' % item)
-            f.write('{"entities": [(0, 6, LABEL)]},\n' )
+            indexLabel = '{"entities": [(' + str(bIndex) + ', ' + str(eIndex) + ', LABEL)]},\n'
+            f.write(indexLabel)
             f.write("),\n")
 
 
-if __name__ == "__main__":    main()
+if __name__ == "__main__":
+    main()

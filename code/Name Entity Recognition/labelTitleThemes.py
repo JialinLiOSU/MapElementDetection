@@ -9,6 +9,8 @@ TRAIN_DATA = [
 ),
     (
         "Annual average temperature in the United States by census tract in 1986",
+        By state in 1966 in South Korea number of fire points
+        Utility revenue of governments in Canada in 1990
         { "entities": [(0, 26, LABEL)] },
 ),
     (
