@@ -422,7 +422,212 @@ TRAIN_DATA = [(
 (
 "By census tract Average poverty level for household ",
 {"entities": [(16, 51, LABEL)]},
-)]
+),
+(
+"By census tract number of academic articles published in 2005 ",
+{"entities": [(16, 53, LABEL)]},
+),
+(
+"Estimated annual sales for Pharmacies & drug stores in 2005 ",
+{"entities": [(0, 51, LABEL)]},
+),
+(
+"Estimated annual sales for Mens clothing stores by census tract ",
+{"entities": [(0, 47, LABEL)]},
+),
+(
+"In the United States in 1985 Households with one or more people 65 years and over ",
+{"entities": [(29, 81, LABEL)]},
+),
+(
+"By county in 1969 in Canada Total Taxes of governments ",
+{"entities": [(28, 54, LABEL)]},
+),
+(
+"In France by state rate of male ",
+{"entities": [(19, 31, LABEL)]},
+),
+(
+"In 1984 in France by township Percent change of people living in slums ",
+{"entities": [(30, 70, LABEL)]},
+),
+(
+"In 1964 in France Estimated annual sales for Food & beverage stores ",
+{"entities": [(18, 67, LABEL)]},
+),
+(
+"In 1960 in the United States by census tract Annual payroll ",
+{"entities": [(45, 59, LABEL)]},
+),
+(
+"By state in 2003 in the UK Population density of Native Hawaiian and Other Pacific Islander ",
+{"entities": [(27, 91, LABEL)]},
+),
+(
+"In 1993 in Canada Elementary-secondary revenue from compensatory programs by county ",
+{"entities": [(18, 73, LABEL)]},
+),
+(
+"In China Household income in 1995 ",
+{"entities": [(9, 25, LABEL)]},
+),
+(
+"By county in 2004 Average percent of time engaged in Purchasing goods and services in South Korea ",
+{"entities": [(18, 82, LABEL)]},
+),
+(
+"In 1956 in France Current spending of elementary-secondary expenditure ",
+{"entities": [(18, 70, LABEL)]},
+),
+(
+" Percent of planted soybeans by acreage in Canada ",
+{"entities": [(0, 39, LABEL)]},
+),
+(
+"Number of Olympic game awards in the UK by county in 1995 ",
+{"entities": [(0, 29, LABEL)]},
+),
+# (
+# "In 1956 Households with one or more people 65 years and over in China ",
+# {"entities": [(8, 60, LABEL)]},
+# ),
+# (
+# "Production workers annual wages of Primary metal manufacturing in South Korea by county ",
+# {"entities": [(0, 62, LABEL)]},
+# ),
+# (
+# "Percent change of frauds in 1983 by state ",
+# {"entities": [(0, 24, LABEL)]},
+# ),
+# (
+# "By state in 1969 in Canada Households with male householder, no wife present, family ",
+# {"entities": [(27, 84, LABEL)]},
+# ),
+# (
+# "In the UK in 2001 Population density of people with a bachelor's degree or higher by township ",
+# {"entities": [(18, 81, LABEL)]},
+# ),
+# (
+# "By state in China lung cancer mortality rate ",
+# {"entities": [(18, 44, LABEL)]},
+# ),
+# (
+# "By county Average monthly housing cost as percentage of income ",
+# {"entities": [(10, 62, LABEL)]},
+# ),
+# (
+# "By census tract in Canada Sales, receipts, or value of shipments of firms in 1999 ",
+# {"entities": [(26, 73, LABEL)]},
+# ),
+# (
+# "By township Insurance trust revenue of governments in 1974 ",
+# {"entities": [(12, 50, LABEL)]},
+# ),
+# (
+# "In 1980 in the UK Number of firms by census tract ",
+# {"entities": [(18, 33, LABEL)]},
+# )
+# (
+# "Household income by county in 2000 in the United States ",
+# {"entities": [(0, 16, LABEL)]},
+# ),
+# (
+# "In South Korea in 1975 Estimated annual sales for Building material & garden eq. & supplies dealers ",
+# {"entities": [(23, 99, LABEL)]},
+# ),
+# (
+# "In 2015 Production workers annual wages of Beverage manufacturing ",
+# {"entities": [(8, 65, LABEL)]},
+# ),
+# (
+# "By county in 1959 divorce rate ",
+# {"entities": [(18, 30, LABEL)]},
+# ),
+# (
+# "Average age in France ",
+# {"entities": [(0, 11, LABEL)]},
+# ),
+# (
+# "By county annual average temperature in 1964 ",
+# {"entities": [(10, 36, LABEL)]},
+# ),
+# (
+# "In China number of earthquake ",
+# {"entities": [(9, 29, LABEL)]},
+# ),
+# (
+# "Sales, receipts, or value of shipments of firms by census tract in 1954 ",
+# {"entities": [(0, 47, LABEL)]},
+# ),
+# (
+# "In France in 2017 by county Average square footage of houses ",
+# {"entities": [(28, 60, LABEL)]},
+# ),
+# (
+# "In the UK Annual payroll of Soap, cleaning compound, and toilet preparation manufacturing by county ",
+# {"entities": [(10, 89, LABEL)]},
+# ),
+# (
+# "Households with male householder, no wife present, family by state ",
+# {"entities": [(0, 57, LABEL)]},
+# ),
+# (
+# "By census tract Average percent of time engaged in Caring for and helping household adults ",
+# {"entities": [(16, 90, LABEL)]},
+# ),
+# (
+# "In the United States Annual payroll of Basic chemical manufacturing in 1975 ",
+# {"entities": [(21, 67, LABEL)]},
+# ),
+# (
+# "By census tract Average number of bedrooms of houses ",
+# {"entities": [(16, 52, LABEL)]},
+# ),
+# (
+# "Elementary-secondary revenue from transportation programs in China ",
+# {"entities": [(0, 57, LABEL)]},
+# ),
+# (
+# "In 1989 gross domestic income (nominal or ppp) ",
+# {"entities": [(8, 46, LABEL)]},
+# ),
+# (
+# "Average percent of time engaged in by menParticipating in religious practices in 1975 by township in the United States ",
+# {"entities": [(0, 77, LABEL)]},
+# ),
+# (
+# "In France Nonfamily households by county ",
+# {"entities": [(10, 30, LABEL)]},
+# ),
+# (
+# "Elementary-secondary revenue from special education by state in China ",
+# {"entities": [(0, 51, LABEL)]},
+# ),
+# (
+# "Mortality associated with arterial hypertension in Canada by state ",
+# {"entities": [(0, 47, LABEL)]},
+# ),
+# (
+# "In France in 1985 by county Production workers annual hours of Electrical equipment manufacturing ",
+# {"entities": [(28, 97, LABEL)]},
+# ),
+# (
+# "Population density of Jewish in the UK ",
+# {"entities": [(0, 28, LABEL)]},
+# ),
+# (
+# "Exports value of firms by county in the UK ",
+# {"entities": [(0, 22, LABEL)]},
+# ),
+# (
+# "By township Number of paid employees in the United States in 2013 ",
+# {"entities": [(12, 36, LABEL)]},
+# ),
+# (
+# "In the UK Average percent of time engaged in by womenExterior maintenance, repair, and decoration by township in 1965 ",
+# {"entities": [(10, 97, LABEL)]},
+# )
+]
 
 @plac.annotations(
     model=(nlpTest, "option", "m", str),
