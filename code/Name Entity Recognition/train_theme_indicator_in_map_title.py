@@ -18,7 +18,7 @@ LABEL = "THEME"
 # model might learn the new type, but "forget" what it previously knew.
 # https://explosion.ai/blog/pseudo-rehearsal-catastrophic-forgetting
 
-# import pickle
+import pickle
 # path = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\code\\Name Entity Recognition\\labledTitles.pkl'
 # TRAIN_DATA = pickle.load( open( path, "rb" ) )
 nlpTest = en_core_web_sm.load()
@@ -4089,6 +4089,11 @@ def main(model="en_core_web_sm", new_model_name="animal", output_dir=None, n_ite
             print(ent.label_, ent.text)
 
     # save model to output directory
+    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\en_core_web_sm_THEME.pkl', 'wb') as f:
+        pickle.dump(nlp,f)
+
+    output_dir = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition'
+    new_model_name = 'en_core_web_sm_THEME'
     if output_dir is not None:
         output_dir = Path(output_dir)
         if not output_dir.exists():
