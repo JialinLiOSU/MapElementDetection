@@ -457,8 +457,8 @@ train_data = [(
 {"entities": [(18, 70, LABEL)]},
 ),
 (
-" Percent of planted soybeans by acreage in Canada ",
-{"entities": [(0, 39, LABEL)]},
+"Percent of planted soybeans by acreage in Canada ",
+{"entities": [(0, 38, LABEL)]},
 ),
 (
 "Number of Olympic game awards in the UK by county in 1995 ",
@@ -1761,8 +1761,8 @@ train_data = [(
 {"entities": [(17, 41, LABEL)]},
 ),
 (
-"In the UK  Percent of planted soybeans by acreage ",
-{"entities": [(10, 49, LABEL)]},
+"In the UK Percent of planted soybeans by acreage ",
+{"entities": [(10, 48, LABEL)]},
 ),
 (
 "In France in 1964 by county Estimated annual sales for Gasoline stations ",
