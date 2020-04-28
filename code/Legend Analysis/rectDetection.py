@@ -63,7 +63,7 @@ leftTop = [minRow, minCol]
 rightTop = [minRow, maxCol]
 leftBottom = [maxRow, minCol]
 rightBottom = [maxRow, maxCol]
-
+# get the value of approximate four vertice
 imgLeftTop = img[leftTop[0] + 5, leftTop[1] + 5,:]
 imgRightTop = img[rightTop[0] + 5, rightTop[1] - 5,:]
 imgLeftBottom = img[leftBottom[0] - 5, leftBottom[1] + 5,:]
