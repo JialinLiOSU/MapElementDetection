@@ -17,6 +17,7 @@ font = cv2.FONT_HERSHEY_COMPLEX
 legendPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\legend images'
 img = cv2.imread(legendPath + "\\"+"ChoImg224_0.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 _, threshold = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)
 nrow, ncol = threshold.shape  # number of rows and columns
@@ -90,10 +91,10 @@ value3List = []
 for idxCol in range(minCol + 5, maxCol - 5, 5):
     for idxRow in range(minRow + 5, maxRow - 5, 5):
         coorList.append([idxRow, idxCol])
-        pixelValueList.append(img[minRow+5, idxCol, :])
-        value1List.append(img[minRow+5, idxCol, 0])
-        value2List.append(img[minRow+5, idxCol, 1])
-        value3List.append(img[minRow+5, idxCol, 2])
+        pixelValueList.append(hsv_img[minRow+5, idxCol, :])
+        value1List.append(hsv_img[minRow+5, idxCol, 0])
+        value2List.append(hsv_img[minRow+5, idxCol, 1])
+        value3List.append(hsv_img[minRow+5, idxCol, 2])
     # print(img[minRow+5, idxCol, :])
 
 
