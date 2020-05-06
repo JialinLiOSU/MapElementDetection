@@ -1,7 +1,7 @@
 # this file is used to enhance the legend areas which are from labeled images
 # The enhanced images are easier to conduct further analysis
 # Author: Jialin Li
-# Date: 5/24/2020
+# Date: 5/4/2020
 from PIL import Image
 from PIL import ImageEnhance
 import os
