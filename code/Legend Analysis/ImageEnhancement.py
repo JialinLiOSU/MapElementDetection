@@ -9,7 +9,6 @@ import os
 dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\legend images\\'
 outputPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\enhanced legend images\\'
 
-
 def imageEnhancement(image, propToBeEnhanced):
     # parameter propToBeEnhanced is a int from 1 to 4
     # representing brightness, color, contrast and sharpness respectively
