@@ -2,7 +2,6 @@
 # Author: Jialin Li
 # Date: 4/21/2020
 
-
 import cv2
 import matplotlib
 import os

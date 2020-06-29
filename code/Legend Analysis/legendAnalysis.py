@@ -1,7 +1,6 @@
-# this file is used to recognize the texts in enhanced legend area
-# and identify number ranges for each category
+# this file is used to put functions together to analyze legend of choropleth map
 # Author: Jialin Li
-# Date: 5/4/2020
+# Date: 6/3/2020
 import os, io
 from google.cloud import vision
 from google.cloud.vision import types
@@ -76,13 +75,53 @@ def extractNumbers(str1):
             numbers.append(text)
     return numbers
 
+def detectRects(image_file):
+    img = cv2.imread(image_file)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+
+    _, threshold = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)
+    nrow, ncol = threshold.shape  # number of rows and columns
+
+    contours, _ = cv2.findContours(
+        threshold, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+    rectList = []  # used to save the rectangles
+    rectIndList = []  # save the min max XY value for extraction
+
+    for cnt in contours:
+        approx = cv2.approxPolyDP(cnt, 0.1 * cv2.arcLength(cnt, True), True)
+        cv2.drawContours(img, [approx], 0, (120, 120, 120), 1)
+        x = approx.ravel()[0]
+        y = approx.ravel()[1]
+        if 4 <= len(approx) <= 6:
+            test1 = approx[0][0][1]
+            test2 = approx[2][0][1]
+            if abs(test1 - test2) > 20:
+                rectList.append(approx)
+
+    return rectList
+def legendSymbolAlign(rectList):
+    # based on a list of rectangles, to identify the alignment of legend symbols
+    # output can be 0,1,2 representing horizontal, vertical and 2 dimensional
+    numRect = len(rectList)
+    if numRect == 1:
+        return 2
+
+    # identify whether there are intersections of the whole column or row for each rect
+    
+
+    
+
 
 def main():
     dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\enhanced legend images'
     image_name = 'ChoImg101_0.jpg'
     image_file = dataPath + '\\' + image_name
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\VisionAPIDemo\\ServiceAccountToken.json'
-    
+    # detect rectangles 
+    rectList = detectRects(image_file) 
+    # detect texts
     image  = Image.open(image_file)
     client = vision.ImageAnnotatorClient()
     with io.open(image_file, 'rb') as image_file1:
@@ -96,31 +135,16 @@ def main():
     for text in textByLine:
         numbers = extractNumbers(text)
         numberByLineList.append(numbers)
-    
     text2 = text_within(document, 0,0,145,242)
     print (text1)
+
+    numRect = len(rectList)
+    numCategories = len(numberByLineList)
+
+
     # print(document[0])
 
-# def main():
-#     dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\enhanced legend images'
-#     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\VisionAPIDemo\\ServiceAccountToken.json'
-#     client = vision.ImageAnnotatorClient()
-#     for filename in os.listdir(dataPath):
-#         # read 
-#         img = cv2.imread(dataPath + "\\"+filename)
-#         cv2.imshow("shapes", img)
 
-#         with io.open(os.path.join(dataPath, filename), 'rb') as image_file:
-#             content = image_file.read()
-
-#         image = vision.types.Image(content=content)
-
-#         response = client.text_detection(image= image)
-#         df = pd.DataFrame(columns=['locale','description'])
-#         desc = response.text_annotations[0]
-#         test1 = desc['description']
-#         print(desc)
-#         break
 
 if __name__ == "__main__":
     main()
