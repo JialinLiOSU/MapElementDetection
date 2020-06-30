@@ -6,8 +6,10 @@ from PIL import Image
 from PIL import ImageEnhance
 import os
 
-dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\legend images\\'
-outputPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\enhanced legend images\\'
+# dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\legend images\\'
+# outputPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\enhanced legend images\\'
+dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\labeledMapsWithCategory\\images\\'
+outputPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\labeledMapsWithCategory\\enhImages\\'
 
 def imageEnhancement(image, propToBeEnhanced):
     # parameter propToBeEnhanced is a int from 1 to 4
@@ -28,7 +30,7 @@ def imageEnhancement(image, propToBeEnhanced):
     elif propToBeEnhanced == 3:
         # enhance on contrast
         enh_con = ImageEnhance.Contrast(image)
-        contrast = 1.5
+        contrast = 3
         image_enhanced = enh_con.enhance(contrast)
         # image_contrasted.show()
     elif propToBeEnhanced == 4:
@@ -44,10 +46,11 @@ def imageEnhancement(image, propToBeEnhanced):
 
 def main():
     for filename in os.listdir(dataPath):
-        img = Image.open(dataPath + "\\"+filename)
-        enhImg = imageEnhancement(img, 3)
-        enhImg = imageEnhancement(img, 4)
-        enhImg.save(outputPath + "\\" + filename)
+        if filename[-1] == 'g':
+            img = Image.open(dataPath + "\\"+filename)
+            enhImg = imageEnhancement(img, 3)
+            enhImg = imageEnhancement(img, 4)
+            enhImg.save(outputPath + "\\" + filename)
 
 
 if __name__ == "__main__":

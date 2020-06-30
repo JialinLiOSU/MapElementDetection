@@ -83,7 +83,7 @@ def detectRects(image_file):
     _, threshold = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)
     nrow, ncol = threshold.shape  # number of rows and columns
 
-    contours, _ = cv2.findContours(
+    (_, contours, _) = cv2.findContours(
         threshold, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
     rectList = []  # used to save the rectangles
