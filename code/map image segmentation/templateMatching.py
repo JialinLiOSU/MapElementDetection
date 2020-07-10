@@ -4,14 +4,14 @@ from matplotlib import pyplot as plt
 
 pathTemplate = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\template.jpg'
 pathImage = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\ChoImg14.jpg'
-# img = cv2.imread(pathImage)
-# img2 = img.copy()
-dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\labeledMapsWithCategory\\enhImages\\'
-# outputPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\legend images\\'
-imgName = 'ChoImg14.jpg'
+img = cv2.imread(pathImage)
+img2 = img.copy()
+# dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\labeledMapsWithCategory\\enhImages\\'
+# # outputPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\legend images\\'
+# imgName = 'ChoImg14.jpg'
 
 
-img = cv2.imread(dataPath + imgName)
+# img = cv2.imread(dataPath + imgName)
 
 template = cv2.imread(pathTemplate,0)
 w, h = template.shape[::-1]
