@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-pathTemplate = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\template.jpg'
-pathImage = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\ChoImg14.jpg'
-img = cv2.imread(pathImage)
+pathTemplate = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\sample images\\template.jpg'
+pathImage = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\sample images\\ChoImg14.jpg'
+img = cv2.imread(pathImage,0)
 img2 = img.copy()
 # dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\labeledMapsWithCategory\\enhImages\\'
 # # outputPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\legend images\\'
