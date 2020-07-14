@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 pathTemplate = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\sample images\\template.jpg'
-pathImage = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\sample images\\ChoImg14.jpg'
+pathImage = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\sample images\\ChoImg45.jpg'
 img = cv2.imread(pathImage,0)
 img2 = img.copy()
 # dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\labeledMapsWithCategory\\enhImages\\'
@@ -35,7 +35,7 @@ for meth in methods:
         top_left = max_loc
     bottom_right = (top_left[0] + w, top_left[1] + h)
 
-    cv2.rectangle(img,top_left, bottom_right, 255, 2)
+    cv2.rectangle(img,top_left, bottom_right, 100, 2) # change rectangle color to dark gray
 
     plt.subplot(121),plt.imshow(res,cmap = 'gray')
     plt.title('Matching Result'), plt.xticks([]), plt.yticks([])
