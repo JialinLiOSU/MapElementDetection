@@ -9,11 +9,14 @@ pathTemplateCA1 = 'templateCA1.jpg'
 pathTemplateCO = 'templateCO.jpg'
 pathTemplateCO1 = 'templateCO1.jpg'
 pathTemplateMI = 'templateMI.jpg'
+pathTemplateMI1 = 'templateMI1.jpg'
+pathTemplateMN = 'templateMN.jpg'
+pathTemplateMN1 = 'templateMN1.jpg'
 pathTemplateTX = 'templateTX.jpg'
-pathTemplateWI = 'templateWI.jpg'
+pathTemplateTX1 = 'templateTX1.jpg'
 pathTemplateWY = 'templateWY.jpg'
 pathTemplateWY1 = 'templateWY1.jpg'
-Image = 'ChoImg11.jpg'
+Image = 'ChoImg45.jpg'
 img = cv2.imread(path+Image,0)
 img2 = img.copy()
 # dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\labeledMapsWithCategory\\enhImages\\'
@@ -24,9 +27,9 @@ img2 = img.copy()
 # img = cv2.imread(dataPath + imgName)
 templates = []
 
-template = cv2.imread(path + pathTemplateWY,0)
+template = cv2.imread(path + pathTemplateCO,0)
 templates.append(template)
-template = cv2.imread(path + pathTemplateWY1,0)
+template = cv2.imread(path + pathTemplateCO1,0)
 templates.append(template)
 
 w, h = template.shape[::-1]
