@@ -1,0 +1,2 @@
+USA_ADM1 is for state level
+USA_ADM0 is for country level

@@ -1,6 +1,5 @@
 """
-Identify the relationship between two states
-The relations include adjacency, distance and orientation relation
+Build adjacency matrix, which will be used to analyze adjacency relation
 The code is derived from Ningchuan Xiao's repo (https://github.com/gisalgs/gdal)
 """
 
