@@ -2,7 +2,7 @@
 import json
 import glob
 
-path = r"C:\Users\jiali\Desktop\MapElementDetection\dataCollection\labeledMapsWithCategory\images"
+path = r"C:\Users\jiali\Desktop\MapElementDetection\dataCollection\preprocessedMaps"
 
 # importing the module 
 
