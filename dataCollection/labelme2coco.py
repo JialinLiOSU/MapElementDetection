@@ -1,3 +1,8 @@
+# in our study, the annotation tool used is labelme, which is good and stable to use
+# but the format of annotation data to be used for R-CNN based detection model is coco format
+# therefore, we should convert the labelme data to coco data
+# There is another way to do this. (https://pypi.org/project/labelme2coco/)
+
 import os
 import argparse
 import json

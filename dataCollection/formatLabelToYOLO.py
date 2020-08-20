@@ -6,8 +6,6 @@ path = r"C:\Users\jiali\Desktop\MapElementDetection\dataCollection\preprocessedM
 
 # importing the module 
 
-
-
 # Opening JSON file 
 for filename in glob.glob(path+'/*.json'): 
     labelList = []
