@@ -99,7 +99,7 @@ def main():
                     xMax = int(xMax * width)
                     yMin = int(yMin * height)
                     yMax = int(yMax * height)
-                    testLineStr = drivePathTrain + imageFileName + ',' + str(xMin) + ',' + str(yMin) + ',' + \
+                    testLineStr = drivePathTest + imageFileName + ',' + str(xMin) + ',' + str(yMin) + ',' + \
                         str(xMax) + ',' + str(yMax)  + ',' + elementList[0] + '\n'
                     testList.append(testLineStr)
 
