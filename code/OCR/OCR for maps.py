@@ -3,12 +3,12 @@
 import PIL
 from PIL import ImageDraw
 import os
-os.chdir(r'C:\Users\jiali\Desktop\MapElementDetection\code\OCR')
-im = PIL.Image.open("ChoImg14.jpg")
+os.chdir(r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatDataTrainTest\train')
+im = PIL.Image.open("ChoImg192.jpg")
 
 import easyocr
 reader = easyocr.Reader(['en'])
-bounds = reader.readtext('ChoImg14.jpg')
+bounds = reader.readtext('ChoImg192.jpg')
 print(bounds)
 
 # def draw_boxes(image, bounds, color='yellow', width=2):
