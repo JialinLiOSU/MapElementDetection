@@ -3,19 +3,23 @@
 import PIL
 from PIL import ImageDraw
 import os
-os.chdir(r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatDataTrainTest\train')
-im = PIL.Image.open("ChoImg192.jpg")
-
 import easyocr
+import pickle
 reader = easyocr.Reader(['en'])
-bounds = reader.readtext('ChoImg192.jpg')
-print(bounds)
 
-# def draw_boxes(image, bounds, color='yellow', width=2):
-#     draw = ImageDraw.Draw(image)
-#     for bound in bounds:
-#         p0, p1, p2, p3 = bound[0]
-#         draw.line([*p0, *p1, *p2, *p3, *p0], fill=color, width=width)
-#     return image
+# os.chdir(r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatDataTrainTest\train')
+path = "drive/My Drive/Map element detection/dataCollection/cocoFormatDataTrainTest/val"
+imageDir = os.listdir(path)
 
-# draw_boxes(im, bounds)
+boundsList = []
+
+for imageName in imageDir:
+    # im = PIL.Image.open(path + "ChoImg103.jpg")
+    postFix = imageName[-4:-1]
+    if postFix != 'json':
+        bounds = reader.readtext(path + imageName)
+        boundsList.append([imageName] + bounds)
+
+with open('drive/My Drive/Map element detection/ocrBoundsList.pickle', 'wb') as f:
+	  pickle.dump(boundsList,f)
+
