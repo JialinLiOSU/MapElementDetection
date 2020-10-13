@@ -7,6 +7,7 @@ import os
 # import easyocr
 # reader = easyocr.Reader(['en']) # set OCR for English recognition
 from shapely.geometry import Polygon
+from shapely.geometry import box
 
 
 # # collect the image file names
@@ -36,6 +37,25 @@ def getTextBboxes(imgName, ocrResults):
     for result in ocrResults:
         if result[0] == imgName:
             return result[1:]
+
+def getUnionBbox(titleTextBboxes):
+    minX = titleTextBboxes[0][0][0][0]
+    minY = titleTextBboxes[0][0][0][1]
+    maxX = titleTextBboxes[0][0][1][0]
+    maxY = titleTextBboxes[0][0][2][1]
+
+    for bbox in titleTextBboxes:
+        if (bbox[0][0][0] < minX):
+            minX = bbox[0][0][0]
+        if (bbox[0][0][1] < minY):
+            minY = bbox[0][0][1]
+        if (bbox[0][1][0] > maxX):
+            maxX = bbox[0][1][0]
+        if (bbox[0][2][1] > maxY):
+            maxY = bbox[0][2][1]
+
+    unionBbox = box(minX, minY,maxX, maxY)
+    return unionBbox
 
 def main():
     # read detection results from pickle file
@@ -72,14 +92,40 @@ def main():
         textBboxes = getTextBboxes(imgName, ocrResults)
 
         # create polygon object for title bbox and texts
-        titlePolygon = Polygon([(x1Title, y1Title), (x2Title, y1Title), (x2Title, y2Title),(x1Title,y2Title)])
-        titleTextBboxes = []
+        titleBbox = box(x1Title, y1Title, x2Title, y2Title)
+        titleTextBboxes = [] # text bboxes in title
         for bound in textBboxes:
-            textPolygon = Polygon([(bound[0][0][0],bound[0][0][1]),(bound[0][1][0],bound[0][1][1]),(bound[0][2][0],bound[0][2][1]),(bound[0][3][0],bound[0][3][1])])
-            if titlePolygon.intersects(textPolygon) and bound[2]>pow(10,-10):
+            textPolygon = box(bound[0][0][0],bound[0][0][1],bound[0][2][0],bound[0][2][1])
+            if titleBbox.intersects(textPolygon) and bound[2]>pow(10,-10):
                 titleTextBboxes.append(bound)
                 print(bound[1])
-        titleResults.append([imgName] + titleTextBboxes)
+        # titleResults.append([imgName] + titleTextBboxes)
+
+        # explore missing lines above or below detected titles
+        # unionBbox = getUnionBbox(titleTextBboxes) 
+        # titleLineHeight= titleTextBboxes[-1][0][2][1] - titleTextBboxes[-1][0][0][1]
+        # enlargPoly = box(unionBbox[0],unionBbox[1],unionBbox[2],unionBbox[3] + titleLineHeight)
+
+        # numLinesTitle = len(titleTextBboxes)
+
+        # while True:
+        #     titleTextBboxes = []
+        #     for bound in textBboxes:
+        #         textPolygon = box(bound[0][0][0],bound[0][0][1],bound[0][2][0],bound[0][2][1])
+        #         if enlargPoly.intersects(textPolygon) and bound[2] > pow(10,-10):
+        #             titleTextBboxes.append(bound)
+        #     if len(titleTextBboxes) == numLinesTitle:
+        #         break
+        #     else:
+        #         numLinesTitle = len(titleTextBboxes)
+        #         unionBbox = getUnionBbox(titleTextBboxes) 
+        #         enlargPoly = box(unionBbox[0],unionBbox[1],unionBbox[2],unionBbox[3] + titleLineHeight)
+
+        
+
+
+
+        print('test')
         
 
     print('test')

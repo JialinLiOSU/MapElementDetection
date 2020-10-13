@@ -9,8 +9,6 @@ TRAIN_DATA = [
 ),
     (
         "Annual average temperature in the United States by census tract in 1986",
-        By state in 1966 in South Korea number of fire points
-        Utility revenue of governments in Canada in 1990
         { "entities": [(0, 26, LABEL)] },
 ),
     (
@@ -1834,7 +1832,7 @@ TRAIN_DATA = [
         { "entities": [(0, 6, LABEL)] },
 ),
     (
-        "NSF funding for "Catalogue" in the UK by census tract in 1968",
+        "NSF funding for \"Catalogue\" in the UK by census tract in 1968",
     { "entities": [(0, 6, LABEL)] },
 ),
     (
@@ -4003,3 +4001,907 @@ TRAIN_DATA = [
 )
 
 ]
+
+
+
+(
+"States and UTs",
+{"entities": [(0,6, admin)]},
+),
+(
+"Example choropleth map",
+{"entities": []},
+),
+(
+"lifeExp (2007)",
+{"entities": [(0,7,theme),(9,13,time)]},
+),
+(
+"Males per 100 Females",
+{"entities": [(0,21,theme)]},
+),
+(
+"Choropleth Map",
+{"entities": []},
+),
+(
+"Measles incidence per district",
+{"entities": [(0,30,theme)]},
+),
+(
+"Human Development Index, (Statistics reported from UNDP 2001)",
+{"entities": [(0,23,theme),(56,60,time)]},
+),
+(
+"Average rate per 10,000 people",
+{"entities": [(0,30,theme)]},
+),
+(
+"Dasymetric Map of Annual Avergage DailyTraffic Density",
+{"entities": [(18,54,theme)]},
+),
+(
+"Value of Land",
+{"entities": [(0,13,theme)]},
+),
+(
+"GIS In Demographics: Visualizing Population Growth & western Migration Over a 200-Year Period",
+{"entities": [(33,70,theme)]},
+),
+(
+"CIC Returnable Loans/Borrows by US County",
+{"entities": [(0,28,theme),(32,34,region),(35,41,admin)]},
+),
+(
+"Percent of homes $300,000 and over",
+{"entities": [(0,34,theme)]},
+),
+(
+"PREDOMIMANT MANUFACTURING ACTIVITY, 1997",
+{"entities": [(0,34,theme),(36,40,time)]},
+),
+(
+"Percent of homes less than $50,000",
+{"entities": [(0,34,theme)]},
+),
+(
+"New Zealand Suicide Rate by District Health Board (DHB)",
+{"entities": [(12,24,theme),(0,11,region)]},
+),
+(
+"World Life Expectancy Map",
+{"entities": [(0,21,theme)]},
+),
+(
+"DENSITY OF POPULATION, 2011",
+{"entities": [(0,21,theme),(23,27,time)]},
+),
+(
+"POPULATION DENSITY, 2000",
+{"entities": [(0,18,theme),(20,24,time)]},
+),
+(
+"Mycobacterium bovis in wildlife",
+{"entities": [(0,19,theme)]},
+),
+(
+"Population % white ethnic groups 2001 Southampton output areas",
+{"entities": [(0,32,theme),(33,37,time),(38,49,region)]},
+),
+(
+"DG ECHO Dally Map Emergency Response Coordination Centre (ERCC) COVID-19 pandemic worldwide",
+{"entities": [(64,81,theme),(82,91,region)]},
+),
+(
+"Population per square mile by state 2000 census figures",
+{"entities": [(0,26,theme),(30,35,admin),(36,40,time)]},
+),
+(
+"Populatian Density and Offender Density Rates",
+{"entities": [(0,18,theme),(23,45,theme)]},
+),
+(
+"Rhode Island Social Vulnerability",
+{"entities": [(0,12,region),(13,33,theme)]},
+),
+(
+"Median Household Income and Unrepaired Sinkholes",
+{"entities": [(0,23,theme),(28,48,theme)]},
+),
+(
+"Life Expectancy Indian states 2011-2016, at birth",
+{"entities": [(0,15,theme),(16,22,region),(23,29,admin),(30,39,time)]},
+),
+(
+"Population in Europe",
+{"entities": [(0,10,theme), (14,20,region)]},
+),
+(
+"Thematic maps choropleth maps",
+{"entities": []},
+),
+(
+"District Wise Crime against women in India in 2015",
+{"entities": [(0,8,admin),(14,33,theme),(37,42,region),(46,50,time)]},
+),
+(
+"Preventable death rate in London",
+{"entities": [(0,22,theme),(26,32,region)]},
+),
+(
+"Share of adults defined as obese, 2016",
+{"entities": [(0,32,theme),(34,38,time)]},
+),
+(
+"Reported cases per 100 000 people (as of 04 May 2020)",
+{"entities": [(0,33,theme),(41,52,time)]},
+),
+(
+"Human Poverty Index Map",
+{"entities": [(0,19,theme)]},
+),
+(
+"Share of adults who are obese, 2016",
+{"entities": [(0,29,theme),(31,35,time)]},
+),
+(
+"France's population density, 1821",
+{"entities": [(0,27,theme),(29,33,time)]},
+),
+(
+"Percentage of Country's Population Living in Urban Areas, 1960",
+{"entities": [(0,56,theme),(58,62,time)]},
+),
+(
+"EU Referendum A Divided Kingdom",
+{"entities": []},
+),
+(
+"US Choropleth County Map per State - Unemployment Rates",
+{"entities": [(37,55,theme),(0,2,region),(14,20,admin)]},
+),
+(
+"Choropleth Map - Germany by ZIP Codes (\"PLZ 2\")",
+{"entities": [(17,24,region)]},
+),
+(
+"Choropleth Map of the United States by congressional districts",
+{"entities": [(18,34,region),(39,62,admin)]},
+),
+(
+"Choropleth Map of Brazil",
+{"entities": [(18,24,region)]},
+),
+(
+"Percent of Persons Who Are Hispanic or Latino (of any race), Florida by County",
+{"entities": [(0,59,theme),(61,68,region),(72,78,region)]},
+),
+(
+"Switzerland's regional demographics Average age in Swiss municipalities, 2015",
+{"entities": [(0,11,region),(36,47,theme),(73,77,time),(57,71,admin)]},
+),
+(
+"Homicide rate by municipality, 2008",
+{"entities": [(0,8,theme),(17,29,admin),(31,35,time)]},
+),
+(
+"Population",
+{"entities": [(0,10,theme)]},
+),
+(
+"2012 Population Estimates",
+{"entities": [(0,4,time),(5,25,theme)]},
+),
+(
+"Incidence of total crimes against women in India in 2001",
+{"entities": [(0,39,theme),(43,48,region),(52,56,time)]},
+),
+(
+"U.S. Population Change",
+{"entities": [(0,4,region),(5,22,theme)]},
+),
+(
+"Population Density (people per square miles)",
+{"entities": [(0,44,theme)]},
+),
+(
+"Those who contribute the least greenhouse gases will be most impacted by climate change",
+{"entities": []},
+),
+(
+"Figure 1: There is Rapid Population Growth in Areas with Many Vulnerable Species",
+{"entities": [(25,42,theme)]},
+),
+(
+"Florida Democratic Primary 2016 Percent of Total Votes by County",
+{"entities": [(0,7,region),(27,31,time),(32,54,theme),(58, 64, admin)]},
+),
+(
+"POPULATION DENSITY ASIA 2009",
+{"entities": [(0,18,theme),(19,23,region),(24,28,time)]},
+),
+(
+"NYC 311 Street Complaints by Community DIstrict",
+{"entities": [(0,3,region),(8,25,theme),(29,47,admin)]},
+),
+(
+"Percent Change, 1990 to 2000 and Population Density, 1990",
+{"entities": [(0,14,theme),(16,28,time),(33,51,theme),(53,57,time)]},
+),
+(
+"A: Total number of frauds in 2012 per thousand people by local authority area",
+{"entities": [(3,25,theme),(29,33,time),(57,77,admin)]},
+),
+(
+"Tamilnadu District Level Literacy Map",
+{"entities": [(0,9,region),(10,18,admin),(25,33,theme)]},
+),
+(
+"OXBRIDGE OFFER RATE PER POPULATION MAP",
+{"entities": [(0,34,theme)]},
+),
+(
+"Planted Soybeans | 2008",
+{"entities": [(0,16,theme),(19,23,time)]},
+),
+(
+"Deaths among children under 5 due to HIV/AIDS (%)",
+{"entities": [(0,49,theme)]},
+),
+(
+"Population undernourished 2004 to 2006 (%)",
+{"entities": [(0,25,theme),(26,38,theme)]},
+),
+(
+"Strengths and limitations of the mapping technique",
+{"entities": []},
+),
+(
+"Let My People Grow Population Density of African Countries in 2008",
+{"entities": [(19,38,theme),(41,58,region),(62,66,time)]},
+),
+(
+"Percent Hispanic or Latino (of any race)",
+{"entities": [(0,40,theme)]},
+),
+(
+"Choropleth Map with D3.js and SVG",
+{"entities": []},
+),
+(
+"On-Trade (%) by Countries - Alcoholic Drinks",
+{"entities": [(28,44,theme),(16,25,admin)]},
+),
+(
+"Choropleth Map - Number of WorldCat Libraries by US County",
+{"entities": [(17,45,theme),(49,51,region),(52,58,admin)]},
+),
+(
+"Asian Population in Continental U.S.",
+{"entities": [(0,16,theme),(20,36,region)]},
+),
+(
+"Core concerns",
+{"entities": []},
+),
+(
+"Example choropleth map",
+{"entities": []},
+),
+(
+"Adult obesity by health region 2005",
+{"entities": [(0,13,theme),(17,30,admin),(31,35,time)]},
+),
+(
+"Hard to Reach",
+{"entities": []},
+),
+(
+"Choropleth Map",
+{"entities": []},
+),
+(
+"Measles incidence per district - wave 8",
+{"entities": [(0,17,theme),(22,30,admin)]},
+),
+(
+"Human Development Index (Statistics reported from UNDP 2001)",
+{"entities": [(0,23,theme),(55,59,time)]},
+),
+(
+"Mortality associated with arterial hypertension Brazilian States, In 2014",
+{"entities": [(0,47,theme),(48,64,region),(69,73,time)]},
+),
+(
+"Influenza Patents by Country According to USPTO data",
+{"entities": [(0,17,theme),(21,28,admin)]},
+),
+(
+"Value of Land: tax assessment of land, per sqft of dirt",
+{"entities": [(0,13,theme)]},
+),
+(
+"Choropleth Map",
+{"entities": []},
+),
+(
+"GIS in Demographics: Visualizing Population Growth & Western Migration Over a 200-Year Period",
+{"entities": [(33,70,theme)]},
+),
+(
+"Choropleth Map - CIC Returnable Loans/Borrows by US County",
+{"entities": [(17,45,theme),(49,51,region),(52,58,admin)]},
+),
+(
+"Percent of homes $300,00 and over",
+{"entities": [(0,33,theme)]},
+),
+(
+"POPULATION DENSITY, 2000 Saudi Arabia",
+{"entities": [(0,18,theme), (20,24,time), (25,37,region)]},
+),
+(
+"POPULATION DENSITY, 2000 Saudi Arabia",
+{"entities": [(0,18,theme), (20,24,time), (25,37,region)]},
+),
+(
+"Population in Europe 1:15 000 000",
+{"entities": [(0,10,theme), (14,20,region)]},
+),
+(
+"LIBYA'S POPULATION AND ENERGY PRODUCTION",
+{"entities": [(8,40,theme), (0,5,region)]},
+),
+(
+"Thematic maps - choropleth maps",
+{"entities": []},
+),
+(
+"MAP ES.1 The Estimated Effects of Water Scarcity on GDP in Year 2050, under Two Policy Regimes",
+{"entities": [(13,55,theme), (64,68,time)]},
+),
+(
+"@International Mapping",
+{"entities": []},
+),
+(
+"Population in 2008",
+{"entities": [(0,10,theme), (14,18,time)]},
+),
+(
+"Map showing the HDI of countries",
+{"entities": [(16,19,theme), (23,32,admin)]},
+),
+(
+"Per Capita Income: Per capita income in the past 12 months (in 2011 inflation-adjusted dollars)",
+{"entities": [(0,17,theme), (63,67,time)]},
+),
+(
+"Population density of Vancouver (by dissemination areas), 2011",
+{"entities": [(0,18,theme), (22,31,region),(36,55,admin),(58,62,time)]},
+),
+(
+"2016 Median income in Pennsylvania counties",
+{"entities": [(5,18,theme), (22,34,region),(35,43,admin),(0,4,time)]},
+),
+(
+"Texas Congressional Districts November 2002 Federal Election Results",
+{"entities": [(44,68,theme), (0,5,region),(6,29,admin),(30,43,time)]},
+),
+(
+"DISTRIBUTION OF THE SPANISH POPULATION (2005)",
+{"entities": [(0,38,theme), (40,44,time)]},
+),
+(
+"Literacy rate map",
+{"entities": [(0,13,theme)]},
+),
+(
+"Life Expectancy, Indian states, 2011-2016, at birth",
+{"entities": [(0,15,theme), (17,23,region),(24,30,admin),(32,41,time)]},
+),
+(
+"India Population Density Map",
+{"entities": [(6,24,theme), (0,5,region)]},
+),
+(
+"Religious Diversity in the U.S., 2010",
+{"entities": [(0,19,theme), (23,31,region), (33,37,time)]},
+),
+(
+"Arranged marriages with no consent",
+{"entities": [(0,34,theme)]},
+),
+(
+"Average rate per 10,1000 people",
+{"entities": [(0,31,theme)]},
+),
+(
+"Dasymetric Map of Annual Avergage DailyTraffic Density",
+{"entities": [(18,56,theme)]},
+),
+(
+"Freshwater availability, cubic metres per person and per year, 2007",
+{"entities": [(0,23,theme), (63,67,time)]},
+),
+(
+"Mexico City January 2013 to September 2016",
+{"entities": [(0,11,region), (12,42,time)]},
+),
+( # US state
+'Share of high school students attending a school with a sworn law enforcement officer',
+{"entities": [(0,85,theme)]},
+),
+(
+'Males per 100 Females, Census 2000',
+{"entities": [(0,21,theme),(30,34,time)]},
+),
+(
+'US population density',
+{"entities": [(0,2,region),(3,21,theme)]},
+),
+(
+'Average Temperature for the US States from July 2015',
+{"entities": [(0,19,theme),(24,30,region),(31,37,admin),(43,52,time)]},
+),
+(
+'Population per square mile by state. 2000 census figures.',
+{"entities": [(0,26,theme),(30,35,admin),(37,41,time)]},
+),
+(
+'Average annual rainfall across the states of the United States of America',
+{"entities": [(0,23,theme),(35,41,admin),(45,73,region)]},
+),
+(
+'Estimated Median Household Income, 2008 Contiguous United States',
+{"entities": [(0,33,theme),(35,39,time),(40, 64, region)]},
+),
+(
+'Percent of People Below Poverty Level 2004',
+{"entities": [(0,37,theme),(38,42,time)]},
+),
+(
+'Obesity trends * Among U.S. Adults, BRFSS, 2010',
+{"entities": [(0,14,theme),(23,27,region),(43,47,time)]},
+),
+(
+'1990 Census Data, % of Population 65 and Older',
+{"entities": [(0,4,time),(18,46,theme)]},
+),
+(
+'Choropleth map',
+{"entities": []},
+),
+(
+'Choropleth map - CIC returnable loans/borrows by US county',
+{"entities": [(17,45,theme),(49,51,region),(52,58,admin)]},
+),
+(
+'Thematic maps - choropleth maps',
+{"entities": []},
+),
+(
+'Change in Divorce Rates, Between 1980 and 1990',
+{"entities": [(0,23,theme),(25,46,time)]},
+),
+(
+'Figure 1., Percentage of the People Living in Poverty Areas by States: 2006-2010',
+{"entities": [(11,59,theme),(63,69,admin),(71,80,time)]},
+),
+(
+'state rankings',
+{"entities": [(0,5,admin),(6,14,theme)]},
+),
+(
+'Total withdrawals and deliveries',
+{"entities": [(0,32,theme)]},
+),
+(
+'Trump vote',
+{"entities": [(0,10,theme)]},
+),
+(
+'Winning margins',
+{"entities": [(0,15,theme)]},
+),
+(
+'Trade in goods with China as a % of state GDP',
+{"entities": [(0,45,theme),(36,41,admin)]},
+),
+(
+'U.S. Motor Vehicle Fatalities, 2008',
+{"entities": [(0,4,region),(5,29,theme),(31,35,time)]},
+),
+(
+'1170 Coronavirus (COVID-19) Cases in the US',
+{"entities": [(5,33,theme),(37,43,region)]},
+),
+(
+'Hazardous Waste Site Installations (1997)',
+{"entities": [(0,34,theme),(36,40,time)]},
+),
+(
+'Influenza Research Database Reported Cases 2017-18',
+{"entities": [(0,42,theme),(43,50,time)]},
+),
+(
+'COVID-19 in the U.S.',
+{"entities": [(0,8,theme),(12,20,region)]},
+),
+(
+'Mexican American Population, 2010 US Census',
+{"entities": [(0,27,theme),(29,33,region)]},
+),
+(
+'median income',
+{"entities": [(0,13,theme)]},
+),
+(
+'states with most work stress',
+{"entities": [(17,28,theme),(0,6,admin)]},
+),
+(
+'Unemployment 2008',
+{"entities": [(0,12,theme),(13,17,time)]},
+),
+(
+'Poverty in the United States',
+{"entities": [(0,7,theme),(11,28,region)]},
+),
+(
+'Cities supporting emissions reductions (455)',
+{"entities": [(0,38,theme)]},
+),
+(
+'Q3 2018 Installed wind power capacity (MW)',
+{"entities": [(0,7,time),(8,37,theme)]},
+),
+(
+'Poverty in the United States',
+{"entities": [(0,7,theme),(11,28,region)]},
+),
+(
+'2017 Poverty rate in the United States', 
+{"entities": [(0,4,time),(5,17,theme),(21,38,region)]},
+),
+(
+'2011 US agriculture exports by state (Hover for breakdown)',
+{"entities": [(0,4,time),(5,7,region),(8,27,theme),(31,36,admin)]},
+),
+(
+'Native American Alone/One or More Other Race', 
+{"entities": [(0,44,theme)]},
+),
+(
+'States Where Tim Has Spent Time',
+{"entities": [(0,31,theme)]},
+),
+(
+'Minority group with highest percent of state population',
+{"entities": [(0,55,theme)]},
+),
+(
+'Crime Rates in the US - 2003 vs. Election Results - 2004',
+{"entities": [(0,11,theme),(15,21,region),(24,28,time),(33,49,theme),(52,56,time)]},
+),
+(
+'The Wild West Violent Crimes in the Western United States',
+{"entities": [(0,28,theme),(32,57,region)]},
+),
+(
+'Median Household Income in the United States: 2015',
+{"entities": [(0,23,theme),(27,44,region),(46,50,time)]},
+),
+(
+'NBA players origins per capita',
+{"entities": [(0,30,theme)]},
+),         
+(
+'48 states by population',
+{"entities": [(13,23,theme),(3,9,admin)]},
+),
+(
+'Word happiness score (the higher the number, the happier)',
+{"entities": [(0,57,theme)]},
+), 
+(
+'Number of Persons per Wal-Mart Store', 
+{"entities": [(0,36,theme)]},
+),
+(
+'Geo Choropleth Chart: US Venture Capital Landscape 2001',
+{"entities": [(25,50,theme),(22,24,region),(51,55,time)]},
+),  
+(
+'U.S. Department of Agriculture - Honey Production, 2009-2013',
+{"entities": [(33,49,theme),(9,18,region),(51,60,time)]},
+),
+(
+'Open Source Choropleth Maps',
+{"entities": []},
+), 
+(
+'Federal Government Expenditure, Per Capita Ranges by State: Fiscal Year 2009',
+{"entities": [(0,42,theme),(53,58,region),(60,76,time)]},
+),
+(
+'Kickstarter USA',
+{"entities": [(0,11,theme),(12,15,region)]},
+), 
+(
+'Percent of Popl 65 and Older',
+{"entities": [(0,28,theme)]},
+), 
+(
+'U.S. Farmland',
+{"entities": [(5,14,theme),(0,4,region)]},
+),
+(
+'Sales by State',
+{"entities": [(0,5,theme),(9,14,admin)]},
+), 
+(
+'Well-Being index',
+{"entities": [(0,16,theme)]},
+),
+(
+'Food Insecurity Rate',
+{"entities": [(0,20,theme)]},
+),
+(
+'Obesity Rate',
+{"entities": [(0,12,theme)]},
+), 
+(
+'HSU Alumni Per 100,000 People',
+{"entities": [(0,29,theme)]},
+),
+(
+'Figure 2. Percentage of People in Poverty for the United States and Puerto Rico:2013',
+{"entities": [(10,41,theme),(46,63,region),(68,79,region),(80,84,time)]},
+), 
+(
+'Regional Heat Map',
+{"entities": []},
+),
+(
+'The Number of Multi-racial Housholds per county in the Continental United States', 
+{"entities": [(0,36,theme),(41,47,admin),(51,80,region)]},
+), 
+(
+'Percent of 4-year-olds Served by State Pre-K',
+{"entities": [(0,29,theme),(33,38,admin)]},
+),
+(
+'One-year forecast change in jobs', 
+{"entities": [(0,32,theme)]},
+), 
+(
+'Percentage of People 25 Years and Over Who Have a Bachelor\'s Degree',
+{"entities": [(0,68,theme)]},
+),
+(
+'Percentage of 18- to 24-year-olds overweight or obese',
+{"entities": [(0,53,theme)]},
+), 
+(
+'Choropleth, 5 Classes, Standard Deviation',
+{"entities": []},
+),
+(
+'Estimated % of adults who think global warming is happening, 2014',
+{"entities": [(0,59,theme),(61,65,time)]},
+), 
+(
+'Death Rate from Drug Poisoning / Overdose',
+{"entities": [(0,41,theme)]},
+),
+(
+'Rate of Temperature Change in the United States, 1901-2015',
+{"entities": [(0,26,theme),(30,47,region),(49,58,time)]},
+),
+        
+         
+        
+        
+testing= [
+(
+"Population density map, Indian states",
+{"entities": [(0,18,theme), (24,30,region), (31,37,admin)]},
+),
+(
+"Emergency Response Coordination Centre (ERCC)| DG ECHO Daily Map | 08/08/2020 COVID-19 pandemic worldwide",
+{"entities": [(78,95,theme), (96,105,region), (67,77,time)]},
+),
+(
+"Maternal Mortality Rate of African Countries",
+{"entities": [(0,23,theme), (27,44,region), (35,44,admin)]},
+),
+(
+"Total CO2 emissions (2004)",
+{"entities": [(0,19,theme), (21,25,time)]},
+),
+(
+"Retailer vs Location Density Hover over a state",
+{"entities": [(0,28,theme)]},
+),
+(
+"USA by Unemployment %",
+{"entities": [(7,21,theme), (0,3,region)]},
+),
+(
+"Chennai confirmed COVID-19 cases by zones",
+{"entities": [(8,32,theme), (0,7,region), (36,41,admin)]},
+),
+(
+"GDP Per Capita Mainland China",
+{"entities": [(0,14,theme), (15,29,region) ]},
+),
+(
+"Canada Percentage of population aged 14 years and under by 2006 Census Division (CD)",
+{"entities": [(7,55,theme), (0,6,region),(59,63,time) ]},
+),
+(
+"Number and predominant race of offenders executed in Texas counties in 1982-2013",
+{"entities": [(0,49,theme), (53,58,region),(59,67,admin),(71,80,time) ]},
+),
+(
+"Number of Mortgages",
+{"entities": [(0,19,theme) ]},
+),
+(
+"2012 New York City ZCTA Population Estimates",
+{"entities": [(19,44,theme),(0,4,time),(5,18,region) ] },
+),
+(
+"Life expectancy at birth in Europe (both sexes, 2015)",
+{"entities": [(0,24,theme),(48,52,time),(28,34,region) ] },
+),
+(
+"Number of schools expressing interest in academy status, by education authority",
+{"entities": [(0,55,theme),(60,79,admin)] },
+),
+(
+"2010 Japan Population Estimates",
+{"entities": [(11,31,theme),(0,4,time),(5,10,region)] },
+),
+(
+"Africa Population Density",
+{"entities": [(7,25,theme),(0,6,region)] },
+),
+(
+"PHOTOVOLTAIC POWER POTENTIAL AFRICA",
+{"entities": [(0,28,theme),(29,35,region)] },
+),
+(
+"PHOTOVOLTAIC POWER POTENTIAL AFRICA",
+{"entities": [(0,28,theme),(29,35,region)] },
+),
+(
+"Africa Life Expectancy at Birth",
+{"entities": [(7,31,theme),(0,6,region)] },
+),
+(
+"ALL INVASIVE CANCERS (C00-C42, C45-C96) 2005-2015",
+{"entities": [(0,20,theme),(40,49,time)] },
+),
+(
+"POPULATION DENSITY, 2000 Argentina",
+{"entities": [(0,18,theme),(20,24,time),(25,34,region)] },
+),
+(
+"Black Population in the Continental U.S. in 2000",
+{"entities": [(0,16,theme),(44,48,time),(20,40,region)] },
+),
+(
+"Reported coronavirus cases worldwide As of March 17, 2020",
+{"entities": [(0,26,theme),(43,57,time),(27,36,region)] },
+),
+(
+"Coronavirus in China: 24th February 2020",
+{"entities": [(0,11,theme),(22,40,time),(15,20,region)] },
+),
+(
+"Spending by overseas residents 2003",
+{"entities": [(0,30,theme),(31,35,time)] },
+),
+(
+"Brazil: Corn (First Season) Production",
+{"entities": [(8,38,theme),(0,6,region)] },
+),
+(
+"Births per ZIP Code in California (2007)",
+{"entities": [(0,6,theme),(11,19,admin),(23, 33, region),(35,39,time)] },
+),
+(
+"2012 California County Population Estimates",
+{"entities": [(0,4,time),(5,15,region),(16, 22, admin),(23,33,theme)] },
+),
+(
+"Fig 1: Rate of unvaccinated population by counties, Texas 2017",
+{"entities": [(58,62,time),(52,57,region),(42, 50, admin),(7,38,theme)] },
+),
+(
+"Real boundaries",
+{"entities": [] },
+),
+(
+"% who have already felt negative effects from climate change",
+{"entities": [(0,60,theme)] },
+),
+(
+"Distribution Map of Hazy Weather in China",
+{"entities": [(20,32,theme),(36,41,region)] },
+),
+(
+"Population",
+{"entities": [(0,10,theme)] },
+),
+(
+"Nearest GDP equivalents",
+{"entities": [(0,23,theme)] },
+),
+(
+"AURIN Australian Urban Research Infrastructure Network Portal",
+{"entities": [] },
+),
+(
+"All Causes, Under 1 year, Persons Deaths per 1,000 live births, by Statistical Division",
+{"entities": [(0,62,theme),(67,87,admin)] },
+),
+(
+"Choropleth map of german population",
+{"entities": [(25,35,theme),(18,24,region)] },
+),
+(
+"Population Density, Michigan, 1999",
+{"entities": [(0,18,theme),(20,28,region),(30,34,time)] },
+),
+(
+"Santiago, Chile, by Income (in CLP$)",
+{"entities": [(20,26,theme),(0,15,region)]},
+),
+(
+"Precipitation in Greece",
+{"entities": [(0,13,theme),(17,23,region)]},
+),
+(
+"Percentage of Country's Population Living in Urban Areas, 2016",
+{"entities": [(0,56,theme),(58,62,time)]},
+),
+(
+"Preliminary map: all areas",
+{"entities": []},
+),
+(
+"Where the Coronavirus Has Been Confirmed Locations by number of confirmed COVID-19 cases*",
+{"entities": [(54,88,theme)]},
+),
+(
+"TOTAL REPORTED CASES OF COVID-19 BY REGIONAL HEALTH AUTHORITY AREAS IN CANADA",
+{"entities": [(0,32,theme),(36,67,admin),(71,77,region)]},
+),
+(
+"Confirmed Cases of COVID-19 in the United States cases per 100,000 population",
+{"entities": [(0,27,theme),(31,48,region)]},
+),
+(
+"Figure 1. Distribution of confirmed and probable cases of COVID-19 by province or territory in Canada as of March 25, 2020, 6:00 pm EDT",
+{"entities": [(26,66,theme),(70,91,admin),(95,101,region),(108,135,time)]},
+),
+(
+"Population Density in New England in 2000 in Persons per Square Mile",
+{"entities": [(0,18,theme),(22,33,region),(37,41,time)]},
+),
+(
+"2014-2015 Immunization Percentages in California Child Care Facilities",
+{"entities": [(10,34,theme),(38,48,region),(0,9,time)]},
+),
+(
+"Regional IQ in Russia",
+{"entities": [(0,11,theme),(15,21,region)]},
+),
+(
+"Sales by Territory (click Territory)",
+{"entities": [(0,5,theme),(9,18,admin)]},
+)]

@@ -142,15 +142,14 @@ timeUseType = ['Sleeping', 'Grooming', 'Health-related self care', 'Personal act
                'Telephone calls, mail, and e-mail', 'Telephone calls (to or from)', 'Household and personal messages', 'Household and personal mail and messages',
                'Household and personal e-mail and messages', 'Travel related to telephone calls']
 
-
 # generate title
 def getTitle():
     titleTypeID = random.randint(0, 11)
     year = random.randint(1950, 2020)
-    geoRegion = ['the United States', 'the UK',
+    geoRegion = ['the United States', 'U.S.','US', 'USA', 'UK',
                  'China', 'Canada', 'South Korea', 'France']
     lenGeoRegion = len(geoRegion)
-    adminLevel = ['state', 'county', 'township', 'census tract']
+    adminLevel = ['state','province','county', 'township', 'census tract']
     lenAdminLevel = len(adminLevel)
 
     if (titleTypeID == 0):
@@ -216,41 +215,58 @@ def getTitle():
 
     random.shuffle(optElements)
 
+    labelList = []
+    # labelList is used to store the label and index in a title
     for i in range(0, len(optElements)):
+        bIndex = len(title)
+        eIndex = bIndex + len(optElements[i]) - 1
         if optElements[i] == theme:
-            bIndex = len(title)
-            eIndex = bIndex + len(theme) - 1
+            labelTuple = ['theme', bIndex, eIndex]
+        elif optElements[i] == region:
+            labelTuple = ['region', bIndex + 3, eIndex]
+        elif optElements[i] == admin:
+            labelTuple = ['admin', bIndex + 3, eIndex]
+        else :
+            labelTuple = ['time', bIndex + 3, eIndex]
+
+        labelList.append(labelTuple)
         title = title + optElements[i]
 
-    return title, bIndex, eIndex
+    return title, labelList
 
 
-def getTitleList():
+def getTitleList(numTitle):
     titleList = []
     count = 0
-    while count < 1000:
-        title, bIndex, eIndex = getTitle()
+    while count < numTitle:
+        title, labelList = getTitle()
         if title not in titleList:
             titleToList = list(title)
             if titleToList[0].islower():
                 titleToList[0] = titleToList[0].upper()
                 title = "".join(titleToList)
-            titleList.append([title, bIndex, eIndex])
+            titleList.append([title, labelList])
             count = count + 1
     # print(titleList)
     return titleList
 
 
 def main():
-    titleList = getTitleList()
-    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\code\\Name Entity Recognition\\testTitleList.txt', 'w') as f:
-        for item, bIndex, eIndex in titleList:
+    numTitle = 50
+    titleList = getTitleList(numTitle)
+    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\testTitleList.txt', 'w') as f:
+        for item, labelList in titleList:
             f.write("%s\n" % item)
-    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\code\\Name Entity Recognition\\labelTemplate.txt', 'w') as f:
-        for item, bIndex, eIndex in titleList:
+    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\labelTemplate.txt', 'w') as f:
+        for item, labelList in titleList:
             f.write("(\n")
             f.write('"%s",\n' % item)
-            indexLabel = '{"entities": [(' + str(bIndex) + ', ' + str(eIndex) + ', LABEL)]},\n'
+            indexLabel = '{"entities": ['
+            for label, bIndex, eIndex in labelList:
+                indexLabel = indexLabel + '(' + str(bIndex) + ', ' + str(eIndex) + ', ' + label +'),'
+            if indexLabel[-1] == ',':
+                indexLabel = indexLabel[0:-1]
+            indexLabel = indexLabel + ']},\n'
             f.write(indexLabel)
             f.write("),\n")
 
