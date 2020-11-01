@@ -90,7 +90,7 @@ mapText = 0    # random selected text
 showLegend = 0  # show map color legend
 path = 'C:/Users/li.7957/Desktop/MapElementDetection/code/'
 
-meta_data = pd.read_csv(path + 'meta.csv', encoding='utf-8')
+# meta_data = pd.read_csv(path + 'meta.csv', encoding='utf-8')
 
 # us state name and acronym
 short_state_names = {
@@ -683,19 +683,19 @@ def drawUSmap(index, filename):
         fontName = getFontName()
         if(loc_var == 1):
             patchList = getLegend(colorList)
-            plt.legend(handles = patchList, loc='upper left', prop={'size': 6, 'family':fontName})
+            plt.legend(handles = patchList, loc='upper left', prop={'size': 6, 'family':fontName},ncol = len(patchList))
             plt.title(title,y = 0, fontname= fontName)
         elif(loc_var == 2):
             patchList = getLegend(colorList)
-            plt.legend(handles = patchList, loc='upper right', prop={'size': 6,'family':fontName} )
+            plt.legend(handles = patchList, loc='upper right', prop={'size': 6,'family':fontName},ncol = len(patchList) )
             plt.title(title,y = 0, fontname= fontName)
         elif (loc_var == 3):
             patchList = getLegend(colorList)
-            plt.legend(handles = patchList, loc='lower left', prop={'size': 6, 'family':fontName})
+            plt.legend(handles = patchList, loc='lower left', prop={'size': 6, 'family':fontName},ncol = len(patchList))
             plt.title(title,y = 1, fontname= fontName)
         else :
             patchList = getLegend(colorList)
-            plt.legend(handles = patchList, loc='lower right', prop={'size': 6, 'family':fontName})
+            plt.legend(handles = patchList, loc='lower right', prop={'size': 6, 'family':fontName},ncol = len(patchList))
             plt.title(title,y = 1, fontname= fontName)
     else:
         showLegend = 0
@@ -707,21 +707,21 @@ def drawUSmap(index, filename):
     ax.spines['left'].set_visible(False)
 
     # store the information into meta
-    meta_data.loc[index, 'filename'] = filename
-    meta_data.loc[index, 'country'] = 'USA'
-    meta_data.loc[index, 'statename'] = isStateName
-    meta_data.loc[index, 'mainland'] = isMainland
-    meta_data.loc[index, 'lat and long'] = isLat
-    meta_data.loc[index, 'background'] = mapBackground
-    meta_data.loc[index, 'style'] = 'plain'
-    meta_data.loc[index, 'position'] = str(x1) + ',' +  str(x2) + ',' + str(y1) + ',' + str(y2)
-    meta_data.loc[index, 'size'] = mapSize
-    meta_data.loc[index, 'projection'] = 'llc'
-    meta_data.loc[index, 'opacity'] = opaVal
-    meta_data.loc[index, 'color'] = colorscheme
-    meta_data.loc[index, 'texture'] = mapTexture
-    meta_data.loc[index, 'title'] = title
-    meta_data.loc[index, 'legend'] = showLegend
+    # meta_data.loc[index, 'filename'] = filename
+    # meta_data.loc[index, 'country'] = 'USA'
+    # meta_data.loc[index, 'statename'] = isStateName
+    # meta_data.loc[index, 'mainland'] = isMainland
+    # meta_data.loc[index, 'lat and long'] = isLat
+    # meta_data.loc[index, 'background'] = mapBackground
+    # meta_data.loc[index, 'style'] = 'plain'
+    # meta_data.loc[index, 'position'] = str(x1) + ',' +  str(x2) + ',' + str(y1) + ',' + str(y2)
+    # meta_data.loc[index, 'size'] = mapSize
+    # meta_data.loc[index, 'projection'] = 'llc'
+    # meta_data.loc[index, 'opacity'] = opaVal
+    # meta_data.loc[index, 'color'] = colorscheme
+    # meta_data.loc[index, 'texture'] = mapTexture
+    # meta_data.loc[index, 'title'] = title
+    # meta_data.loc[index, 'legend'] = showLegend
 
     # plt.show()
     plt.savefig(path + 'generatedImages1/' + filename)
@@ -850,10 +850,10 @@ def drawUSmapAdmin2(index, filename):
 
 # generate map image
 def main():
-    for i in range(len(meta_data)):
-        if(i >= 0 and i < 1000):
-            filename = 'us_map' + str(meta_data.loc[i,'id']) + '.png'
+    for i in range(10):
+        if( i < 10):
+            filename = 'us_map_legend' + str(i) + '.png'
             drawUSmap(i,filename)
-    meta_data.to_csv(path+'result.csv', index=False)
+    # meta_data.to_csv(path+'result.csv', index=False)
 
 if __name__ == "__main__":    main()

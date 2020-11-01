@@ -472,16 +472,16 @@ def drawUSmap(index, filename):
         loc_var = random.randint(1,5)
         if(loc_var == 1):
             p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='upper left', prop={'size': 6})
+            plt.legend(handles=[p1, p2, p3, p4, p5], loc='upper left', prop={'size': 6},ncol = 5)
         elif(loc_var == 2):
             p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='upper right', prop={'size': 6})
+            plt.legend(handles=[p1, p2, p3, p4, p5], loc='upper right', prop={'size': 6},ncol = 5)
         elif (loc_var == 3):
             p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='lower left', prop={'size': 6})
+            plt.legend(handles=[p1, p2, p3, p4, p5], loc='lower left', prop={'size': 6},ncol = 5)
         elif (loc_var == 4):
             p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5], loc='lower right', prop={'size': 6})
+            plt.legend(handles=[p1, p2, p3, p4, p5], loc='lower right', prop={'size': 6},ncol = 5)
         else:
             showLegend = 0
     else:
@@ -778,9 +778,9 @@ def drawUSmapStyle(index, filename):
 def main():
 
     for i in range(len(meta_data)):
-        if(i >= 980 and i < 1000):
+        if( i < 10):
             filename = 'us_map' + str(meta_data.loc[i,'id']) + '.png'
-            drawUSmapAdmin2(i,filename)
+            drawUSmap(i,filename)
     meta_data.to_csv('result.csv', index=False)
 
 if __name__ == "__main__":    main()

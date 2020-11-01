@@ -290,7 +290,7 @@ def main():
     titleResults = []
 
     for imgName in testImageDir:
-        imgName = 'ChoImg125.jpg'
+        imgName = 'ChoImg214.jpg'
         
 
         print('image name: ', imgName)
@@ -366,27 +366,34 @@ def main():
         
         while isSuccessful:
             newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
-            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,legendTextShapelyBoxList)
-            if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
-                break
-            else:
+            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,textShapelyBoxList)
+            # if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
+            #     break
+            if len(newLegendTextShapelyBoxList)- numLegendTextShapelyBox == len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
                 numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
                 numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
                 unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
                 enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
+            else:
+                break
+            break
+
+
         # upward enlarge legend bbox
         enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxUp(unionLegendShapelyBox,medNumTextBboxHeight,height)
         
         while isSuccessful:
             newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
-            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,legendTextShapelyBoxList)
-            if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
-                break
-            else:
+            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
+            # if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
+            #     break
+            if len(newLegendTextShapelyBoxList)- numLegendTextShapelyBox == len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
                 numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
                 numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
                 unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
                 enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxUp(unionLegendShapelyBox,medNumTextBboxHeight,height)
+            else:
+                break
         # get rect bbox based on legend bbox and legend text bbox
         finalLegendBox = unionLegendShapelyBox # legend box after processed with texts
 
@@ -394,18 +401,18 @@ def main():
         
 
         # downward enlarge legend bbox
-        enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
+        # enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
         
-        while isSuccessful:
-            newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
-            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,legendTextShapelyBoxList)
-            if len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox or len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox:
-                break
-            else:
-                numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
-                numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
-                unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendRectShapelyBoxList)
-                enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
+        # while isSuccessful:
+        #     newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
+        #     newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,legendTextShapelyBoxList)
+        #     if len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox or len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox:
+        #         break
+        #     else:
+        #         numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
+        #         numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
+        #         unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendRectShapelyBoxList)
+        #         enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
 
         
         finalLegendBox = unionLegendShapelyBox # legend box after processed with texts
