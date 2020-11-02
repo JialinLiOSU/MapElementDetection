@@ -1,3 +1,6 @@
+# change label format for generated choropleth images
+# to make sure that the format is fitting the training model
+
 import pickle
 import os
 # import easyocr

@@ -1,6 +1,7 @@
-# @author: Rui Li
-# @date: 04/08/2019
-# @comments: generate us map
+# @author: Jialin Li
+# @date: 10/26/2020
+# @comments: generate choropleth map with vertical or horizontally aligned legend
+# covering geographic regions of the world, US, Canada, Australia Europed
 
 # libaries ---------- basic
 from PIL import Image
