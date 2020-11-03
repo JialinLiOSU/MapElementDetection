@@ -1,41 +1,42 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
+import os
 
 path = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\map image segmentation\\sample images\\'
-
-pathTemplateCA = 'templateCA.jpg'
-pathTemplateCA1 = 'templateCA1.jpg'
-pathTemplateCO = 'templateCO.jpg'
-pathTemplateCO1 = 'templateCO1.jpg'
-pathTemplateMI = 'templateMI.jpg'
-pathTemplateMI1 = 'templateMI1.jpg'
-pathTemplateMN = 'templateMN.jpg'
-pathTemplateMN1 = 'templateMN1.jpg'
-pathTemplateTX = 'templateTX.jpg'
-pathTemplateTX1 = 'templateTX1.jpg'
-pathTemplateWY = 'templateWY.jpg'
-pathTemplateWY1 = 'templateWY1.jpg'
-Image = 'ChoImg45.jpg'
+templatesPath = path + 'templates\\'
+templatesPathCA = templatesPath + 'CA\\'
+templatesPathFL = templatesPath + 'FL\\'
+templatesPathMI = templatesPath + 'MI\\'
+templatesPathMN = templatesPath + 'MN\\'
+templatesPathNY = templatesPath + 'NY\\'
+# pathTemplateCA = 'templateCA.jpg'
+# pathTemplateCA1 = 'templateCA1.jpg'
+# pathTemplateCO = 'templateCO.jpg'
+# pathTemplateCO1 = 'templateCO1.jpg'
+# pathTemplateMI = 'templateMI.jpg'
+# pathTemplateMI1 = 'templateMI1.jpg'
+# pathTemplateMN = 'templateMN.jpg'
+# pathTemplateMN1 = 'templateMN1.jpg'
+# pathTemplateTX = 'templateTX.jpg'
+# pathTemplateTX1 = 'templateTX1.jpg'
+# pathTemplateWY = 'templateWY.jpg'
+# pathTemplateWY1 = 'templateWY1.jpg'
+Image = 'ChoImg50.jpg'
 img = cv2.imread(path+Image,0)
 img2 = img.copy()
-# dataPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\dataCollection\\labeledMapsWithCategory\\enhImages\\'
-# # outputPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\legend images\\'
-# imgName = 'ChoImg14.jpg'
 
 
-# img = cv2.imread(dataPath + imgName)
 templates = []
+for temp in os.listdir(templatesPathNY):
+    template = cv2.imread(templatesPathNY + temp,0)
+    templates.append(template)
 
-template = cv2.imread(path + pathTemplateCO,0)
-templates.append(template)
-template = cv2.imread(path + pathTemplateCO1,0)
-templates.append(template)
-
-w, h = template.shape[::-1]
+# w, h = template.shape[::-1]
 
 # All the 6 methods for comparison in a list
-methods = ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR',
+methods = [
+            'cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR',
             'cv2.TM_CCORR_NORMED', 'cv2.TM_SQDIFF', 'cv2.TM_SQDIFF_NORMED']
 
 for meth in methods:
@@ -44,16 +45,19 @@ for meth in methods:
     resList = []
     maxIndex = 0
     maxValue = -999999999
-    for i in range(len(templates)):
+    for i in range(0,len(templates)):
 
         # Apply template Matching
-        res = cv2.matchTemplate(img,templates[i],method)
-        resList.append(res)
-        if np.max(res)>maxValue:
-            maxValue = np.max(res)
-            maxIndex = i
+        if i < 2 and templates[i] is not None:
+            res = cv2.matchTemplate(img,templates[i],method)
+            resList.append(res)
+            if np.max(res)>maxValue:
+                maxValue = np.max(res)
+                maxIndex = i
     
     res = resList[maxIndex]
+    template =templates[maxIndex]
+    w, h = template.shape[::-1]
         
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
 
