@@ -28,8 +28,8 @@ img2 = img.copy()
 
 
 templates = []
-for temp in os.listdir(templatesPathNY):
-    template = cv2.imread(templatesPathNY + temp,0)
+for temp in os.listdir(templatesPathFL):
+    template = cv2.imread(templatesPathFL + temp,0)
     templates.append(template)
 
 # w, h = template.shape[::-1]

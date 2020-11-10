@@ -130,7 +130,7 @@ def alignmentValueText(legendTextBboxes):
         align = 0 # vertical
     else:
         align = 1 # horizontal
-    return align,numTextShapelyBoxList,numTextBboxHeightList
+    return align,numTextShapelyBoxList,numTextBboxes,numTextBboxHeightList
 
 def enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height):
     # output: changed legend shapely box, isSuccessful 
@@ -223,11 +223,11 @@ def getRectShapeBox(img, legendShapeBox, legendTextShapeBoxList):
     for rectBox in rectShapeBoxList:
         isInterText = intersectText(rectBox,legendTextShapeBoxList)
         isInterLegend = legendShapeBox.intersects(rectBox)
-        if isInterLegend and not isInterText and rectBox.area < width * height /5:
+        if isInterLegend and not isInterText:
             legendRectShapeBoxList.append(rectBox)
 
-    # legendRectShapeBoxList = removeOverlappedBox(legendRectShapeBoxList) # postprocess to remove overlapped rect boxes
-   
+    legendRectShapeBoxList = removeOverlappedBox(legendRectShapeBoxList) # postprocess to remove overlapped rect boxes
+    
         
     # cv2.imshow("shapes", img)
     # cv2.waitKey(0)
@@ -236,21 +236,40 @@ def getRectShapeBox(img, legendShapeBox, legendTextShapeBoxList):
     
 def removeOverlappedBox(legendRectShapeBoxList):
     # has some problems
-    newLegendRectBoxList = []
-    for rectBox1 in legendRectShapeBoxList:
-        for rectBox2 in legendRectShapeBoxList:
-            if rectBox1.bounds == rectBox2.bounds:
-                continue
-            if rectBox1.intersects(rectBox2):
-                minX = min(rectBox1.bounds[0],rectBox2.bounds[0])
-                minY = min(rectBox1.bounds[1],rectBox2.bounds[1])
-                maxX = max(rectBox1.bounds[2],rectBox2.bounds[2])
-                maxY = max(rectBox1.bounds[3],rectBox2.bounds[3])
-                newBox = box(minX, minY, maxX, maxY)
-                newLegendRectBoxList.append(newBox)
-                continue
-        newLegendRectBoxList.append(rectBox1)
-    return newLegendRectBoxList
+    nonOverlapRectBoxList = []
+    for rectBox in legendRectShapeBoxList:
+        isOverlap = False
+        if len(nonOverlapRectBoxList) == 0:
+            nonOverlapRectBoxList.append(rectBox)
+            continue
+        isOverlap = False
+        for i in range(len(nonOverlapRectBoxList)):
+            if rectBox.intersects(nonOverlapRectBoxList[i]):
+                isOverlap = True
+                break
+
+        if not isOverlap:
+            nonOverlapRectBoxList.append(rectBox)
+        elif rectBox.area > nonOverlapRectBoxList[i].area:
+            nonOverlapRectBoxList[i] = rectBox
+
+    nonOverlapRectBoxList.sort(key=lambda variable: variable.bounds[3])
+    return nonOverlapRectBoxList
+
+def getTextForRect(rect,numerTextBboxes):
+    center = rect.centroid
+    text = ''
+    indexText = -1
+    for i in range(len(numerTextBboxes)):
+        minY = numerTextBboxes[i][0][0][1]
+        maxY = numerTextBboxes[i][0][3][1]
+        if center.y <maxY and center.y > minY:
+            text = text + numerTextBboxes[i][1]
+            indexText = i
+            return numerTextBboxes[i], indexText
+    if text == '':
+        print('No coresponding value for the rect')
+    return text, indexText
 
 
 def main():
@@ -271,7 +290,7 @@ def main():
     titleResults = []
 
     for imgName in testImageDir:
-        imgName = 'ChoImg155.jpg'
+        imgName = 'ChoImg214.jpg'
         
 
         print('image name: ', imgName)
@@ -322,7 +341,7 @@ def main():
         unionLegendShapelyBox = getUnionBbox(legendShapelyBox,legendTextShapelyBoxList) # union of legend text bbox
 
         # identify the alignment of numeric text bboxes
-        align, numTextPolygonList,numTextBboxHeightList = alignmentValueText(legendTextBboxes)
+        align, numerTextShapeBoxList,numerTextBboxes, numTextBboxHeightList = alignmentValueText(legendTextBboxes)
         if align == -1:
             print('No numerical text in legend of the map image!')
             finalLegendBox = unionLegendShapelyBox
@@ -337,69 +356,143 @@ def main():
         numTextBboxHeightList.sort()
         medNumTextBboxHeight = numTextBboxHeightList[int(len(numTextBboxHeightList)/2)]
 
-        ###########  get legend box processed with legend symbol rectangles
         # rect detection
-        legendRectShapeBoxList = getRectShapeBox(img, unionLegendShapelyBox, textShapelyBoxList)
+        legendRectShapeBoxList = getRectShapeBox(img, unionLegendShapelyBox, legendTextShapelyBoxList)
         numLegendRectShapelyBox = len(legendRectShapeBoxList)
         unionLegendShapelyBox = getUnionBbox(unionLegendShapelyBox,legendRectShapeBoxList) # union of legend text bbox
 
         # downward enlarge legend bbox
         enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight * 2,height)
+        
         while isSuccessful:
             newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
-            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,legendTextShapelyBoxList)
-            if len(newLegendTextShapelyBoxList) - numLegendTextShapelyBox != len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
-                break
-            else:
+            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,textShapelyBoxList)
+            # if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
+            #     break
+            if len(newLegendTextShapelyBoxList)- numLegendTextShapelyBox == len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
                 numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
                 numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
                 unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
                 enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
+            else:
+                break
+            break
+
 
         # upward enlarge legend bbox
         enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxUp(unionLegendShapelyBox,medNumTextBboxHeight,height)
+        
         while isSuccessful:
             newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
-            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,legendTextShapelyBoxList)
-            if len(newLegendTextShapelyBoxList) - numLegendTextShapelyBox != len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
-                break
-            else:
+            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
+            # if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
+            #     break
+            if len(newLegendTextShapelyBoxList)- numLegendTextShapelyBox == len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
                 numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
                 numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
                 unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
                 enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxUp(unionLegendShapelyBox,medNumTextBboxHeight,height)
+            else:
+                break
         # get rect bbox based on legend bbox and legend text bbox
         finalLegendBox = unionLegendShapelyBox # legend box after processed with texts
 
-        # downward enlarge legend bbox
-        enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
+        ###########  get legend box processed with legend symbol rectangles
         
-        while isSuccessful:
-            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,legendTextShapelyBoxList)
-            newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
-            if len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox or len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox:
-                break
-            else:
-                numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
-                numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
-                unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendRectShapelyBoxList)
-                enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
+
+        # downward enlarge legend bbox
+        # enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
+        
+        # while isSuccessful:
+        #     newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
+        #     newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,legendTextShapelyBoxList)
+        #     if len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox or len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox:
+        #         break
+        #     else:
+        #         numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
+        #         numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
+        #         unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendRectShapelyBoxList)
+        #         enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
 
         
-        finalLegendBox = unionLegendShapelyBox # legend box after processed with texts\
+        finalLegendBox = unionLegendShapelyBox # legend box after processed with texts
+
+
+        # based on numeric text boxes to complete rectangle detection
+        # numerTextShapeBoxList,numerTextBboxes
+        compLegendRectList = []
+        if len(legendRectShapeBoxList) < len(numerTextShapeBoxList):
+            indexTextRectList = []
+            indexTextNoRectList = []
+            # get the rect and corresponding list, store texts with a rect in index list
+            for rect in legendRectShapeBoxList:
+                textBBox, indexText = getTextForRect(rect,numerTextBboxes)
+                compLegendRectList.append([rect, textBBox])
+                indexTextRectList.append(indexText)
+            # find the text index without a rect
+            for i in range(len(numerTextShapeBoxList)):
+                if i not in indexTextRectList:
+                    indexTextNoRectList.append(i)
+            ###
+            # find the average delta x from leftmost point of text bbox to rect, and average size of rect
+            widthSum, heightSum, deltaXSum = 0,0,0
+            for rect,textBBox in compLegendRectList:
+                width = rect.bounds[2] - rect.bounds[0]
+                height = rect.bounds[3] - rect.bounds[1]
+                deltaX = textBBox[0][0][0] - rect.centroid.x
+                widthSum += width
+                heightSum += height
+                deltaXSum += deltaX
+            avgWidth = widthSum / len(compLegendRectList)
+            avgHeight = heightSum / len(compLegendRectList)
+            avgDelataX = deltaXSum / len(compLegendRectList)
+            # for each text without a rect, build a rect
+            for i in range(len(indexTextNoRectList)):
+                textBbox = numerTextBboxes[indexTextNoRectList[i]]
+                centerX = textBbox[0][0][0] - avgDelataX
+                centerY = (textBbox[0][1][1] + textBbox[0][2][1])/2
+                minX = int (centerX - avgWidth / 2)
+                maxX = int (centerX + avgWidth / 2)
+                minY = int (centerY - avgHeight / 2)
+                maxY = int (centerY + avgHeight / 2)
+                compRect = box(minX, minY, maxX, maxY)
+                # legendRectShapeBoxList.append(compRect)
+                compLegendRectList.append([compRect,textBbox] )
+        print('test')
+        colorCategoryList = []
+        # for legendRect in legendRectShapeBoxList:
+        #     startPoint = (int(legendRect.bounds[0]), int(legendRect.bounds[1]))
+        #     endPoint = (int(legendRect.bounds[2]), int(legendRect.bounds[3]))
+        #     crop_img = img[startPoint[1]:endPoint[1], startPoint[0]:endPoint[0]]
+            #print('test')
+
 
         # visualize results
         startPoint = (int(finalLegendBox.bounds[0]), int(finalLegendBox.bounds[1]))
         endPoint = (int(finalLegendBox.bounds[2]), int(finalLegendBox.bounds[3]))
         cv2.rectangle(img,startPoint,endPoint,(255, 0, 0),2)
+        for legendRect in legendRectShapeBoxList:
+            startPoint = (int(legendRect.bounds[0]), int(legendRect.bounds[1]))
+            endPoint = (int(legendRect.bounds[2]), int(legendRect.bounds[3]))
+            cv2.rectangle(img,startPoint,endPoint,(0, 255, 0),2)
+
+        for TextRect in newLegendTextShapelyBoxList:
+            startPoint = (int(TextRect.bounds[0]), int(TextRect.bounds[1]))
+            endPoint = (int(TextRect.bounds[2]), int(TextRect.bounds[3]))
+            cv2.rectangle(img,startPoint,endPoint,(0, 0, 255),2)
+
+        # cv2.rectangle(img,startPoint,endPoint,(255, 0, 0),2)
         cv2.imshow(imgName, img)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
-        print('test')
-        
 
-    print('test')
-    # with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResults.pickle', 'wb') as f:
-	#     pickle.dump(titleResults,f)
+        #### No need to crop the image to get the US boundary
+        # crop_img = img[startPoint[1]:endPoint[1], startPoint[0]:endPoint[0]]
+        # unionLegendShapelyBox = unionLegendShapelyBox
+        # legendRectShapeBoxList = getRectShapeBox(crop_img, unionLegendShapelyBox, legendTextShapelyBoxList)
+
+        # cv2.imshow("cropped", crop_img)
+        # cv2.waitKey(0)  
+        # print('test')
 
 if __name__ == "__main__":    main()

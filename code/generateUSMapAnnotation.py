@@ -1,7 +1,7 @@
 # @author: Jialin Li
 # @date: 10/26/2020
 # @comments: generate choropleth map with vertical or horizontally aligned legend
-# covering geographic regions of the world, US, Canada, Austrilia and Europe
+# covering geographic regions of the world, US, Canada, Australia Europed
 
 # libaries ---------- basic
 from PIL import Image
@@ -12,7 +12,7 @@ import matplotlib.image as mpimg
 import os
 import random
 from mpl_toolkits.basemap import Basemap
-from matplotlib.patches import Polygon
+from matplotlib.patches import Polygon,Rectangle
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import PathPatch
 from scipy.spatial import ConvexHull, Voronoi
@@ -455,8 +455,8 @@ def get_concat_v(im1, im2):
     dst.paste(im2, (0, im1.height))
     return dst
 
-path = 'C:\\Users\\jiali\\Desktop\\Map_Identification_Classification\\world map generation\\'
-shpFileName = 'shpfile/cartogram/pop2007_0'
+path = r'C:\Users\jiali\Desktop\MapElementDetection\code\shpFiles'
+shpFileName = 'USA_ADM1.shp\\USA_ADM1'
 strList = []
 
 # draw world map
@@ -467,14 +467,15 @@ def drawWmap(index, filename):
     asp_x = random.randint(7, 8)
     asp_y = random.randint(4, 5)
 
-    fig = plt.figure(figsize=(8, 4), dpi=1000)
+    fig = plt.figure(figsize=(8, 4), dpi=150)
+    r = fig.canvas.get_renderer()
 
     # 1. size and location
     mapSize = getSize()
     # x1, y1, x2, y2 = 73.62, 18.16, 134.76, 53.55 # china wgs84
-    # x1, y1, x2, y2 = -124.70, 24.94, -66.97, 49.37 # US
+    x1, y1, x2, y2 = -124.70, 20, -66.97, 49.37 # US
     # x1, y1, x2, y2 = 126.11, 33.18, 129.58, 38.62 # South Korea
-    x1, y1, x2, y2 = -141.00, 41.67, -52.61, 83.11 # Canada
+    # x1, y1, x2, y2 = -141.00, 41.67, -52.61, 83.11 # Canada
     # x1, y1, x2, y2 = 112.91, -43.66, 153.62, -10.71 # Austrilia
     # x1, y1, x2, y2 = -10.47, 34.92, 40.17, 71.11 # Europe
 
@@ -482,8 +483,10 @@ def drawWmap(index, filename):
     deltaY = y2 - y1
 
     # map location and bounding box
-    m = Basemap(lon_0=0, 
-                projection='cyl', fix_aspect=True)
+    # m = Basemap(lon_0=0, 
+    #             projection='cyl', fix_aspect=True)
+    m = Basemap(llcrnrlon=x1, llcrnrlat=y1, urcrnrlon=x2, urcrnrlat=y2,
+                projection='lcc', lat_1=29, lat_2=45, lon_0=-95)
     # m.drawcoastlines(linewidth=0.25)
     # m.drawcountries(linewidth=0.25)
 
@@ -496,7 +499,7 @@ def drawWmap(index, filename):
     # read polygon information from shape file, only show admin0 and admin1
     if (admin_level == 0):
         shp_info = m.readshapefile(
-            path + shpFileName, 'state', drawbounds=True, linewidth=0.01)
+            path +'\\' + shpFileName, 'state', drawbounds=True, linewidth=0.01)
         # 3. color scheme
         colorscheme = getcolor_scheme()
         # 4. if show text on each state
@@ -511,15 +514,26 @@ def drawWmap(index, filename):
         # 8. identify the opacity value
         opaVal = getValue()
         printed_names = []
+        stateShapeList = []
         for info, shape in zip(m.state_info, m.state):
             # if (mapTexture == 1):
             #     poly = Polygon(shape, facecolor=getColor(len(info['CNTRY_NAME']), colorscheme),
             #                    edgecolor='k', alpha=opaVal, linewidth=0.5, hatch=getTexture())
             # else:
-            poly = Polygon(shape, facecolor=getColor(len(info['CNTRY_NAME']), colorscheme),
+            poly = Polygon(shape, facecolor=getColor(len(info['NAME']), colorscheme),
                                alpha=opaVal, edgecolor='k', linewidth=0.05)
+            # t = poly.get_window_extent(renderer=r)
+            poly_patch = ax.add_patch(poly)
+            stateShape = poly_patch.get_window_extent(renderer=r)
+            stateShapeList.append(stateShape)
+            # x1 = stateShape.bounds[0] 
+            # y1 = stateShape.bounds[1] 
+            # wid = stateShape.bounds[2] 
+            # heig = stateShape.bounds[3] 
 
-            ax.add_patch(poly)
+            # rect = Rectangle((x1,y1),wid,heig,linewidth=1,edgecolor='b',facecolor='none')
+
+            # ax.add_patch(rect)
 
             # add text on each state
             if (isStateName != 0):
@@ -527,7 +541,7 @@ def drawWmap(index, filename):
                 hull = ConvexHull(shape)
                 hull_points = np.array(shape)[hull.vertices]
                 x, y = hull_points.mean(axis=0)
-                short_name = info['CNTRY_NAME']
+                short_name = info['NAME']
                 if short_name in printed_names:
                     continue
                 if (isStateName == 1):
@@ -552,51 +566,36 @@ def drawWmap(index, filename):
     mapBackground = getBackgroundColor()
     ax.set_facecolor(mapBackground)
 
-    # store the information into meta
-    # plt.show()
-    plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
-    # plt.show()
-    plt.savefig(path+filename)
-    # plt.savefig(path+filename,bbox_inches='tight',pad_inches=0.5)
-    plt.close()
-    original = Image.open(path+filename)
-    width, height = original.size   # Get dimensions
+    # # store the information into meta
+    # # plt.show()
+    # plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
+    # # plt.show()
+    # plt.savefig(path+filename)
+    # # plt.savefig(path+filename,bbox_inches='tight',pad_inches=0.5)
+    # plt.close()
+    # original = Image.open(path+filename)
+    # width, height = original.size   # Get dimensions
 
-    # left = (x1 - (-180)-deltaX/20 + 45)/360  * width  # us merc
-    # top = (90 - y2 - deltaY/20 + 13) / 180 *height
-    # right = (x2 - (-180)+deltaX/20 + 23)/360 * width
-    # bottom = (90 - y1 + deltaY/20 + 8) / 180 * height 
+    # left = (x1 - (-180)-deltaX/20 )/360  * width   # standard cyl
+    # top = (90 - y2 - deltaY/20 ) / 180 *height
+    # right = (x2 - (-180)+deltaX/20 )/360 * width
+    # bottom = (90 - y1 + deltaY/20 ) / 180 * height
+    # # croppedImage = original.crop((left, top, right, bottom))
 
-    # left = (x1 - (-180)-deltaX/20 -25)/360  * width   # china merc
-    # top = (90 - y2 - deltaY/20 +13) / 180 *height
-    # right = (x2 - (-180)+deltaX/20 -49 )/360 * width
-    # bottom = (90 - y1 + deltaY/20 +6 ) / 180 * height
-
-    # left = (x1 - (-180)-deltaX/20 +10.5)/360  * width   # sk merc with china coordinates
-    # top = (90 - y2 - deltaY/20 +28) / 180 *height
-    # right = (x2 - (-180)+deltaX/20  -54)/360 * width
-    # bottom = (90 - y1 + deltaY/20 -6 ) / 180 * height
-
-    left = (x1 - (-180)-deltaX/20 )/360  * width   # standard cyl
-    top = (90 - y2 - deltaY/20 ) / 180 *height
-    right = (x2 - (-180)+deltaX/20 )/360 * width
-    bottom = (90 - y1 + deltaY/20 ) / 180 * height
     # croppedImage = original.crop((left, top, right, bottom))
 
-    croppedImage = original.crop((left, top, right, bottom))
 
+    # # rightImage.show()
+    # # leftImage.show()Image.show()
+    # # croppedImage.show()
+    # croppedImage.save(path+filename)
 
-    # rightImage.show()
-    # leftImage.show()Image.show()
-    # croppedImage.show()
-    croppedImage.save(path+filename)
-
-    img = mpimg.imread(path+filename)
-    fig = plt.figure(dpi=150)
-    r = fig.canvas.get_renderer()
-    ax = plt.gca()  # get current axes instance
-    # fig = plt.figure(figsize=(asp_x, asp_y), dpi=150)
-    imgplot = plt.imshow(img)
+    # img = mpimg.imread(path+filename)
+    # fig = plt.figure(dpi=150)
+    # r = fig.canvas.get_renderer()
+    # ax = plt.gca()  # get current axes instance
+    # # fig = plt.figure(figsize=(asp_x, asp_y), dpi=150)
+    # imgplot = plt.imshow(img)
 
     # 11. if add title
     title = getTitle()
@@ -604,6 +603,8 @@ def drawWmap(index, filename):
     bb_t = t.get_window_extent(renderer=r)
     width_t = bb_t.width
     height_t = bb_t.height
+
+    
     # print('width_t:',width_t)
     # print('height_t:',height_t)
     # plt.show()
@@ -633,18 +634,20 @@ def drawWmap(index, filename):
             showLegend = 0
     else:
         showLegend = 0
-    # plt.show()
+    plt.show()
 
-    # legend size
+    # # legend size
     if showLegend != 0:
         bb_l = l.get_window_extent(renderer=r)
         width_l = bb_l.width
         height_l = bb_l.height
 
-    # figure size
+    # # figure size
     bb_fig = fig.get_window_extent(renderer = r)
     width_fig = bb_fig.width
     height_fig = bb_fig.height
+
+    
 
     # add title position to strList
     if title != '':
@@ -654,19 +657,21 @@ def drawWmap(index, filename):
         heig = bb_t.bounds[3] / height_fig
         strLine = filename + ',' + str(x1) + ',' + str(y1) + ',' + str(wid) + ',' + str(heig) + ',0' + '\n'
         strList.append(strLine)
-
-    # add legend position to strList
-    if showLegend != 0:
-        x1 = bb_l.bounds[0] / width_fig
-        y1 = bb_l.bounds[1] / height_fig
-        wid = bb_l.bounds[2] / width_fig
-        heig = bb_l.bounds[3] / height_fig
-        strLine = filename + ',' + str(x1) + ',' + str(y1) + ',' + str(wid) + ',' + str(heig) + ',1' + '\n'
-        strList.append(strLine)
+        rect = plt.Rectangle((x1, y1),wid,heig, fill=False,
+                                  edgecolor='b', linewidth=2.5)
+        plt.gca().add_patch(rect)
+    # # add legend position to strList
+    # if showLegend != 0:
+    #     x1 = bb_l.bounds[0] / width_fig
+    #     y1 = bb_l.bounds[1] / height_fig
+    #     wid = bb_l.bounds[2] / width_fig
+    #     heig = bb_l.bounds[3] / height_fig
+    #     strLine = filename + ',' + str(x1) + ',' + str(y1) + ',' + str(wid) + ',' + str(heig) + ',1' + '\n'
+    #     strList.append(strLine)
 
     # remove borders
     plt.axis('off')
-    plt.savefig(path+filename)
+    plt.savefig(path + '\\' + filename)
     plt.close()
     plt.show()
 
