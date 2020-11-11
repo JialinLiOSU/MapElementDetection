@@ -93,10 +93,10 @@ showLegend = 0  # show map color legend
 
 # us state name and acronym
 short_state_names = {
-    'AK': 'Alaska',
+    # 'AK': 'Alaska',
     'AL': 'Alabama',
     'AR': 'Arkansas',
-    'AS': 'American Samoa',
+    # 'AS': 'American Samoa',
     'AZ': 'Arizona',
     'CA': 'California',
     'CO': 'Colorado',
@@ -105,8 +105,8 @@ short_state_names = {
         'DE': 'Delaware',
         'FL': 'Florida',
         'GA': 'Georgia',
-        'GU': 'Guam',
-        'HI': 'Hawaii',
+        # 'GU': 'Guam',
+        # 'HI': 'Hawaii',
         'IA': 'Iowa',
         'ID': 'Idaho',
         'IL': 'Illinois',
@@ -120,7 +120,7 @@ short_state_names = {
         'MI': 'Michigan',
         'MN': 'Minnesota',
         'MO': 'Missouri',
-        'MP': 'Northern Mariana Islands',
+        # 'MP': 'Northern Mariana Islands',
         'MS': 'Mississippi',
         'MT': 'Montana',
         'NA': 'National',
@@ -136,7 +136,7 @@ short_state_names = {
         'OK': 'Oklahoma',
         'OR': 'Oregon',
         'PA': 'Pennsylvania',
-        'PR': 'Puerto Rico',
+        # 'PR': 'Puerto Rico',
         'RI': 'Rhode Island',
         'SC': 'South Carolina',
         'SD': 'South Dakota',
@@ -144,7 +144,7 @@ short_state_names = {
         'TX': 'Texas',
         'UT': 'Utah',
         'VA': 'Virginia',
-        'VI': 'Virgin Islands',
+        # 'VI': 'Virgin Islands',
         'VT': 'Vermont',
         'WA': 'Washington',
         'WI': 'Wisconsin',
@@ -472,12 +472,11 @@ def drawWmap(index, filename):
 
     # 1. size and location
     mapSize = getSize()
-    # x1, y1, x2, y2 = 73.62, 18.16, 134.76, 53.55 # china wgs84
-    x1, y1, x2, y2 = -124.70, 20, -66.97, 49.37 # US
-    # x1, y1, x2, y2 = 126.11, 33.18, 129.58, 38.62 # South Korea
-    # x1, y1, x2, y2 = -141.00, 41.67, -52.61, 83.11 # Canada
-    # x1, y1, x2, y2 = 112.91, -43.66, 153.62, -10.71 # Austrilia
-    # x1, y1, x2, y2 = -10.47, 34.92, 40.17, 71.11 # Europe
+    widthImage = 933
+    heightImage = 396
+    # x1, y1, x2, y2 = -117.70, 21, -63.97, 50.37 # US
+    x1, y1, x2, y2 = -124.70, 24.8, -66.97, 49.37 # US
+
 
     deltaX = x2 - x1
     deltaY = y2 - y1
@@ -485,16 +484,16 @@ def drawWmap(index, filename):
     # map location and bounding box
     # m = Basemap(lon_0=0, 
     #             projection='cyl', fix_aspect=True)
+    # m = Basemap(llcrnrlon=x1, llcrnrlat=y1, urcrnrlon=x2, urcrnrlat=y2,
+    #             projection='lcc', lat_1=29, lat_2=45, lon_0=-95)
     m = Basemap(llcrnrlon=x1, llcrnrlat=y1, urcrnrlon=x2, urcrnrlat=y2,
-                projection='lcc', lat_1=29, lat_2=45, lon_0=-95)
-    # m.drawcoastlines(linewidth=0.25)
-    # m.drawcountries(linewidth=0.25)
+                projection='cyl', lat_0 = (y1 + y2) / 2,  lon_0 = (x1 + x2) / 2)
 
     # 2. administraitive level
     admin_level = 0
 
     ax = plt.gca()  # get current axes instance
-    # ax = plt.Axes(fig, [0.25, 0.25, 0.75, 0.75], )
+
 
     # read polygon information from shape file, only show admin0 and admin1
     if (admin_level == 0):
@@ -505,7 +504,7 @@ def drawWmap(index, filename):
         # 4. if show text on each state
         isStateName = get_IsStateName()
         # 5. identify the text size
-        font_size = random.randint(1, 2)
+        font_size = 5
         # font_size = 0.5
         # 6. if add texture # no textures needed
         # mapTexture = isTexture()
@@ -515,6 +514,7 @@ def drawWmap(index, filename):
         opaVal = getValue()
         printed_names = []
         stateShapeList = []
+        continentStateNames = short_state_names.values()
         for info, shape in zip(m.state_info, m.state):
             # if (mapTexture == 1):
             #     poly = Polygon(shape, facecolor=getColor(len(info['CNTRY_NAME']), colorscheme),
@@ -524,24 +524,33 @@ def drawWmap(index, filename):
                                alpha=opaVal, edgecolor='k', linewidth=0.05)
             # t = poly.get_window_extent(renderer=r)
             poly_patch = ax.add_patch(poly)
-            stateShape = poly_patch.get_window_extent(renderer=r)
-            stateShapeList.append(stateShape)
-            # x1 = stateShape.bounds[0] 
-            # y1 = stateShape.bounds[1] 
-            # wid = stateShape.bounds[2] 
-            # heig = stateShape.bounds[3] 
 
-            # rect = Rectangle((x1,y1),wid,heig,linewidth=1,edgecolor='b',facecolor='none')
+            # geographic coordinates
+            xMin, xMax = min(shape)[0],max(shape)[0]
+            yMin, yMax = min(shape)[1],max(shape)[1]
 
-            # ax.add_patch(rect)
+            # image coordinates
+            xMinState = (xMin - x1)/(x2 - x1) * widthImage
+            xMaxState = (xMax - x1)/(x2 - x1) * widthImage
+            yMinState = (y2 - yMin)/(y2 - y1) * heightImage
+            yMaxState = (y2 - yMax)/(y2 - y1) * heightImage
+            strLine = filename + ',' + str(xMinState) + ',' + str(yMinState) + ',' + str(xMaxState - xMinState) \
+                                + ',' + str(abs(yMaxState - yMinState)) + ',' + info['NAME'] + '\n'
+            strList.append(strLine)
+            # rect = plt.Rectangle((xMinState, yMinState),xMaxState - xMinState,yMaxState - yMinState, fill=False,edgecolor='b', linewidth=2.5)
+            # plt.gca().add_patch(rect)
 
             # add text on each state
-            if (isStateName != 0):
+            # isStateName = 1
+            if (isStateName != 0 and info['NAME'] in continentStateNames):
                 x, y = np.array(shape).mean(axis=0)
                 hull = ConvexHull(shape)
                 hull_points = np.array(shape)[hull.vertices]
                 x, y = hull_points.mean(axis=0)
                 short_name = info['NAME']
+                if short_name == 'Florida':
+                    y = y + 0.5
+                    x = x + 0.5
                 if short_name in printed_names:
                     continue
                 if (isStateName == 1):
@@ -580,7 +589,7 @@ def drawWmap(index, filename):
     # top = (90 - y2 - deltaY/20 ) / 180 *height
     # right = (x2 - (-180)+deltaX/20 )/360 * width
     # bottom = (90 - y1 + deltaY/20 ) / 180 * height
-    # # croppedImage = original.crop((left, top, right, bottom))
+    # croppedImage = original.crop((left, top, right, bottom))
 
     # croppedImage = original.crop((left, top, right, bottom))
 
@@ -598,68 +607,65 @@ def drawWmap(index, filename):
     # imgplot = plt.imshow(img)
 
     # 11. if add title
-    title = getTitle()
-    t = plt.title(title,y=-0.1)
-    bb_t = t.get_window_extent(renderer=r)
-    width_t = bb_t.width
-    height_t = bb_t.height
+    # title = getTitle()
+    # t = plt.title(title,y=-0.1)
+    # bb_t = t.get_window_extent(renderer=r)
+    # width_t = bb_t.width
+    # height_t = bb_t.height
 
-    
     # print('width_t:',width_t)
     # print('height_t:',height_t)
     # plt.show()
     # 12. if add legends
-    bbox_to_anchor=(0.7, 1) # position of legends
-    numCol = 5
-    if (colorscheme >= 4):
-        showLegend = 1
-        loc_var = random.randint(1, 5)
-        if (loc_var == 1):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
-                        prop={'size': 6},ncol = numCol)
-        elif (loc_var == 2):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
-                        prop={'size': 6},ncol = numCol)
-        elif (loc_var == 3):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
-                        prop={'size': 6},ncol = numCol)
-        elif (loc_var == 4):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
-                        prop={'size': 6},ncol = numCol)
-        else:
-            showLegend = 0
-    else:
-        showLegend = 0
-    plt.show()
+    # bbox_to_anchor=(0.7, 1) # position of legends
+    # numCol = 5
+    # if (colorscheme >= 4):
+    #     showLegend = 1
+    #     loc_var = random.randint(1, 5)
+    #     if (loc_var == 1):
+    #         p1, p2, p3, p4, p5 = getLegend(colorscheme)
+    #         l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
+    #                     prop={'size': 6},ncol = numCol)
+    #     elif (loc_var == 2):
+    #         p1, p2, p3, p4, p5 = getLegend(colorscheme)
+    #         l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
+    #                     prop={'size': 6},ncol = numCol)
+    #     elif (loc_var == 3):
+    #         p1, p2, p3, p4, p5 = getLegend(colorscheme)
+    #         l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
+    #                     prop={'size': 6},ncol = numCol)
+    #     elif (loc_var == 4):
+    #         p1, p2, p3, p4, p5 = getLegend(colorscheme)
+    #         l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
+    #                     prop={'size': 6},ncol = numCol)
+    #     else:
+    #         showLegend = 0
+    # else:
+    #     showLegend = 0
+    # plt.show()
 
     # # legend size
-    if showLegend != 0:
-        bb_l = l.get_window_extent(renderer=r)
-        width_l = bb_l.width
-        height_l = bb_l.height
+    # if showLegend != 0:
+    #     bb_l = l.get_window_extent(renderer=r)
+    #     width_l = bb_l.width
+    #     height_l = bb_l.height
 
     # # figure size
-    bb_fig = fig.get_window_extent(renderer = r)
-    width_fig = bb_fig.width
-    height_fig = bb_fig.height
-
-    
+    # bb_fig = fig.get_window_extent(renderer = r)
+    # width_fig = bb_fig.width
+    # height_fig = bb_fig.height
 
     # add title position to strList
-    if title != '':
-        x1 = bb_t.bounds[0] / width_fig
-        y1 = bb_t.bounds[1] / height_fig
-        wid = bb_t.bounds[2] / width_fig
-        heig = bb_t.bounds[3] / height_fig
-        strLine = filename + ',' + str(x1) + ',' + str(y1) + ',' + str(wid) + ',' + str(heig) + ',0' + '\n'
-        strList.append(strLine)
-        rect = plt.Rectangle((x1, y1),wid,heig, fill=False,
-                                  edgecolor='b', linewidth=2.5)
-        plt.gca().add_patch(rect)
+    # if title != '':
+    #     x1 = bb_t.bounds[0] / width_fig
+    #     y1 = bb_t.bounds[1] / height_fig
+    #     wid = bb_t.bounds[2] / width_fig
+    #     heig = bb_t.bounds[3] / height_fig
+    #     strLine = filename + ',' + str(x1) + ',' + str(y1) + ',' + str(wid) + ',' + str(heig) + ',0' + '\n'
+    #     strList.append(strLine)
+    #     rect = plt.Rectangle((x1, y1),wid,heig, fill=False,
+    #                               edgecolor='b', linewidth=2.5)
+    #     plt.gca().add_patch(rect)
     # # add legend position to strList
     # if showLegend != 0:
     #     x1 = bb_l.bounds[0] / width_fig
@@ -670,8 +676,8 @@ def drawWmap(index, filename):
     #     strList.append(strLine)
 
     # remove borders
-    plt.axis('off')
-    plt.savefig(path + '\\' + filename)
+    # plt.axis('off')
+    plt.savefig(path + '\\' + filename,bbox_inches='tight',pad_inches=0.01)
     plt.close()
     plt.show()
 
@@ -1097,7 +1103,7 @@ def drawWmapProjectionStyle(index, filename):
 
 def main():
     
-    for i in range(0,20):
+    for i in range(0,1):
         # for i in range(len(meta_data)):
         filename = 'generated_legend_CA_' + str(i) + '.png'
         # if(i >= 40 and i < 50):
@@ -1115,7 +1121,7 @@ def main():
     file = open(path + filename,'a')
     file.writelines(strList)
     # file.writelines(incorrectImgNameStrList)
-    file.close() 
+    # file.close() 
 
 
 if __name__ == "__main__":

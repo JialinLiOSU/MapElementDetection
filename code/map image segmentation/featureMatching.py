@@ -2,11 +2,13 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-path = r'C:\Users\jiali\Desktop\MapElementDetection\code\map image segmentation\sample images'
+path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\original size choro maps'
 
 
-img1 = cv2.imread(path + '\\' +'ChoImg14.jpg',0)          # queryImage
-img2 = cv2.imread(path + '\\' +'ChoImg21.jpg',0) # trainImage
+# img1 = cv2.imread(path + '\\' +'15.7398965884_f0b7e9c177_c.jpg',0)          # queryImage
+img1 = cv2.imread(path + '\\' +'22.Map.jpg',0) # trainImage
+
+img2 = cv2.imread(path + '\\' +'35.lab-7.jpg',0) # trainImage
 
 print(cv2.__version__)
 
