@@ -10,6 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import os
+import sys
 import random
 from mpl_toolkits.basemap import Basemap
 from matplotlib.patches import Polygon,Rectangle
@@ -472,10 +473,10 @@ def drawWmap(index, filename):
 
     # 1. size and location
     mapSize = getSize()
-    widthImage = 933
-    heightImage = 396
-    # x1, y1, x2, y2 = -117.70, 21, -63.97, 50.37 # US
-    x1, y1, x2, y2 = -124.70, 24.8, -66.97, 49.37 # US
+    widthImage = 698
+    heightImage = 464
+    x1, y1, x2, y2 = -117.60, 21.1, -64.05, 50.37 # US  lcc
+    # x1, y1, x2, y2 = -124.70, 24.8, -66.97, 49.37 # US cyl
 
 
     deltaX = x2 - x1
@@ -487,7 +488,7 @@ def drawWmap(index, filename):
     # m = Basemap(llcrnrlon=x1, llcrnrlat=y1, urcrnrlon=x2, urcrnrlat=y2,
     #             projection='lcc', lat_1=29, lat_2=45, lon_0=-95)
     m = Basemap(llcrnrlon=x1, llcrnrlat=y1, urcrnrlon=x2, urcrnrlat=y2,
-                projection='cyl', lat_0 = (y1 + y2) / 2,  lon_0 = (x1 + x2) / 2)
+                projection='lcc', lat_0 = (y1 + y2) / 2,  lon_0 = (x1 + x2) / 2)
 
     # 2. administraitive level
     admin_level = 0
@@ -504,7 +505,7 @@ def drawWmap(index, filename):
         # 4. if show text on each state
         isStateName = get_IsStateName()
         # 5. identify the text size
-        font_size = 5
+        font_size = 4
         # font_size = 0.5
         # 6. if add texture # no textures needed
         # mapTexture = isTexture()
@@ -515,6 +516,25 @@ def drawWmap(index, filename):
         printed_names = []
         stateShapeList = []
         continentStateNames = short_state_names.values()
+        # get range of US continent
+        xMinUScont, xMaxUScont = sys.maxsize,-sys.maxsize
+        yMinUScont, yMaxUScont = sys.maxsize,-sys.maxsize
+        for info, shape in zip(m.state_info, m.state):
+            if info['NAME'] in continentStateNames:
+                hull = ConvexHull(shape)
+                hull_points = np.array(shape)[hull.vertices]
+                xMax, yMax = hull_points.max(axis=0)
+                xMin, yMin = hull_points.min(axis=0)
+
+                if xMin < xMinUScont:
+                    xMinUScont = xMin
+                if xMax > xMaxUScont:
+                    xMaxUScont = xMax
+                if yMin < yMinUScont:
+                    yMinUScont = yMin
+                if yMax > yMaxUScont:
+                    yMaxUScont = yMax
+
         for info, shape in zip(m.state_info, m.state):
             # if (mapTexture == 1):
             #     poly = Polygon(shape, facecolor=getColor(len(info['CNTRY_NAME']), colorscheme),
@@ -526,15 +546,20 @@ def drawWmap(index, filename):
             poly_patch = ax.add_patch(poly)
 
             # geographic coordinates
-            xMin, xMax = min(shape)[0],max(shape)[0]
-            yMin, yMax = min(shape)[1],max(shape)[1]
+            # xMin, xMax = min(shape)[0],max(shape)[0]
+            # yMin, yMax = min(shape)[1],max(shape)[1]
+
+            hull = ConvexHull(shape)
+            hull_points = np.array(shape)[hull.vertices]
+            xMax, yMax = hull_points.max(axis=0)
+            xMin, yMin = hull_points.min(axis=0)
 
             # image coordinates
-            xMinState = (xMin - x1)/(x2 - x1) * widthImage
-            xMaxState = (xMax - x1)/(x2 - x1) * widthImage
-            yMinState = (y2 - yMin)/(y2 - y1) * heightImage
-            yMaxState = (y2 - yMax)/(y2 - y1) * heightImage
-            strLine = filename + ',' + str(xMinState) + ',' + str(yMinState) + ',' + str(xMaxState - xMinState) \
+            xMinState = (xMin - xMinUScont)/(xMaxUScont - xMinUScont) * widthImage
+            xMaxState = (xMax - xMinUScont)/(xMaxUScont - xMinUScont) * widthImage
+            yMinState = (yMaxUScont - yMin)/(yMaxUScont - yMinUScont) * heightImage
+            yMaxState = (yMaxUScont - yMax)/(yMaxUScont - yMinUScont) * heightImage
+            strLine = filename + ',' + str(xMinState) + ',' + str(min(yMinState,yMaxState)) + ',' + str(xMaxState - xMinState) \
                                 + ',' + str(abs(yMaxState - yMinState)) + ',' + info['NAME'] + '\n'
             strList.append(strLine)
             # rect = plt.Rectangle((xMinState, yMinState),xMaxState - xMinState,yMaxState - yMinState, fill=False,edgecolor='b', linewidth=2.5)
@@ -543,9 +568,9 @@ def drawWmap(index, filename):
             # add text on each state
             # isStateName = 1
             if (isStateName != 0 and info['NAME'] in continentStateNames):
-                x, y = np.array(shape).mean(axis=0)
-                hull = ConvexHull(shape)
-                hull_points = np.array(shape)[hull.vertices]
+                # x, y = np.array(shape).mean(axis=0)
+                # hull = ConvexHull(shape)
+                # hull_points = np.array(shape)[hull.vertices]
                 x, y = hull_points.mean(axis=0)
                 short_name = info['NAME']
                 if short_name == 'Florida':
@@ -676,7 +701,7 @@ def drawWmap(index, filename):
     #     strList.append(strLine)
 
     # remove borders
-    # plt.axis('off')
+    plt.axis('off')
     plt.savefig(path + '\\' + filename,bbox_inches='tight',pad_inches=0.01)
     plt.close()
     plt.show()
@@ -1103,9 +1128,9 @@ def drawWmapProjectionStyle(index, filename):
 
 def main():
     
-    for i in range(0,1):
+    for i in range(0,10):
         # for i in range(len(meta_data)):
-        filename = 'generated_legend_CA_' + str(i) + '.png'
+        filename = 'generated_annotated_USStates_lcc_' + str(i) + '.png'
         # if(i >= 40 and i < 50):
         drawWmap(i, filename)
         # elif(i >= 15 and i < 30):
@@ -1117,8 +1142,8 @@ def main():
         # drawWmapProjectionStyle(i,filename)
 
     # meta_data.to_csv('result.csv', index=False)
-    filename='generated_Hlegend_annotation_CA'+'.txt'
-    file = open(path + filename,'a')
+    filename='generated_annotation_USStates_lcc'+'.txt'
+    file = open(path +'\\'+ filename,'a')
     file.writelines(strList)
     # file.writelines(incorrectImgNameStrList)
     # file.close() 
