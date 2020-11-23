@@ -1129,7 +1129,7 @@ def drawWmapProjectionStyle(index, filename):
 
 def main():
     
-    for i in range(10,300):
+    for i in range(300,400):
         # for i in range(len(meta_data)):
         filename = 'generated_annotated_USStates_lcc_' + str(i) + '.png'
         # if(i >= 40 and i < 50):
