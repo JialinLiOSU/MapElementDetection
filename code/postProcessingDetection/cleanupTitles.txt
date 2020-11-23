@@ -1,0 +1,464 @@
+0095-choropleth.png,Example choropleth map_
+06_africa.png,lifeExp (2007)_
+0_lzCKe_IRiQwe1LsT.png,States and UTs_
+,Males per 100 Females, Census 2000_
+119.Choropleth+Map.jpg,Choropleth_Map_
+120.hero_cd29a563-0f10-4b43-bdfb-8e9b314be87f.jpg,Measles incidence per district_wave 8_
+122.US-map-7custom-pink-red-bigtitle.jpg,1990 Census Data_% of Population 65 and Older_
+127.hdi.jpg,Human Development Index_(Statistics reported from UNDP 2O01)_
+128.spatial-analysis-and-mortality-trends-associated-with-hypertensive-diseases-in-the-states.jpg,Mortality associated with arterial hypertension_Brazilian States, in 2014_
+12889_2019_6816_Fig2_HTML.png,Average rate per_IO,000 people_
+129.8452000518_7c3e940e98_b.jpg,Influenza Patents by Country_According to USPTO data_
+12942_2008_Article_214_Fig9_HTML.jpg,Dasymetric Map of Annual Avergage Daily Traffic Density_
+13.gg_state_temperatures.jpg,Average Temperature for the US States from July 2015_
+130.ebbf5fe2e68cdddcfd5bcdd5abcf13df.jpg,Value of Land:_tax assessment ofland, per sqft of dirt_
+131.choropleth.jpg,Map_Choropleth_
+132.hqdefault.jpg,Population Growth_
+133.Choropleth-demand-for-CIC-returnables-by-county.jpg,CIC Returnable Loans/Borrows by US County_Choropleth Map_
+134.excel-map-austria-maps-for-excel-com-choropleth-map-and-city-excel-map-chart-cities-630x380.jpg,In the end the map is updated by clicking the_button._
+135.set_GT300_maps.jpg,Percent of homes $300,000 and over_
+138.set_LT50_maps.jpg,Percent of homes less than $50,000_
+13zv949mq2k31.png,New Zealand Suicide Rate_District Health Board (DHB)_by_
+14.distribution-maps-12-638.jpg,World Life Expectancy Map_
+1428541392.jpg,DENSITY OF POPULATION, 2011_
+143.4055685.jpg,POPULATION DENSITY, 2000_
+,Population % white ethnic groups 2001_
+1495274-20200408_DM_Coronavirus_EEAS_world.png,DG ECHO Dally Map_Emergency Response Coordination Centre (ERCC)_COVID-19 pandemic worldwide__Coronavirus cases"|35 0f 08|04|_
+156.CDCSVIRI.jpg,Rhode Island_Social_Vulnerability_
+157.geographic-skills-choropleth-maps-5-638.jpg,Population of 2000 Census Block Groups
+1577694025396.jpeg,Median Household Income and Unrepaired Sinkholes_
+1578px-2011-2016_Life_Expectancy_map_for_India_by_states.svg.png,Life Expectancy_Indian states_
+158.dichtemosaik_natuerlich_thumb.jpg,Population in Europe_1:15000 L00_
+160.libya-oil-map.jpg,LIBYA'S POPULATION AND ENERGY PRODUCTION_
+1639px-India_population_density_map_en.svg.png,India Population Density_Map_
+165.census_minority_map.jpg,Minority group with_highest percent of_state population_Excludes White_nor Hispanic_
+167.30030c22b5e2cf42c901f7aeef02c381--water-scarcity-year-.jpg,MAP ES.1_The Estimated Effects of Water Scarcity on GDP in Year 2O5O_under Tvo Policy Regimes_
+175-choropleth-map-cartography-pkg1.png,Population in 2008_
+,Change in population density (%)_
+177.info-maps-q8-large.jpg,Map showing the HDI of countries_
+,Difference in Proportion of Fire Area Inside Interface Minus Outside_
+18.DHog3.jpg,2012 Population Estimates_
+182.county-income.jpg,Per Capita Income:_Per capila income in the past 12 months
+183.1f0734_151b07fcea40417e8f69a479f96f7772.jpg,Population density of Vancouver (by dissemination areas), 2011_
+187.slide_3.jpg,Change in Divorce Rates_Between 1980 and 1990_
+189.76d6e6d6cca06e42644e9e2c529dbf63--choropleth-map-cartography.jpg,Crime Rates in the US_2003_
+192.map-catalog-gis-3015-univariate-choropleth-map-percentage_fb_grafy.jpg,Percentage of the People Living in Poverty Areas_by State: 2006-2010_
+1955d4e7523561b7958b9df5784e73a4.jpg,Religious Diversity in the U.S.,2010_
+199.Nw8V1pM.jpg,2016 Median income in Pennsylvania counties_
+1f6a29ce45395da48e112618eb1f5a7c.png,France's population density,_1821_
+,Home, ownership rate_
+1_9ofmQoo_PKs4naq9ByojPA.png,District Wise Crime against women in India in 2015_
+1_abd6Vjl2b63X3G8GcUekxQ.png,Preventable death rate in London_
+1_e0ncdSQp1wZRX-wSO-JsRg.png,Share of adults defined as obese, 2016_
+,Share of High School Students Attending a School with a Sworn Law Enforcement Officer
+1_nXWOLkkaxpvhG-NmmcxYSQ.png,Human Poverty Index Map_
+1_N_qhyRhUKn8yMRq9iSI7Jw.png,Reported cases per 100 000 people_(as of 4 May 2020)_
+1_PlIGVl-6357v4TG-1kY3Xg.png,State Wise Crime against women in India in 2015_
+1_QclVXreJxsnUKbTxZgB_vQ.png,Share of adults who are obese, 2016_
+21.8264524_f520.jpg,Average annual rainfall_across the states of the United States of America_
+22.Map.jpg,Estimated Median Household Income_2008_Contiguous United States_
+22.png,Incidence of total crimes against women in India in 2OO1_
+23.4_Choropleth_Map-01.jpg,U.S. Population Change_
+26.Vulnerable_Countries.jpg,CO2 emissions per capita_
+27.KGdR9.jpg,Figure 1: There is Rapid Population Growth in Areas with Many Vulnerable Species_
+27851079-32a9075c-6176-11e7-96dd-e4dd80b6010e.png,Retailers Geospatial Analysis_
+296149423.png,GDP Per Capita_Mainland China_(2004)_
+3.urbanization_1960.jpg,Percentage of Country's Population Living in Urban Areas, 196O_
+30.png,Florida Democratic Primary 2016_Percent of Total Votes by County_
+31.hqdefault.jpg,POPULATION DENSITY_ASIA 2009_
+31664.jpg,Freshwater availability,_cubic metres per person and per year, 2007_
+,Canada's Population Density by Ecozones_
+,population_
+,population_
+35.lab-7.jpg,Percent of People Below Poverty Level 2004_
+40537_2019_228_Fig2_HTML.png,Number of Crimes_City_Mexico_January 2O13 to September 2016_
+40e0c42d-1cf2-48f8-91fa-35f88a843ca8.jpg,NVC 311 Street Complaints by Community Dlstrict_
+41680611-a2c91b58-74c1-11e8-841c-37284f8cb394.png,USA by Unemployment %_
+4348e3e6abaf165b750559b8a2f2ae2d.jpg,Arranged marriages with no consent_
+45.22761a819155638e14a3c767cab9cf4a.jpg,Percent Change, 1990 to 2000_and_Population Density, 1990_
+,2010 Per Capita CO2 Emissions_
+51.4cb2e4f4601e6d382bdd1a871ccf90b3.jpg,A: Tatal number_frauds in 2O12 per_thousand people by local authority area_
+51c99613a30aa95eb7b9651d37119a45.png,Tamilnadu District Level Literacy Map_
+53.choropleth.jpg,OXBRIDGE OFFER RATE_PER POPULATION MAP_
+58.choroplethex.jpg,Planted Soybeans_2008_Normalized by County Acreage_
+586_Project1.png,Texas Congressional Districts_November 2002 Federal Election Results_
+,Males per 100 Females, Census 2000
+6487318_orig.png,Maternal Mortality Rate of African Countries_
+68.pasted-graphic.jpg,Percent Hispanic or Latino (of any race_
+6a00e554d9fb998833017ee617a7ce970d.png,Germany by ZIP Codes ("PLZ2")_Choropleth Map_
+6a00e554d9fb99883301b8d28e335a970c.png,US Choropleth County Map per State_Unemployment Rates_
+6a010534b1db25970b0133f13629f4970b-600wi.png,Homicide rate by municipality, 2008
+6a010534b1db25970b01b8d24b47ed970c-800wi.png,Switzerland's regional demographics_Average age in Swiss municipalities, 2015_
+7.7886413.jpg,US Population Density_Hover over_state_
+710-7101181_population-densities-in-spain.png,DISTRIBUTION OF THE SPANISH POPULATIOI(2005)_
+7270488_orig.jpg,Mobile Cellular Telephones_in Europe_2006_
+,Unemployment rate (%)
+76.8980794_orig.jpg,worldatlas_
+,SUM of Fertility rate_
+7756564.png,Total CO2 emissions_[2004)_
+78373539-5c529580-75e8-11ea-9fe2-bf261367177a.jpg,IChennai confirmed COVID-19 cases by zones]_
+,Population/Square Mile_
+,Population per square mile by state
+,Native American Alon/One or More Other Races
+83.png,Alcoholic Drinks_On-Trade (%) by Countries_
+831a5a86b7a4e45711f408e8c7bbf0f7.png,Literacy rate map_
+84.Choropleth_US_libs_by_county.jpg,Number of WorldCat Libraries by US County_Choropleth Map_
+854589958.jpg,Canada_Percentage of population_aged 14 years and under_by 2OO6 Census Division ICDI_
+,African countries by GDP (PPP) per capita in 2007 (millions of Int$)
+92.Choropleth+Map.jpg,Asian Population in Continental U.S._
+94552e0bbffd6c965c3bf5b2d31f4597.png,Population density map, Indian states_
+,Lowest Temperature Ever Recorded (C)
+,Population density
+97.figure3.3-en.jpg,Adult obesity_by health regian_2005
+,Population density by postcode sector, Census 2011
+,Population with difficulty walking by Census Tract
+99.obesity-2010.jpg,Obesity Trends* Among U.S. Adults_BRFSS, 2010_
+,Population
+,Tariff
+a-2.png,City_ZCTA Population Estimates_2012 New York_
+a-c-Maps-of-Africa-showing-age-standardised-rates-of-cervical-cancer-incidence-a.png,Incidence of cervical cancer in sub-Saharan Africa_
+A-choropleth-map-of-California_Q640.jpg, Population Count
+a327d823972ceb9a165fcaa2464f24c1.png,Life expectancy at birth in Europe_(both sexes, 2015)
+Academies-graphic---use-t-001.jpg,Schools interested in being academies_
+admin1_choropleth-1.png,2010 Japan Population Estimates_
+admin1_choropleth-2.png,2010 Japan Population Estimates_
+africa-global-hunger.jpg, Percent of Children Age 0-5 underweight
+Africa-life-expectancy.jpg,AFRICA_Life Expectancy at Birth_
+Africa_Population_Density.jpg,Africa Population Density_
+Africa_PVOUT_mid-size-map_156x185mm-300dpi_v20180611.preview.jpg,PHOTOVOLTAIC POWER POTENTIAL_AFRICA_
+,Number of Cities_
+argdens.jpg,POPULATION DENSITY,2000_Argentina_
+,Population per sq. mile_
+Bivariate choropleth map.jpg,LAND USE, LIFE EXPECTANCY, AND GNP PER CAPITA IN AFRICA, 1989
+blf.jpg,Black Population in the Continental U.S. in 2000_
+blog-post-ch3-7.jpg,Reported coronavirus cases worldwide_As of March 17,2020_
+bluemap.png,Coronavirus in China: 24th February 2020_
+,TX County Population_
+BP Maps6_tcm97-50746.jpe.jpeg,Spending by overseas residents 2OO3_
+Brazil_Corn_FirstSeason_Production_Municipality.jpg,Brazil: Corn (First Season) Production_
+C4lCCZoXUAM8IC-.jpg,Plastic waste available to enter the ocean, 2010, tonnes m_
+ca-county-1.png,2012 California County Population Estimates_
+capture21.png,FigL: Rate of unvaccinated population by counties, Texas 2O12_
+ca_births.png,Births per ZIP Code in California (2OO7)_
+CCOM.png,% who have already felt negative effects from climate change_
+,Trump vote_
+,Winning margins_
+china2.jpg,Nearest GDP equivalents_2010, $bn_
+chinastatefeature.png,Trade in goods with China as a% ofstate GDP_
+china_map139.jpg,Map_Distribution_of_Hazy Weather in China_
+,BirthRate_
+,POPULATION_
+china_map257.jpg,Annual_Precipitation_of Chinese Cities_
+choro (1).jpg,
+choro.jpg,All causes, Under 1 year, Persons Deaths per 1,000 live births, by Statistical Division_
+,Percentage of women aged (15-49 years) who belong to poorest wealth quintile in India_
+,HEVs per 1000 cars_
+,Cystic Echinoc. Prevalence (%)_
+,Population density (population per sq.km)
+,Log relative GDP density (2006) quartiles
+Choropleth-map-of-the-urban-area-of-Santiago-Chile-Each-municipality-is-colored.png,Santiago,_Municipalities of_Chile, by Income (in CLP$)_
+Choropleth-map-of-winter-daily-precipitation-values-in-mm-in-Greece-based-on-KNMI.png,Precipitation in Greece_
+,Incidence per 100,000_
+,Population per square mile_
+,Poor TB treatment outcome_
+,Total number of BA-related publications per country:_
+,Actual evapotraspiration Value
+,U.S. Motor Vehicle Fatalities, 2008
+Choroplethic_map.jpg,Population Density, Michigan, 1999_
+choropleth_ex.png,Population undernourished 2004 to 2006 (%)_
+choropleth_germany.png,german population_Choropleth map_of_fom BKG administrative units 1:25OK using TopoJSON_
+cloropleth_map_urbanization_2016.jpg,Percentage of Country's Population Living in Urban Areas, 2016_
+coronavirus-case-map-update.jpg,Where the Coronavirus_Has Been Confirmed_Locations by number of confirmed COVID-19 cases_
+coronavirus_20201_all_areas.png,Coronavirus cases_
+,1,170 Coronavirus (COVID-19) Cases in the US_
+,Total probable and confirmed cases_
+covid19_map2.png,Confirmed Cases of COVID-19 in the United States_population_100,000_cases_per_
+covid_map_03_1200_march31.jpg,TOTAL REPORTED CASES OF COVID-19_BY REGIONAL HEALTH AUTHORITY_AREAS IN CANADA_
+,Sales_
+CreateChloroplethMapOfPopulationDensityExample_02.png,Population Density in New England in 2000_in Persons per Square Mile_
+CUo1nNcWEAANsCS.png,2014-2015 Immunization Percentages_in California Child Care Facilities_% of chilcren from reporting facilities_that are up to date on their vaccinations_
+,Regional IQ in Russia_
+dbdm1.png,Sales by Territory (click Territory)_
+deerperpersonpercounty.jpg,Average Amount of Deer Hunted Per Person_Per County in 2013_
+,Population density_
+, Index of Deprivation_
+,deudens.jpg,POPULATION DENSITY,2000_Germany_
+,CVL(%)_
+download (1).png,HCC Violations as on 20-05-2019_
+download (2).png,Canadian Population by Province_
+download (3).png,Single Vehicle Crash Facilities_
+download (5).png,Teen Chlamydia Rates per 100,000 by Washington County,2014_
+,Life Expectancy_
+drug_deaths_sgplot_2014_preliminary.png,Death Rate from Drug Poisoning_Overdose_2014_
+eb12b3d03d53db73c61b74982dd9eef9.jpg,A: Total number of frauds in 2O12 per_thousand people by local authority area_
+espdens.jpg,POPULATION DENSITY,2000_Spain_
+EUSNOB1UEAA2_fC.jpg,Percent of patients testing positive for COVID-19_
+EXVp0HRUMAAg-pw.jpg,Number of COVID-19 Cases by Zip Code (Raw Counts)_May_5, 2020_As of_
+f6608f810300c32d3d6ad33b6d74e7cb.jpg,Population Density Map (2011)_Australia_
+,Australia Population_
+,Average farm size, 2007 (hectares)_
+,revenue_
+Fig2-R Ver2_Crop.png,Rainfall erosivity in Europe_
+Figure3.36FiveQuantileClasses.png,Percent Population_Change_Quantile classification_
+figure3.5-en.jpg,Soybeans in Canada_Area of saybeans as a percentage of area in crops, 2006_
+Figure_1.png,Health care costs vary widely across U.S_Medicare spending per beneficiary by region_
+figure_2013-airports.png,Distribution of airports, 2013_
+final_SAGbyCounty.jpg,State Game Areas Per County_in Michigan_
+florida_830867.png,Bachelor's degree or higher, percent of persons age 25+, 2008-2012 by FIPS_
+,poverty_
+forest-area-as-percentage-of-land-area-in-2012.png,Forest area as percentage of land area in 2012_
+Full Pop Map MI.jpg,Population Density, Michigan, 1999_
+gbrdens.jpg,United Kingdom: Population Density, 2000_
+geopandas-map-5.jpg,World Happiness Report_
+germany_average_temperature_07_2017.png,average temeprature_
+ger_zip_codes.png,Comparison of number of Inhabitants per Zipcode in Germany
+GISCarto_map1.jpg,Mexico: Population by State_
+,Percentage of students who complete high school in four-years by community district,2014_
+,Population Density_
+happiness_edits_v2.0.png,Happiness level by country_Self-reported, with 1 as the "worst possible life for you,_and 1O the best_
+,Population with difficulty walking_
+head-1.png,Total population, by state_
+household-incomes-2015.jpg,average household income_as % of national average household income,2015_
+hurricane_count_plain_mouse-1.png,Total Number of Hurricane Strikes_Years 1900-2010_
+,Population_
+I9hhhqx8kymzsygE48D7ZM1JPxID-Jr918uYJcosPDE.png,Number of Children Per Female (1990)_
+image (1).png,Population Change_
+image.png,Adult Literacy Rates (UNESC0 2015)_
+image3.png,Population in India_
+image7.png,score in India_Distribution by State_
+images_gmpchoro.png,Population in Europe_
+image_8.png,Population_
+imd2015_Birmingham.png,Indices of Deprivation 2015_Birmingham_
+india-female-sex-ratio-map.jpg,INDIA_SEX RATIO MAP_2011_
+individuals-using-the-internet-of-population-in-2016.png,Individuals using the Internet % of population in 2016
+IRB_choropleth.png,Influenza Research Database Reported Cases 2017-18_
+irndens.jpg,POPULATION DENSITY, 2000_Iran_
+irqdens.jpg,POPULATION DENSITY,2000_Iraq_
+,Population density_
+jpndens.jpg,POPULATION DENSITY, 2000_Japan_
+,African Countries by Fertility Rate_
+kansai-choro.png,2010 Population Density_Kansai Region_Japan_
+kG5w83Kc9AEyBDC8vnymkf.jpg,COVID 19 in the US._
+kordens.jpg,POPULATION DENSITY,2000_Korea_
+kwtdens.jpg,POPULATION DENSITY,2000_Kuwait_
+la-tract-income1.png,2013 Los Angeles Census Tract_Per Capita Income_
+la-tract-reference-map1.png,2013 Los Angeles Census Tract_Per Capita Income_
+Lab-5-Stephanie-Grondin.jpg,Population of English and French Speakers in the City of Vancouver_by Dissemination Area (DA)_
+lab-6-za-page-001.jpg,Non English & French speakers in Vancouver_
+lab6.jpg,Percentage of Population Knowing Neither English Nor French_
+large-scale-administartive-map-of-canada.jpg,Population Distribution_
+large-scale-administartive-map-of-canada1.jpg,Vegetation_
+lifeExpectMap.png,Life expectancy at birth_NUTS2 regions, 2016_
+literacyrate.jpg,INDIA_LITERACY_RATE_
+live_birth_correct.png,Percentage of births where one of both parents were born outside the UK_England and Wales, 2018_
+manhattan-zip-1.png,2013 Manhattan ZIP Code Income Estimates_
+manhattan-zip-2.png,2013 Manhattan ZIP Code Income Estimates_
+Map-of-SMR-for-malignant-neoplasm-of-the-pancreas-for-males-in-Japan-The-red-fill.png,SMR_
+,Population per square mile_
+,Incidence per 100000 population_
+,Number of incidents per district_
+,PM2.5 levels_
+mapping-poverty-in-america-1.jpg,Mapping Poverty in America_Data from the Census Bureau show where the poor live_
+maps11-1.png,Life expectancy by country_Gapminder 2007 data_
+maps12-1.png,Mexican American Population_2010 US Census_
+maps13-1.png,Connecticut Violent Crime Rates_FBI 2O12 data_
+,Brexit Vote (June 2016) Percent Voting to Leave EU_
+map_percent_change.png,NC County Population_% Change (2017-2018)_
+maxresdefault.jpg,POPULATION DENSITY_ASIA 2009_
+,meidan income_
+,Median Household Income 2013_
+mexdens.jpg,Mexico: Population Density, 2000_
+,% of population with Internet connection_
+Mexico_Population_Density.jpg,POPULATION DENSITY OF MEXICO_
+mich.jpg,Age-adjusted fve year mortality rates for heart disease bycounty, 2002-2006_
+mp20171205.png,Global Competitiveness Index_
+nfgz001.jpg,Minnesota population density, 2000_
+,Europe Population_
+ny-county-9.png,2012 NY State County Population Estimates_
+,Overdose deaths in 2014 per 100,000_
+,Males (2010) prevalence_
+,Pop.Density 2000_
+palmer.jpg,Drought_Severity Index by_Division_Weekly Value for Period Ending MAY 16,_2009_
+paSpread_19mar-v1.0_mapSpread.png,Where's My Corona?_
+percentrent.jpg,Montreal CMA: Percentage Renters_
+permafrost_final_03-web_1.jpg,PERMAFROST_glacier_
+Picture1.jpg,Counties in_Metropolitan Areas_1990 and 2OO0_
+Picture10.jpg,Minority Prevalence, 2000_Hispanic or Latino Origin_and All Races_Except White_
+Picture11.jpg,Diversity,_2000_Hispanic or Latino Origin_and All Races_
+Picture12.jpg,Difference in Diversity,_1990 to 2000_Hispanic or Latino Origin_and All Races_
+Picture13.jpg,Percent Change,_1990 to 2000_One Race:_White_
+Picture14.jpg,Percent of Population, 2000_One Race:_White_
+Picture15.jpg,Percent Under Age 18, 2000_One Race:_White_
+Picture16.jpg,Number of People,_2000_One Race:_White_
+Picture17.jpg,Percent of White Population_Indicating One Race, 2000_
+Picture18.jpg,Percent Change, 1990 to 2000_One or More Races Including_White_
+Picture19.jpg,Percent of Population, 2000_One or More Races Including_White_
+Picture2.jpg,Percent Change,_1990 to 2000_Total Population_
+Picture20.jpg,Percent Under Age 18, 2000_One or More Races Including_White_
+Picture21.jpg,Number of People, 2000_One or More Races Including_White_
+Picture22.jpg,Percent Change,_1990 to 2000_One Race:_Black or_African American_
+Picture23.jpg,Percent of Population, 2000_One Race:_Black or African American_
+Picture24.jpg,Percent Under_Age_18, 2000_One Race:_Black or African American_
+Picture25.jpg,Number of People, 2000_One Race:_Black or African American_
+Picture26.jpg,Percent of Black or African_American Population_Indicating One Race,_2000_
+Picture27.jpg,Percent Change, 1990 to 2000_One or More Races Including_Black or_African American_
+Picture28.jpg,Percent of Population 2000,One or More Races Including_Black or African American_
+Picture29.jpg,Percent Under_Age 18,2000_One or More Races Including_Black or African American_
+Picture3.jpg,Population Density, 2000_
+Picture30.jpg,Number of People, 2o00_One or More Races Including_Black or African American_
+Picture31.jpg,Percent Change,_1990 to 2000_One Race:_American Indian and_Alaska Native_
+Picture32.jpg,Percent of Population, 2000_One Race:_American Indian and_Alaska Native_
+Picture33.jpg,Percent Under Age 18, 2000_One Race:_American Indian and_Alaska Native_
+Picture34.jpg,Number of People, 2000_One Race:_American Indian and_Alaska Native_
+Picture35.jpg,Percent of American Indian_and Alaska Native Population_Indicating One Race, 2000_
+Picture36.jpg,Percent Change, 1990 to 2000_One or More Races Including_American Indian and_Alaska Native_
+Picture37.jpg,Percent of Population, 2000_One or More Races Including_American Indian and_Alaska Native_
+Picture38.jpg,Percent Under_Age_18, 2000_One or More Races Including_American Indian and_Alaska Native_
+Picture39.jpg,Number of People, 2000_One or More Races Including_American Indian and_Alaska Native_
+Picture4.jpg,Percent Change,1990 to 2000_and_Population Density, 1990_
+Picture40.jpg,Percent Change,1990 to 2000_One Race:_Asian_
+Picture41.jpg,Percent of Population, 2000_One Race:_Asian_
+Picture42.jpg,Percent Under Age 18, 2000_One Race:_Asian_
+Picture43.jpg,Number of People,_2000_One Race:_Asian_
+Picture44.jpg,Percent of Asian Population_Indicating One Race, 2o00_
+Picture45.jpg,Percent Change, 1990 to 2000_One or More Races Including_Asian_
+Picture46.jpg,Percent of Population, 2000_One or More Races Including_Asian_
+Picture47.jpg,Percent Under Age 18, 2000_One or More Races Including_Asian_
+Picture48.jpg,Number of People, 2000_One or More Races Including_Asian_
+Picture49.jpg,Percent Change, 1990 to 2000_One Race:_Native Hawaiian and_Other Pacific Islander_
+Picture5.jpg,Difference,_1990 to 2o00_Number of People_
+Picture50.jpg,Percent of Population, 2000_One Race:_Native Hawaiian and_Other Pacific Islander_
+Picture51.jpg,Percent Under Age 18, 2000_One Race:_Native Hawaiian and_Other Pacific Islander_
+Picture52.jpg,Number of People, 2000_One Race:_Native Hawaiian and_Other Pacific Islander_
+Picture53.jpg,Percent of Native Hawaiian_and Other Pacific Islander_Population Indicating One_2000_
+Picture54.jpg,Percent Change, 1990 to 2000_One or More Races Including_Native Hawaiian and_Other Pacific Islander_
+Picture55.jpg,Percent of Population, 2000_One or More Races Including_Native Hawaiian and_Other Pacific Islander_
+Picture56.jpg,Percent Under_Age_18, 2000_One or More Races Including_Native Hawaiian and_Other Pacific Islander_
+Picture57.jpg,Number of People, 2000_One or More Races Including_Native Hawaiian and_Other Pacific Islander_
+Picture58.jpg,Percent of Population, 2000_Two or More Races_
+Picture59.jpg,Percent Under Age_18_2000_Two or More Races_
+Picture6.jpg,Number of People,_2000_
+Picture60.jpg,Number of People,_2000_Two or More Races_
+Picture61.jpg,Percent Change, 1990 to 2000_Hispanic or Latino Origin_All Races_
+Picture62.jpg,Percent of Population, 2000_Hispanic or Latino Origin_All Races_
+Picture63.jpg,Percent Under Age 18, 2000_Hispanic or Latino Origin_All Races_
+Picture64.jpg,Number of People, 2000_Hispanic or Latino Origin_All Races_
+Picture65.jpg,Percent Change, 1990 to 2000_One Race:_White_Not Hispanic or Latino Origin_
+Picture66.jpg,Percent of Population, 2000_One Race:_White_Not Hispanic or Latino Origin_
+Picture67.jpg,Percent Under Age 18, 2000_One Race:_White_Not Hispanic or Latino Origin_
+Picture68.jpg,Number of People,2000_One Race:_White_Not Hispanic or Latino Origin_
+Picture69.jpg,Percent of White, Not Hispanic_or Latino Origin Population_Indicating One Race, 2000_
+Picture7.jpg,Percent Change,1990 to 2000_Population Under Age 18_
+Picture70.jpg,Percent Change, 1990 to 2000_One_More Races Including White_Not Hispanic or Latino Origin_
+Picture71.jpg,Percent of Population, 2000_One_More Races Including White_Not Hispanic or Latino Origin_
+Picture72.jpg,Percent Under_Age_18, 2000_One or More Races Including White_Not Hispanic or Latino Origin_
+Picture73.jpg,Number of People, 2000_One or More Races Including_White_Not Hispanic or Latino Origin_
+Picture8.jpg,Percent Under Age 18, 2000_
+Picture9.jpg,Prevalence,_2000_Hispanic or Latino Origin_and All Races_
+popdenchloropleth-1000x682.jpg,Population Density of Cowichan Valley Area_
+population-map-of-india.jpg,Population Map of India 2020_
+populationdensity.jpg,INDIA_POPULATION DENSITY Per Sq. Km_2001_
+post_map_bike.png,Commuters by bike in Flanders (Belgium)_
+post_map_brussel.png,Median taxable income Brussels (2016)_
+post_map_turnhout.png,Median taxable income Turnhout city region (2016)_
+PRC_Province_Population2.png,
+preview.png,Mortality rate, under-5 per 1,OOO live births)_
+prkdens.jpg,POPULATION DENSITY,2000_Democratic People's Republic of Korea_
+quantile_5_version.png,London House Prices_
+redmap.png,Coronavirus in China: 24th February 2020_
+REG_10_2_5_Aids_prevalence_in_West_Africa_WEB_EN.jpg,AIDS PREVALENCE IN WEST AFRICA (ADULTS)_Number of cases_
+,Median Gross Rent, 2018
+rRwA3.png,McDonald's per Country_
+russian-speaking-ukraine.jpg,Russian as native language
+Russia_Percentage_ethnic_Russians_2010-1.png,Percentage Ethnic Russians_(2010)_
+Sample-Mexico-States-EqualSteps-Thresholds-Sample.png,Color Map of Population Distribution_in Mexico_(Equal Steps Coloring)_
+sba_bedrooms_map_logo.png,Share of Occupied Rental Units by Bedrooms, 2018_Sub-Borough Areas_
+Screen Shot 2014-10-13 at 7.06.37 AM.png,Rising Education Levels in Washington State_population_
+,California 2011 Political Precinct Index_
+,Lighting Hazrd - Number of Events_
+Screen-Shot-2016-12-29-at-8.42.14-PM.png,Proportion of College Graduates_
+Screen-Shot-2018-09-16-at-12.09.45-PM-1.png,Population_
+,EQ-5D Index Quartiles_
+,Stop and frisk per block_
+Screenshot 2019-02-12 at 10.13.31.png,Estimates of completeness of electoral registers,_West Midlands Region, 2017_
+slide_13.jpg,Population Density of Japan_
+slide_7.jpg,Choropleth Map of Eagle Nests by County in Florida_
+socio-economic-states.jpg,% of households in that state that are category A/B_
+south_korea_map112.jpg,Annual sum of global horizontal irradiation, average 2007-2012_
+south_korea_map95.jpg,South Korea: Rice Production by Province_
+south_korea_map99.jpg,POPULATION DENSITY,2000_Korea_
+Step+6+Complete+the+map,+ensuring+all+map+components+are+included+(BOLTSS)+¨C+¨C599..jpg,Average rainfall for Australian states and territories from 1961-1990_
+stressed.png,States With Most Work Stress_
+swedens.jpg,Population Density, 2000_Sweden_
+temperature-download3-2016.png,Rate of Temperature Change in the United States, 1901-2015_
+,Population per sq.mile_
+Texas-20103.png,Texas Teen Birth Rate by County, 2010_
+texas-county-percent-hispanic.png,Texas County Percent Hispanic_2012 Estimiales_
+,Hispanic Population Percentage in Texas Counties_
+thecode-1.png,Population in 2008_
+theme-eng.jpg,Canada_Populatian change,2006 to 2011
+Traditional-Choropleth-Map-of-2012-Presidential-Results-for-Virginia.png,Percent ofVotes by County_and Independent City_For Romney_For Obama_
+tumblr_inline_p8gudck5AE1srua81_640.png,Pure alcohol consumption among adults (age 15+) in 2010_
+tumblr_inline_p96edsITlF1srua81_640.png,% Change in Alcohol Use Disorders bgtwggn 1980-2014_
+tumblr_inline_p96edsUuJV1srua81_640.png,% Change in Alcohol Use Disorders bgtwggn 1980-2014_
+UDYq1.png,Total Fertility Rate_in Europe, 2O13 or latest_
+,LIFE EXPECTANCY AGE_
+uk_peace_index.png, UK Peace Index_
+UNEMp_vancouver-1024x791.jpg,Vancouver's Unemployment Profile_
+Percent Uninsured Population By County
+univariate choro.jpg,Population density in_Russia's raions in 1989_
+univariate choropleth map.jpg,Estimated Median Household Income_2008_Cantiguous United States_
+,A choropleth map of GDP in the 27 EU countries_
+unnamed (1).png,New cases of T. brucel gambiense in 2006
+,Population Density_Africa,2008
+,LIFE EXPECTANCY_
+,Child Labor in Africa and Asia_
+,South Korea Population Density_
+,Atheism in Europe_
+,Literacy Rate in India 2012_
+,India's Population Density_
+,Canadian 2011 Population-Province Choropleth_
+,Canadian 2011 Population-Postal Code Choropleth_
+unnamed (10).png,Barbados Population Density by Parish_
+,Population density_
+,OSM road coverage_
+,Men: Change in Life Expectancy at Birth, 2000-02 to 2007-09_
+unnamed (16).png,NYS Gubernatorial_Democratic primary_(Sept. 2014)_
+unnamed (17).png,GOP enrollment in New York City as of March 2016_
+unnamed (19).png,2007 California Wildfire Count_
+unnamed (2).jpg,2006 Area Units: Workplace Undefined By Respondent_
+,Texas Poverty Rate 2013_
+,March Tornadoes_
+,Millersville University Freshmen_Fall 2004_
+,Unemployed at electoral district level 2005_
+,Number of restaurant per city district_
+,Percentage of the population that self-identifies as indigenous_
+,Percentage of the population that self-identifies as indigenous_
+,rent 2008_
+,number_suicides_
+,Suicides in San Francisco, by neighborhood_2003-2017_
+,Unemployment 2008_
+,People per Square Mile by County_
+,Census Pop. per sq.mile_
+,Poverty in the United States_Percentage of People in Poverty by State_
+,Q3 2018 Installed Wind Power Capacity (MW)_
+,Poverty in the United States_Percentage of People in Poverty by State: 2015_
+,2017 Poverty in the_United States_
+,Median Household Income_
+,Native American Population Density_
+,Population Under Age 18 by County_
+,Human disease cases_Reported to CDC ArboNET by county of residence_
+,2011 US Agriculture Exports by State (Hover for breakdown)_
+,GDP Density_
+,Domestic Visits by PM Modi_
+,Mexico_
+,Percent of Canadian Boreal Covered by Wetlands_
+,Life expectancy at birth_Both sexes,2012_
+,World Population Density,2015_
+,Avaibility of Safe Drinking Water,2015_
+,North America:Real GDP per capita_
+,All Noise Complaints per Capita_
+,2012 New York State ZCTA Population Estimates_
+,2012 New York City ZCTA Population Estimates_
+,2012 NY-Newark-Jersey City MSA ZCTA Population Estimates_
+,OSM Bits per Second per 1000 People_

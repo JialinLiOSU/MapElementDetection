@@ -2,9 +2,9 @@ import cv2
 from shapely.geometry import Polygon
 from shapely.geometry import box
 
-path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\annotatedUSStates\lcc'
-imgName = 'generated_annotated_USStates_lcc_5.png'
-filename='generated_annotation_USStates_lcc.txt'
+path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\annotatedUSStates\cea'
+imgName = 'generated_annotated_USStates_cea_2.png'
+filename='generated_annotation_USStates_cea.txt'
 file = open(path + '\\' + filename,'r')
 annotations = file.readlines()
 annotationsCurrentImage = [anno for anno in annotations if anno.split(',')[0] == imgName]

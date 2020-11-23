@@ -473,10 +473,11 @@ def drawWmap(index, filename):
 
     # 1. size and location
     mapSize = getSize()
-    widthImage = 698
-    heightImage = 464
-    x1, y1, x2, y2 = -117.60, 21.1, -64.05, 50.37 # US  lcc
+    widthImage = 933
+    heightImage = 316
+    # x1, y1, x2, y2 = -117.60, 21.1, -64.05, 50.37 # US  lcc
     # x1, y1, x2, y2 = -124.70, 24.8, -66.97, 49.37 # US cyl
+    x1, y1, x2, y2 = -124.70, 24.8, -66.97, 49.37 # US  cea
 
 
     deltaX = x2 - x1
@@ -488,7 +489,7 @@ def drawWmap(index, filename):
     # m = Basemap(llcrnrlon=x1, llcrnrlat=y1, urcrnrlon=x2, urcrnrlat=y2,
     #             projection='lcc', lat_1=29, lat_2=45, lon_0=-95)
     m = Basemap(llcrnrlon=x1, llcrnrlat=y1, urcrnrlon=x2, urcrnrlat=y2,
-                projection='lcc', lat_0 = (y1 + y2) / 2,  lon_0 = (x1 + x2) / 2)
+                projection='cea', lat_0 = (y1 + y2) / 2,  lon_0 = (x1 + x2) / 2)
 
     # 2. administraitive level
     admin_level = 0
@@ -1130,7 +1131,7 @@ def main():
     
     for i in range(0,10):
         # for i in range(len(meta_data)):
-        filename = 'generated_annotated_USStates_lcc_' + str(i) + '.png'
+        filename = 'generated_annotated_USStates_cea_' + str(i) + '.png'
         # if(i >= 40 and i < 50):
         drawWmap(i, filename)
         # elif(i >= 15 and i < 30):
@@ -1142,7 +1143,7 @@ def main():
         # drawWmapProjectionStyle(i,filename)
 
     # meta_data.to_csv('result.csv', index=False)
-    filename='generated_annotation_USStates_lcc'+'.txt'
+    filename='generated_annotation_USStates_cea'+'.txt'
     file = open(path +'\\'+ filename,'a')
     file.writelines(strList)
     # file.writelines(incorrectImgNameStrList)

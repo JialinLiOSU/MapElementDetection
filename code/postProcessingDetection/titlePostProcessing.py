@@ -4,6 +4,7 @@
 # Dilate in vertical direction by 1 * line height iteratively, until there is no text objects
 import pickle
 import os
+import cv2
 # import easyocr
 # reader = easyocr.Reader(['en']) # set OCR for English recognition
 from shapely.geometry import Polygon
@@ -59,20 +60,22 @@ def getUnionBbox(titleTextBboxes):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResults.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsOrigin.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrBoundsList.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrBoundsListOrigin.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
     # read image data
-    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
+    # testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
+    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\original size choro maps'
     testImageDir = os.listdir(testImagePath)
 
     titleResults = []
+    strList = []
 
     for imgName in testImageDir:
         print('image name: ', imgName)
@@ -80,6 +83,12 @@ def main():
         if postFix == 'jso':
             continue
         
+        img = cv2.imread(testImagePath + '\\'+imgName)
+
+        cv2.imshow(imgName, img)
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
+
         # get title bboxes and text bboxes
         titleBbox = getTitleBboxImage(imgName,detectResults)
         if titleBbox == None:
@@ -94,12 +103,18 @@ def main():
         # create polygon object for title bbox and texts
         titleBbox = box(x1Title, y1Title, x2Title, y2Title)
         titleTextBboxes = [] # text bboxes in title
+        strLine = imgName + ',' 
+        # strLine = imgName + ',' + str(xMinState) + ',' + str(min(yMinState,yMaxState)) + ',' + str(xMaxState - xMinState) \
+        #                         + ',' + str(abs(yMaxState - yMinState)) + ',' + info['NAME'] + '\n'
         for bound in textBboxes:
             textPolygon = box(bound[0][0][0],bound[0][0][1],bound[0][2][0],bound[0][2][1])
             if titleBbox.intersects(textPolygon) and bound[2]>pow(10,-10):
                 titleTextBboxes.append(bound)
+                strLine = strLine + bound[1] + '_'
                 print(bound[1])
-        # titleResults.append([imgName] + titleTextBboxes)
+        titleResults.append([imgName] + titleTextBboxes)
+        
+        strList.append(strLine + '\n')
 
         # explore missing lines above or below detected titles
         # unionBbox = getUnionBbox(titleTextBboxes) 
@@ -129,7 +144,11 @@ def main():
         
 
     print('test')
-    # with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResults.pickle', 'wb') as f:
-	#     pickle.dump(titleResults,f)
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResults.pickle', 'wb') as f:
+	    pickle.dump(titleResults,f)
+    
+
+    file = open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResults.txt','a')
+    file.writelines(strList)
 
 if __name__ == "__main__":    main()
