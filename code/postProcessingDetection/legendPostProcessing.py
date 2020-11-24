@@ -104,7 +104,7 @@ def alignmentValueText(legendTextBboxes):
     numTextBboxWidthList = []
     numTextBboxHeightList = []
     if len(numTextBboxes) == 0:
-        return align,numTextShapelyBoxList,numTextBboxHeightList
+        return align,numTextShapelyBoxList,numTextBboxes,numTextBboxHeightList
     for numbound in numTextBboxes:
         numTextShapelyBox = box(numbound[0][0][0],numbound[0][0][1],numbound[0][2][0],numbound[0][2][1])
         width = numbound[0][2][0] - numbound[0][0][0]
@@ -118,7 +118,7 @@ def alignmentValueText(legendTextBboxes):
     deltaMinXList = []
     if len(numTextShapelyBoxList) == 1:
         align = 0 # vertical
-        return align,numTextShapelyBoxList,numTextBboxHeightList
+        return align,numTextShapelyBoxList,numTextBboxes,numTextBboxHeightList
     for i in range(1,len(numTextShapelyBoxList)):
         minXFormer = numTextShapelyBoxList[i-1].bounds[0]
         minXLatter = numTextShapelyBoxList[i].bounds[0]
@@ -274,24 +274,24 @@ def getTextForRect(rect,numerTextBboxes):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResults.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsOrigin.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrBoundsList.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrBoundsListOrigin.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
     # read image data
-    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
+    # testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
+    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\original size choro maps'
     testImageDir = os.listdir(testImagePath)
 
-    titleResults = []
-
+    legendResults = []
+    testImageDir = [2019-09-06-us-state-choropleth.png]
     for imgName in testImageDir:
-        imgName = 'ChoImg214.jpg'
-        
+        # imgName = 'ChoImg214.jpg'
 
         print('image name: ', imgName)
         postFix = imgName[-4:-1]
@@ -306,9 +306,9 @@ def main():
         legendBbox = getLegendBboxImage(imgName,detectResults)
         if legendBbox == None:
             print('no legend detected!')
-            cv2.imshow(imgName, img)
-            cv2.waitKey(0)
-            cv2.destroyAllWindows()
+            # cv2.imshow(imgName, img)
+            # cv2.waitKey(0)
+            # cv2.destroyAllWindows()
             continue
         x1Legend = legendBbox[3]
         y1Legend = legendBbox[4]
@@ -321,9 +321,9 @@ def main():
         if len(textBBoxes) == 0:
             print('No text in the map image!')
             finalLegendBox = legendShapelyBox
-            cv2.imshow(imgName, img)
-            cv2.waitKey(0)
-            cv2.destroyAllWindows()
+            # cv2.imshow(imgName, img)
+            # cv2.waitKey(0)
+            # cv2.destroyAllWindows()
             continue
 
         # get TextShapelyBoxList and text bboxes in legend
@@ -331,10 +331,10 @@ def main():
         legendTextBboxes = getLegendTextBboxes(legendShapelyBox,textBBoxes)
         if len(legendTextBboxes) == 0:
             print('No text in legend of the map image!')
-            finalLegendBox = legendShapelyBox
-            cv2.imshow(imgName, img)
-            cv2.waitKey(0)
-            cv2.destroyAllWindows()
+            # finalLegendBox = legendShapelyBox
+            # cv2.imshow(imgName, img)
+            # cv2.waitKey(0)
+            # cv2.destroyAllWindows()
             continue
         numLegendTextShapelyBox = len(legendTextShapelyBoxList)
         # conduct bbox union of legend box and text boxes
@@ -345,9 +345,9 @@ def main():
         if align == -1:
             print('No numerical text in legend of the map image!')
             finalLegendBox = unionLegendShapelyBox
-            cv2.imshow(imgName, img)
-            cv2.waitKey(0)
-            cv2.destroyAllWindows()
+            # cv2.imshow(imgName, img)
+            # cv2.waitKey(0)
+            # cv2.destroyAllWindows()
             continue
         print('test')
 
@@ -417,47 +417,48 @@ def main():
         
         finalLegendBox = unionLegendShapelyBox # legend box after processed with texts
 
-
         # based on numeric text boxes to complete rectangle detection
         # numerTextShapeBoxList,numerTextBboxes
-        compLegendRectList = []
-        if len(legendRectShapeBoxList) < len(numerTextShapeBoxList):
-            indexTextRectList = []
-            indexTextNoRectList = []
-            # get the rect and corresponding list, store texts with a rect in index list
-            for rect in legendRectShapeBoxList:
-                textBBox, indexText = getTextForRect(rect,numerTextBboxes)
-                compLegendRectList.append([rect, textBBox])
-                indexTextRectList.append(indexText)
-            # find the text index without a rect
-            for i in range(len(numerTextShapeBoxList)):
-                if i not in indexTextRectList:
-                    indexTextNoRectList.append(i)
-            ###
-            # find the average delta x from leftmost point of text bbox to rect, and average size of rect
-            widthSum, heightSum, deltaXSum = 0,0,0
-            for rect,textBBox in compLegendRectList:
-                width = rect.bounds[2] - rect.bounds[0]
-                height = rect.bounds[3] - rect.bounds[1]
-                deltaX = textBBox[0][0][0] - rect.centroid.x
-                widthSum += width
-                heightSum += height
-                deltaXSum += deltaX
-            avgWidth = widthSum / len(compLegendRectList)
-            avgHeight = heightSum / len(compLegendRectList)
-            avgDelataX = deltaXSum / len(compLegendRectList)
-            # for each text without a rect, build a rect
-            for i in range(len(indexTextNoRectList)):
-                textBbox = numerTextBboxes[indexTextNoRectList[i]]
-                centerX = textBbox[0][0][0] - avgDelataX
-                centerY = (textBbox[0][1][1] + textBbox[0][2][1])/2
-                minX = int (centerX - avgWidth / 2)
-                maxX = int (centerX + avgWidth / 2)
-                minY = int (centerY - avgHeight / 2)
-                maxY = int (centerY + avgHeight / 2)
-                compRect = box(minX, minY, maxX, maxY)
-                # legendRectShapeBoxList.append(compRect)
-                compLegendRectList.append([compRect,textBbox] )
+        # compLegendRectList = []
+        # if len(legendRectShapeBoxList) < len(numerTextShapeBoxList):
+        #     indexTextRectList = []
+        #     indexTextNoRectList = []
+        #     # get the rect and corresponding list, store texts with a rect in index list
+        #     for rect in legendRectShapeBoxList:
+        #         textBBox, indexText = getTextForRect(rect,numerTextBboxes)
+        #         compLegendRectList.append([rect, textBBox])
+        #         indexTextRectList.append(indexText)
+        #     # find the text index without a rect
+        #     for i in range(len(numerTextShapeBoxList)):
+        #         if i not in indexTextRectList:
+        #             indexTextNoRectList.append(i)
+        #     ###
+        #     # find the average delta x from leftmost point of text bbox to rect, and average size of rect
+        #     widthSum, heightSum, deltaXSum = 0,0,0
+        #     for rect,textBBox in compLegendRectList:
+        #         width = rect.bounds[2] - rect.bounds[0]
+        #         height = rect.bounds[3] - rect.bounds[1]
+        #         deltaX = textBBox[0][0][0] - rect.centroid.x
+        #         widthSum += width
+        #         heightSum += height
+        #         deltaXSum += deltaX
+        #     avgWidth = widthSum / (len(compLegendRectList)+0.000001)
+        #     avgHeight = heightSum / (len(compLegendRectList)+0.000001)
+        #     avgDelataX = deltaXSum / len(compLegendRectList)
+        #     # for each text without a rect, build a rect
+        #     for i in range(len(indexTextNoRectList)):
+        #         textBbox = numerTextBboxes[indexTextNoRectList[i]]
+        #         centerX = textBbox[0][0][0] - avgDelataX
+        #         centerY = (textBbox[0][1][1] + textBbox[0][2][1])/2
+        #         minX = int (centerX - avgWidth / 2)
+        #         maxX = int (centerX + avgWidth / 2)
+        #         minY = int (centerY - avgHeight / 2)
+        #         maxY = int (centerY + avgHeight / 2)
+        #         compRect = box(minX, minY, maxX, maxY)
+        #         # legendRectShapeBoxList.append(compRect)
+        #         compLegendRectList.append([compRect,textBbox])
+        # legendResults.append([imgName] + [finalLegendBox.bounds])
+
         print('test')
         colorCategoryList = []
         # for legendRect in legendRectShapeBoxList:
@@ -485,6 +486,9 @@ def main():
         cv2.imshow(imgName, img)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
+    print('test')
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendResults.pickle', 'wb') as f:
+	    pickle.dump(legendResults,f)
 
         #### No need to crop the image to get the US boundary
         # crop_img = img[startPoint[1]:endPoint[1], startPoint[0]:endPoint[0]]

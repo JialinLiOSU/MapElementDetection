@@ -2,14 +2,14 @@ import cv2
 from shapely.geometry import Polygon
 from shapely.geometry import box
 
-path = r'C:\Users\li.7957\Desktop\MapElementDetection\code\shpFiles'
-imgName = 'generated_annotated_USStates_lcc_10.png'
-filename='generated_annotation_USStates_lcc.txt'
+path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\annotatedUSStates'
+imgName = 'generated_annotated_USStates_cyl_10.png'
+filename='Processed_annotation_USStates_cyl.txt'
 file = open(path + '\\' + filename,'r')
 annotations = file.readlines()
 annotationsCurrentImage = [anno for anno in annotations if anno.split(',')[0] == imgName]
 
-img = cv2.imread(path + '\\'+imgName)
+img = cv2.imread(path + '\\cyl\\'+imgName)
 
 for anno in annotationsCurrentImage:
     annoElements = anno.split(',')
