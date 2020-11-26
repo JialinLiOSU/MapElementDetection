@@ -1,4 +1,4 @@
-# calculate text similarity
+# calculate BERT embeddings for the themes
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -21,41 +21,41 @@ from gensim.test.utils import common_texts
 print('test')
 # word_emb_model = Word2Vec(sentences=common_texts, vector_size=300, window=5, min_count=1, workers=4)
 
-# def map_word_frequency(document):
-#     return Counter(itertools.chain(*document))
+def map_word_frequency(document):
+    return Counter(itertools.chain(*document))
     
-# def get_sif_feature_vectors(sentence1, sentence2, word_emb_model=wv):
-#     sentence1 = [token for token in sentence1.split() if token in word_emb_model.vocab]
-#     sentence2 = [token for token in sentence2.split() if token in word_emb_model.vocab]
-#     word_counts = map_word_frequency((sentence1 + sentence2))
-#     embedding_size = 300 # size of vectore in word embeddings
-#     a = 0.001
-#     sentence_set=[]
-#     for sentence in [sentence1, sentence2]:
-#         vs = np.zeros(embedding_size)
-#         sentence_length = len(sentence)
-#         for word in sentence:
-#             a_value = a / (a + word_counts[word]) # smooth inverse frequency, SIF
-#             vs = np.add(vs, np.multiply(a_value, word_emb_model[word])) # vs += sif * word_vector
-#         vs = np.divide(vs, sentence_length) # weighted average
-#         sentence_set.append(vs)
-#     return sentence_set
+def get_sif_feature_vectors(sentence1, sentence2, word_emb_model=wv):
+    sentence1 = [token for token in sentence1.split() if token in word_emb_model.vocab]
+    sentence2 = [token for token in sentence2.split() if token in word_emb_model.vocab]
+    word_counts = map_word_frequency((sentence1 + sentence2))
+    embedding_size = 300 # size of vectore in word embeddings
+    a = 0.001
+    sentence_set=[]
+    for sentence in [sentence1, sentence2]:
+        vs = np.zeros(embedding_size)
+        sentence_length = len(sentence)
+        for word in sentence:
+            a_value = a / (a + word_counts[word]) # smooth inverse frequency, SIF
+            vs = np.add(vs, np.multiply(a_value, word_emb_model[word])) # vs += sif * word_vector
+        vs = np.divide(vs, sentence_length) # weighted average
+        sentence_set.append(vs)
+    return sentence_set
 
-# def get_word2vec_feature_vectors(sentence1, word_emb_model=wv):
-#     sentence1 = [token for token in sentence1.split() if token in word_emb_model.vocab]
+def get_word2vec_feature_vectors(sentence1, word_emb_model=wv):
+    sentence1 = [token for token in sentence1.split() if token in word_emb_model.vocab]
     
 
-#     embedding_size = 300 # size of vectore in word embeddings
+    embedding_size = 300 # size of vectore in word embeddings
 
-#     sentence_set=[]
+    sentence_set=[]
 
-#     vs = np.zeros(embedding_size)
-#     sentence_length = len(sentence1)
-#     for word in sentence1:
-#         wordEmb = word_emb_model[word]
-#         vs = np.add(vs, wordEmb) 
-#     vs = np.divide(vs, sentence_length) # weighted average
-#     return vs
+    vs = np.zeros(embedding_size)
+    sentence_length = len(sentence1)
+    for word in sentence1:
+        wordEmb = word_emb_model[word]
+        vs = np.add(vs, wordEmb) 
+    vs = np.divide(vs, sentence_length) # weighted average
+    return vs
 
 def pre_process(corpus):
     # convert input corpus to lower case.
@@ -93,12 +93,12 @@ def main():
                 theme = theme.replace(')',' ')
             if '  ' in theme:
                 theme = theme.replace('  ',' ')
-            theme = pre_process(theme)
+            # theme = pre_process(theme)
             themeList.append(theme.lower())
     
-    lemmatizer = WordNetLemmatizer()
-    nltk.download('wordnet')
-    nltk.download('punkt')
+    # lemmatizer = WordNetLemmatizer()
+    # nltk.download('wordnet')
+    # nltk.download('punkt')
     themeLemmaList = []
     for theme in themeList:
         # words = theme.split(' ')
@@ -110,14 +110,17 @@ def main():
         themeLemmaList.append(wordsLemma[0:-1])
 
     themeEmbeds = []
-    # for tl in themeLemmaList:
-    #     tlEmbed = get_word2vec_feature_vectors(tl)
-    #     themeEmbeds.append(tlEmbed)
+    for tl in themeLemmaList:
+        tlEmbed = get_word2vec_feature_vectors(tl)
+        themeEmbeds.append(tlEmbed)
     print('test')
 
     # with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeEmbeddings.pkl', 'wb') as f:
     #     pickle.dump(themeEmbeds,f)
-    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeLemmaList.pkl', 'wb') as f:
-        pickle.dump(themeLemmaList,f)
+    # with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeLemmaList.pkl', 'wb') as f:
+    #     pickle.dump(themeLemmaList,f)
+
+    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeList.pkl', 'wb') as f:
+        pickle.dump(themeList,f)
 
 if __name__ == "__main__":    main()
