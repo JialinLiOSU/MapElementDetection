@@ -27,12 +27,17 @@ print('test')
 # word_emb_model = Word2Vec(sentences=common_texts, vector_size=300, window=5, min_count=1, workers=4)
 
 def map_word_frequency(document):
-    return Counter(itertools.chain(*document))
+    return Counter(document)
     
-def get_sif_feature_vectors(sentence1, word_emb_model=wv):
+def get_sif_feature_vectors(sentence1, sentenceList, word_emb_model=wv):
     sentence = [token for token in sentence1.split() if token in word_emb_model.vocab]
+
+    sTokens = []
+    for s in sentenceList:
+        sToken = [token for token in s.split() if token in word_emb_model.vocab]
+        sTokens = sTokens + sToken
     # sentence2 = [token for token in sentence2.split() if token in word_emb_model.vocab]
-    word_counts = map_word_frequency(sentence1)
+    word_counts = map_word_frequency(sTokens)
     embedding_size = 300 # size of vectore in word embeddings
     a = 0.001
    
@@ -114,7 +119,7 @@ def main():
 
     themeEmbeds = []
     for tl in themeLemmaList:
-        tlEmbed = get_sif_feature_vectors(tl)
+        tlEmbed = get_sif_feature_vectors(tl, themeLemmaList)
         themeEmbeds.append(tlEmbed)
     print('test')
 
