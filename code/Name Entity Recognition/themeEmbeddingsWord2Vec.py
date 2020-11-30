@@ -139,7 +139,7 @@ def main():
     numThemeProc = len(themeEmbedsProc)
     numthemeLemmaProc = len(themeLemmasProc)
 
-    linked = linkage(themeEmbedsProc[0:100], 'single')
+    linked = linkage(themeEmbedsProc[0:100], 'ward')
     labelList = themeLemmasProc[0:100]
 
     plt.figure(figsize=(10, 7))
@@ -155,7 +155,7 @@ def main():
     # with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeLemmaList.pkl', 'wb') as f:
     #     pickle.dump(themeLemmaList,f)
 
-    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeList.pkl', 'wb') as f:
-        pickle.dump(themeList,f)
+    # with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeList.pkl', 'wb') as f:
+    #     pickle.dump(themeList,f)
 
 if __name__ == "__main__":    main()
