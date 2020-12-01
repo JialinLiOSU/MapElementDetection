@@ -97,7 +97,7 @@ def main():
         ocrResults = pickle.load(fOCRResults)
 
     path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\original size choro maps'
-    img1Name = '1_i7aR525CtXLHOPbarZt5kg.png'
+    img1Name = '35.lab-7.jpg'
     img2Name = '7.7886413.jpg'
 
     # read images and remove texts on the images
