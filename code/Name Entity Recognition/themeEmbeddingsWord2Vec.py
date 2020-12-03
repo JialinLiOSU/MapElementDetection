@@ -119,7 +119,7 @@ def main():
 
     themeEmbeds = []
     for tl in themeLemmaList:
-        tlEmbed = get_sif_feature_vectors(tl, themeLemmaList)
+        tlEmbed = get_word2vec_feature_vectors(tl)
         themeEmbeds.append(tlEmbed)
     print('test')
 

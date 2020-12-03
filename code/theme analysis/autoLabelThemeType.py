@@ -26,8 +26,9 @@ economic = ["unemployment rate", "gross domestic income (nominal or ppp)", "gros
             "poverty rate", "economic growth rate", "percent of households above $200k", "average price for honey per pound",
             "federal government expenditure (per capita)", "median rent price", "sale amounts of beer", "NSF funding for \"Catalogue\"",
             "Agriculture exports", "number of McDonald's", "import and export statistics", "Gross profit of companies"]
+            # labor force and journey to work
 
-# 2. physical indicator
+# 2. physical indicator (environmental) add more indicators
 physical = ["annual average temperature", "annual average precipitation",
             "number of fire points", "number of earthquake"]
 
@@ -43,11 +44,11 @@ social = ["number of libraries", "average age", "adult obesity", "measles incide
           "renter occupied", "burglary per 1000 household", "infant mortality rate", "number of pedestrian accidents", "number of academic articles published",
           "number of Olympic game awards", "percent of forest area", "percent of farms with female principal operator", "percentage of respondents who did not provide a workplace address at Area unit level",
           "License plate vanitization rate", 'Race diversity index', 'difference in race diversity', ]
-# 4. housing indicator
+# 4. housing indicator - economic
 housing = ['Average number of bedrooms of houses', 'Average square footage of houses', 'Age of householder', 'Average year built', 'Household income', 'Average monthly housing cost',
            'Average monthly housing cost as percentage of income', 'Average poverty level for household']
 
-# 5. retail indicator
+# 5. retail indicator - economic
 salesForRetail = 'Estimated annual sales for '
 retailBusiness = ['total', 'total (excl. motor vehicle & parts)', 'total (excl. gasoline stations)', 'total (excl. motor vehicle & parts & gasoline stations)',
                   'Motor vehicle & parts Dealers', 'Auto & other motor veh. Dealers', 'New car dealers', 'Auto parts', 'acc. & tire store', 'Furniture & home furn. Stores', 'Furniture stores', 'Home furnishings stores',
@@ -56,7 +57,7 @@ retailBusiness = ['total', 'total (excl. motor vehicle & parts)', 'total (excl. 
                   'Shoe stores', 'Sporting goods hobby, musical instrument, & book stores', 'General merchandise stores', 'Department stores', 'Other general merch. Stores', 'Warehouse clubs & supercenters',
                   'All oth. gen. merch. Stores', 'Miscellaneous store retailer', 'Nonstore retailers', 'Elect. shopping & m/o houses', 'Food services & drinking places']
 
-# 6. manufacturing indicator
+# 6. manufacturing indicator - economic
 capitalExpenses = ['Number of employees', 'Annual payroll',	'Production workers average for year', 'Production workers annual hours', 'Production workers annual wages', 'Total cost of materials',
                    'Total value of shipments and receipts for services', 'Total capital expenditures']
 connectWordManu = ' of '

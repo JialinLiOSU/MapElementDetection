@@ -22,9 +22,26 @@ def main():
 
     themes = testThemes._mgr._values
 
-    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis\\testThemePred.txt', 'w') as f:
-        for i in range(len(testPredLabel)):
-            f.write(themes[i]  + ',    ' + id2type(testPredLabel[i]) + '\n')
+    # with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis\\testThemePred.txt', 'w') as f:
+    rows = []
+    for i in range(len(testPredLabel)):
+        rows.append([themes[i], id2type(testPredLabel[i])])
+        # f.write(themes[i]  + ',    ' + id2type(testPredLabel[i]) + '\n')
+    
+    # name of csv file  
+    path = r'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis'
+    filename = "testThemePred.csv"
+
+    fields = ['theme','label']
+        
+    # writing to csv file  
+    with open(path + '\\' + filename, 'w') as csvfile:  
+        # creating a csv writer object  
+        csvwriter = csv.writer(csvfile)  
+        # writing the fields  
+        csvwriter.writerow(fields)  
+        # writing the data rows  
+        csvwriter.writerows(rows) 
 
     print('test')
 
