@@ -118,50 +118,7 @@ def edgeDetector(img):
     # cv2.destroyAllWindows()
     return edge
 
-def main():
-    # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsOrigin.pickle'
-    with open(detectResultName, 'rb') as fDetectResults:
-        detectResults = pickle.load(fDetectResults)
-
-    # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrBoundsListOrigin.pickle'
-    with open(ocrResultName, 'rb') as fOCRResults:
-        ocrResults = pickle.load(fOCRResults)
-
-    path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\originalSize'
-    img1Name = 'ch-07-firstmap-06-1.png'
-
-    imgDetectResult = []
-    for dr in detectResults:
-        if dr[0] == img1Name:
-            imgDetectResult = dr
-
-    # read images and remove texts on the images
-    img1 = cv2.imread(path + '\\' + img1Name) # Image1 to be matched
-    imgGrey = cv2.imread(path + '\\' + img1Name, 0) 
-    ocrImg1 = [ocr[1:] for ocr in ocrResults if ocr[0]==img1Name][0]
-    img1Proc = removeText(img1,ocrImg1)
-    # get edge detection image
-    edge1 = edgeDetector(img1Proc)
-
-    # loop over the number of segments
-    # apply SLIC and extract (approximately) the supplied number
-    # of segments
-    image = img_as_float(img1Proc)
-    numSegments = 300
-    # get segments from the segmentation results
-    segments = slic(image, n_segments = numSegments, sigma = 5)
-    # edgeSegments = edgeDetectorGrey(segments)
-    # show the output of SLIC
-    fig = plt.figure("Superpixels -- %d segments" % (numSegments))
-    ax = fig.add_subplot(1, 1, 1)
-    bounds = mark_boundaries(image, segments)
-    ax.imshow(bounds)
-    plt.axis("off")
-    # show the plots
-    # plt.show()
-
+def getBackgroundColor(img1,imgGrey):
     # pick up background color
     (height, width, channel) = img1.shape
     heightList = range(10, height - 10, int((height - 20)/10))
@@ -184,21 +141,142 @@ def main():
             colorCounts[index] += 1
     indexColorMost = colorCounts.index(max(colorCounts))
     bgColorValue = colorValues[indexColorMost]
+    return bgColorValue
 
-    # get the corner superpixel from segmentation results
-    # maxSegmentationIDs = []
-    # minSegmentationIDs = []
-    # for segment in segments:
-    #     maxSegmentationIDs.append(segment.max)
-    #     minSegmentationIDs.append(segment.min)
+def main():
+    # read detection results from pickle file
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsOrigin.pickle'
+    with open(detectResultName, 'rb') as fDetectResults:
+        detectResults = pickle.load(fDetectResults)
+
+    # read ocr results from pickle file
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrBoundsListOrigin.pickle'
+    with open(ocrResultName, 'rb') as fOCRResults:
+        ocrResults = pickle.load(fOCRResults)
+
+    path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\originalSize'
+    img1Name = 'ch-07-firstmap-06-1.png'
+
+    imgDetectResult = []
+    for dr in detectResults:
+        if dr[0] == img1Name:
+            imgDetectResult = dr
+
+    # read images and remove texts on the images
+    img1 = cv2.imread(path + '\\' + img1Name) # Image1 to be matched
+    # imgGrey = cv2.imread(path + '\\' + img1Name, 0) 
+    ocrImg1 = [ocr[1:] for ocr in ocrResults if ocr[0]==img1Name][0]
+    img1Proc = removeText(img1,ocrImg1)
+    imgGrey = cv2.cvtColor(img1Proc, cv2.COLOR_BGR2GRAY)
+    # get edge detection image
+    edge1 = edgeDetector(img1Proc)
+
+    # loop over the number of segments
+    # apply SLIC and extract (approximately) the supplied number
+    # of segments
+    image = img_as_float(img1Proc)
+    numSegments = 300
+    # get segments from the segmentation results
+    segments = slic(image, n_segments = numSegments, sigma = 5)
+    # edgeSegments = edgeDetectorGrey(segments)
+    # show the output of SLIC
+    fig = plt.figure("Superpixels -- %d segments" % (numSegments))
+    ax = fig.add_subplot(1, 1, 1)
+    bounds = mark_boundaries(image, segments)
+    # ax.imshow(bounds)
+    # plt.axis("off")
+    # show the plots
+    # plt.show()
+
+    bgColor = getBackgroundColor(img1Proc, imgGrey)
+
+    # get the list of pairs of coords of pixels with a specific superpixel segmentid
+    # index of the list means superpixel segmentid
     maxSegmentationID = np.amax(segments)
     minSegmentationID = np.amin(segments)
 
-    indexSegmentList = []
+    coordPairsList = [] 
     for id in range(minSegmentationID,maxSegmentationID + 1):
         results = np.where(segments == id)
-        indexSegmentList.append(results)
+        coordPairs = np.asarray(results).T.tolist()
+        # results = zip(*np.where(segments == id))
+        # coord = zip(results)
+        coordPairsList.append(coordPairs)
+
+    # identify whether the superpixel is with bg color
+    mapRegionSuperPixels = []
+    for coordPairs in coordPairsList:
+        colorValueList = []
+        for coordPair in coordPairs:
+            colorValue = imgGrey[coordPair[0],coordPair[1]]
+            colorValueList.append(colorValue)
+        
+        maxOccurValue = max(colorValueList,key=colorValueList.count)
+        if abs(maxOccurValue - bgColor) > 10:
+            mapRegionSuperPixels.append(coordPairs)
     
+    # find super-pixels on the corners of US continent
+    maxXcoordList = []
+    maxXcoordPairList = []
+    maxYcoordList = []
+    maxYcoordPairList = []
+    minXcoordList = []
+    minXcoordPairList = []
+    minYcoordList = []
+    minYcoordPairList = []
+    for mapSuperPixel in mapRegionSuperPixels:
+        maxXcoord = 0
+        maxYcoord = 0
+        minXcoord = 999999
+        minYcoord = 999999
+        for pairCoord in mapSuperPixel:
+            if pairCoord[1] > maxXcoord:
+                maxXcoord = pairCoord[1]
+                maxXcoordPairList.append(pairCoord)
+            if pairCoord[0] > maxYcoord and pairCoord[1] > image.shape[1]/4:
+                maxYcoord = pairCoord[0]
+                maxYcoordPairList.append(pairCoord)
+            if pairCoord[1] < minXcoord:
+                minXcoord = pairCoord[1]
+                minXcoordPairList.append(pairCoord)
+            if pairCoord[0] < minYcoord:
+                minYcoord = pairCoord[0]
+                minYcoordPairList.append(pairCoord)
+        maxXcoordList.append(maxXcoord)
+        maxYcoordList.append(maxYcoord)
+        minXcoordList.append(minXcoord)
+        minYcoordList.append(minYcoord)
+
+    maxXCoord = max(maxXcoordList)
+    indexRightSuperPixel = maxXcoordList.index(maxXCoord)
+    maxXCoordPair = maxXcoordPairList[indexRightSuperPixel]
+
+    maxYCoord = max(maxYcoordList)
+    indexBottomSuperPixel = maxYcoordList.index(maxYCoord)
+    maxYCoordPair = maxYcoordPairList[indexBottomSuperPixel]
+
+    minXCoord = min(minXcoordList)
+    indexLeftSuperPixel = minXcoordList.index(minXCoord)
+    minXCoordPair = minXcoordPairList[indexLeftSuperPixel]
+
+    minYCoord = min(minYcoordList)
+    indexTopSuperPixel = minYcoordList.index(minYCoord)
+    minYCoordPair = minYcoordPairList[indexTopSuperPixel]
+
+    MaineSuperPixel = mapRegionSuperPixels[indexRightSuperPixel]
+    WashingtonSuperPixel = mapRegionSuperPixels[indexTopSuperPixel]
+    TexasSuperPixel = mapRegionSuperPixels[indexBottomSuperPixel]
+
+    for coordPair in MaineSuperPixel+WashingtonSuperPixel+TexasSuperPixel:
+        imgGrey[coordPair[0],coordPair[1]] = 0
+
+    ax.imshow(imgGrey)
+    plt.show()
+
+    # get the three corner coordinates for Washington, Maine and Texas
+    print(maxXCoordPair)
+    print(maxYCoordPair)
+    print(minYCoordPair)
 
     print('test')
 
