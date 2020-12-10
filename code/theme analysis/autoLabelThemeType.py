@@ -30,7 +30,41 @@ economic = ["unemployment rate", "gross domestic income (nominal or ppp)", "gros
 
 # 2. physical indicator (environmental) add more indicators
 physical = ["annual average temperature", "annual average precipitation",
-            "number of fire points", "number of earthquake"]
+            "number of fire points", "number of earthquake",
+            'Acid Rain','Transportation Emissions','Asbestos','Indoor Air Quality',
+            'Volatile Organic Compounds (VOCs)','Mold',
+            'Radon','Wood Burning Appliances','Carbon Monoxide (CO)','Lead (Pb)',
+            'Nitrogen Dioxide (NO2)','Ozone, Ground Level','Particulate Matter (PM)',
+            'PM2.5','PM10','Sulfur Dioxide (SO2)','Greenhouse Gas (GHG) Emissions',
+            'Hazardous Air Pollutants','Coal Ash','grizzly bear mortality',
+            'wildfire and beetle-caused canopy mortality','Stable Isotope Data from Tundra Swan (Cygnus columbianus) Feathers',
+            'nesting information for birds breeding','radiocarbon dating of deep-sea (500 m to 700 m) black corals',
+            'Lotus corniculatus','Cirsium arvense','Bromus tectorum','phragmites australis',
+            'Formaldehyde','Mercury','Lead','Asbestos','Hazardous/Toxic Air Pollutants',
+            'Per- and Polyfluoroalkyl Substances (PFAS)','Pesticide Chemicals','Glyphosate',
+            'Polychlorinated Biphenyls (PCBs)','Green Chemistry','Coronavirus (COVID-19)',
+            'Asthma','Carbon Monoxide Poisoning','Indoor Air Quality in your Home','Wood Burning Stoves and Appliances',
+            'Asbestos Effects','Dioxin Effects','Hazardous Air Pollutant Effects','Lead Effects',
+            'Mercury Effects','Mold Effects','Ozone Effects','Radiation Effects','Radon Effects',
+            'Pesticides','Land Cover Series Estimates','estimated land cover types','Soil moisture and temperature',
+            'Flood Inundation','Sea-Floor Sediment','Soil erosion','Soil compaction caused by humans or animals',
+            'Soil Loss/Root Exposure','area of open water (km2)','area of Perennial Ice/Snow (km2)',
+            'area of Developed, Open Space (km2)','area of Developed, Low Intensity (km2)','area of Developed, Medium Intensity (km2)',
+            'area of Developed, High Intensity (km2)','area of Barren Land (km2)','area of Unconsolidated Shore (km2)',
+            'area of Deciduous Forest (km2)','area of Evergreen Forest (km2)','area of Mixed Forest (km2)',
+            'area of Dwarf Scrub (km2)','area of Dwarf Scrub (km2)','area of Grassland/Herbaceous (km2)',
+            'area of Sedge Herbaceous (km2)','area of Lichens (km2)','area of Moss (km2)',
+            'area of Pasture/Hay (km2)','area of Cultivated Crops (km2)','area of Woody Wetlands (km2)',
+            'area of Palustrine Forested Wetland (km2)','area of Palustrine Scrub/Shrub (km2)',
+            'area of Estuarine Forested Wetlands (km2)','area of Estuarine Scrub/Shrub (km2)',
+            'area of Emergent Herbaceoous Wetland (km2)','area of Palustrine Emergent Wetland (Persistent) (km2)',
+            'area of Palustrine Emergent Wetland (km2)','area of Palustrine Aquatic Bed (km2)',
+            'area of Estuarine Aquatic Bed (km2)','Garbage (Solid Waste)','Landfills',
+            'Food Waste and Recovery','International Electronic Waste (E-Waste)','Academic Laboratory Wastes',
+            'Cathode Ray Tubes (CRTs)','Household Hazardous Waste','Mixed Radiological Wastes',
+            'Pharmaceutical hazardous wastes','Polychlorinated Biphenyls (PCBs)','Solvent-Contaminated Wipes',
+            'Special Wastes','Universal Waste','Used Oil','zinc, oxygen, and pH in seawater','Dissolved oxygen',
+            'Water Temperature','Specific conductance','pH','Turbidity','Herbicide use']
 
 # 3. social indicator
 social = ["number of libraries", "average age", "adult obesity", "measles incidence", "flu incidence", "Human Development Index",
@@ -166,7 +200,7 @@ def getTheme():
     elif (titleTypeID == 3):
         lenSoc = len(social)
         theme = social[random.randint(0, lenSoc-1)]
-        label = '4'
+        label = '1'
     elif (titleTypeID == 4):
         lenHou = len(housing)
         theme = housing[random.randint(0, lenHou-1)]
@@ -231,12 +265,12 @@ def main():
         
     # name of csv file  
     path = r'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis'
-    filename = "autoLabelThemes.csv"
+    filename = "autoLabelThemesThreeCategories.csv"
         
     # writing to csv file  
     with open(path + '\\' + filename, 'w') as csvfile:  
         # creating a csv writer object  
-        csvfile.write()
+        # csvfile.write()
         csvwriter = csv.writer(csvfile)  
         # writing the fields  
         csvwriter.writerow(fields)  

@@ -6,13 +6,12 @@ def id2type(themeID):
     if themeID == 0:
         return 'other'
     elif themeID == 1:
-        return 'demographic'
+        return 'social'
     elif themeID == 2:
         return 'economic'
-    elif themeID == 3:
-        return 'physical'
     else:
-        return 'social'
+        return 'environmental'
+
 
 def main():
     with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis\\test_theme.pkl', 'rb') as f:
