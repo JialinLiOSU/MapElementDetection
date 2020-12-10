@@ -65,27 +65,31 @@ def main():
 
     themePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\Name Entity Recognition\theme_embedding_BERT'
     # read theme list for labeling in dendrogram
-    themeFileName = 'themeList.pkl'
+    themeFileName = 'SimplifiedthemeList.pkl'
     with open(themePath + '\\' + themeFileName, 'rb') as f:
         themeList = pickle.load(f)
 
-    # read theme embeddings from BERT model
-    themeEmbeddingFileName = 'theme_BERT_embeddings_20.pkl'
+    # # read theme embeddings from BERT model
+    # themeEmbeddingFileName = 'theme_BERT_embeddings_20.pkl'
+    # with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
+    #     themeEmbeddings1 = pickle.load(f)
+    # themeEmbeddingFileName = 'theme_BERT_embeddings_30.pkl'
+    # with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
+    #     themeEmbeddings2 = pickle.load(f)
+    # themeEmbeddingFileName = 'theme_BERT_embeddings_200.pkl'
+    # with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
+    #     themeEmbeddings3 = pickle.load(f)
+    # themeEmbeddingFileName = 'theme_BERT_embeddings_400.pkl'
+    # with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
+    #     themeEmbeddings4 = pickle.load(f)
+    # themeEmbeddingFileName = 'theme_BERT_embeddings_400p.pkl'
+    # with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
+    #     themeEmbeddings5 = pickle.load(f)
+    # themeEmbeddings = themeEmbeddings1 + themeEmbeddings2 + themeEmbeddings3 + themeEmbeddings4 + themeEmbeddings5
+
+    themeEmbeddingFileName = 'simplified_theme_BERT_embeddings.pkl'
     with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
-        themeEmbeddings1 = pickle.load(f)
-    themeEmbeddingFileName = 'theme_BERT_embeddings_30.pkl'
-    with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
-        themeEmbeddings2 = pickle.load(f)
-    themeEmbeddingFileName = 'theme_BERT_embeddings_200.pkl'
-    with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
-        themeEmbeddings3 = pickle.load(f)
-    themeEmbeddingFileName = 'theme_BERT_embeddings_400.pkl'
-    with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
-        themeEmbeddings4 = pickle.load(f)
-    themeEmbeddingFileName = 'theme_BERT_embeddings_400p.pkl'
-    with open(themePath + '\\' + themeEmbeddingFileName, 'rb') as f:
-        themeEmbeddings5 = pickle.load(f)
-    themeEmbeddings = themeEmbeddings1 + themeEmbeddings2 + themeEmbeddings3 + themeEmbeddings4 + themeEmbeddings5
+        themeEmbeddings = pickle.load(f)
 
     lemmatizer = WordNetLemmatizer()
     nltk.download('wordnet')
@@ -108,7 +112,7 @@ def main():
     
     aveThemeEmbeddings = []
     for themeE in themeEmbeddings[0:100]:
-        aveThemeE = get_weighted_feature_vectors(themeE,word_counts)
+        aveThemeE = get_weighted_feature_vectors(themeE,themeLemmaList)
         aveThemeEmbeddings.append(aveThemeE)
     
     # numTheme = len(clsEmbeddings)
@@ -123,7 +127,7 @@ def main():
     # print(similarityMat[0:30,0:30])
 
     # draw dendrogram from the theme embeddings
-    linked = linkage(aveThemeEmbeddings[0:100], 'median')
+    linked = linkage(aveThemeEmbeddings[0:100], 'complete')
     labelList = themeList[0:100]
 
     plt.figure(figsize=(10, 7))

@@ -9,8 +9,6 @@ with open(path + '\\' + fileName) as csvfile:
         if row[0] != '':
             csvLines.append(row)
 
-
-
 filename = "realCorrectLabelThemesProced.csv"
 # writing to csv file  
 with open(path + '\\' + filename, 'w') as csvfile:  

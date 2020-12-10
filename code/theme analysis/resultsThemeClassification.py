@@ -18,6 +18,8 @@ def main():
         testThemes = pickle.load(f)
     with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis\\test_pred_label.pkl', 'rb') as f:
         testPredLabel = pickle.load(f)
+    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis\\pred_prob.pkl', 'rb') as f:
+        testPredProb = pickle.load(f)
 
     themes = testThemes._mgr._values
 
@@ -29,18 +31,22 @@ def main():
     
     # name of csv file  
     path = r'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis'
-    filename = "testThemePred.csv"
+    filename = "themeClassificationResults.csv"
 
     fields = ['theme','label']
         
     # writing to csv file  
     with open(path + '\\' + filename, 'w') as csvfile:  
         # creating a csv writer object  
-        csvwriter = csv.writer(csvfile)  
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(fields)    
         # writing the fields  
-        csvwriter.writerow(fields)  
-        # writing the data rows  
-        csvwriter.writerows(rows) 
+        for i in range(len(rows)):
+            csvwriter.writerow(rows[i])
+            csvwriter.writerow(testPredProb[i])
+        # csvwriter.writerow(testPredProb[i])  
+        # # writing the data rows  
+        # csvwriter.writerows(rows) 
 
     print('test')
 
