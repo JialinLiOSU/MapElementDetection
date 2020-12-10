@@ -80,7 +80,7 @@ def pre_process(corpus):
 
 def main():
     themePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\Name Entity Recognition'
-    themeFileName = 'themeResultsCleanup.txt'
+    themeFileName = 'themeResultsCleanupSimplified.txt'
 
     f = open(themePath + '\\' + themeFileName, "r")
     themeFile = f.read()
@@ -119,10 +119,10 @@ def main():
 
     themeEmbeds = []
     for tl in themeLemmaList:
-        tlEmbed = get_word2vec_feature_vectors(tl)
+        # tlEmbed = get_word2vec_feature_vectors(tl)
+        tlEmbed = get_sif_feature_vectors(tl,themeLemmaList)
         themeEmbeds.append(tlEmbed)
     print('test')
-
 
     themeEmbedsProc = []
     themeLemmasProc = []
@@ -148,14 +148,14 @@ def main():
                 labels=labelList,
                 distance_sort='descending',
                 show_leaf_counts=True)
-    plt.show()
+    # plt.show()
 
     # with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeEmbeddings.pkl', 'wb') as f:
     #     pickle.dump(themeEmbeds,f)
     # with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeLemmaList.pkl', 'wb') as f:
     #     pickle.dump(themeLemmaList,f)
 
-    # with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\themeList.pkl', 'wb') as f:
-    #     pickle.dump(themeList,f)
+    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\SimplifiedthemeList.pkl', 'wb') as f:
+        pickle.dump(themeList,f)
 
 if __name__ == "__main__":    main()

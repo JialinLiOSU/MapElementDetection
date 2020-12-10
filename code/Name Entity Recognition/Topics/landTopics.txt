@@ -1,0 +1,37 @@
+Land Cover Series Estimates
+estimated land cover types
+Soil moisture and temperature
+Flood Inundation
+Sea-Floor Sediment
+Soil erosion
+Soil compaction caused by humans or animals
+Soil Loss/Root Exposure
+area of open water (km2)
+area of Perennial Ice/Snow (km2)
+area of Developed, Open Space (km2)
+area of Developed, Low Intensity (km2)
+area of Developed, Medium Intensity (km2)
+area of Developed, High Intensity (km2)
+area of Barren Land (km2)
+area of Unconsolidated Shore (km2)
+area of Deciduous Forest (km2)
+area of Evergreen Forest (km2)
+area of Mixed Forest (km2)
+area of Dwarf Scrub (km2)
+area of Dwarf Scrub (km2)
+area of Grassland/Herbaceous (km2)
+area of Sedge Herbaceous (km2)
+area of Lichens (km2)
+area of Moss (km2)
+area of Pasture/Hay (km2)
+area of Cultivated Crops (km2)
+area of Woody Wetlands (km2)
+area of Palustrine Forested Wetland (km2)
+area of Palustrine Scrub/Shrub (km2)
+area of Estuarine Forested Wetlands (km2)
+area of Estuarine Scrub/Shrub (km2)
+area of Emergent Herbaceoous Wetland (km2)
+area of Palustrine Emergent Wetland (Persistent) (km2)
+area of Palustrine Emergent Wetland (km2)
+area of Palustrine Aquatic Bed (km2)
+area of Estuarine Aquatic Bed (km2)
