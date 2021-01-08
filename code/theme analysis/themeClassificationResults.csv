@@ -1,293 +1,585 @@
-theme,label
-adult obesity,environmental
--3.308006,-0.97825915,-3.6423128,-0.57758135
-unemployed,economic
--1.9456339,-1.5129093,-0.8195502,-1.6285939
-percentage of students who complete high school in four-years,social
--0.9646262,-0.8112076,-1.7665453,-5.6183443
-russian as native language,environmental
--4.4373574,-1.0415274,-1.7615538,-0.76899225
-incidence of total crimes against women,social
--4.326466,-0.098911196,-3.005909,-3.4587564
-total reported cases of covid-19,social
--4.831919,-0.8755305,-1.7338711,-0.91932434
-2000 democratic people's republic of korea,environmental
--4.1935186,-1.0676379,-1.507676,-0.8683027
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-percent of population 65 and older,social
--2.5580935,-0.43259633,-1.4181525,-3.4557261
-percent of population 2000 one or more races including black or african american,social
--1.0433632,-0.5495859,-2.731424,-5.21825
-density of population,social
--2.226136,-0.15289398,-3.512351,-5.519523
-unemployment rate percent ,social
--3.8413968,-0.29553393,-1.6312139,-3.2516482
-number of incidents,social
--2.9988718,-0.28183562,-1.84077,-3.2951121
-area units,economic
--1.4904828,-1.2134533,-1.1121726,-1.9056695
-home ownership rate,social
--2.6704466,-0.47580487,-1.3682894,-2.9031177
-males per 100 females,other
--0.11825044,-2.2947943,-4.5985646,-7.2962556
-population per sq.mile,other
--0.75534904,-1.2017305,-1.5034292,-4.9457335
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-permafrost glacier,environmental
--5.354726,-4.3364563,-2.6031916,-0.09634083
-gdp,social
--3.8255122,-0.6142566,-1.4433914,-1.6043303
-literacy rate,social
--1.2084922,-0.4398908,-3.0454493,-4.63862
-life expectancy,social
--1.1782062,-0.81877357,-1.7168977,-2.6370094
-median income,other
--0.12105662,-2.2627647,-4.843092,-6.179667
-percent of population one or more races including asian,social
--1.6872956,-0.26740578,-3.180741,-4.8204083
-global competitiveness index,economic
--3.516524,-0.83388674,-0.71828943,-3.029203
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-percent of votes,social
--1.7449764,-0.5020385,-1.5537869,-4.7548738
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-population estimates,social
--2.0856543,-0.21723692,-2.7658472,-4.8143945
-unemployment percent ,social
--3.6826134,-0.4745564,-1.2498803,-2.715939
-number of people one or more races including white not hispanic or latino origin,social
--2.878144,-0.09032416,-3.6803823,-5.315934
-sales,environmental
--2.3994818,-2.3835015,-2.050783,-0.37342316
- life expectancy,social
--1.1782062,-0.81877357,-1.7168977,-2.6370094
-distribution of airports,economic
--4.697487,-2.2912579,-0.4906729,-1.2818322
-percent under age 18 one race: white,social
--2.4741285,-0.28401676,-2.315113,-2.7449024
-area of soybeans as a percentage of area in crops,social
--2.9253492,-0.8025843,-1.0205843,-1.981948
-mortality rate,social
--4.021758,-0.11692595,-3.1476216,-3.0063207
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-percent of population one race: american indian and alaska native,social
--2.9119165,-0.39576632,-1.7749944,-2.2732182
-street complaints,social
--2.9852965,-0.672271,-1.6476618,-1.4006847
-number of people one or more races including asian,social
--2.878144,-0.09032416,-3.6803823,-5.315934
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-native american alone/one or more other race,social
--3.3256242,-0.34134865,-1.9192128,-2.2394552
-life expectancy at birth,social
--0.96015203,-0.6705288,-2.576778,-3.5163143
-crime against women,social
--3.6184497,-0.14081569,-3.218923,-2.7406526
-overdose deaths,social
--3.7761955,-0.5556755,-2.9745092,-1.0431778
-average temperature,other
--0.40614986,-1.3774756,-3.0992558,-3.3106484
-retailers,social
--3.1706138,-1.0538987,-1.0955095,-1.2907045
-population count,social
--1.4753928,-0.32077765,-3.2966862,-4.7420244
-hispanic population percentage,social
--1.5895249,-0.2489736,-4.2835627,-5.958628
-commuters by bike,economic
--2.4855142,-1.6417837,-0.63149595,-1.6539788
-poverty,social
--1.098674,-0.8355819,-3.134338,-1.6631725
-estimates of completeness of electoral registers,social
--3.1404974,-0.33194113,-1.5697924,-3.4698787
-percent under age 18 one race: black or african american,social
--2.527695,-0.26957446,-2.2929623,-2.8916285
-obesity trends,social
--3.885647,-0.5218372,-2.162002,-1.3058518
-percent of population one or more races including white,social
--1.6872956,-0.26740578,-3.180741,-4.8204083
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-percent change one more races including white not hispanic or latino origin,social
--3.3938375,-0.13777205,-2.5712986,-3.9799309
-maternal mortality rate,social
--4.184151,-0.11413707,-3.3529117,-2.8534207
-individuals using the internet percent of population,social
--2.3158987,-0.17880839,-2.7646446,-6.186083
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-violent crime rates,social
--4.5774007,-0.2703934,-2.5747092,-1.8940369
-reported cases per 100 000 people,social
--3.215865,-0.26145527,-1.7463155,-4.164747
-eagle nests,environmental
--2.8671784,-2.682714,-2.6294384,-0.21984327
-percent of native hawaiian and other pacific islander population indicating,social
--3.0879464,-0.4896014,-1.6252074,-1.9333477
-percent under age 18 2000 one or more races including black or african american,social
--1.0636449,-0.43940097,-4.770009,-6.264832
-number of people one race: american indian and alaska native,social
--3.2314177,-0.22282517,-2.1809783,-3.0509768
-income,economic
--1.1316572,-1.885659,-0.97796255,-1.8991481
-percent hispanic or latino,social
--1.6922597,-0.35610235,-2.3994908,-3.6996627
-number of people,social
--2.5225656,-0.15351439,-2.841001,-5.6018724
-work stress,social
--1.6473602,-1.0056742,-1.7217035,-1.3360456
-total number of frauds,social
--4.2809963,-0.46382603,-1.1403968,-3.2805912
-literacy,other
--0.7584273,-1.6549063,-2.8850622,-1.256543
-average household income as percent of national average household income,social
--1.5657008,-0.35574538,-2.4259267,-6.209006
-population,social
--1.0548506,-0.5520327,-2.9527462,-3.7388613
-coronavirus,environmental
--5.949578,-3.522728,-4.313977,-0.046573892
-population,social
--1.0548506,-0.5520327,-2.9527462,-3.7388613
-population,social
--1.0548506,-0.5520327,-2.9527462,-3.7388613
-alcoholic drinks on-trade percent ,economic
--5.4793177,-3.5266783,-0.12566736,-2.4707994
-population,social
--1.0548506,-0.5520327,-2.9527462,-3.7388613
-estimated median household income,other
--0.3169694,-1.4557757,-3.3258533,-5.997155
-life expectancy,social
--1.1782062,-0.81877357,-1.7168977,-2.6370094
-cystic echinoc prevalence,environmental
--4.7295065,-3.344099,-5.1073627,-0.051477343
-annual sum of global horizontal irradiation,economic
--3.848585,-2.2045593,-0.34866413,-1.8154731
-percent of population one more races including white not hispanic or latino origin,social
--2.4029229,-0.19697589,-2.5795481,-4.379776
-000,economic
--4.162529,-1.6779933,-0.52741814,-1.5723499
-annual avergage daily traffic density,social
--3.094574,-0.637622,-1.0907602,-2.4057598
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-literacy rate,social
--1.2084922,-0.4398908,-3.0454493,-4.63862
-total population,social
--1.3403226,-0.45501667,-2.5216706,-3.7517722
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-population estimates,social
--2.0856543,-0.21723692,-2.7658472,-4.8143945
-percent change one race: white not hispanic or latino origin,social
--2.5025268,-0.32039586,-1.7914008,-3.6677415
-motor vehicle fatalities,environmental
--4.0560966,-1.6280334,-2.7098978,-0.32874766
-life exp,environmental
--3.7345636,-2.437802,-1.7222292,-0.34235463
-population,social
--1.0548506,-0.5520327,-2.9527462,-3.7388613
-population percent white ethnic groups,social
--3.944068,-0.11370711,-2.7148705,-3.8213646
-population,social
--1.0548506,-0.5520327,-2.9527462,-3.7388613
-median taxable income,other
--0.52182853,-0.99882114,-3.3100123,-6.355887
-percent voting to leave,social
--1.935761,-0.59193856,-1.3358037,-3.2318306
-poverty rate,social
--2.4835217,-0.16050833,-2.9862125,-4.243154
-percentage of women aged 15-49 years who belong to poorest wealth quintile,social
--2.6643097,-0.19544205,-2.690512,-3.2179904
-population estimates,social
--2.0856543,-0.21723692,-2.7658472,-4.8143945
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-mexican american population,social
--2.3909488,-0.26475894,-2.9656682,-2.4130669
-distribution of the spanish populatioi 2005 ,environmental
--2.714922,-1.3513483,-1.8884758,-0.6470336
-stop and frisk per block,social
--2.9534047,-0.3660047,-2.2640293,-1.8944048
-incidence,environmental
--3.102653,-1.3757315,-1.7244685,-0.64598185
-photovoltaic power potential,environmental
--4.1582637,-1.2968479,-1.457323,-0.7379054
-unemployment rates,social
--4.043663,-0.5305229,-1.5770528,-1.6735151
-income estimates,economic
--3.1533246,-1.2863821,-0.43530223,-3.3827915
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-percent under age 18 one race: native hawaiian and other pacific islander,social
--2.6504843,-0.33784363,-1.8467448,-2.8417
-total probable and confirmed cases,economic
--3.7608514,-1.2628975,-0.38727915,-4.199621
-precipitation,environmental
--3.9368775,-3.2050061,-2.7991843,-0.12888783
-percent of population,social
--2.6649399,-0.18989965,-2.338588,-4.9775934
-share of high school students attending a school with a sworn law enforcement office,social
--1.3636905,-0.4256608,-2.4327972,-5.758505
-hazy weather,environmental
--2.8079975,-4.098258,-3.5349054,-0.11214878
-number of covid-19 cases,social
--4.3706727,-0.43868873,-1.4000318,-2.3445883
-average temperature,other
--0.40614986,-1.3774756,-3.0992558,-3.3106484
-percentage of population knowing neither english nor french,social
--2.5350394,-0.17907903,-2.7089312,-4.012194
-total number of hurricane strikes,social
--3.5367498,-0.6297053,-1.1637216,-2.0728889
-percent of white population indicating one race,social
--1.8411772,-0.23459715,-3.1349666,-4.964881
-number of people one or more races including native hawaiian and other pacific islander,social
--2.878144,-0.09032416,-3.6803823,-5.315934
-number of people one race: asian,social
--2.8338087,-0.26408806,-2.0326154,-3.1626596
-plastic waste available to enter the ocean,environmental
--5.008115,-2.2958026,-1.4645281,-0.41332263
-confirmed covid-19 cases,environmental
--4.8747034,-1.6446704,-2.3840663,-0.34656692
-number of people one race: native hawaiian and other pacific islander,social
--3.9475183,-0.116161324,-2.8028045,-3.5157285
-energy production,environmental
--4.759973,-2.1702547,-1.5036433,-0.42317057
-drought severity index,social
--2.8213625,-0.5815584,-1.3585885,-2.084049
-median household income,other
--0.05545595,-3.0866108,-4.8795047,-7.2801313
-influenza patents,environmental
--5.1014233,-2.96859,-3.5308697,-0.09073817
- gnp per capita,social
--3.459082,-0.10225102,-3.5151737,-3.3243513
-forest area as percentage of land area,social
--2.3931184,-0.7838116,-1.1122348,-2.0941875
-percent of population hispanic or latino origin,social
--2.7003906,-0.19750947,-2.4473736,-3.6679883
-percent of households,social
--1.6661437,-0.41890213,-1.960862,-4.3804317
-number of confirmed covid-19 cases,social
--4.090346,-0.67341447,-2.3037457,-0.98505634
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-percentage of population aged 14 years and under,social
--2.6727016,-0.28052482,-2.1826866,-2.767654
-population density,social
--1.886112,-0.2175191,-3.6245663,-4.0647774
-influenza research database reported cases,social
--4.09913,-0.31382212,-2.1018236,-2.0361474
-coronavirus covid-19 cases,environmental
--6.320324,-3.042286,-2.0909984,-0.19005778
-average amount of deer hunted per person,social
--2.355937,-0.6264677,-1.113257,-3.1645846
-population per square mile,other
--0.45208585,-1.3334612,-2.409357,-4.5791163
+theme,label,,,,,,,,,,,
+,,,,,,,,,,,,
+adult obesity,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.308006,-0.97825915,-3.6423128,-0.57758135,,,,,,,,,
+,,,,,,,,,,,,
+unemployed,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.9456339,-1.5129093,-0.8195502,-1.6285939,,,,,,,,,
+,,,,,,,,,,,,
+percentage of students who complete high school in four-years,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.9646262,-0.8112076,-1.7665453,-5.6183443,,,,,,,,,
+,,,,,,,,,0 other,1 social,2 economic,3 environmental
+russian as native language,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.4373574,-1.0415274,-1.7615538,-0.76899225,,,,,,,,,
+,,,,,,,,,,,,
+incidence of total crimes against women,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.326466,-0.098911196,-3.005909,-3.4587564,,,,,,,,,
+,,,,,,,,,,,,
+total reported cases of covid-19,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.831919,-0.8755305,-1.7338711,-0.91932434,,,,,,,,,
+,,,,,,,,,,,,
+2000 democratic people's republic of korea,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.1935186,-1.0676379,-1.507676,-0.8683027,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+percent of population 65 and older,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.5580935,-0.43259633,-1.4181525,-3.4557261,,,,,,,,,
+,,,,,,,,,,,,
+percent of population 2000 one or more races including black or african american,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.0433632,-0.5495859,-2.731424,-5.21825,,,,,,,,,
+,,,,,,,,,,,,
+density of population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.226136,-0.15289398,-3.512351,-5.519523,,,,,,,,,
+,,,,,,,,,,,,
+unemployment rate percent ,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.8413968,-0.29553393,-1.6312139,-3.2516482,,,,,,,,,
+,,,,,,,,,,,,
+number of incidents,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.9988718,-0.28183562,-1.84077,-3.2951121,,,,,,,,,
+,,,,,,,,,,,,
+area units,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.4904828,-1.2134533,-1.1121726,-1.9056695,,,,,,,,,
+,,,,,,,,,,,,
+home ownership rate,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.6704466,-0.47580487,-1.3682894,-2.9031177,,,,,,,,,
+,,,,,,,,,,,,
+males per 100 females,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.11825044,-2.2947943,-4.5985646,-7.2962556,,,,,,,,,
+,,,,,,,,,,,,
+population per sq.mile,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.75534904,-1.2017305,-1.5034292,-4.9457335,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+permafrost glacier,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-5.354726,-4.3364563,-2.6031916,-0.09634083,,,,,,,,,
+,,,,,,,,,,,,
+gdp,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.8255122,-0.6142566,-1.4433914,-1.6043303,,,,,,,,,
+,,,,,,,,,,,,
+literacy rate,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.2084922,-0.4398908,-3.0454493,-4.63862,,,,,,,,,
+,,,,,,,,,,,,
+life expectancy,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.1782062,-0.81877357,-1.7168977,-2.6370094,,,,,,,,,
+,,,,,,,,,,,,
+median income,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.12105662,-2.2627647,-4.843092,-6.179667,,,,,,,,,
+,,,,,,,,,,,,
+percent of population one or more races including asian,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.6872956,-0.26740578,-3.180741,-4.8204083,,,,,,,,,
+,,,,,,,,,,,,
+global competitiveness index,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.516524,-0.83388674,-0.71828943,-3.029203,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+percent of votes,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.7449764,-0.5020385,-1.5537869,-4.7548738,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+population estimates,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.0856543,-0.21723692,-2.7658472,-4.8143945,,,,,,,,,
+,,,,,,,,,,,,
+unemployment percent ,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.6826134,-0.4745564,-1.2498803,-2.715939,,,,,,,,,
+,,,,,,,,,,,,
+number of people one or more races including white not hispanic or latino origin,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.878144,-0.09032416,-3.6803823,-5.315934,,,,,,,,,
+,,,,,,,,,,,,
+sales,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.3994818,-2.3835015,-2.050783,-0.37342316,,,,,,,,,
+,,,,,,,,,,,,
+ life expectancy,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.1782062,-0.81877357,-1.7168977,-2.6370094,,,,,,,,,
+,,,,,,,,,,,,
+distribution of airports,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.697487,-2.2912579,-0.4906729,-1.2818322,,,,,,,,,
+,,,,,,,,,,,,
+percent under age 18 one race: white,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.4741285,-0.28401676,-2.315113,-2.7449024,,,,,,,,,
+,,,,,,,,,,,,
+area of soybeans as a percentage of area in crops,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.9253492,-0.8025843,-1.0205843,-1.981948,,,,,,,,,
+,,,,,,,,,,,,
+mortality rate,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.021758,-0.11692595,-3.1476216,-3.0063207,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+percent of population one race: american indian and alaska native,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.9119165,-0.39576632,-1.7749944,-2.2732182,,,,,,,,,
+,,,,,,,,,,,,
+street complaints,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.9852965,-0.672271,-1.6476618,-1.4006847,,,,,,,,,
+,,,,,,,,,,,,
+number of people one or more races including asian,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.878144,-0.09032416,-3.6803823,-5.315934,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+native american alone/one or more other race,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.3256242,-0.34134865,-1.9192128,-2.2394552,,,,,,,,,
+,,,,,,,,,,,,
+life expectancy at birth,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.96015203,-0.6705288,-2.576778,-3.5163143,,,,,,,,,
+,,,,,,,,,,,,
+crime against women,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.6184497,-0.14081569,-3.218923,-2.7406526,,,,,,,,,
+,,,,,,,,,,,,
+overdose deaths,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.7761955,-0.5556755,-2.9745092,-1.0431778,,,,,,,,,
+,,,,,,,,,,,,
+average temperature,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.40614986,-1.3774756,-3.0992558,-3.3106484,,,,,,,,,
+,,,,,,,,,,,,
+retailers,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.1706138,-1.0538987,-1.0955095,-1.2907045,,,,,,,,,
+,,,,,,,,,,,,
+population count,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.4753928,-0.32077765,-3.2966862,-4.7420244,,,,,,,,,
+,,,,,,,,,,,,
+hispanic population percentage,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.5895249,-0.2489736,-4.2835627,-5.958628,,,,,,,,,
+,,,,,,,,,,,,
+commuters by bike,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.4855142,-1.6417837,-0.63149595,-1.6539788,,,,,,,,,
+,,,,,,,,,,,,
+poverty,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.098674,-0.8355819,-3.134338,-1.6631725,,,,,,,,,
+,,,,,,,,,,,,
+estimates of completeness of electoral registers,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.1404974,-0.33194113,-1.5697924,-3.4698787,,,,,,,,,
+,,,,,,,,,,,,
+percent under age 18 one race: black or african american,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.527695,-0.26957446,-2.2929623,-2.8916285,,,,,,,,,
+,,,,,,,,,,,,
+obesity trends,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.885647,-0.5218372,-2.162002,-1.3058518,,,,,,,,,
+,,,,,,,,,,,,
+percent of population one or more races including white,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.6872956,-0.26740578,-3.180741,-4.8204083,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+percent change one more races including white not hispanic or latino origin,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.3938375,-0.13777205,-2.5712986,-3.9799309,,,,,,,,,
+,,,,,,,,,,,,
+maternal mortality rate,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.184151,-0.11413707,-3.3529117,-2.8534207,,,,,,,,,
+,,,,,,,,,,,,
+individuals using the internet percent of population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.3158987,-0.17880839,-2.7646446,-6.186083,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+violent crime rates,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.5774007,-0.2703934,-2.5747092,-1.8940369,,,,,,,,,
+,,,,,,,,,,,,
+reported cases per 100 000 people,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.215865,-0.26145527,-1.7463155,-4.164747,,,,,,,,,
+,,,,,,,,,,,,
+eagle nests,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.8671784,-2.682714,-2.6294384,-0.21984327,,,,,,,,,
+,,,,,,,,,,,,
+percent of native hawaiian and other pacific islander population indicating,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.0879464,-0.4896014,-1.6252074,-1.9333477,,,,,,,,,
+,,,,,,,,,,,,
+percent under age 18 2000 one or more races including black or african american,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.0636449,-0.43940097,-4.770009,-6.264832,,,,,,,,,
+,,,,,,,,,,,,
+number of people one race: american indian and alaska native,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.2314177,-0.22282517,-2.1809783,-3.0509768,,,,,,,,,
+,,,,,,,,,,,,
+income,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.1316572,-1.885659,-0.97796255,-1.8991481,,,,,,,,,
+,,,,,,,,,,,,
+percent hispanic or latino,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.6922597,-0.35610235,-2.3994908,-3.6996627,,,,,,,,,
+,,,,,,,,,,,,
+number of people,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.5225656,-0.15351439,-2.841001,-5.6018724,,,,,,,,,
+,,,,,,,,,,,,
+work stress,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.6473602,-1.0056742,-1.7217035,-1.3360456,,,,,,,,,
+,,,,,,,,,,,,
+total number of frauds,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.2809963,-0.46382603,-1.1403968,-3.2805912,,,,,,,,,
+,,,,,,,,,,,,
+literacy,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.7584273,-1.6549063,-2.8850622,-1.256543,,,,,,,,,
+,,,,,,,,,,,,
+average household income as percent of national average household income,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.5657008,-0.35574538,-2.4259267,-6.209006,,,,,,,,,
+,,,,,,,,,,,,
+population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.0548506,-0.5520327,-2.9527462,-3.7388613,,,,,,,,,
+,,,,,,,,,,,,
+coronavirus,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-5.949578,-3.522728,-4.313977,-0.046573892,,,,,,,,,
+,,,,,,,,,,,,
+population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.0548506,-0.5520327,-2.9527462,-3.7388613,,,,,,,,,
+,,,,,,,,,,,,
+population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.0548506,-0.5520327,-2.9527462,-3.7388613,,,,,,,,,
+,,,,,,,,,,,,
+alcoholic drinks on-trade percent ,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-5.4793177,-3.5266783,-0.12566736,-2.4707994,,,,,,,,,
+,,,,,,,,,,,,
+population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.0548506,-0.5520327,-2.9527462,-3.7388613,,,,,,,,,
+,,,,,,,,,,,,
+estimated median household income,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.3169694,-1.4557757,-3.3258533,-5.997155,,,,,,,,,
+,,,,,,,,,,,,
+life expectancy,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.1782062,-0.81877357,-1.7168977,-2.6370094,,,,,,,,,
+,,,,,,,,,,,,
+cystic echinoc prevalence,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.7295065,-3.344099,-5.1073627,-0.051477343,,,,,,,,,
+,,,,,,,,,,,,
+annual sum of global horizontal irradiation,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.848585,-2.2045593,-0.34866413,-1.8154731,,,,,,,,,
+,,,,,,,,,,,,
+percent of population one more races including white not hispanic or latino origin,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.4029229,-0.19697589,-2.5795481,-4.379776,,,,,,,,,
+,,,,,,,,,,,,
+0,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.162529,-1.6779933,-0.52741814,-1.5723499,,,,,,,,,
+,,,,,,,,,,,,
+annual avergage daily traffic density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.094574,-0.637622,-1.0907602,-2.4057598,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+literacy rate,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.2084922,-0.4398908,-3.0454493,-4.63862,,,,,,,,,
+,,,,,,,,,,,,
+total population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.3403226,-0.45501667,-2.5216706,-3.7517722,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+population estimates,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.0856543,-0.21723692,-2.7658472,-4.8143945,,,,,,,,,
+,,,,,,,,,,,,
+percent change one race: white not hispanic or latino origin,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.5025268,-0.32039586,-1.7914008,-3.6677415,,,,,,,,,
+,,,,,,,,,,,,
+motor vehicle fatalities,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.0560966,-1.6280334,-2.7098978,-0.32874766,,,,,,,,,
+,,,,,,,,,,,,
+life exp,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.7345636,-2.437802,-1.7222292,-0.34235463,,,,,,,,,
+,,,,,,,,,,,,
+population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.0548506,-0.5520327,-2.9527462,-3.7388613,,,,,,,,,
+,,,,,,,,,,,,
+population percent white ethnic groups,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.944068,-0.11370711,-2.7148705,-3.8213646,,,,,,,,,
+,,,,,,,,,,,,
+population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.0548506,-0.5520327,-2.9527462,-3.7388613,,,,,,,,,
+,,,,,,,,,,,,
+median taxable income,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.52182853,-0.99882114,-3.3100123,-6.355887,,,,,,,,,
+,,,,,,,,,,,,
+percent voting to leave,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.935761,-0.59193856,-1.3358037,-3.2318306,,,,,,,,,
+,,,,,,,,,,,,
+poverty rate,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.4835217,-0.16050833,-2.9862125,-4.243154,,,,,,,,,
+,,,,,,,,,,,,
+percentage of women aged 15-49 years who belong to poorest wealth quintile,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.6643097,-0.19544205,-2.690512,-3.2179904,,,,,,,,,
+,,,,,,,,,,,,
+population estimates,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.0856543,-0.21723692,-2.7658472,-4.8143945,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+mexican american population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.3909488,-0.26475894,-2.9656682,-2.4130669,,,,,,,,,
+,,,,,,,,,,,,
+distribution of the spanish populatioi 2005 ,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.714922,-1.3513483,-1.8884758,-0.6470336,,,,,,,,,
+,,,,,,,,,,,,
+stop and frisk per block,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.9534047,-0.3660047,-2.2640293,-1.8944048,,,,,,,,,
+,,,,,,,,,,,,
+incidence,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.102653,-1.3757315,-1.7244685,-0.64598185,,,,,,,,,
+,,,,,,,,,,,,
+photovoltaic power potential,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.1582637,-1.2968479,-1.457323,-0.7379054,,,,,,,,,
+,,,,,,,,,,,,
+unemployment rates,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.043663,-0.5305229,-1.5770528,-1.6735151,,,,,,,,,
+,,,,,,,,,,,,
+income estimates,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.1533246,-1.2863821,-0.43530223,-3.3827915,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+percent under age 18 one race: native hawaiian and other pacific islander,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.6504843,-0.33784363,-1.8467448,-2.8417,,,,,,,,,
+,,,,,,,,,,,,
+total probable and confirmed cases,economic,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.7608514,-1.2628975,-0.38727915,-4.199621,,,,,,,,,
+,,,,,,,,,,,,
+precipitation,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.9368775,-3.2050061,-2.7991843,-0.12888783,,,,,,,,,
+,,,,,,,,,,,,
+percent of population,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.6649399,-0.18989965,-2.338588,-4.9775934,,,,,,,,,
+,,,,,,,,,,,,
+share of high school students attending a school with a sworn law enforcement office,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.3636905,-0.4256608,-2.4327972,-5.758505,,,,,,,,,
+,,,,,,,,,,,,
+hazy weather,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.8079975,-4.098258,-3.5349054,-0.11214878,,,,,,,,,
+,,,,,,,,,,,,
+number of covid-19 cases,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.3706727,-0.43868873,-1.4000318,-2.3445883,,,,,,,,,
+,,,,,,,,,,,,
+average temperature,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.40614986,-1.3774756,-3.0992558,-3.3106484,,,,,,,,,
+,,,,,,,,,,,,
+percentage of population knowing neither english nor french,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.5350394,-0.17907903,-2.7089312,-4.012194,,,,,,,,,
+,,,,,,,,,,,,
+total number of hurricane strikes,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.5367498,-0.6297053,-1.1637216,-2.0728889,,,,,,,,,
+,,,,,,,,,,,,
+percent of white population indicating one race,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.8411772,-0.23459715,-3.1349666,-4.964881,,,,,,,,,
+,,,,,,,,,,,,
+number of people one or more races including native hawaiian and other pacific islander,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.878144,-0.09032416,-3.6803823,-5.315934,,,,,,,,,
+,,,,,,,,,,,,
+number of people one race: asian,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.8338087,-0.26408806,-2.0326154,-3.1626596,,,,,,,,,
+,,,,,,,,,,,,
+plastic waste available to enter the ocean,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-5.008115,-2.2958026,-1.4645281,-0.41332263,,,,,,,,,
+,,,,,,,,,,,,
+confirmed covid-19 cases,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.8747034,-1.6446704,-2.3840663,-0.34656692,,,,,,,,,
+,,,,,,,,,,,,
+number of people one race: native hawaiian and other pacific islander,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.9475183,-0.116161324,-2.8028045,-3.5157285,,,,,,,,,
+,,,,,,,,,,,,
+energy production,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.759973,-2.1702547,-1.5036433,-0.42317057,,,,,,,,,
+,,,,,,,,,,,,
+drought severity index,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.8213625,-0.5815584,-1.3585885,-2.084049,,,,,,,,,
+,,,,,,,,,,,,
+median household income,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.05545595,-3.0866108,-4.8795047,-7.2801313,,,,,,,,,
+,,,,,,,,,,,,
+influenza patents,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-5.1014233,-2.96859,-3.5308697,-0.09073817,,,,,,,,,
+,,,,,,,,,,,,
+ gnp per capita,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-3.459082,-0.10225102,-3.5151737,-3.3243513,,,,,,,,,
+,,,,,,,,,,,,
+forest area as percentage of land area,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.3931184,-0.7838116,-1.1122348,-2.0941875,,,,,,,,,
+,,,,,,,,,,,,
+percent of population hispanic or latino origin,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.7003906,-0.19750947,-2.4473736,-3.6679883,,,,,,,,,
+,,,,,,,,,,,,
+percent of households,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.6661437,-0.41890213,-1.960862,-4.3804317,,,,,,,,,
+,,,,,,,,,,,,
+number of confirmed covid-19 cases,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.090346,-0.67341447,-2.3037457,-0.98505634,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+percentage of population aged 14 years and under,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.6727016,-0.28052482,-2.1826866,-2.767654,,,,,,,,,
+,,,,,,,,,,,,
+population density,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-1.886112,-0.2175191,-3.6245663,-4.0647774,,,,,,,,,
+,,,,,,,,,,,,
+influenza research database reported cases,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-4.09913,-0.31382212,-2.1018236,-2.0361474,,,,,,,,,
+,,,,,,,,,,,,
+coronavirus covid-19 cases,environmental,,,,,,,,,,,
+,,,,,,,,,,,,
+-6.320324,-3.042286,-2.0909984,-0.19005778,,,,,,,,,
+,,,,,,,,,,,,
+average amount of deer hunted per person,social,,,,,,,,,,,
+,,,,,,,,,,,,
+-2.355937,-0.6264677,-1.113257,-3.1645846,,,,,,,,,
+,,,,,,,,,,,,
+population per square mile,other,,,,,,,,,,,
+,,,,,,,,,,,,
+-0.45208585,-1.3334612,-2.409357,-4.5791163,,,,,,,,,

@@ -273,10 +273,13 @@ def main():
     ax.imshow(imgGrey)
     plt.show()
 
-    # get the three corner coordinates for Washington, Maine and Texas
+    # get the three corner image coordinates for Washington, Maine and Texas
     print(maxXCoordPair)
     print(maxYCoordPair)
     print(minYCoordPair)
+
+    # get the three corner geographic coordinates
+    
 
     print('test')
 

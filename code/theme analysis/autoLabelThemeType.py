@@ -245,10 +245,11 @@ def getThemeList(numTheme):
     themeList = []
     labelList = []
     # count = 0
-    for i in range(numTheme):
+    while len(themeList) < numTheme:
         theme, label = getTheme()
-        themeList.append(theme)
-        labelList.append(label)
+        if theme not in themeList:
+            themeList.append(theme)
+            labelList.append(label)
     # print(titleList)
     return themeList,labelList
 
@@ -265,7 +266,7 @@ def main():
         
     # name of csv file  
     path = r'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis'
-    filename = "autoLabelThemesThreeCategories.csv"
+    filename = "autoLabelThemesNoRepeat.csv"
         
     # writing to csv file  
     with open(path + '\\' + filename, 'w') as csvfile:  
