@@ -11,7 +11,11 @@ from numpy import array, array_equal, allclose
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
+import pickleimport numpy as np
 import pickle
+import sys
+sys.path.append(r'C:\Users\jiali\Desktop\Map_Identification_Classification\world map generation\getCartoCoordExtent')
+from shapex import *
 
 def edgeDetector(img):
     # img = cv2.imread(testImagePath + '\\'+imgName)
@@ -143,6 +147,33 @@ def getBackgroundColor(img1,imgGrey):
     bgColorValue = colorValues[indexColorMost]
     return bgColorValue
 
+def getStateExtent(shp, country):
+    for c in shp:
+        x = c['properties']
+        if c['properties']['NAME'] == country:
+            break
+    typeGeom = c['geometry']['type']
+    coordGeom = c['geometry']['coordinates']
+    minLat,maxLat, minLon, maxLon= 999999999, -999999999, 999999999, -999999999
+    # if typeGeom != 'MultiPolygon':
+    #     coordGeom = [coordGeom]
+    
+    for poly in coordGeom:
+        if typeGeom != 'MultiPolygon':
+            poly = [poly]
+        tmpMinLon, tmpMaxLon = min(poly[0])[0], max(poly[0])[0]
+        tmpMinLat, tmpMaxLat = min(poly[0], key = lambda t: t[1])[1], max(poly[0],key = lambda t: t[1])[1]
+        if tmpMinLon < minLon:
+            minLon = tmpMinLon
+        if tmpMaxLon > maxLon:
+            maxLon = tmpMaxLon
+        if tmpMinLat < minLat:
+            minLat = tmpMinLat
+        if tmpMaxLat > maxLat:
+            maxLat = tmpMaxLat
+
+    return (minLon + maxLon)/2, (minLat + maxLat)/2
+
 def main():
     # read detection results from pickle file
     detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsOrigin.pickle'
@@ -263,6 +294,9 @@ def main():
     indexTopSuperPixel = minYcoordList.index(minYCoord)
     minYCoordPair = minYcoordPairList[indexTopSuperPixel]
 
+    deltaImgX =  maxXCoord - minXCoord
+    deltaImgY =  maxYCoord - minYCoord
+
     MaineSuperPixel = mapRegionSuperPixels[indexRightSuperPixel]
     WashingtonSuperPixel = mapRegionSuperPixels[indexTopSuperPixel]
     TexasSuperPixel = mapRegionSuperPixels[indexBottomSuperPixel]
@@ -270,17 +304,33 @@ def main():
     for coordPair in MaineSuperPixel+WashingtonSuperPixel+TexasSuperPixel:
         imgGrey[coordPair[0],coordPair[1]] = 0
 
-    ax.imshow(imgGrey)
-    plt.show()
+    # ax.imshow(imgGrey)
+    # plt.show()
 
     # get the three corner image coordinates for Washington, Maine and Texas
     print(maxXCoordPair)
     print(maxYCoordPair)
     print(minYCoordPair)
 
-    # get the three corner geographic coordinates
-    
+    # get the real corner geographic coordinates
+    x1, y1, x2, y2 = -124.84898942267459, 24.39631230024409, -66.88544332942061, 49.38436643852273
+    deltaGeoX = x2 - x1
+    deltaGeoY = y2 - y1
 
+    shapefilePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\shpFiles\USA_ADM1.shp'
+
+    fileName = 'USA_ADM1.shp'
+    shp = shapex(shapefilePath + '\\' + fileName)
+    x1, y1, x2, y2 = shp.bounds
+
+    # get the geographic coordinate and image coordinate of a selected state
+    state = 'Ohio'
+    xGeoState, yGeoState = getStateExtent(shp, state)
+    xImgState = minXCoord + (xGeoState - x1) / deltaGeoX * deltaImgX
+    yImgState = minYCoord + (yGeoState - y1) / deltaGeoY * deltaImgY
+
+    RGBState = img1Proc[xImgState, yImgState]
+    
     print('test')
 
 
