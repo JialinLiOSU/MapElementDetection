@@ -2,7 +2,7 @@ label,theme
 
 2,Elementary-secondary revenue from special education
 
-2,Sales receipts or value of shipments of firms
+2,Sales, receipts, or value of shipments of firms
 
 1,difference in number of people of People whose native language is Russian
 
@@ -134,7 +134,7 @@ label,theme
 
 3,number of earthquake
 
-1,Population density of people living in poverty areas
+1,Population density of  people living in poverty areas
 
 0,crime rate
 
@@ -144,7 +144,7 @@ label,theme
 
 2,GNP
 
-0,Total capital expenditures of Navigational measuring electromedical and control instruments manufacturing
+0,Total capital expenditures of Navigational, measuring, electromedical, and control instruments manufacturing
 
 0,Households with one or more people 65 years and over
 
@@ -190,7 +190,7 @@ label,theme
 
 0,Total capital expenditures of Fruit and vegetable preserving and specialty food manufacturing
 
-3,area of Developed High Intensity (km2)
+3,area of Developed, High Intensity (km2)
 
 0,Production workers average for year of Petroleum and coal products manufacturing
 
@@ -198,7 +198,7 @@ label,theme
 
 2,Business Applications
 
-0,Total cost of materials of Ventilation heating air-conditioning and commercial refrigeration equipment manufacturing
+0,Total cost of materials of Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing
 
 1,Population density of people who are alumni of OSU
 
@@ -252,11 +252,11 @@ label,theme
 
 2,Total revenue of governments
 
-0,Total capital expenditures of Forging and stamping Cutlery and handtool manufacturing
+0,Total capital expenditures of Forging and stamping,Cutlery and handtool manufacturing
 
 1,Percent of population of retailers of personal computer
 
-0,Households with male householder no wife present family
+0,Households with male householder, no wife present, family
 
 2,Non Farm Payrolls
 
@@ -264,13 +264,13 @@ label,theme
 
 0,Average household size
 
-0,Average hours per day spent on Playing with household children not sports
+0,Average hours per day spent on Playing with household children, not sports
 
 2,Producer Prices
 
 1,Percent of population of  never married
 
-0,Total cost of materials of Coating engraving heat treating and allied activities
+0,Total cost of materials of Coating, engraving, heat treating, and allied activities
 
 1,Population density of people working more than 49 hours per week
 
@@ -292,7 +292,7 @@ label,theme
 
 1,Percent change of black or African American
 
-3,zinc oxygen and pH in seawater
+3,zinc, oxygen, and pH in seawater
 
 0,Production workers annual wages of Household and institutional furniture and kitchen cabinet manufacturing
 
@@ -440,7 +440,7 @@ label,theme
 
 2,Imports & Exports by Related-Parties
 
-0,Average percent of time engaged in Storing interior household items including food
+0,Average percent of time engaged in Storing interior household items, including food
 
 0,Average percent of time engaged in Volunteering (organizational and civic activities)
 
@@ -456,7 +456,7 @@ label,theme
 
 1,Percent of population of Muslim
 
-0,Households with female householder no husband present family
+0,Households with female householder, no husband present, family
 
 2,Homeowner Vacancy Rate (percent)
 
@@ -500,7 +500,7 @@ label,theme
 
 3,Solvent-Contaminated Wipes
 
-0,Average hours per day by men spent on Attending meetings conferences and training
+0,Average hours per day by men spent on Attending meetings, conferences, and training
 
 1,Percent change of people living in slums
 
@@ -570,7 +570,7 @@ label,theme
 
 2,Food Inflation
 
-0,Production workers average for year of Coating engraving heat treating and allied activities
+0,Production workers average for year of Coating, engraving, heat treating, and allied activities
 
 2,Core Inflation Rate
 
@@ -592,7 +592,7 @@ label,theme
 
 3,Hazardous/Toxic Air Pollutants
 
-1,difference in population density of people enrolled in Nursery school people enrolled in preschool
+1,difference in population density of people enrolled in Nursery school, people enrolled in preschool
 
 2,Estimated annual sales for total (excl. motor vehicle & parts & gasoline stations)
 
@@ -620,7 +620,7 @@ label,theme
 
 2,Government Debt to GDP
 
-2,gross domestic product (GDP)
+2,gross domestic product (GDP),GDP
 
 3,Land Cover Series Estimates
 
@@ -666,19 +666,19 @@ label,theme
 
 3,Asbestos
 
-0,Production workers annual hours of Navigational measuring electromedical and control instruments manufacturing
+0,Production workers annual hours of Navigational, measuring, electromedical, and control instruments manufacturing
 
 0,number of academic articles published
 
-0,Average hours per day by men spent on Travel related to organizational civic and religious activities
+0,Average hours per day by men spent on Travel related to organizational, civic, and religious activities
 
-2,Estimated annual sales for Beer wine & liquor stores
+2,Estimated annual sales for Beer, wine & liquor stores
 
 2,Estimated annual sales for total
 
 0,Average percent of time engaged in Caring for and helping household members
 
-0,Total value of shipments and receipts for services of Engine turbine and power transmission equipment manufacturing
+0,Total value of shipments and receipts for services of Engine, turbine, and power transmission equipment manufacturing
 
 0,Annual payroll of Lime and gypsum product manufacturing
 
@@ -688,9 +688,9 @@ label,theme
 
 2,Estimated annual sales for Mens clothing stores
 
-3,area of Developed Low Intensity (km2)
+3,area of Developed, Low Intensity (km2)
 
-0,Production workers annual wages of Paint coating and adhesive manufacturing
+0,Production workers annual wages of Paint, coating, and adhesive manufacturing
 
 3,Mercury Effects
 
@@ -718,7 +718,7 @@ label,theme
 
 0,Production workers average for year of Converted paper product manufacturing
 
-0,Average percent of time engaged in by womenPlaying with household children not sports
+0,Average percent of time engaged in by womenPlaying with household children, not sports
 
 2,General sales of governments
 
@@ -802,13 +802,13 @@ label,theme
 
 0,Number of employees of Other electrical equipment and component manufacturing
 
-0,Average hours per day spent on Exterior maintenance repair and decoration
+0,Average hours per day spent on Exterior maintenance, repair, and decoration
 
 2,Estimated annual sales for Home furnishings stores
 
 1,Percent change of People whose native language is Russian
 
-0,Total value of shipments and receipts for services of Fiber yarn and thread mills
+0,Total value of shipments and receipts for services of Fiber, yarn, and thread mills
 
 0,Average hours per day spent on Personal activities
 
@@ -848,7 +848,7 @@ label,theme
 
 2,Total Taxes of governments
 
-0,Total value of shipments and receipts for services of Electrical equipment appliance and component manufacturing
+0,Total value of shipments and receipts for services of Electrical equipment, appliance, and component manufacturing
 
 0,Total cost of materials of Food manufacturing
 
@@ -856,7 +856,7 @@ label,theme
 
 1,number of people of males 15 years and over
 
-0,Annual payroll of Other transportation equipment manufacturing Furniture and related product manufacturing
+0,Annual payroll of Other transportation equipment manufacturing,Furniture and related product manufacturing
 
 3,Bromus tectorum
 
@@ -902,13 +902,13 @@ label,theme
 
 2,Gross Domestic Product (Third Estimate)
 
-0,Average percent of time engaged in by menSocializing relaxing and leisure
+0,Average percent of time engaged in by menSocializing, relaxing, and leisure
 
 0,Average percent of time engaged in by womenGrocery shopping
 
 2,Consumer Confidence
 
-0,Average percent of time engaged in by menInterior maintenance repair and decoration
+0,Average percent of time engaged in by menInterior maintenance, repair, and decoration
 
 1,Population density of Native Hawaiian and Other Pacific Islander
 
@@ -960,7 +960,7 @@ label,theme
 
 0,Production workers annual wages of Grain and oilseed milling
 
-0,Total capital expenditures of Other transportation equipment manufacturing Furniture and related product manufacturing
+0,Total capital expenditures of Other transportation equipment manufacturing,Furniture and related product manufacturing
 
 3,area of Deciduous Forest (km2)
 
@@ -978,7 +978,7 @@ label,theme
 
 2,GDP Annual Growth Rate
 
-0,Average percent of time engaged in by womenHome maintenance repair decoration and construction (not done by self)
+0,Average percent of time engaged in by womenHome maintenance, repair, decoration, and construction (not done by self)
 
 0,Average percent of time engaged in Health-related self care
 
@@ -986,7 +986,7 @@ label,theme
 
 0,gun violence rate
 
-2,percent of houses with annual income of $50000 and less
+2,percent of houses with annual income of $50,000 and less
 
 0,Annual payroll of Leather and hide tanning and finishing
 
@@ -1002,7 +1002,7 @@ label,theme
 
 3,Green Chemistry
 
-0,Average hours per day spent on Attending meetings conferences and training
+0,Average hours per day spent on Attending meetings, conferences, and training
 
 0,Annual payroll of Other miscellaneous manufacturing
 
@@ -1020,7 +1020,7 @@ label,theme
 
 1,number of people of Jewish
 
-3,area of Developed Open Space (km2)
+3,area of Developed, Open Space (km2)
 
 1,difference in number of people of above age 65
 
@@ -1028,7 +1028,7 @@ label,theme
 
 2,Annual Business Applications
 
-0,Production workers average for year of Fiber yarn and thread mills
+0,Production workers average for year of Fiber, yarn, and thread mills
 
 0,infant mortality rate
 
@@ -1040,7 +1040,7 @@ label,theme
 
 1,Population density of Muslim
 
-0,Annual payroll of Navigational measuring electromedical and control instruments manufacturing
+0,Annual payroll of Navigational, measuring, electromedical, and control instruments manufacturing
 
 1,Percent of population of people enrolled in College or graduate school
 
@@ -1082,7 +1082,7 @@ label,theme
 
 2,Foreign Trade
 
-3,area of Developed Medium Intensity (km2)
+3,area of Developed, Medium Intensity (km2)
 
 0,Annual payroll of Leather and allied product manufacturing
 
@@ -1108,7 +1108,7 @@ label,theme
 
 3,Mold Effects
 
-2,information sector revenue
+2, information sector revenue
 
 2,international advance trade in goods deficit
 
@@ -1152,13 +1152,13 @@ label,theme
 
 2,Personal Income Tax Rate
 
-0,Average hours per day by men spent on Taking class for degree certificate or licensure
+0,Average hours per day by men spent on Taking class for degree, certificate, or licensure
 
 0,Production workers average for year of Railroad rolling stock manufacturing
 
 0,Annual payroll of Medical equipment and supplies manufacturing
 
-2,Estimated annual sales for Sporting goods hobby musical instrument & book stores
+2,Estimated annual sales for Sporting goods hobby, musical instrument, & book stores
 
 2,Lending Rate
 
@@ -1168,7 +1168,7 @@ label,theme
 
 0,Annual payroll of Grain and oilseed milling
 
-2,professional scientific and technical services revenue
+2,professional, scientific, and technical services revenue
 
 0,Number of employees of Dairy product manufacturing
 
@@ -1182,7 +1182,7 @@ label,theme
 
 1,difference in number of people of separated
 
-0,Average percent of time engaged in Indoor and outdoor maintenance building and cleanup activities
+0,Average percent of time engaged in Indoor and outdoor maintenance, building, and cleanup activities
 
 1,Percent of population of Under age 18
 
@@ -1192,7 +1192,7 @@ label,theme
 
 2,Income Taxes of governments
 
-1,Percent change of people enrolled in Nursery school people enrolled in preschool
+1,Percent change of people enrolled in Nursery school, people enrolled in preschool
 
 2,Government Budget Value
 
@@ -1234,11 +1234,11 @@ label,theme
 
 2,median and average prices
 
-0,Production workers annual hours of Ventilation heating air-conditioning and commercial refrigeration equipment manufacturing
+0,Production workers annual hours of Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing
 
 0,Average hours per day spent on Purchasing goods and services
 
-0,Annual payroll of Electrical equipment appliance and component manufacturing
+0,Annual payroll of Electrical equipment, appliance, and component manufacturing
 
 1,Percent of population of women that were screened for breast and cervical cancer by jurisdiction
 
@@ -1266,7 +1266,7 @@ label,theme
 
 1,number of people of widowed
 
-0,Average hours per day by men spent on Indoor and outdoor maintenance building and cleanup activities
+0,Average hours per day by men spent on Indoor and outdoor maintenance, building, and cleanup activities
 
 3,wildfire and beetle-caused canopy mortality
 
@@ -1278,9 +1278,9 @@ label,theme
 
 1,Percent of population of people with a bachelor's degree or higher
 
-0,Average hours per day spent on Storing interior household items including food
+0,Average hours per day spent on Storing interior household items, including food
 
-0,Average hours per day by men spent on Organizational civic and religious activities
+0,Average hours per day by men spent on Organizational, civic, and religious activities
 
 3,Herbicide use
 
@@ -1306,7 +1306,7 @@ label,theme
 
 2,Social Security Rate
 
-1,Percent of population of now married except separated
+1,Percent of population of now married, except separated
 
 2,Part Time Employment
 
@@ -1314,11 +1314,11 @@ label,theme
 
 0,Average hours per day by men spent on Participating in religious practices
 
-0,Total capital expenditures of Hardware manufacturing Spring and wire product manufacturing
+0,Total capital expenditures of Hardware manufacturing,Spring and wire product manufacturing
 
 0,Average percent of time engaged in by womenReading to and with household children
 
-1,Population density of now married except separated
+1,Population density of now married, except separated
 
 1,number of people of people below poverty level
 
@@ -1342,7 +1342,7 @@ label,theme
 
 2,Bank Lending Rate
 
-0,Total capital expenditures of Pesticide fertilizer and other agricultural chemical manufacturing
+0,Total capital expenditures of Pesticide, fertilizer, and other agricultural chemical manufacturing
 
 1,Population density of males 15 years and over
 
@@ -1396,13 +1396,13 @@ label,theme
 
 0,Average hours per day by women spent on Playing games
 
-0,Average percent of time engaged in by womenWalking exercising and playing with animals
+0,Average percent of time engaged in by womenWalking, exercising, and playing with animals
 
 2,Advance Wholesale Inventories
 
 0,Total value of shipments and receipts for services of Electric lighting equipment manufacturing
 
-0,Production workers average for year of Pesticide fertilizer and other agricultural chemical manufacturing
+0,Production workers average for year of Pesticide, fertilizer, and other agricultural chemical manufacturing
 
 0,Production workers annual hours of Printing and related support activities
 
@@ -1448,9 +1448,9 @@ label,theme
 
 0,Average percent of time engaged in by womenSleeping
 
-1,difference in number of people of people enrolled in Nursery school people enrolled in preschool
+1,difference in number of people of people enrolled in Nursery school, people enrolled in preschool
 
-0,Annual payroll of Machine shops turned product and screw nut and bolt manscrewufacturing
+0,Annual payroll of Machine shops; turned product; and screw, nut, and bolt manscrewufacturing
 
 1,Percent change of per Walmart store
 
@@ -1480,13 +1480,13 @@ label,theme
 
 1,Percent of population of people working more than 49 hours per week
 
-1,Percent change of now married except separated
+1,Percent change of now married, except separated
 
 1,Percent of population of black or African American
 
 0,Average percent of time engaged in Socializing and communicating
 
-0,Average percent of time engaged in Attending meetings conferences and training
+0,Average percent of time engaged in Attending meetings, conferences, and training
 
 0,Total capital expenditures of Plastics and rubber products manufacturing
 
@@ -1502,7 +1502,7 @@ label,theme
 
 0,Average percent of time engaged in by menCaring for and helping nonhousehold members
 
-0,Number of employees of Other transportation equipment manufacturing Furniture and related product manufacturing
+0,Number of employees of Other transportation equipment manufacturing,Furniture and related product manufacturing
 
 1,difference in population density of People who is infected by HIV
 
@@ -1512,7 +1512,7 @@ label,theme
 
 0,Total value of shipments and receipts for services of Animal slaughtering and processing
 
-0,Production workers annual hours of Agriculture construction and mining machinery manufacturing
+0,Production workers annual hours of Agriculture, construction, and mining machinery manufacturing
 
 0,Average percent of time engaged in by womenGrooming
 
@@ -1536,7 +1536,7 @@ label,theme
 
 0,Production workers average for year of Electrical equipment manufacturing
 
-0,Production workers annual hours of Boiler tank and shipping container manufacturing
+0,Production workers annual hours of Boiler, tank, and shipping container manufacturing
 
 2,Gross Fixed Capital Formation
 
@@ -1556,9 +1556,9 @@ label,theme
 
 0,Total value of shipments and receipts for services of Fabric mills
 
-0,Average hours per day by women spent on Home maintenance repair decoration and construction (not done by self)
+0,Average hours per day by women spent on Home maintenance, repair, decoration, and construction (not done by self)
 
-0,Average hours per day by women spent on Computer use for leisure excluding games
+0,Average hours per day by women spent on Computer use for leisure, excluding games
 
 0,Average hours per day by men spent on Animals and pets
 
@@ -1578,7 +1578,7 @@ label,theme
 
 1,Percent change of Hispanic or Latino Origin
 
-0,Production workers annual wages of Other transportation equipment manufacturing Furniture and related product manufacturing
+0,Production workers annual wages of Other transportation equipment manufacturing,Furniture and related product manufacturing
 
 0,Total cost of materials of Plastics product manufacturing
 
@@ -1590,13 +1590,13 @@ label,theme
 
 1,number of people of Catholic
 
-0,Average hours per day by women spent on Walking exercising and playing with animals
+0,Average hours per day by women spent on Walking, exercising, and playing with animals
 
 0,Number of employees of Cut and sew apparel manufacturing
 
 1,number of people of people enrolled in College or graduate school
 
-0,Average percent of time engaged in by menParticipating in sports exercise and recreation
+0,Average percent of time engaged in by menParticipating in sports, exercise, and recreation
 
 0,Total capital expenditures of Fabricated metal product manufacturing
 
@@ -1630,9 +1630,9 @@ label,theme
 
 0,Production workers annual wages of Textile mills
 
-0,Average percent of time engaged in by womenInterior maintenance repair and decoration
+0,Average percent of time engaged in by womenInterior maintenance, repair, and decoration
 
-0,Production workers annual wages of Resin synthetic rubber and artificial synthetic fibers and filaments manufacturing
+0,Production workers annual wages of Resin, synthetic rubber, and artificial synthetic fibers and filaments manufacturing
 
 1,Percent change of above age 65
 
@@ -1642,7 +1642,7 @@ label,theme
 
 1,Percent change of Christian
 
-1,Population density of people enrolled in Nursery school people enrolled in preschool
+1,Population density of people enrolled in Nursery school, people enrolled in preschool
 
 1,difference in number of people of people with a bachelor's degree or higher
 
@@ -1654,7 +1654,7 @@ label,theme
 
 1,difference in population density of Christian
 
-0,Average percent of time engaged in by menExterior maintenance repair and decoration
+0,Average percent of time engaged in by menExterior maintenance, repair, and decoration
 
 1,Percent change of White
 
@@ -1678,7 +1678,7 @@ label,theme
 
 2,Estimated annual sales for Department stores
 
-0,Average percent of time engaged in Computer use for leisure excluding games
+0,Average percent of time engaged in Computer use for leisure, excluding games
 
 0,Average percent of time engaged in by menTravel related to purchasing goods and services
 
@@ -1702,13 +1702,13 @@ label,theme
 
 0,Number of employees of Semiconductor and other electronic component manufacturing
 
-0,Annual payroll of Pesticide fertilizer and other agricultural chemical manufacturing
+0,Annual payroll of Pesticide, fertilizer, and other agricultural chemical manufacturing
 
 0,Total cost of materials of Motor vehicle parts manufacturing
 
 0,Average percent of time engaged in by menArts and entertainment (other than sports)
 
-2,arts entertainment and recreation revenue
+2,arts, entertainment, and recreation revenue
 
 0,Average percent of time engaged in Attending religious services
 
@@ -1740,7 +1740,7 @@ label,theme
 
 0,Average hours per day by men spent on Travel related to personal care]
 
-1,difference in population density of never married
+1,difference in population density of  never married
 
 0,Number of employees of Machinery manufacturing
 
@@ -1750,7 +1750,7 @@ label,theme
 
 0,Average percent of time engaged in Participating in religious practices
 
-0,Average percent of time engaged in Exterior maintenance repair and decoration
+0,Average percent of time engaged in Exterior maintenance, repair, and decoration
 
 2,Monthly Wholesale Trade
 
@@ -1760,7 +1760,7 @@ label,theme
 
 2,Money Supply
 
-1,number of people of people enrolled in Nursery school people enrolled in preschool
+1,number of people of people enrolled in Nursery school, people enrolled in preschool
 
 0,Average hours per day by women spent on Kitchen and food cleanup
 
@@ -1772,7 +1772,7 @@ label,theme
 
 2,median rent price
 
-2,percent of houses with annual income of $300000 and over
+2,percent of houses with annual income of $300,000 and over
 
 0,Average percent of time engaged in by womenAttending household children events
 
@@ -1782,7 +1782,7 @@ label,theme
 
 0,Average percent of time engaged in by menKitchen and food cleanup
 
-0,Total value of shipments and receipts for services of Machine shops turned product and screw nut and bolt manscrewufacturing
+0,Total value of shipments and receipts for services of Machine shops; turned product; and screw, nut, and bolt manscrewufacturing
 
 0,Total value of shipments and receipts for services of Apparel manufacturing
 
@@ -1796,7 +1796,7 @@ label,theme
 
 1,difference in population density of people enrolled in High school (grades 9-12)
 
-1,difference in number of people of now married except separated
+1,difference in number of people of now married, except separated
 
 0,Number of employees of Glass and glass product manufacturing
 
@@ -1814,7 +1814,7 @@ label,theme
 
 1,difference in population density of Asian
 
-1,difference in population density of now married except separated
+1,difference in population density of now married, except separated
 
 3,area of Palustrine Emergent Wetland (Persistent) (km2)
 
@@ -1864,7 +1864,7 @@ label,theme
 
 0,Average percent of time engaged in Travel related to purchasing goods and services
 
-2,Sales value of shipments or revenue
+2,Sales, value of shipments, or revenue
 
 1,difference in number of people of Native Hawaiian and Other Pacific Islander
 
@@ -1884,7 +1884,7 @@ label,theme
 
 0,Average hours per day by men spent on Travel related to education
 
-0,Total cost of materials of Machine shops turned product and screw nut and bolt manscrewufacturing
+0,Total cost of materials of Machine shops; turned product; and screw, nut, and bolt manscrewufacturing
 
 1,number of people of people enrolled in Kindergarten
 
@@ -1894,7 +1894,7 @@ label,theme
 
 0,Number of employees of Electrical equipment manufacturing
 
-0,Production workers average for year of Ventilation heating air-conditioning and commercial refrigeration equipment manufacturing
+0,Production workers average for year of Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing
 
 1,difference in number of people of people who changed the job in the past one year
 
@@ -1910,11 +1910,11 @@ label,theme
 
 0,Total value of shipments and receipts for services of Other fabricated metal product manufacturing
 
-0,Average hours per day spent on Walking exercising and playing with animals
+0,Average hours per day spent on Walking, exercising, and playing with animals
 
 1,Population density of widowed
 
-0,Average hours per day by men spent on Computer use for leisure excluding games
+0,Average hours per day by men spent on Computer use for leisure, excluding games
 
 2,Unemployment Rate
 
@@ -1924,7 +1924,7 @@ label,theme
 
 1,Percent change of people working more than 49 hours per week
 
-0,Average hours per day by men spent on Telephone calls mail and e-mail
+0,Average hours per day by men spent on Telephone calls, mail, and e-mail
 
 3,area of Sedge Herbaceous (km2)
 
@@ -1938,7 +1938,7 @@ label,theme
 
 1,Population density of people below poverty level
 
-0,Average percent of time engaged in by womenOrganizational civic and religious activities
+0,Average percent of time engaged in by womenOrganizational, civic, and religious activities
 
 0,Average hours per day spent on Watching TV
 
@@ -1948,7 +1948,7 @@ label,theme
 
 1,difference in number of people of  people living in poverty areas
 
-0,Total capital expenditures of Pulp paper and paperboard mills
+0,Total capital expenditures of Pulp, paper, and paperboard mills
 
 1,difference in population density of Native Hawaiian and Other Pacific Islander
 
@@ -1986,7 +1986,7 @@ label,theme
 
 0,Average hours per day spent on Playing games
 
-0,Production workers annual wages of Navigational measuring electromedical and control instruments manufacturing
+0,Production workers annual wages of Navigational, measuring, electromedical, and control instruments manufacturing
 
 0,Total cost of materials of Alumina and aluminum production and processing
 
@@ -1994,876 +1994,9 @@ label,theme
 
 0,Average percent of time engaged in by menHousehold management
 
-0,Total cost of materials of Engine turbine and power transmission equipment manufacturing
+0,Total cost of materials of Engine, turbine, and power transmission equipment manufacturing
 
 0,Production workers average for year of Ship and boat building
 
 0,Total capital expenditures of Apparel accessories and other apparel manufacturing
 
-0,life exp
-
-1,males per 100 females
-
-0,measles incidence
-
-1,percent of population 65 and older
-
-0,mortality associated with arterial hypertension
-
-0,average rate per 10000 people
-
-0,influenza patents
-
-0,annual avergage daily traffic density
-
-3,average temperature
-
-2,value of land
-
-1,population growth
-
-0,cic returnable loans/borrows
-
-2,percent of homes 300000 and over
-
-2,percent of homes less than 50000
-
-0,suicide rate
-
-0,life expectancy
-
-1,density of population
-
-1,population density
-
-1,population percent white ethnic groups
-
-0,coronavirus cases
-
-0,social vulnerability
-
-1,population
-
-2,median household income
-
-0,life expectancy
-
-1,population
-
-1,population
-
-0,energy production
-
-1,population density
-
-1,minority group with highest percent of state population excludes white nor hispanic
-
-2,estimated effects of water scarcity on gdp
-
-1,population
-
-1,change in population density percent 
-
-3,difference in proportion of fire area
-
-1,population estimates
-
-2,per capita income
-
-1,population density
-
-0,change in divorce rates
-
-0,crime rates
-
-1,percentage of the people living in poverty areas
-
-1,religious diversity
-
-2,median income
-
-1,population density
-
-0,home ownership rate
-
-1,crime against women
-
-0,preventable death rate
-
-1,share of adults defined as obese
-
-0,share of high school students attending a school with a sworn law enforcement office
-
-0,human poverty index
-
-0,reported cases per 100 000 people
-
-0,crime against women
-
-1,share of adults who are obese
-
-3,average annual rainfall
-
-2,estimated median household income
-
-0,incidence of total crimes against women
-
-1,population change
-
-3,co2 emissions per capita
-
-1,population growth
-
-2,retailers
-
-2,gdp per capita
-
-1,percentage of country's population living in urban areas
-
-0,percent of total votes
-
-1,population density
-
-3,freshwater availability
-
-1,population density
-
-1,population
-
-1,population
-
-1,percent of people below poverty level
-
-0,street complaints
-
-0,unemployment percent 
-
-0,arranged marriages with no consent
-
-0,percent change
-
-1,population density
-
-3,per capita co2 emissions
-
-0,totol number frauds
-
-0,literacy
-
-0,oxbridge offer rate per population
-
-3,planted soybeans
-
-0,federal election results
-
-1,males per 100 females
-
-0,maternal mortality rate
-
-1,percent hispanic or latino
-
-0,unemployment rates
-
-1,average age
-
-1,population density
-
-1,distribution of the spanish population 2005 
-
-0,mobile cellular telephones
-
-0,unemployment rate percent 
-
-0,sum of fertility rate
-
-3,total co2 emissions
-
-0,confirmed covid-19 cases
-
-1,population/square mile
-
-1,population per square mile
-
-1,native american alone/one or more other race
-
-0,alcoholic drinks on-trade percent 
-
-0,literacy rate
-
-0,number of worldcat libraries
-
-1,percentage of population aged 14 years and under
-
-1,asian population
-
-1,population density
-
-3,lowest temperature
-
-1,population density
-
-1,adult obesity
-
-1,population density
-
-1,population with difficulty walking
-
-0,obesity trends
-
-1,population
-
-1,population estimates
-
-0,incidence of cervical cancer
-
-1,population count
-
-0,life expectancy at birth
-
-0,schools interested in being academies
-
-1,population estimates
-
-1,population estimates
-
-1,percent of children age 0-5 underweigh
-
-1,life expectancy at birth
-
-1,population density
-
-0,photovoltaic power potential
-
-0,number of cities
-
-1,population density
-
-1,population per sq.
-
-0,land use
-
-0,life expectancy
-
-2,gnp per capita
-
-1,black population
-
-0,reported coronavirus cases
-
-0,coronavirus
-
-1,population
-
-2,spending by overseas residents
-
-3,plastic waste available to enter the ocean
-
-3,population estimates
-
-0,rate of unvaccinated population
-
-0,births
-
-1,percent who have already felt negative effects from climate change
-
-0,trump vote
-
-0,winning margins
-
-2,gdp
-
-2,trade in goods with china as apercent of state gdp
-
-3,hazy weather
-
-1,birth rate
-
-1,population
-
-3,annual precipitation
-
-0,persons deaths
-
-1,percentage of women aged 15-49 years who belong to poorest wealth quintile
-
-0,hevs
-
-0,cystic echoing prevalence
-
-1,population density
-
-2,log relative gdp density
-
-2,income
-
-3,precipitation
-
-1,population per square mile
-
-0,poor tb treatment outcome
-
-0,total number of ba-related publications
-
-3,actual evapotraspiration value
-
-0,motor vehicle fatalities
-
-1,population density
-
-1,population undernourished
-
-1,german population
-
-1,percentage of country's population living in urban areas
-
-0,number of confirmed covid-19 cases
-
-0,coronavirus cases
-
-0,coronavirus covid-19 cases
-
-0,total probable and confirmed cases
-
-0,confirmed cases of covid-19
-
-0,total reported cases of covid-19
-
-2,sales
-
-1,population density
-
-0,immunization percentages of children from reporting facilities that are up to date on their vaccinations
-
-0,regional iq
-
-2,sales
-
-0,average amount of deer hunted per person
-
-1,population density
-
-0,index of deprivation
-
-1,population
-
-0,cvl percent 
-
-0,hcc violations
-
-1,population
-
-0,single vehicle crash facilities
-
-0,teen chlamydia rates
-
-0,life expectancy
-
-0,death rate from drug poisoning
-
-0,total number of frauds
-
-1,population density
-
-0,percent of patients testing positive for covid-19
-
-0,number of covid-19 cases
-
-1,population density
-
-1,population
-
-0,average farm size
-
-3,rainfall erosivity
-
-1,percent population change
-
-3,area of soybeans as a percentage of area in crops
-
-2,health care costs
-
-0,distribution of airports
-
-0,state game areas
-
-1,percent of persons age 25+
-
-0,poverty
-
-3,forest area as percentage of land area
-
-1,population density
-
-1,population density
-
-3,average temperature
-
-0,number of inhabitants
-
-1,population
-
-0,percentage of students who complete high school in four-years
-
-1,population density
-
-0,happiness level
-
-1,population with difficulty walking
-
-1,total population
-
-2,average household income as percent of national average household income
-
-3,total number of hurricane strikes
-
-1,population
-
-1,number of children per female
-
-1,population change
-
-0,adult literacy rates
-
-1,population
-
-0,score
-
-1,population
-
-1,population
-
-1,indices of deprivation
-
-1,india sex ratio
-
-1,individuals using the internet percent of population
-
-0,influenza reported cases
-
-1,population density
-
-1,population density
-
-1,population density
-
-1,population density
-
-0,fertility rate
-
-1,population density
-
-1,population density
-
-1,population density
-
-2,per capita income
-
-2,per capita income
-
-1,population of english and french speakers
-
-1,non english & french speakers
-
-1,percentage of population knowing neither english nor french
-
-1,population distribution
-
-3,vegetation
-
-0,life expectancy at birth
-
-0,literacy rate
-
-1,percentage of births where one of both parents were born outside the uk england and wales
-
-2,income estimates
-
-2,income estimates
-
-0,smr
-
-1,population per square mile
-
-0,incidence
-
-0,number of incidents
-
-3,pm2.5 levels
-
-0,poverty
-
-0,life expectancy
-
-1,mexican american population
-
-0,violent crime rates
-
-0,percent voting to leave
-
-1,population percent change
-
-1,population density
-
-2,median income
-
-2,median household income
-
-1,population density
-
-1,percent of population with internet connection
-
-1,population density
-
-0,mortality rates for heart disease
-
-0,global competitiveness index
-
-1,population density
-
-1,population
-
-1,population estimates
-
-0,overdose deaths
-
-1,males prevalence
-
-3,drought severity index
-
-2,percentage renters
-
-3,permafrost glacier
-
-1,minority prevalence hispanic or latino origin and all races except white
-
-1,diversity hispanic or latino origin and all races
-
-1,difference in diversity hispanic or latino origin and all races
-
-1,percent change one race: white
-
-1,percent of population one race: white
-
-1,percent under age 18 one race: white
-
-1,number of people one race: white
-
-1,percent of white population indicating one race
-
-1,percent change one or more races including white
-
-1,percent of population one or more races including white
-
-1,total population
-
-1,percent under age 18 one or more races including white
-
-1,number of people one or more races including white
-
-1,percent change one race: black or african american
-
-1,percent of population one race: black or african american
-
-1,percent under age 18 one race: black or african american
-
-1,number of people one race: black or african american
-
-1,percent of black or african american population indicating one race
-
-1,percent change one or more races including black or african american
-
-1,percent of population 2000 one or more races including black or african american
-
-1,percent under age 18 2000 one or more races including black or african american
-
-1,population density
-
-1,number of people one or more races including black or african american
-
-1,percent change one race: american indian and alaska native
-
-1,percent of population one race: american indian and alaska native
-
-1,percent under age 18 one race: american indian and alaska native
-
-1,number of people one race: american indian and alaska native
-
-1,percent of american indian and alaska native population indicating one race
-
-1,percent change one or more races including american indian and alaska native
-
-1,percent of population one or more races including american indian and alaska native
-
-1,percent under age 18 one or more races including american indian and alaska native
-
-1,number of people one or more races including american indian and alaska native
-
-1,population density
-
-1,percent change one race
-
-1,percent of population one race: asian
-
-1,percent under age 18 one race
-
-1,number of people one race: asian
-
-1,percent of asian population indicating one race
-
-1,percent change one or more races including asian
-
-1,percent of population one or more races including asian
-
-1,percent under age 18 one or more races including asian
-
-1,number of people one or more races including asian
-
-1,percent change one race: native hawaiian and other pacific islander
-
-1,difference number of people
-
-1,percent of population one race: native hawaiian and other pacific islander
-
-1,percent under age 18 one race: native hawaiian and other pacific islander
-
-1,number of people one race: native hawaiian and other pacific islander
-
-1,percent of native hawaiian and other pacific islander population indicating
-
-1,percent change one or more races including native hawaiian and other pacific islander
-
-1,percent of population one or more races including native hawaiian and other pacific islander
-
-1,percent under age 18 one or more races including native hawaiian and other pacific islander
-
-1,number of people one or more races including native hawaiian and other pacific islander
-
-1,percent of population
-
-1,percent under age
-
-1,number of people
-
-1,number of people two or more races
-
-1,percent change hispanic or latino origin
-
-1,percent of population hispanic or latino origin
-
-1,percent under age 18 hispanic or latino origin
-
-1,number of people hispanic or latino origin
-
-1,percent change one race: white not hispanic or latino origin
-
-1,percent of population one race: white not hispanic or latino origin
-
-1,percent under age 18 one race: white not hispanic or latino origin
-
-1,number of people one race: white not hispanic or latino origin
-
-1,percent of white not hispanic or latino origin population indicating one race
-
-1,population under age 18
-
-1,percent change one more races including white not hispanic or latino origin
-
-1,percent of population one more races including white not hispanic or latino origin
-
-1,percent under age 18 one or more races including white not hispanic or latino origin
-
-1,number of people one or more races including white not hispanic or latino origin
-
-1,percent under age 18
-
-1,prevalence hispanic or latino origin and all races
-
-1,population density
-
-1,population
-
-1,population density
-
-0,commuters by bike
-
-2,median taxable income
-
-2,median taxable income
-
-0,mortality rate
-
-2,house prices
-
-0,coronavirus
-
-0,aids prevalence
-
-2,median gross rent
-
-0,mcdonald's
-
-0,russian as native language
-
-1,percentage ethnic russians
-
-1,population distribution
-
-2,share of occupied rental units
-
-0,rising education levels
-
-0,political precinct index
-
-3,lightning hazard
-
-1,proportion of college graduates
-
-1,population
-
-0,eq-5d index
-
-0,stop and frisk per block
-
-0,estimates of completeness of electoral registers
-
-1,population density
-
-3,eagle nests
-
-1,percent of households
-
-0,annual sum of global horizontal irradiation
-
-0,rice production
-
-1,population density
-
-3,average rainfall
-
-0,work stress
-
-1,population density
-
-3,rate of temperature change
-
-1,population per sq.mile
-
-1,teen birth rate
-
-1,percent hispanic
-
-1,hispanic population percentage
-
-1,population
-
-0,percent of votes
-
-0,pure alcohol consumption among adults age 15+ 
-
-0,percent change in alcohol use disorders
-
-0,percent change in alcohol use disorders
-
-0,total fertility rate
-
-0,life expectancy age
-
-0,peace index
-
-1,population density
-
-2,estimated median household income
-
-2,gdp
-
-0,new cases of t. brucel gambiense
-
-1,population density
-
-0,life expectancy
-
-0,child labor
-
-1,population density
-
-0,atheism
-
-0,literacy rate
-
-1,population density
-
-1,population
-
-1,population
-
-1,population density
-
-1,population density
-
-0,osm road coverage
-
-0,change in life expectancy at birth
-
-0,nys gubernatorial democratic primary
-
-0,gop enrollment
-
-3,wildfire count
-
-0,area units
-
-0,poverty rate
-
-3,tornadoes
-
-0,millersville university freshmen
-
-2,unemployed
-
-0,number of restaurant
-
-1,percentage of the population that self-identifies as indigenous
-
-0,Frequency with which data is collected from country
-
-0,Poverty headcount ratio
-
-2,Median Household Income
-
-2,Median House Value
-
-0,Growth rate
-
-0,NBA Player Origins
-
-3,Number of Species
-
-1,Population
-
-1,Percentage of Population aged 14 years and under
-
-1,Population density
-
-0,Incidence
-
-0,Word happiness score
-
-0,Number of Persons per Wal-Mart Store
-
-0,No. Dentists
-
-2,Profit Ratio
-
-1,Country Population
-
-3,Availability of Safe Drinking Water
-
-1,Population density
-
-3,No Access to Safe Water
-
-2,Income per Capita
-
-2,Venture Capital
-
-2,Unemployment rate

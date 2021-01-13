@@ -1,418 +1,1087 @@
-label,theme
-0,life exp
-1,males per 100 females
-3,measles incidence
-1,percent of population 65 and older
-3,mortality associated with arterial hypertension
-0,average rate per 10000 people
-3,influenza patents
-1,annual avergage daily traffic density
-3,average temperature
-2,value of land
-1,population growth
-2,cic returnable loans/borrows
-2,percent of homes 300000 and over
-2,percent of homes less than 50000
-1,suicide rate
-1,life expectancy
-1,density of population
-1,population density
-1,population percent white ethnic groups
-3,coronavirus cases
-1,social vulnerability
-1,population
-2,median household income
-1,life expectancy
-1,population
-1,population
-2,energy production
-1,population density
-1,minority group with highest percent of state population excludes white nor hispanic
-2,estimated effects of water scarcity on gdp
-1,population
-1,change in population density percent 
-3,difference in proportion of fire area
-1,population estimates
-2,per capita income
-1,population density
-1,change in divorce rates
-1,crime rates
-1,percentage of the people living in poverty areas
-1,religious diversity
-2,median income
-1,population density
-1,home ownership rate
-1,crime against women
-1,preventable death rate
-1,share of adults defined as obese
-1,share of high school students attending a school with a sworn law enforcement office
-2,human poverty index
-3,reported cases per 100 000 people
-1,crime against women
-1,share of adults who are obese
-3,average annual rainfall
-2,estimated median household income
-1,incidence of total crimes against women
-1,population change
-3,co2 emissions per capita
-1,population growth
-2,retailers
-2,gdp per capita
-1,percentage of country's population living in urban areas
-1,percent of total votes
-1,population density
-3,freshwater availability
-1,population density
-1,population
-1,population
-1,percent of people below poverty level
-1,street complaints
-1,unemployment percent 
-1,arranged marriages with no consent
-1,percent change
-1,population density
-3,per capita co2 emissions
-1,totol number frauds
-1,literacy
-1,oxbridge offer rate per population
-3,planted soybeans
-1,federal election results
-1,males per 100 females
-1,maternal mortality rate
-1,percent hispanic or latino
-1,unemployment rates
-0,200
-1,average age in
-1,population density hover
-1,distribution of the spanish population 2005 
-1,mobile cellular telephones
-1,unemployment rate percent 
-1,sum of fertility rate
-3,total co2 emissions
-3,confirmed covid-19 cases
-1,population/square mile
-1,population per square mile
-1,native american alone/one or more other race
-1,alcoholic drinks on-trade percent 
-1,literacy rate
-1,number of worldcat libraries
-1,percentage of population aged 14 years and under
-1,asian population
-1,population density
-3,lowest temperature
-1,population density
-1,adult obesity
-1,population density
-1,population with difficulty walking
-1,obesity trends
-1,population
-1,population estimates
-3,incidence of cervical cancer
-1,population count
-1,life expectancy at birth
-1,schools interested in being academies
-1,population estimates
-1,population estimates
-1,percent of children age 0-5 underweigh
-1,life expectancy at birth
-1,population density
-2,photovoltaic power potential
-1,number of cities
-1,population density
-1,population per sq.
-1, land use
-1, life expectancy
-2, gnp per capita
-1,black population
-3,reported coronavirus cases
-3,coronavirus
-1,population
-2,spending by overseas residents
-3,plastic waste available to enter the ocean
-3,population estimates
-1,rate of unvaccinated population
-1,births
-1,percent who have already felt negative effects from climate change
-1,trump vote
-0,winning margins
-2,gdp
-2,trade in goods with china as apercent of state gdp
-3,hazy weather
-1,birth rate
-1,population
-3,annual precipitation
-1, persons deaths
-1,percentage of women aged 15-49 years who belong to poorest wealth quintile
-0,hevs
-3,cystic echoing prevalence
-1,population density
-2,log relative gdp density
-2,income
-3,precipitation
-0,0
-1,population per square mile
-0,poor tb treatment outcome
-1,total number of ba-related publications
-3,actual evapotraspiration value
-1,motor vehicle fatalities
-1,population density
-1,population undernourished
-1,german population
-1,percentage of country's population living in urban areas
-3,number of confirmed covid-19 cases
-3,coronavirus cases
-3,coronavirus covid-19 cases
-3,total probable and confirmed cases
-3,confirmed cases of covid-19
-3,total reported cases of covid-19
-2,sales
-1,population density
-3,immunization percentages of children from reporting facilities that are up to date on their vaccinations
-1,regional iq
-2,sales
-1,average amount of deer hunted per person
-1,population density
-1,index of deprivation
-1,population
-0,cvl percent 
-0,hcc violations
-1,population
-1,single vehicle crash facilities
-3,teen chlamydia rates
-1,life expectancy
-1,death rate from drug poisoning
-1,total number of frauds
-1,population density
-3,percent of patients testing positive for covid-19
-3,number of covid-19 cases
-1,population density
-1,population
-1,average farm size
-3,rainfall erosivity
-1,percent population change
-3,area of soybeans as a percentage of area in crops
-2,health care costs
-1,distribution of airports
-1,state game areas
-1, percent of persons age 25+
-2,poverty
-3,forest area as percentage of land area
-1,population density
-1,population density
-3,average temperature
-1,number of inhabitants
-1,population
-1,percentage of students who complete high school in four-years
-1,population density
-1,happiness level
-1,population with difficulty walking
-1,total population
-2,average household income as percent of national average household income
-3,total number of hurricane strikes
-1,population
-1,number of children per female
-1,population change
-1,adult literacy rates
-1,population
-0,score
-1,population
-1,population
-1,indices of deprivation
-1,india sex ratio
-1,individuals using the internet percent of population
-3,influenza reported cases
-1,population density
-1,population density
-1,population density
-1,population density
-1,fertility rate
-1,population density
-1,population density
-1,population density
-2,per capita income
-2,per capita income
-1,population of english and french speakers
-1,non english & french speakers
-1,percentage of population knowing neither english nor french
-1,population distribution
-3,vegetation
-1,life expectancy at birth
-1,literacy rate
-1,percentage of births where one of both parents were born outside the uk england and wales
-2,income estimates
-2,income estimates
-0,smr
-1,population per square mile
-0,incidence
-0,number of incidents
-3,pm2.5 levels
-2,poverty
-1,life expectancy
-1,mexican american population
-1,violent crime rates
-1,percent voting to leave
-1,population percent change
-1,population density
-2,median income
-2,median household income
-1,population density
-1,percent of population with internet connection
-1,population density
-3,mortality rates for heart disease
-1,global competitiveness index
-1,population density
-1,population
-1,population estimates
-3,overdose deaths
-1,males prevalence
-3,drought severity index
-0,where's 
-2,percentage renters
-3,permafrost glacier
-1,minority prevalence hispanic or latino origin and all races except white
-1,diversity hispanic or latino origin and all races
-1,difference in diversity hispanic or latino origin and all races
-1,percent change one race: white
-1,percent of population one race: white
-1,percent under age 18 one race: white
-1,number of people one race: white
-1,percent of white population indicating one race
-1,percent change one or more races including white
-1,percent of population one or more races including white
-1,total population
-1,percent under age 18 one or more races including white
-1,number of people one or more races including white
-1,percent change one race: black or african american
-1,percent of population one race: black or african american
-1,percent under age 18 one race: black or african american
-1,number of people one race: black or african american
-1,percent of black or african american population indicating one race
-1,percent change one or more races including black or african american
-1,percent of population 2000 one or more races including black or african american
-1,percent under age 18 2000 one or more races including black or african american
-1,population density
-1,number of people one or more races including black or african american
-1,percent change one race: american indian and alaska native
-1,percent of population one race: american indian and alaska native
-1,percent under age 18 one race: american indian and alaska native
-1,number of people one race: american indian and alaska native
-1,percent of american indian and alaska native population indicating one race
-1,percent change one or more races including american indian and alaska native
-1,percent of population one or more races including american indian and alaska native
-1,percent under age 18 one or more races including american indian and alaska native
-1,number of people one or more races including american indian and alaska native
-1,population density
-1,percent change one race
-1,percent of population one race: asian
-1,percent under age 18 one race
-1,number of people one race: asian
-1,percent of asian population indicating one race
-1,percent change one or more races including asian
-1,percent of population one or more races including asian
-1,percent under age 18 one or more races including asian
-1,number of people one or more races including asian
-1,percent change one race: native hawaiian and other pacific islander
-1,difference number of people
-1,percent of population one race: native hawaiian and other pacific islander
-1,percent under age 18 one race: native hawaiian and other pacific islander
-1,number of people one race: native hawaiian and other pacific islander
-1,percent of native hawaiian and other pacific islander population indicating
-1,percent change one or more races including native hawaiian and other pacific islander
-1,percent of population one or more races including native hawaiian and other pacific islander
-1,percent under age 18 one or more races including native hawaiian and other pacific islander
-1,number of people one or more races including native hawaiian and other pacific islander
-1,percent of population
-1,percent under age
-1,number of people
-1,number of people two or more races
-1,percent change hispanic or latino origin
-1,percent of population hispanic or latino origin
-1,percent under age 18 hispanic or latino origin
-1,number of people hispanic or latino origin
-1,percent change one race: white not hispanic or latino origin
-1,percent of population one race: white not hispanic or latino origin
-1,percent under age 18 one race: white not hispanic or latino origin
-1,number of people one race: white not hispanic or latino origin
-1,percent of white not hispanic or latino origin population indicating one race
-1,population under age 18
-1,percent change one more races including white not hispanic or latino origin
-1,percent of population one more races including white not hispanic or latino origin
-1,percent under age 18 one or more races including white not hispanic or latino origin
-1,number of people one or more races including white not hispanic or latino origin
-1,percent under age 18
-1,prevalence hispanic or latino origin and all races
-1,population density
-1,population
-1,population density
-1,commuters by bike
-2,median taxable income
-2,median taxable income
-1,mortality rate
-0,2000 democratic people's republic of korea
-2,house prices
-3,coronavirus
-3,aids prevalence
-2,median gross rent
-2,mcdonald's
-1,russian as native language
-1,percentage ethnic russians
-1,population distribution
-1,share of occupied rental units
-1,rising education levels
-1,political precinct index
-3,lightning hazard
-1,proportion of college graduates
-1,population
-0,eq-5d index
-0,stop and frisk per block
-1,estimates of completeness of electoral registers
-1,population density
-3,eagle nests
-1,percent of households
-3,annual sum of global horizontal irradiation
-2,rice production
-1,population density
-3,average rainfall
-1,work stress
-1,population density
-3,rate of temperature change
-1,population per sq.mile
-1,teen birth rate
-1,percent hispanic
-1,hispanic population percentage
-1,population
-0,2006 to 2012
-1,percent of votes
-2,pure alcohol consumption among adults age 15+ 
-1,percent change in alcohol use disorders
-1,percent change in alcohol use disorders
-1,total fertility rate
-1,life expectancy age
-1,peace index
-1,population density
-2,estimated median household income
-2,gdp
-3,new cases of t. brucel gambiense
-1,population density
-1,life expectancy
-1,child labor
-1,population density
-1,atheism
-1,literacy rate
-1,population density
-1,population
-1,population
-1,population density
-1,population density
-1,osm road coverage
-1,change in life expectancy at birth
-1,nys gubernatorial democratic primary
-2,gop enrollment
-3,wildfire count
-1,area units
-1,poverty rate
-3,tornadoes
-1,millersville university freshmen
-1,unemployed
-1,number of restaurant
-1,percentage of the population that self-identifies as indigenous
+label,theme
+
+0,life exp
+
+1,males per 100 females
+
+0,measles incidence
+
+1,percent of population 65 and older
+
+0,mortality associated with arterial hypertension
+
+0,average rate per 10000 people
+
+0,influenza patents
+
+0,annual avergage daily traffic density
+
+3,average temperature
+
+2,value of land
+
+1,population growth
+
+0,cic returnable loans/borrows
+
+2,percent of homes 300000 and over
+
+2,percent of homes less than 50000
+
+0,suicide rate
+
+0,life expectancy
+
+1,density of population
+
+1,population density
+
+1,population percent white ethnic groups
+
+0,coronavirus cases
+
+0,social vulnerability
+
+1,population
+
+2,median household income
+
+0,life expectancy
+
+1,population
+
+1,population
+
+0,energy production
+
+1,population density
+
+1,minority group with highest percent of state population excludes white nor hispanic
+
+2,estimated effects of water scarcity on gdp
+
+1,population
+
+1,change in population density percent 
+
+3,difference in proportion of fire area
+
+1,population estimates
+
+2,per capita income
+
+1,population density
+
+0,change in divorce rates
+
+0,crime rates
+
+1,percentage of the people living in poverty areas
+
+1,religious diversity
+
+2,median income
+
+1,population density
+
+0,home ownership rate
+
+1,crime against women
+
+0,preventable death rate
+
+1,share of adults defined as obese
+
+0,share of high school students attending a school with a sworn law enforcement office
+
+0,human poverty index
+
+0,reported cases per 100 000 people
+
+0,crime against women
+
+1,share of adults who are obese
+
+3,average annual rainfall
+
+2,estimated median household income
+
+0,incidence of total crimes against women
+
+1,population change
+
+3,co2 emissions per capita
+
+1,population growth
+
+2,retailers
+
+2,gdp per capita
+
+1,percentage of country's population living in urban areas
+
+0,percent of total votes
+
+1,population density
+
+3,freshwater availability
+
+1,population density
+
+1,population
+
+1,population
+
+1,percent of people below poverty level
+
+0,street complaints
+
+0,unemployment percent 
+
+0,arranged marriages with no consent
+
+0,percent change
+
+1,population density
+
+3,per capita co2 emissions
+
+0,totol number frauds
+
+0,literacy
+
+0,oxbridge offer rate per population
+
+3,planted soybeans
+
+0,federal election results
+
+1,males per 100 females
+
+0,maternal mortality rate
+
+1,percent hispanic or latino
+
+0,unemployment rates
+
+1,average age
+
+1,population density
+
+1,distribution of the spanish population 2005 
+
+0,mobile cellular telephones
+
+0,unemployment rate percent 
+
+0,sum of fertility rate
+
+3,total co2 emissions
+
+0,confirmed covid-19 cases
+
+1,population/square mile
+
+1,population per square mile
+
+1,native american alone/one or more other race
+
+0,alcoholic drinks on-trade percent 
+
+0,literacy rate
+
+0,number of worldcat libraries
+
+1,percentage of population aged 14 years and under
+
+1,asian population
+
+1,population density
+
+3,lowest temperature
+
+1,population density
+
+1,adult obesity
+
+1,population density
+
+1,population with difficulty walking
+
+0,obesity trends
+
+1,population
+
+1,population estimates
+
+0,incidence of cervical cancer
+
+1,population count
+
+0,life expectancy at birth
+
+0,schools interested in being academies
+
+1,population estimates
+
+1,population estimates
+
+1,percent of children age 0-5 underweigh
+
+10life expectancy at birth
+
+1,population density
+
+0,photovoltaic power potential
+
+0,number of cities
+
+1,population density
+
+1,population per sq.
+
+0,land use
+
+0,life expectancy
+
+2,gnp per capita
+
+1,black population
+
+0,reported coronavirus cases
+
+0,coronavirus
+
+1,population
+
+2,spending by overseas residents
+
+3,plastic waste available to enter the ocean
+
+3,population estimates
+
+0,rate of unvaccinated population
+
+0,births
+
+1,percent who have already felt negative effects from climate change
+
+0,trump vote
+
+0,winning margins
+
+2,gdp
+
+2,trade in goods with china as apercent of state gdp
+
+3,hazy weather
+
+1,birth rate
+
+1,population
+
+3,annual precipitation
+
+0,persons deaths
+
+1,percentage of women aged 15-49 years who belong to poorest wealth quintile
+
+0,hevs
+
+0,cystic echoing prevalence
+
+1,population density
+
+2,log relative gdp density
+
+2,income
+
+3,precipitation
+
+1,population per square mile
+
+0,poor tb treatment outcome
+
+0,total number of ba-related publications
+
+3,actual evapotraspiration value
+
+0,motor vehicle fatalities
+
+1,population density
+
+1,population undernourished
+
+1,german population
+
+1,percentage of country's population living in urban areas
+
+0,number of confirmed covid-19 cases
+
+0,coronavirus cases
+
+0,coronavirus covid-19 cases
+
+0,total probable and confirmed cases
+
+0,confirmed cases of covid-19
+
+0,total reported cases of covid-19
+
+2,sales
+
+1,population density
+
+0,immunization percentages of children from reporting facilities that are up to date on their vaccinations
+
+0,regional iq
+
+2,sales
+
+0,average amount of deer hunted per person
+
+1,population density
+
+0,index of deprivation
+
+1,population
+
+0,cvl percent 
+
+0,hcc violations
+
+1,population
+
+0,single vehicle crash facilities
+
+0,teen chlamydia rates
+
+0,life expectancy
+
+0,death rate from drug poisoning
+
+0,total number of frauds
+
+1,population density
+
+0,percent of patients testing positive for covid-19
+
+0,number of covid-19 cases
+
+1,population density
+
+1,population
+
+0,average farm size
+
+3,rainfall erosivity
+
+1,percent population change
+
+3,area of soybeans as a percentage of area in crops
+
+2,health care costs
+
+0,distribution of airports
+
+0,state game areas
+
+1,percent of persons age 25+
+
+0,poverty
+
+3,forest area as percentage of land area
+
+1,population density
+
+1,population density
+
+3,average temperature
+
+0,number of inhabitants
+
+1,population
+
+0,percentage of students who complete high school in four-years
+
+1,population density
+
+0,happiness level
+
+1,population with difficulty walking
+
+1,total population
+
+2,average household income as percent of national average household income
+
+3,total number of hurricane strikes
+
+1,population
+
+1,number of children per female
+
+1,population change
+
+0,adult literacy rates
+
+1,population
+
+0,score
+
+1,population
+
+1,population
+
+1,indices of deprivation
+
+1,india sex ratio
+
+1,individuals using the internet percent of population
+
+0,influenza reported cases
+
+1,population density
+
+1,population density
+
+1,population density
+
+1,population density
+
+0,fertility rate
+
+1,population density
+
+1,population density
+
+1,population density
+
+2,per capita income
+
+2,per capita income
+
+1,population of english and french speakers
+
+1,non english & french speakers
+
+1,percentage of population knowing neither english nor french
+
+1,population distribution
+
+3,vegetation
+
+0,life expectancy at birth
+
+0,literacy rate
+
+1,percentage of births where one of both parents were born outside the uk england and wales
+
+2,income estimates
+
+2,income estimates
+
+0,smr
+
+1,population per square mile
+
+0,incidence
+
+0,number of incidents
+
+3,pm2.5 levels
+
+0,poverty
+
+0,life expectancy
+
+1,mexican american population
+
+0,violent crime rates
+
+0,percent voting to leave
+
+1,population percent change
+
+1,population density
+
+2,median income
+
+2,median household income
+
+1,population density
+
+1,percent of population with internet connection
+
+1,population density
+
+0,mortality rates for heart disease
+
+0,global competitiveness index
+
+1,population density
+
+1,population
+
+1,population estimates
+
+0,overdose deaths
+
+1,males prevalence
+
+3,drought severity index
+
+2,percentage renters
+
+3,permafrost glacier
+
+1,minority prevalence hispanic or latino origin and all races except white
+
+1,diversity hispanic or latino origin and all races
+
+1,difference in diversity hispanic or latino origin and all races
+
+1,percent change one race: white
+
+1,percent of population one race: white
+
+1,percent under age 18 one race: white
+
+1,number of people one race: white
+
+1,percent of white population indicating one race
+
+1,percent change one or more races including white
+
+1,percent of population one or more races including white
+
+1,total population
+
+1,percent under age 18 one or more races including white
+
+1,number of people one or more races including white
+
+1,percent change one race: black or african american
+
+1,percent of population one race: black or african american
+
+1,percent under age 18 one race: black or african american
+
+1,number of people one race: black or african american
+
+1,percent of black or african american population indicating one race
+
+1,percent change one or more races including black or african american
+
+1,percent of population 2000 one or more races including black or african american
+
+1,percent under age 18 2000 one or more races including black or african american
+
+1,population density
+
+1,number of people one or more races including black or african american
+
+1,percent change one race: american indian and alaska native
+
+1,percent of population one race: american indian and alaska native
+
+1,percent under age 18 one race: american indian and alaska native
+
+1,number of people one race: american indian and alaska native
+
+1,percent of american indian and alaska native population indicating one race
+
+1,percent change one or more races including american indian and alaska native
+
+1,percent of population one or more races including american indian and alaska native
+
+1,percent under age 18 one or more races including american indian and alaska native
+
+1,number of people one or more races including american indian and alaska native
+
+1,population density
+
+1,percent change one race
+
+1,percent of population one race: asian
+
+1,percent under age 18 one race
+
+1,number of people one race: asian
+
+1,percent of asian population indicating one race
+
+1,percent change one or more races including asian
+
+1,percent of population one or more races including asian
+
+1,percent under age 18 one or more races including asian
+
+1,number of people one or more races including asian
+
+1,percent change one race: native hawaiian and other pacific islander
+
+1,difference number of people
+
+1,percent of population one race: native hawaiian and other pacific islander
+
+1,percent under age 18 one race: native hawaiian and other pacific islander
+
+1,number of people one race: native hawaiian and other pacific islander
+
+1,percent of native hawaiian and other pacific islander population indicating
+
+1,percent change one or more races including native hawaiian and other pacific islander
+
+1,percent of population one or more races including native hawaiian and other pacific islander
+
+1,percent under age 18 one or more races including native hawaiian and other pacific islander
+
+1,number of people one or more races including native hawaiian and other pacific islander
+
+1,percent of population
+
+1,percent under age
+
+1,number of people
+
+1,number of people two or more races
+
+1,percent change hispanic or latino origin
+
+1,percent of population hispanic or latino origin
+
+1,percent under age 18 hispanic or latino origin
+
+1,number of people hispanic or latino origin
+
+1,percent change one race: white not hispanic or latino origin
+
+1,percent of population one race: white not hispanic or latino origin
+
+1,percent under age 18 one race: white not hispanic or latino origin
+
+1,number of people one race: white not hispanic or latino origin
+
+1,percent of white not hispanic or latino origin population indicating one race
+
+1,population under age 18
+
+1,percent change one more races including white not hispanic or latino origin
+
+1,percent of population one more races including white not hispanic or latino origin
+
+1,percent under age 18 one or more races including white not hispanic or latino origin
+
+1,number of people one or more races including white not hispanic or latino origin
+
+1,percent under age 18
+
+1,prevalence hispanic or latino origin and all races
+
+1,population density
+
+1,population
+
+1,population density
+
+0,commuters by bike
+
+2,median taxable income
+
+2,median taxable income
+
+0,mortality rate
+
+2,house prices
+
+0,coronavirus
+
+0,aids prevalence
+
+2,median gross rent
+
+0,mcdonald's
+
+0,russian as native language
+
+1,percentage ethnic russians
+
+1,population distribution
+
+2,share of occupied rental units
+
+0,rising education levels
+
+0,political precinct index
+
+3,lightning hazard
+
+1,proportion of college graduates
+
+1,population
+
+0,eq-5d index
+
+0,stop and frisk per block
+
+0,estimates of completeness of electoral registers
+
+1,population density
+
+3,eagle nests
+
+1,percent of households
+
+0,annual sum of global horizontal irradiation
+
+0,rice production
+
+1,population density
+
+3,average rainfall
+
+0,work stress
+
+1,population density
+
+3,rate of temperature change
+
+1,population per sq.mile
+
+1,teen birth rate
+
+1,percent hispanic
+
+1,hispanic population percentage
+
+1,population
+
+0,percent of votes
+
+0,pure alcohol consumption among adults age 15+ 
+
+0,percent change in alcohol use disorders
+
+0,percent change in alcohol use disorders
+
+0,total fertility rate
+
+0,life expectancy age
+
+0,peace index
+
+1,population density
+
+2,estimated median household income
+
+2,gdp
+
+0,new cases of t. brucel gambiense
+
+1,population density
+
+0,life expectancy
+
+0,child labor
+
+1,population density
+
+0,atheism
+
+0,literacy rate
+
+1,population density
+
+1,population
+
+1,population
+
+1,population density
+
+1,population density
+
+0,osm road coverage
+
+0,change in life expectancy at birth
+
+0,nys gubernatorial democratic primary
+
+0,gop enrollment
+
+3,wildfire count
+
+0,area units
+
+0,poverty rate
+
+3,tornadoes
+
+0,millersville university freshmen
+
+2,unemployed
+
+0,number of restaurant
+
+1,percentage of the population that self-identifies as indigenous
+
+0,Frequency with which data is collected from country
+
+0,Poverty headcount ratio
+
+2,Median Household Income
+
+2,Median House Value
+
+0,Growth rate
+
+0,NBA Player Origins
+
+3,Number of Species
+
+1,Population
+
+1,Percentage of Population aged 14 years and under
+
+1,Population density
+
+0,Incidence
+
+0,Word happiness score
+
+0,Number of Persons per Wal-Mart Store
+
+0,No. Dentists
+
+2,Profit Ratio
+
+1,Country Population
+
+3,Availability of Safe Drinking Water
+
+1,Population density
+
+3,No Access to Safe Water
+
+2,Income per Capita
+
+2,Venture Capital
+
+2,Unemployment rate
+
+1,Percent of Households above $200k
+
+0,Area
+
+1,Population
+
+1,Population Density
+
+0,Distance to Beaches and Bays
+
+0,Honey Production
+
+1,Share of adults who are obese
+
+0,Incidence
+
+1,Change in population density
+
+2,Retailers
+
+1,Population density
+
+2,Sales
+
+1,Change in population density
+
+0,Medicare Advantage Penetration Rate
+
+2,Federal Government Expenditure
+
+1,Urban population living in slums
+
+1,Mobile Cellular Telephones
+
+2,GDP
+
+2,Average Household Income
+
+3,Fire points
+
+1,Adults who think global warming is happening
+
+1,Acadian/Cajun Population
+
+0,Number of Current Probable Cases
+
+1,Percent of People with elementary occupation
+
+2,Median Rent
+
+2,Unemployment rate
+
+1,Population white ethnic groups
+
+1,Population count
+
+1,Change in population density
+
+2,Sales
+
+1,Population density
+
+1,African American Population
+
+1,Percentage Foreigners
+
+0,Well-being Index
+
+0,Life expectation at birth
+
+3,CO2 emission
+
+0,Fatalities of the 2004 Indian Ocean Earthquake
+
+0,Food Insecurity Rate
+
+0,Obesity Rate
+
+1,Population Density
+
+0,Diabetes prevalence
+
+1,Population
+
+2,Gross domestic product
+
+0,Prevalence of Helicobacter pylori
+
+1,Males prevalence
+
+0,Distributions of schools
+
+1,Median age
+
+1,Percent of People in Poverty
+
+1,Percentages of People with age 20-24
+
+1,SUM of Fertility rate
+
+1,World human population
+
+1,Number of multi-racial households
+
+0,Number of fixed residential broadband providers
+
+0,Chronic pain diagnosed members
+
+2,% expenditure on development
+
+1,Percentage of adults (25 and older) with a bachelor's degree or higher
+
+0,Percentage Testing Positive
+
+0,Number of restaurant
+
+2,% Renter-Occupied
+
+0,Burglary per 1000 households
+
+0,Infant mortality
+
+1,Percent of 4-year-olds served by State Pre-K
+
+0,Veggies
+
+1,Population/Square Mile
+
+1,Individuals per km
+
+0,Reliability Score
+
+2,Forecast change in jobs
+
+0,Pedestrian accidents
+
+2,GDP per capita
+
+1,Percentage of adults with Diagnosed Diabetes
+
+0,Human development index (HDI)
+
+1,Density of Population
+
+0,Travel time
+
+1,Percent in School
+
+1,Percent of People 25 years and over who have a bachelor's degree
+
+0,Percent of Farms with Female Principal Operator
+
+1,Percentage of 18- to 24-year-olds overweight or obese
+
+0,Ratio of late tester to all cases
+
+2,GDP per capita in PPS
+
+0,Diabetes and Obesity
+
+1,Old People (70+)
+
+0,Number of crimes
+
+1,Total Population
+
+1,Population density
+
+0,Percentage of 2006 Respondents who did not provide a workplace address at area unit level
+
+0,HIV infection
+
+0,License Plate Vanitization Rate
+
+2,Unemployment %
+
+1,% of people living in poverty
+
+0,Russian as native language
+
+0,Cardiovascular disease mortality rates
+
+1,Population density
+
+0,Prevalence
+
+0,Number of deaths from coronary heart disease
+
+1,Population
+
+0,Climate Resilience Participants
+
+0,Percentage of vote
+
+1,Population density
+
+0,Genome-wide association studies
+
+0,Number of letters in Name
+
+1,Estimated % of adults who think earth is getting wadrmer
+
+2,Gross profit
+
+3,Monthly max temperature
+
+1,Total Fertility Rate
+
+2,Median Income
+
+1,Population density
+
+1,Population density
+
+2,Spending by overseas residents
+
+1,Population density

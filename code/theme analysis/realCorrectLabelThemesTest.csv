@@ -1,170 +1,219 @@
 label,theme
 
-1,number of people one race: white not hispanic or latino origin
+1,Percent of Households above $200k
 
-1,percent of white not hispanic or latino origin population indicating one race
+0,Area
 
-1,population under age 18
+1,Population
 
-1,percent change one more races including white not hispanic or latino origin
+1,Population Density
 
-1,percent of population one more races including white not hispanic or latino origin
+0,Distance to Beaches and Bays
 
-1,percent under age 18 one or more races including white not hispanic or latino origin
+0,Honey Production
 
-1,number of people one or more races including white not hispanic or latino origin
+1,Share of adults who are obese
 
-1,percent under age 18
+0,Incidence
 
-1,prevalence hispanic or latino origin and all races
+1,Change in population density
 
-1,population density
+2,Retailers
 
-1,population
+1,Population density
 
-1,population density
+2,Sales
 
-1,commuters by bike
+1,Change in population density
 
-2,median taxable income
+0,Medicare Advantage Penetration Rate
 
-2,median taxable income
+2,Federal Government Expenditure
 
-1,mortality rate
+1,Urban population living in slums
 
-1,2000 democratic people's republic of korea
+1,Mobile Cellular Telephones
 
-2,house prices
+2,GDP
 
-3,coronavirus
+2,Average Household Income
 
-3,aids prevalence
+3,Fire points
 
-2,median gross rent
+1,Adults who think global warming is happening
 
-2,mcdonald's
+1,Acadian/Cajun Population
 
-1,russian as native language
+0,Number of Current Probable Cases
 
-1,percentage ethnic russians
+1,Percent of People with elementary occupation
 
-1,population distribution
+2,Median Rent
 
-1,share of occupied rental units
+2,Unemployment rate
 
-1,rising education levels
+1,Population white ethnic groups
 
-1,political precinct index
+1,Population count
 
-3,lightning hazard
+1,Change in population density
 
-1,proportion of college graduates
+2,Sales
 
-1,population
+1,Population density
 
-0,eq-5d index
+1,African American Population
 
-0,stop and frisk per block
+1,Percentage Foreigners
 
-1,estimates of completeness of electoral registers
+0,Well-being Index
 
-1,population density
+0,Life expectation at birth
 
-3,eagle nests
+3,CO2 emission
 
-1,percent of households
+0,Fatalities of the 2004 Indian Ocean Earthquake
 
-3,annual sum of global horizontal irradiation
+0,Food Insecurity Rate
 
-2,rice production
+0,Obesity Rate
 
-1,population density
+1,Population Density
 
-3,average rainfall
+0,Diabetes prevalence
 
-1,work stress
+1,Population
 
-1,population density
+2,Gross domestic product
 
-3,rate of temperature change
+0,Prevalence of Helicobacter pylori
 
-1,population per sq.mile
+1,Males prevalence
 
-1,teen birth rate
+0,Distributions of schools
 
-1,percent hispanic
+1,Median age
 
-1,hispanic population percentage
+1,Percent of People in Poverty
 
-1,population
+1,Percentages of People with age 20-24
 
-0,2006 to 2012
+1,SUM of Fertility rate
 
-1,percent of votes
+1,World human population
 
-2,pure alcohol consumption among adults age 15+ 
+1,Number of multi-racial households
 
-1,percent change in alcohol use disorders
+0,Number of fixed residential broadband providers
 
-1,percent change in alcohol use disorders
+0,Chronic pain diagnosed members
 
-1,total fertility rate
+2,percentage expenditure on development
 
-1,life expectancy age
+1,Percentage of adults (25 and older) with a bachelor's degree or higher
 
-1,peace index
+0,Percentage Testing Positive
 
-1,population density
+0,Number of restaurant
 
-2,estimated median household income
+2,percentage Renter-Occupied
 
-2,gdp
+0,Burglary per 1000 households
 
-3,new cases of t. brucel gambiense
+0,Infant mortality
 
-1,population density
+1,Percent of 4-year-olds served by State Pre-K
 
-1,life expectancy
+0,Veggies
 
-1,child labor
+1,Population/Square Mile
 
-1,population density
+1,Individuals per km
 
-1,atheism
+0,Reliability Score
 
-1,literacy rate
+2,Forecast change in jobs
 
-1,population density
+0,Pedestrian accidents
 
-1,population
+2,GDP per capita
 
-1,population
+1,Percentage of adults with Diagnosed Diabetes
 
-1,population density
+0,Human development index (HDI)
 
-1,population density
+1,Density of Population
 
-1,osm road coverage
+0,Travel time
 
-1,change in life expectancy at birth
+1,Percent in School
 
-1,nys gubernatorial democratic primary
+1,Percent of People 25 years and over who have a bachelor's degree
 
-2,gop enrollment
+0,Percent of Farms with Female Principal Operator
 
-3,wildfire count
+1,Percentage of 18- to 24-year-olds overweight or obese
 
-1,area units
+0,Ratio of late tester to all cases
 
-1,poverty rate
+2,GDP per capita in PPS
 
-3,tornadoes
+0,Diabetes and Obesity
 
-1,millersville university freshmen
+1,Old People (70+)
 
-1,unemployed
+0,Number of crimes
 
-1,number of restaurant
+1,Total Population
 
-1,percentage of the population that self-identifies as indigenous
+1,Population density
 
+0,Percentage of 2006 Respondents who did not provide a workplace address at area unit level
+
+0,HIV infection
+
+0,License Plate Vanitization Rate
+
+2,Unemployment percentage
+
+1,percentage of people living in poverty
+
+0,Russian as native language
+
+0,Cardiovascular disease mortality rates
+
+1,Population density
+
+0,Prevalence
+
+0,Number of deaths from coronary heart disease
+
+1,Population
+
+0,Climate Resilience Participants
+
+0,Percentage of vote
+
+1,Population density
+
+0,Genome-wide association studies
+
+0,Number of letters in Name
+
+1,Estimated percentage of adults who think earth is getting wadrmer
+
+2,Gross profit
+
+3,Monthly max temperature
+
+1,Total Fertility Rate
+
+2,Median Income
+
+1,Population density
+
+1,Population density
+
+2,Spending by overseas residents
+
+1,Population density

@@ -86,7 +86,7 @@ physical = ["annual average temperature", "annual average precipitation",
             'Lotus corniculatus','Cirsium arvense','Bromus tectorum','phragmites australis',
             'Formaldehyde','Mercury','Lead','Asbestos','Hazardous/Toxic Air Pollutants',
             'Per- and Polyfluoroalkyl Substances (PFAS)','Pesticide Chemicals','Glyphosate',
-            'Polychlorinated Biphenyls (PCBs)','Green Chemistry','Coronavirus (COVID-19)',
+            'Polychlorinated Biphenyls (PCBs)','Green Chemistry',
             'Asthma','Carbon Monoxide Poisoning','Indoor Air Quality in your Home','Wood Burning Stoves and Appliances',
             'Asbestos Effects','Dioxin Effects','Hazardous Air Pollutant Effects','Lead Effects',
             'Mercury Effects','Mold Effects','Ozone Effects','Radiation Effects','Radon Effects',
@@ -223,28 +223,28 @@ timeUseType = ['Sleeping', 'Grooming', 'Health-related self care', 'Personal act
                'Household and personal e-mail and messages', 'Travel related to telephone calls']
 
 # generate theme
-# 0-other 1-demographic 2-economic 3-physical 4-social
+# 0-other 1-demographic 2-economic 3-environmental
 def getTheme():
-    titleTypeID = random.randint(0, 11)
+    titleTypeID = random.randint(0, 15)
     label = ''
-    if (titleTypeID == 0):
+    if (titleTypeID == 0 or titleTypeID == 12):
         lenDemo = len(demographic)
         lenSub = len(subgroupPeople)
         theme = demographic[random.randint(
             0, lenDemo-1)] + " of " + subgroupPeople[random.randint(0, lenSub-1)]
         label = '1'
-    elif (titleTypeID == 1):
+    elif (titleTypeID == 1 or titleTypeID == 13):
         lenEco = len(economic)
         theme = economic[random.randint(0, lenEco-1)]
         label = '2'
-    elif (titleTypeID == 2):
+    elif (titleTypeID == 2 or titleTypeID == 14):
         lenPhy = len(physical)
         theme = physical[random.randint(0, lenPhy-1)]
         label = '3'
-    elif (titleTypeID == 3):
+    elif (titleTypeID == 3 or titleTypeID == 15):
         lenSoc = len(social)
         theme = social[random.randint(0, lenSoc-1)]
-        label = '1'
+        label = '0'
     elif (titleTypeID == 4):
         lenHou = len(housing)
         theme = housing[random.randint(0, lenHou-1)]
@@ -258,7 +258,7 @@ def getTheme():
         lenManType = len(manufacturingType)
         theme = capitalExpenses[random.randint(
             0, lenCapExp-1)] + connectWordManu + manufacturingType[random.randint(0, lenManType-1)]
-        label = '2'
+        label = '0'
     elif (titleTypeID == 7):
         lenExpFirm = len(exportingFirms)
         theme = exportingFirms[random.randint(0, lenExpFirm-1)]
@@ -276,7 +276,7 @@ def getTheme():
         lenHouHold = len(household)
         theme = household[random.randint(0, lenHouHold-1)]
         label = '0'
-    else:
+    elif(titleTypeID == 11):
         lenTimeUse = len(timeUse)
         lenTimeUseType = len(timeUseType)
         theme = timeUse[random.randint(
@@ -306,11 +306,17 @@ def main():
     fields = ['label', 'theme']  
     rows = []
     for i in range(len(themeList)):
-        rows.append([labelList[i], themeList[i]])
+        theme = themeList[i]
+        if theme[0] =='"':
+            theme = theme[1:]
+        if theme[-1] == '"':
+            theme = theme[:-1]
+        rows.append([labelList[i], theme])
         
     # name of csv file  
     path = r'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis'
-    filename = "autoLabelThemesNoRepeat.csv"
+    # add more economic indicators and change to 0-other 1-demographic 2-economic 3-environmental
+    filename = "autoLabelThemes_1_13.csv" 
         
     # writing to csv file  
     with open(path + '\\' + filename, 'w') as csvfile:  
