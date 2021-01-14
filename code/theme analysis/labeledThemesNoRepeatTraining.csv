@@ -2258,7 +2258,7 @@ label,theme
 
 3,plastic waste available to enter the ocean
 
-3,population estimates
+1,population estimates
 
 0,rate of unvaccinated population
 
@@ -2396,8 +2396,6 @@ label,theme
 
 1,population density
 
-3,average temperature
-
 0,number of inhabitants
 
 1,population
@@ -2413,8 +2411,6 @@ label,theme
 1,total population
 
 2,average household income as percent of national average household income
-
-3,total number of hurricane strikes
 
 1,population
 
@@ -2488,8 +2484,6 @@ label,theme
 
 0,number of incidents
 
-3,pm2.5 levels
-
 0,poverty
 
 0,life expectancy
@@ -2528,11 +2522,7 @@ label,theme
 
 1,males prevalence
 
-3,drought severity index
-
 2,percentage renters
-
-3,permafrost glacier
 
 1,minority prevalence hispanic or latino origin and all races except white
 
@@ -2713,8 +2703,6 @@ label,theme
 0,rising education levels
 
 0,political precinct index
-
-3,lightning hazard
 
 1,proportion of college graduates
 
