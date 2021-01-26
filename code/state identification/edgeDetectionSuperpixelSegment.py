@@ -11,11 +11,14 @@ from numpy import array, array_equal, allclose
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
-import pickleimport numpy as np
+import pickle
+import numpy as np
 import pickle
 import sys
 sys.path.append(r'C:\Users\jiali\Desktop\Map_Identification_Classification\world map generation\getCartoCoordExtent')
 from shapex import *
+from geom.point import *
+from geom.centroid import *
 
 def edgeDetector(img):
     # img = cv2.imread(testImagePath + '\\'+imgName)
@@ -173,6 +176,26 @@ def getStateExtent(shp, country):
             maxLat = tmpMaxLat
 
     return (minLon + maxLon)/2, (minLat + maxLat)/2
+# get the point list of a state from the shapefile
+def getPointList(shp, country):
+    for c in shp:
+        if c['properties']['NAME'] == country:
+            print('test')
+            break
+    typeGeom = c['geometry']['type']
+    coordGeom = c['geometry']['coordinates']
+
+    if typeGeom != 'MultiPolygon':
+#         print(coordGeom[0]) 
+        coordList = coordGeom[0]
+    else:
+        lenList = [len(poly[0]) for poly in coordGeom]
+#         print(lenList)
+        index = lenList.index(max(lenList))
+#         print(index)
+#         print(coordGeom[index]) 
+        coordList = coordGeom[index][0]
+    return [ Point(p[0], p[1]) for p in coordList ]
 
 def main():
     # read detection results from pickle file
@@ -235,101 +258,119 @@ def main():
         coordPairsList.append(coordPairs)
 
     # identify whether the superpixel is with bg color
-    mapRegionSuperPixels = []
-    for coordPairs in coordPairsList:
-        colorValueList = []
-        for coordPair in coordPairs:
-            colorValue = imgGrey[coordPair[0],coordPair[1]]
-            colorValueList.append(colorValue)
+    # mapRegionSuperPixels = []
+    # for coordPairs in coordPairsList:
+    #     colorValueList = []
+    #     for coordPair in coordPairs:
+    #         colorValue = imgGrey[coordPair[0],coordPair[1]]
+    #         colorValueList.append(colorValue)
         
-        maxOccurValue = max(colorValueList,key=colorValueList.count)
-        if abs(maxOccurValue - bgColor) > 10:
-            mapRegionSuperPixels.append(coordPairs)
+    #     maxOccurValue = max(colorValueList,key=colorValueList.count)
+    #     if abs(maxOccurValue - bgColor) > 10:
+    #         mapRegionSuperPixels.append(coordPairs)
     
-    # find super-pixels on the corners of US continent
-    maxXcoordList = []
-    maxXcoordPairList = []
-    maxYcoordList = []
-    maxYcoordPairList = []
-    minXcoordList = []
-    minXcoordPairList = []
-    minYcoordList = []
-    minYcoordPairList = []
-    for mapSuperPixel in mapRegionSuperPixels:
-        maxXcoord = 0
-        maxYcoord = 0
-        minXcoord = 999999
-        minYcoord = 999999
-        for pairCoord in mapSuperPixel:
-            if pairCoord[1] > maxXcoord:
-                maxXcoord = pairCoord[1]
-                maxXcoordPairList.append(pairCoord)
-            if pairCoord[0] > maxYcoord and pairCoord[1] > image.shape[1]/4:
-                maxYcoord = pairCoord[0]
-                maxYcoordPairList.append(pairCoord)
-            if pairCoord[1] < minXcoord:
-                minXcoord = pairCoord[1]
-                minXcoordPairList.append(pairCoord)
-            if pairCoord[0] < minYcoord:
-                minYcoord = pairCoord[0]
-                minYcoordPairList.append(pairCoord)
-        maxXcoordList.append(maxXcoord)
-        maxYcoordList.append(maxYcoord)
-        minXcoordList.append(minXcoord)
-        minYcoordList.append(minYcoord)
+    # # find super-pixels on the corners of US continent
+    # maxXcoordList = []
+    # maxXcoordPairList = []
+    # maxYcoordList = []
+    # maxYcoordPairList = []
+    # minXcoordList = []
+    # minXcoordPairList = []
+    # minYcoordList = []
+    # minYcoordPairList = []
+    # for mapSuperPixel in mapRegionSuperPixels:
+    #     maxXcoord = 0
+    #     maxYcoord = 0
+    #     minXcoord = 999999
+    #     minYcoord = 999999
+    #     for pairCoord in mapSuperPixel:
+    #         if pairCoord[1] > maxXcoord:
+    #             maxXcoord = pairCoord[1]
+    #             maxXcoordPairList.append(pairCoord)
+    #         if pairCoord[0] > maxYcoord and pairCoord[1] > image.shape[1]/4:
+    #             maxYcoord = pairCoord[0]
+    #             maxYcoordPairList.append(pairCoord)
+    #         if pairCoord[1] < minXcoord:
+    #             minXcoord = pairCoord[1]
+    #             minXcoordPairList.append(pairCoord)
+    #         if pairCoord[0] < minYcoord:
+    #             minYcoord = pairCoord[0]
+    #             minYcoordPairList.append(pairCoord)
+    #     maxXcoordList.append(maxXcoord)
+    #     maxYcoordList.append(maxYcoord)
+    #     minXcoordList.append(minXcoord)
+    #     minYcoordList.append(minYcoord)
 
-    maxXCoord = max(maxXcoordList)
-    indexRightSuperPixel = maxXcoordList.index(maxXCoord)
-    maxXCoordPair = maxXcoordPairList[indexRightSuperPixel]
+    # maxXCoord = max(maxXcoordList)
+    # indexRightSuperPixel = maxXcoordList.index(maxXCoord)
+    # maxXCoordPair = maxXcoordPairList[indexRightSuperPixel]
 
-    maxYCoord = max(maxYcoordList)
-    indexBottomSuperPixel = maxYcoordList.index(maxYCoord)
-    maxYCoordPair = maxYcoordPairList[indexBottomSuperPixel]
+    # maxYCoord = max(maxYcoordList)
+    # indexBottomSuperPixel = maxYcoordList.index(maxYCoord)
+    # maxYCoordPair = maxYcoordPairList[indexBottomSuperPixel]
 
-    minXCoord = min(minXcoordList)
-    indexLeftSuperPixel = minXcoordList.index(minXCoord)
-    minXCoordPair = minXcoordPairList[indexLeftSuperPixel]
+    # minXCoord = min(minXcoordList)
+    # indexLeftSuperPixel = minXcoordList.index(minXCoord)
+    # minXCoordPair = minXcoordPairList[indexLeftSuperPixel]
 
-    minYCoord = min(minYcoordList)
-    indexTopSuperPixel = minYcoordList.index(minYCoord)
-    minYCoordPair = minYcoordPairList[indexTopSuperPixel]
+    # minYCoord = min(minYcoordList)
+    # indexTopSuperPixel = minYcoordList.index(minYCoord)
+    # minYCoordPair = minYcoordPairList[indexTopSuperPixel]
 
-    deltaImgX =  maxXCoord - minXCoord
-    deltaImgY =  maxYCoord - minYCoord
+    # deltaImgX =  maxXCoord - minXCoord
+    # deltaImgY =  maxYCoord - minYCoord
 
-    MaineSuperPixel = mapRegionSuperPixels[indexRightSuperPixel]
-    WashingtonSuperPixel = mapRegionSuperPixels[indexTopSuperPixel]
-    TexasSuperPixel = mapRegionSuperPixels[indexBottomSuperPixel]
+    # MaineSuperPixel = mapRegionSuperPixels[indexRightSuperPixel]
+    # WashingtonSuperPixel = mapRegionSuperPixels[indexTopSuperPixel]
+    # TexasSuperPixel = mapRegionSuperPixels[indexBottomSuperPixel]
 
-    for coordPair in MaineSuperPixel+WashingtonSuperPixel+TexasSuperPixel:
-        imgGrey[coordPair[0],coordPair[1]] = 0
+    # for coordPair in MaineSuperPixel+WashingtonSuperPixel+TexasSuperPixel:
+    #     imgGrey[coordPair[0],coordPair[1]] = 0
 
-    # ax.imshow(imgGrey)
-    # plt.show()
+    # # ax.imshow(imgGrey)
+    # # plt.show()
 
-    # get the three corner image coordinates for Washington, Maine and Texas
-    print(maxXCoordPair)
-    print(maxYCoordPair)
-    print(minYCoordPair)
+    # # get the three corner image coordinates for Washington, Maine and Texas
+    # print(maxXCoordPair)
+    # print(maxYCoordPair)
+    # print(minYCoordPair)
 
-    # get the real corner geographic coordinates
-    x1, y1, x2, y2 = -124.84898942267459, 24.39631230024409, -66.88544332942061, 49.38436643852273
-    deltaGeoX = x2 - x1
-    deltaGeoY = y2 - y1
+    shapefilePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\shpFiles\USA_Contiguous_Albers_Equal_Area_Conic'
 
-    shapefilePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\shpFiles\USA_ADM1.shp'
-
-    fileName = 'USA_ADM1.shp'
+    fileName = 'USA_Contiguous_Albers_Equal_Area_Conic.shp'
     shp = shapex(shapefilePath + '\\' + fileName)
     x1, y1, x2, y2 = shp.bounds
+    deltaGeoX = x2 - x1
+    deltaGeoY = y2 - y1
 
     # get the geographic coordinate and image coordinate of a selected state
     state = 'Ohio'
     xGeoState, yGeoState = getStateExtent(shp, state)
-    xImgState = minXCoord + (xGeoState - x1) / deltaGeoX * deltaImgX
-    yImgState = minYCoord + (yGeoState - y1) / deltaGeoY * deltaImgY
 
-    RGBState = img1Proc[xImgState, yImgState]
+    pointList = getPointList(shp,state)
+    centroidGeo = centroid(pointList)[1]
+
+    xCentroidGeo = centroidGeo.x
+    print(xCentroidGeo)
+    yCentroidGeo = centroidGeo.y
+    print(yCentroidGeo)
+
+    # xImgState = minXCoord + (xGeoState - x1) / deltaGeoX * deltaImgX
+    # yImgState = minYCoord + (y2 - yGeoState ) / deltaGeoY * deltaImgY
+
+    xImgState = minXCoord + (xCentroidGeo - x1) / deltaGeoX * deltaImgX
+    yImgState = minYCoord + (y2 - yCentroidGeo ) / deltaGeoY * deltaImgY
+
+    RGBState = img1Proc[int(xImgState), int(yImgState),:]
+
+    fig = plt.figure()
+    ax = plt.gca()
+    ax.scatter(minXCoord, minYCoord, color='blue', marker='o', alpha=0.8)
+    ax.scatter(maxXCoord, maxYCoord, color='blue', marker='o', alpha=0.8)
+    ax.scatter(xImgState, yImgState, color='red', marker='o', alpha=0.8)
+    ax.imshow(img1)
+    plt.show()
+
     
     print('test')
 
