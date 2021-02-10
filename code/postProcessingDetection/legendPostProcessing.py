@@ -274,22 +274,22 @@ def getTextForRect(rect,numerTextBboxes):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsOrigin.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsUSOriginCho.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrBoundsListOrigin.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrUSOriginCho.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
     # read image data
     # testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
-    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\original size choro maps'
+    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTest'
     testImageDir = os.listdir(testImagePath)
 
     legendResults = []
-    testImageDir = [2019-09-06-us-state-choropleth.png]
+    testImageDir = ['map_wm_persons.jpg']
     for imgName in testImageDir:
         # imgName = 'ChoImg214.jpg'
 
@@ -362,38 +362,38 @@ def main():
         unionLegendShapelyBox = getUnionBbox(unionLegendShapelyBox,legendRectShapeBoxList) # union of legend text bbox
 
         # downward enlarge legend bbox
-        enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight * 2,height)
+        # enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight * 2,height)
         
-        while isSuccessful:
-            newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
-            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,textShapelyBoxList)
-            # if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
-            #     break
-            if len(newLegendTextShapelyBoxList)- numLegendTextShapelyBox == len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
-                numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
-                numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
-                unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
-                enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
-            else:
-                break
-            break
+        # while isSuccessful:
+        #     newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
+        #     newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,textShapelyBoxList)
+        #     # if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
+        #     #     break
+        #     if len(newLegendTextShapelyBoxList)- numLegendTextShapelyBox == len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
+        #         numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
+        #         numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
+        #         unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
+        #         enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
+        #     else:
+        #         break
+        #     break
 
 
         # upward enlarge legend bbox
-        enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxUp(unionLegendShapelyBox,medNumTextBboxHeight,height)
+        # enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxUp(unionLegendShapelyBox,medNumTextBboxHeight,height)
         
-        while isSuccessful:
-            newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
-            newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
-            # if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
-            #     break
-            if len(newLegendTextShapelyBoxList)- numLegendTextShapelyBox == len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
-                numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
-                numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
-                unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
-                enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxUp(unionLegendShapelyBox,medNumTextBboxHeight,height)
-            else:
-                break
+        # while isSuccessful:
+        #     newLegendTextShapelyBoxList = getLegendTextShapelyBoxList(enlargedLegendShapelyBox,textShapelyBoxList)
+        #     newLegendRectShapelyBoxList = getRectShapeBox(img,enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
+        #     # if len(newLegendTextShapelyBoxList) == numLegendTextShapelyBox or len(newLegendRectShapelyBoxList) == numLegendRectShapelyBox:
+        #     #     break
+        #     if len(newLegendTextShapelyBoxList)- numLegendTextShapelyBox == len(newLegendRectShapelyBoxList) - numLegendRectShapelyBox:
+        #         numLegendTextShapelyBox = len(newLegendTextShapelyBoxList)
+        #         numLegendRectShapelyBox = len(newLegendRectShapelyBoxList)
+        #         unionLegendShapelyBox = getUnionBbox(enlargedLegendShapelyBox,newLegendTextShapelyBoxList)
+        #         enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxUp(unionLegendShapelyBox,medNumTextBboxHeight,height)
+        #     else:
+        #         break
         # get rect bbox based on legend bbox and legend text bbox
         finalLegendBox = unionLegendShapelyBox # legend box after processed with texts
 
@@ -477,7 +477,7 @@ def main():
             endPoint = (int(legendRect.bounds[2]), int(legendRect.bounds[3]))
             cv2.rectangle(img,startPoint,endPoint,(0, 255, 0),2)
 
-        for TextRect in newLegendTextShapelyBoxList:
+        for TextRect in legendTextShapelyBoxList:
             startPoint = (int(TextRect.bounds[0]), int(TextRect.bounds[1]))
             endPoint = (int(TextRect.bounds[2]), int(TextRect.bounds[3]))
             cv2.rectangle(img,startPoint,endPoint,(0, 0, 255),2)
@@ -486,6 +486,8 @@ def main():
         cv2.imshow(imgName, img)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
+        # save the position of the legend rects, texts and contents
+        legendResults.append((imgName,finalLegendBox,legendRectShapeBoxList,legendTextShapelyBoxList,legendTextBboxes))
     print('test')
     with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendResults.pickle', 'wb') as f:
 	    pickle.dump(legendResults,f)

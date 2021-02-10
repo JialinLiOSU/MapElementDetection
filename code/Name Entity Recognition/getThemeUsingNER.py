@@ -22,7 +22,7 @@ import pickle
 
 # read title data
 titlePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection'
-titleFileName = 'cleanupTitles.txt'
+titleFileName = 'titleResultsUSCho.txt'
 
 f = open(titlePath + '\\' + titleFileName, "r")
 titleFile = f.read()
@@ -47,22 +47,23 @@ for titlePair in titlePairs:
 
 strList = []
 # save model to output directory
-with (open("C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\en_core_web_sm_THEME.pkl", "rb")) as openfile:
+modelPath = r'C:\Users\jiali\OneDrive - The Ohio State University\Map understanding\NER'
+with (open(modelPath + '\\' + 'en_core_web_sm_THEME.pkl', "rb")) as openfile:
     nlp = pickle.load(openfile)
 
 for pair in pairList:
     pair[1] = pair[1].replace("_", " ")
     doc = nlp(pair[1])
     print("Entities in '%s'" % pair[1])
-    strtemp = pair[0] + ',' + pair[1] + ',' 
+    strtemp = pair[0] + '@' + pair[1] + '@' 
     for ent in doc.ents:
         print(ent.label_, ent.text)
         if ent.label_ == 'THEME':
-            strtemp = strtemp + ent.text + ','
+            strtemp = strtemp + ent.text + '@'
     strtemp = strtemp + '\n'
     strList.append(strtemp)
 
-file = open(r'C:\Users\jiali\Desktop\MapElementDetection\code\Name Entity Recognition\themeResults.txt','a')
+file = open(r'C:\Users\jiali\Desktop\MapElementDetection\code\Name Entity Recognition\themeResultsFinalTest.txt','a')
 file.writelines(strList)
 
 print('test')
