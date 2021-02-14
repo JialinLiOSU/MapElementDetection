@@ -15,6 +15,7 @@ import pickle
 import numpy as np
 import pickle
 import sys
+import os
 sys.path.append(r'C:\Users\jiali\Desktop\Map_Identification_Classification\world map generation\getCartoCoordExtent')
 from shapex import *
 from geom.point import *
@@ -199,17 +200,19 @@ def getPointList(shp, country):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsOrigin.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsUSOriginCho.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrBoundsListOrigin.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrUSOriginCho.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
-    path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\originalSize'
-    img1Name = 'ch-07-firstmap-06-1.png'
+    path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTest'
+    testImageDir = os.listdir(path)
+    img1Name = testImageDir[1]
+    img1Name = '120512495_3531289553581434_859214603117834042_n.png'
 
     imgDetectResult = []
     for dr in detectResults:
@@ -237,10 +240,10 @@ def main():
     fig = plt.figure("Superpixels -- %d segments" % (numSegments))
     ax = fig.add_subplot(1, 1, 1)
     bounds = mark_boundaries(image, segments)
-    # ax.imshow(bounds)
-    # plt.axis("off")
+    ax.imshow(bounds)
+    plt.axis("off")
     # show the plots
-    # plt.show()
+    plt.show()
 
     bgColor = getBackgroundColor(img1Proc, imgGrey)
 
@@ -335,44 +338,45 @@ def main():
     # print(maxYCoordPair)
     # print(minYCoordPair)
 
-    shapefilePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\shpFiles\USA_Contiguous_Albers_Equal_Area_Conic'
+    #### match with real geographic information
+    # shapefilePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\shpFiles\USA_Contiguous_Albers_Equal_Area_Conic'
 
-    fileName = 'USA_Contiguous_Albers_Equal_Area_Conic.shp'
-    shp = shapex(shapefilePath + '\\' + fileName)
-    x1, y1, x2, y2 = shp.bounds
-    deltaGeoX = x2 - x1
-    deltaGeoY = y2 - y1
+    # fileName = 'USA_Contiguous_Albers_Equal_Area_Conic.shp'
+    # shp = shapex(shapefilePath + '\\' + fileName)
+    # x1, y1, x2, y2 = shp.bounds
+    # deltaGeoX = x2 - x1
+    # deltaGeoY = y2 - y1
 
-    # get the geographic coordinate and image coordinate of a selected state
-    state = 'Ohio'
-    xGeoState, yGeoState = getStateExtent(shp, state)
+    # # get the geographic coordinate and image coordinate of a selected state
+    # state = 'Ohio'
+    # xGeoState, yGeoState = getStateExtent(shp, state)
 
-    pointList = getPointList(shp,state)
-    centroidGeo = centroid(pointList)[1]
+    # pointList = getPointList(shp,state)
+    # centroidGeo = centroid(pointList)[1]
 
-    xCentroidGeo = centroidGeo.x
-    print(xCentroidGeo)
-    yCentroidGeo = centroidGeo.y
-    print(yCentroidGeo)
+    # xCentroidGeo = centroidGeo.x
+    # print(xCentroidGeo)
+    # yCentroidGeo = centroidGeo.y
+    # print(yCentroidGeo)
 
-    # xImgState = minXCoord + (xGeoState - x1) / deltaGeoX * deltaImgX
-    # yImgState = minYCoord + (y2 - yGeoState ) / deltaGeoY * deltaImgY
+    # # xImgState = minXCoord + (xGeoState - x1) / deltaGeoX * deltaImgX
+    # # yImgState = minYCoord + (y2 - yGeoState ) / deltaGeoY * deltaImgY
 
-    xImgState = minXCoord + (xCentroidGeo - x1) / deltaGeoX * deltaImgX
-    yImgState = minYCoord + (y2 - yCentroidGeo ) / deltaGeoY * deltaImgY
+    # xImgState = minXCoord + (xCentroidGeo - x1) / deltaGeoX * deltaImgX
+    # yImgState = minYCoord + (y2 - yCentroidGeo ) / deltaGeoY * deltaImgY
 
-    RGBState = img1Proc[int(xImgState), int(yImgState),:]
+    # RGBState = img1Proc[int(xImgState), int(yImgState),:]
 
-    fig = plt.figure()
-    ax = plt.gca()
-    ax.scatter(minXCoord, minYCoord, color='blue', marker='o', alpha=0.8)
-    ax.scatter(maxXCoord, maxYCoord, color='blue', marker='o', alpha=0.8)
-    ax.scatter(xImgState, yImgState, color='red', marker='o', alpha=0.8)
-    ax.imshow(img1)
-    plt.show()
+    # fig = plt.figure()
+    # ax = plt.gca()
+    # ax.scatter(minXCoord, minYCoord, color='blue', marker='o', alpha=0.8)
+    # ax.scatter(maxXCoord, maxYCoord, color='blue', marker='o', alpha=0.8)
+    # ax.scatter(xImgState, yImgState, color='red', marker='o', alpha=0.8)
+    # ax.imshow(img1)
+    # plt.show()
 
     
-    print('test')
+    # print('test')
 
 
 

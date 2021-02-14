@@ -289,7 +289,7 @@ def main():
     testImageDir = os.listdir(testImagePath)
 
     legendResults = []
-    testImageDir = ['map_wm_persons.jpg']
+    # testImageDir = ['map_wm_persons.jpg']
     for imgName in testImageDir:
         # imgName = 'ChoImg214.jpg'
 
@@ -482,7 +482,7 @@ def main():
             endPoint = (int(TextRect.bounds[2]), int(TextRect.bounds[3]))
             cv2.rectangle(img,startPoint,endPoint,(0, 0, 255),2)
 
-        # cv2.rectangle(img,startPoint,endPoint,(255, 0, 0),2)
+        cv2.rectangle(img,startPoint,endPoint,(255, 0, 0),2)
         cv2.imshow(imgName, img)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
