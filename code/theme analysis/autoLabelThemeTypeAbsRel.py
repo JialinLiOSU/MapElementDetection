@@ -272,11 +272,11 @@ def getTheme():
             0, lenTimeUse-1)] + timeUseType[random.randint(0, lenTimeUseType-1)]
     theme = theme.lower()
 
-    relKeyWords = ['density','rate','ratio','per','\\','/','percent','percentage','%','average','median','incidence']
+    relKeyWords = ['density','rate','ratio','per','\\','/','percent','percentage','%','average','median','incidence','mortality']
     if any(kWord in theme for kWord in relKeyWords):
-        label = '2'
-    else:
         label = '1'
+    else:
+        label = '0'
     
     return theme, label
 
@@ -311,8 +311,8 @@ def main():
         
     # name of csv file  
     path = r'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\theme analysis'
-    # add more economic indicators and change to 0-other 1-demographic 2-economic 3-environmental
-    filename = "autoLabelThemesAbsRel_2_19.csv" 
+    # 0 - non-relative 1 - relative
+    filename = "autoLabelThemesAbsRel_2_24.csv" 
         
     # writing to csv file  
     with open(path + '\\' + filename, 'w') as csvfile:  
