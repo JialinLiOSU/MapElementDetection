@@ -6,10 +6,10 @@
 import labelme2coco
 
 # set directory that contains labelme annotations and image files
-labelme_folder = r"C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\train"
+labelme_folder = r"C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTest"
 
 # set path for coco json to be saved
-save_json_path = r"C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages" + '\\' + "train.json"
+save_json_path = r"C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro" + '\\' + "train_finaltest_good.json"
 
 # convert labelme annotations to coco
 labelme2coco.convert(labelme_folder, save_json_path)

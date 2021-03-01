@@ -1,0 +1,144 @@
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/08_figure1.jpg,7,345,155,425,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/105045179_3236770016366724_6425280166765659680_o.jpg,22,1420,1966,1701,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/105045179_3236770016366724_6425280166765659680_o.jpg,156,50,1836,192,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/115936742_3317778874932504_6087693444288850821_o.jpg,1031,471,1264,692,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/120512495_3531289553581434_859214603117834042_n.png,84,387,362,413,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/120512495_3531289553581434_859214603117834042_n.png,15,331,480,382,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/122.US-map-7custom-pink-red-bigtitle.jpg,137,233,378,286,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/122.US-map-7custom-pink-red-bigtitle.jpg,400,164,515,281,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/13.gg_state_temperatures.jpg,993,166,1130,306,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/13.gg_state_temperatures.jpg,38,2,455,31,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/131.choropleth.jpg,1,2,242,40,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/131.choropleth.jpg,651,267,726,363,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/141.pasted-graphic-1.jpg,598,274,716,356,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1473973551390.jpg,746,536,941,687,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1473973551390.jpg,151,31,799,145,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/15.7398965884_f0b7e9c177_c.jpg,678,226,796,411,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1505335362936.jpg,513,359,636,471,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1505335362936.jpg,88,27,566,104,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1536798495904.jpg,91,22,566,107,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1569504622191.jpg,228,47,755,137,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1569504622191.jpg,971,588,1183,763,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/187.slide_3.jpg,36,508,287,700,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/187.slide_3.jpg,229,40,677,126,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/192.map-catalog-gis-3015-univariate-choropleth-map-percentage_fb_grafy.jpg,812,392,1010,521,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/192.map-catalog-gis-3015-univariate-choropleth-map-percentage_fb_grafy.jpg,371,13,845,82,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1990 census data % of population 65 and older.png,172,292,477,360,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1990 census data % of population 65 and older.png,500,205,639,349,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1_i7aR525CtXLHOPbarZt5kg.png,493,1,1196,70,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1_RR-cmQrDtwBSJKXIdJpshQ.png,774,205,1352,384,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/1_RR-cmQrDtwBSJKXIdJpshQ.png,11,10,1880,201,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/2019-09-06-us-state-choropleth.png,7,12,198,52,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/2019-09-06-us-state-choropleth.png,1084,87,1188,646,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/22.Map.jpg,581,308,663,409,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/22.Map.jpg,217,41,528,81,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/27356127_1747333678643706_235335965965930808_o.jpg,277,7,1051,194,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/35.lab-7.jpg,95,25,623,61,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/35.lab-7.jpg,19,380,142,563,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/37.Equal-Area-Classifiation-678x322.jpg,542,186,672,277,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/39.9508OS_04_02.jpg,3,299,161,341,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/7.7886413.jpg,550,194,641,328,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/7.7886413.jpg,485,8,639,54,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/750px-2000-census-percent-change.png,235,52,708,98,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/750px-2000-census-percent-change.png,425,107,615,192,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/8.9781412956970-p406-1.jpg,551,248,711,372,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/800px-USA_states_population_density_map.PNG,680,229,798,407,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/8174f3a2c3d81dbb43a316b8a8deff53.jpg,827,472,962,587,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/8174f3a2c3d81dbb43a316b8a8deff53.jpg,364,33,623,62,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/9017-figure-1.png,7,46,866,132,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/9017-figure-1.png,541,564,849,669,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/99.obesity-2010.jpg,18,411,627,445,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/99.obesity-2010.jpg,117,4,562,84,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/cdc-map-03-24-2020.jpg,576,98,864,359,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/cdc-map-03-24-2020.jpg,22,36,464,69,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/ch-07-firstmap-06-1.png,12,157,183,200,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/ch-07-firstmap-06-1.png,24,505,124,780,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/ch-07-purple2nd-1.png,26,505,128,779,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/ch-07-purple2nd-1.png,12,155,243,205,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/chinastatefeature.png,13,14,753,69,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/chinastatefeature.png,4,463,113,841,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/Choropleth-map-of-policy-conditions-across-US-states-Colours-represent-existing.png,268,58,634,110,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/Choropleth-map-of-policy-conditions-across-US-states-Colours-represent-existing.png,4,1,814,45,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/choropleth.png,165,3,673,64,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/choropleth.png,668,320,754,509,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/coronavirus-covid-19-united-states-statista.jpg,35,937,288,1215,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/coronavirus-covid-19-united-states-statista.jpg,100,78,1576,278,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/coronavirus_us-1.png,142,7,656,65,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/coronavirus_us-1.png,158,566,646,596,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/coronavirus_us.png,44,8,758,67,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/coronavirus_us.png,3,567,796,596,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/economix-28statepoverty-custom1.jpg,265,346,419,442,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/economix-28statepoverty-custom1.jpg,11,3,440,42,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/economix-31fedfundstostates3-custom1.jpg,0,0,431,15,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/economix-31fedfundstostates3-custom1.jpg,0,338,100,391,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/EiofKsyXkAE-Iug.jpg,923,147,1169,500,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/EiofKsyXkAE-Iug.jpg,47,53,897,136,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/IRB_choropleth.png,114,32,589,56,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/IRB_choropleth.png,582,109,693,362,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/kG5w83Kc9AEyBDC8vnymkf.jpg,29,499,190,768,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/kG5w83Kc9AEyBDC8vnymkf.jpg,14,14,438,69,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/maps12-1.png,0,118,456,201,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/maps12-1.png,1140,272,1343,739,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/map_wm_persons.jpg,209,18,709,54,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/map_wm_persons.jpg,689,480,841,616,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/map_wm_sf.jpg,689,388,891,545,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/map_wm_sf.jpg,201,22,678,58,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/Median-income-change-chart-from-census.jpg,773,431,932,560,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/Median-income-change-chart-from-census.jpg,250,58,731,105,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/median-income-states-1.png,4,18,241,259,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/median_income_2016.png,831,426,1053,652,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/median_income_2016.png,372,20,673,55,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/MW-GN051_gdp_gr_20180724125451_MG.jpg,5,12,554,38,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/MW-GN051_gdp_gr_20180724125451_MG.jpg,8,39,121,147,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/Obese_by_state-2007.png,38,491,773,564,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/Obese_by_state-2007.png,70,18,735,49,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/oct2020-01.png,0,6,952,91,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/oct2020-01.png,1202,622,1314,901,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/pj3w22wd2nn01.png,1664,993,1875,1237,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/pj3w22wd2nn01.png,215,35,1823,95,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/qgdpstate0720.png,329,27,1678,93,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/qgdpstate0720.png,1658,960,2017,1273,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/ShareFigure1990.png,2,811,700,856,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/ShareFigure1990.png,3,22,856,112,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/slide_57.jpg,791,336,921,507,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/slide_57.jpg,72,47,898,110,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/states-mortality-map_0.jpg,84,16,1271,93,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/states-mortality-map_0.jpg,1685,634,1855,1010,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/Static-Choropleth-of-the-US-1.jpg,661,411,797,519,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/Static-Choropleth-of-the-US-1.jpg,247,27,668,104,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/title-choropleth-map.png,900,73,1001,655,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/title-choropleth-map.png,341,3,662,42,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/U.S._states_by_GDP_per_capita_2017.jpg,4155,1733,5115,2217,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/unnamed-chunk-3-1.png,457,1041,1458,1150,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/unstandardized.jpg,6,32,238,60,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/unstandardized.jpg,45,227,151,359,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/US Covid-19 average daily case rate in last 7 days.png,20,872,1044,932,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/US Covid-19 average daily case rate in last 7 days.png,25,0,1182,31,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/US Venture Capital Landscape 2011.png,13,6,739,40,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/USA_states_population_density_map.png,801,270,932,477,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/us_map87.jpg,126,0,523,24,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/us_map87.jpg,526,258,638,399,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/uUjYD.png,821,110,914,446,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/uUjYD.png,264,38,563,87,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100052.png,275,2,1267,184,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100052.png,5,867,485,934,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100123.png,9,873,483,938,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100123.png,274,8,1251,187,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100136.png,280,3,1255,175,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100136.png,7,865,674,935,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100147.png,7,867,1160,931,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100147.png,274,2,1261,169,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203101633.png,16,6,844,88,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203101633.png,746,479,874,616,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203101649.png,771,487,901,623,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203101649.png,51,11,865,95,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203101705.png,12,7,895,81,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203101705.png,758,501,900,616,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203110034.png,737,433,947,581,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203110034.png,83,4,868,39,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203112622.png,5,5,1618,74,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203112622.png,1373,648,1621,895,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203112642.png,1395,649,1628,891,1
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203112642.png,20,9,1634,90,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/_113143802_optimised-usmapcases_jh_29jun-nc.png,4,14,1989,152,0
+/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalGood/_113143802_optimised-usmapcases_jh_29jun-nc.png,0,202,2269,479,1
