@@ -29,12 +29,16 @@ def getLegendBboxImage(imgName,detectResults):
     return bbox
 
 def getTextBboxes(imgName, ocrResults):
+    textBboxes = []
     for result in ocrResults:
         if result[0] == imgName:
             textBboxes = result[1:]
             break
     textShapelyBoxList = []
     textBboxesNew = []
+
+    if len(textBboxes) == 0:
+        return textShapelyBoxList,textBboxesNew
     for bound in textBboxes:
         if bound[2]>pow(10,-10):
             textBboxesNew.append(bound)
@@ -175,6 +179,13 @@ def intersectText(rectBox,legendTextShapeBoxList):
             break
     return isInterText
 
+def most_common(lst):
+    return max(set(lst), key=lst.count)
+
+def reject_outliers(data, mostCommon):
+    data = np.array(data)
+    return data[abs(data - mostCommon) < 5]
+
 def getRectShapeBox(img, legendShapeBox, legendTextShapeBoxList):
     font = cv2.FONT_HERSHEY_COMPLEX
     # legendPath = 'C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Legend Analysis\\enhanced legend images'
@@ -207,7 +218,7 @@ def getRectShapeBox(img, legendShapeBox, legendTextShapeBoxList):
         x = approx.ravel()[0]
         y = approx.ravel()[1]
 
-        if len(approx) >=3:
+        if len(approx) >=3 and len(approx) <=10:
 
             test1 = approx[0][0][1]
             test2 = approx[2][0][1]
@@ -218,21 +229,89 @@ def getRectShapeBox(img, legendShapeBox, legendTextShapeBoxList):
                 rectList.append(approx)
     rectShapeBoxList = rectListToShapeBoxList(rectList)
 
+
     # find out all rects intersecting with legendBbox and not intersecting with texts
+    # area of legend symbol should be smaller than 1/100 of image area
     legendRectShapeBoxList = []
     for rectBox in rectShapeBoxList:
         isInterText = intersectText(rectBox,legendTextShapeBoxList)
         isInterLegend = legendShapeBox.intersects(rectBox)
-        if isInterLegend and not isInterText:
+        areaRestrict = rectBox.area < (0.01 * (img.shape[0] * img.shape[1])/9)
+
+        if isInterLegend and not isInterText and areaRestrict:
             legendRectShapeBoxList.append(rectBox)
 
     legendRectShapeBoxList = removeOverlappedBox(legendRectShapeBoxList) # postprocess to remove overlapped rect boxes
-    
+
+    if len(legendRectShapeBoxList) == 0:
+        return legendRectShapeBoxList
+
+    # identify whether there is a stardard rect box
+    # and standard xMin and xMax
+    hasStandRectBox = 0
+    XmidList = []
+    widthList = []
+    XminList = []
+    legendRectShapeBoxListUpdated = []
+
+    # get text information
+    textHeightList = []
+    if len(legendTextShapeBoxList) == 0:
+        for rectBox in legendRectShapeBoxList:
+            rectHeight = rectBox.bounds[3] - rectBox.bounds[1]
+            Xmid = int((rectBox.bounds[0] + rectBox.bounds[2])/2)
+            XmidList.append(Xmid)
+
+        mostCommonXmid = most_common(XmidList) 
+        XmidList = reject_outliers(XmidList, mostCommonXmid)
+        for rectBox in legendRectShapeBoxList:
+            Xmid = int((rectBox.bounds[0] + rectBox.bounds[2])/2)
+            if Xmid in XmidList:
+                legendRectShapeBoxListUpdated.append(rectBox)
+        return legendRectShapeBoxListUpdated
+        
+
+    for textShapeBox in legendTextShapeBoxList:
+        height = abs(textShapeBox.bounds[3] - textShapeBox.bounds[1])
+        textHeightList.append(height)
+    averageTextHeight = sum(textHeightList)/len(textHeightList)
+    modeTextHeight = most_common(textHeightList)
+
+    for rectBox in legendRectShapeBoxList:
+        rectHeight = rectBox.bounds[3] - rectBox.bounds[1]
+        Xmid = int((rectBox.bounds[0] + rectBox.bounds[2])/2)
+        Xmin = int(rectBox.bounds[0])
+        width = int(rectBox.bounds[2] + rectBox.bounds[0])
+        XmidList.append(Xmid)
+        XminList.append(Xmin)
+        widthList.append(width)
+        # if rect height is larger than text height, the rect include at leat two legend symbols
+        # it should be regarded as a standard position
+        if rectHeight > 4 * modeTextHeight:
+            xMinStand = rectBox.bounds[0]
+            xMaxStand = rectBox.bounds[2]
+            hasStandRectBox = 1
+            break
+    if hasStandRectBox ==1:
+        verticalAlign = False
+        for rectBox in legendRectShapeBoxList:
+            xMinRB = rectBox.bounds[0]
+            xMaxRB = rectBox.bounds[2]
+            verticalAlign = xMinRB < xMaxStand and xMaxRB > xMinStand 
+            if verticalAlign:
+                legendRectShapeBoxListUpdated.append(rectBox)
+    else:
+        mostCommonXmid = most_common(XmidList) 
+        XmidList = reject_outliers(XmidList, mostCommonXmid)
+        for rectBox in legendRectShapeBoxList:
+            Xmid = int((rectBox.bounds[0] + rectBox.bounds[2])/2)
+            if Xmid in XmidList:
+                legendRectShapeBoxListUpdated.append(rectBox)
         
     # cv2.imshow("shapes", img)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
-    return legendRectShapeBoxList
+    return legendRectShapeBoxListUpdated
     
 def removeOverlappedBox(legendRectShapeBoxList):
     # has some problems
@@ -274,12 +353,12 @@ def getTextForRect(rect,numerTextBboxes):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsUSOriginCho.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsFinalGood.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrUSOriginCho.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\OCR\ocrFinalGood.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
@@ -287,15 +366,23 @@ def main():
     # testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
     testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTest'
     testImageDir = os.listdir(testImagePath)
+    savePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\legendAnalysisFinalGood'
+        
 
     legendResults = []
     # testImageDir = ['map_wm_persons.jpg']
     for imgName in testImageDir:
-        # imgName = 'ChoImg214.jpg'
+        postFix = imgName[-4:]
+        if postFix == 'json':
+            continue
+        print(imgName)
+
+    for imgName in testImageDir:
+        # imgName = '122.US-map-7custom-pink-red-bigtitle.jpg'
 
         print('image name: ', imgName)
-        postFix = imgName[-4:-1]
-        if postFix == 'jso':
+        postFix = imgName[-4:]
+        if postFix == 'json':
             continue
         
         img = cv2.imread(testImagePath + '\\'+imgName)
@@ -309,6 +396,7 @@ def main():
             # cv2.imshow(imgName, img)
             # cv2.waitKey(0)
             # cv2.destroyAllWindows()
+            cv2.imwrite(savePath + '\\' + imgName, img) 
             continue
         x1Legend = legendBbox[3]
         y1Legend = legendBbox[4]
@@ -321,6 +409,7 @@ def main():
         if len(textBBoxes) == 0:
             print('No text in the map image!')
             finalLegendBox = legendShapelyBox
+            # cv2.imwrite(savePath + '\\' + imgName, img) 
             # cv2.imshow(imgName, img)
             # cv2.waitKey(0)
             # cv2.destroyAllWindows()
@@ -331,11 +420,12 @@ def main():
         legendTextBboxes = getLegendTextBboxes(legendShapelyBox,textBBoxes)
         if len(legendTextBboxes) == 0:
             print('No text in legend of the map image!')
+            # cv2.imwrite(savePath + '\\' + imgName, img) 
             # finalLegendBox = legendShapelyBox
             # cv2.imshow(imgName, img)
             # cv2.waitKey(0)
             # cv2.destroyAllWindows()
-            continue
+            # continue
         numLegendTextShapelyBox = len(legendTextShapelyBoxList)
         # conduct bbox union of legend box and text boxes
         unionLegendShapelyBox = getUnionBbox(legendShapelyBox,legendTextShapelyBoxList) # union of legend text bbox
@@ -345,20 +435,22 @@ def main():
         if align == -1:
             print('No numerical text in legend of the map image!')
             finalLegendBox = unionLegendShapelyBox
+            # cv2.imwrite(savePath + '\\' + imgName, img) 
             # cv2.imshow(imgName, img)
             # cv2.waitKey(0)
             # cv2.destroyAllWindows()
-            continue
+            # continue
         print('test')
 
         #### if alighnment is vertical
         # calculate median heigh of numTextPolygon
-        numTextBboxHeightList.sort()
-        medNumTextBboxHeight = numTextBboxHeightList[int(len(numTextBboxHeightList)/2)]
+        # numTextBboxHeightList.sort()
+        # medNumTextBboxHeight = numTextBboxHeightList[int(len(numTextBboxHeightList)/2)]
 
         # rect detection
         legendRectShapeBoxList = getRectShapeBox(img, unionLegendShapelyBox, legendTextShapelyBoxList)
         numLegendRectShapelyBox = len(legendRectShapeBoxList)
+        print('legend rect numbers: ' + str(numLegendRectShapelyBox))
         unionLegendShapelyBox = getUnionBbox(unionLegendShapelyBox,legendRectShapeBoxList) # union of legend text bbox
 
         # downward enlarge legend bbox
@@ -396,6 +488,7 @@ def main():
         #         break
         # get rect bbox based on legend bbox and legend text bbox
         finalLegendBox = unionLegendShapelyBox # legend box after processed with texts
+        # finalLegendBox = legendShapelyBox
 
         ###########  get legend box processed with legend symbol rectangles
         
@@ -415,7 +508,7 @@ def main():
         #         enlargedLegendShapelyBox, isSuccessful = enlargeShapelyBoxDown(unionLegendShapelyBox,medNumTextBboxHeight,height)
 
         
-        finalLegendBox = unionLegendShapelyBox # legend box after processed with texts
+        # finalLegendBox = unionLegendShapelyBox # legend box after processed with texts
 
         # based on numeric text boxes to complete rectangle detection
         # numerTextShapeBoxList,numerTextBboxes
@@ -483,13 +576,14 @@ def main():
             cv2.rectangle(img,startPoint,endPoint,(0, 0, 255),2)
 
         cv2.rectangle(img,startPoint,endPoint,(255, 0, 0),2)
-        cv2.imshow(imgName, img)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        cv2.imwrite(savePath + '\\' + imgName, img) 
+        # cv2.imshow(imgName, img)
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
         # save the position of the legend rects, texts and contents
         legendResults.append((imgName,finalLegendBox,legendRectShapeBoxList,legendTextShapelyBoxList,legendTextBboxes))
     print('test')
-    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendResults.pickle', 'wb') as f:
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendFinalGoodResults.pickle', 'wb') as f:
 	    pickle.dump(legendResults,f)
 
         #### No need to crop the image to get the US boundary

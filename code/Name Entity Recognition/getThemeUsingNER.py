@@ -22,13 +22,13 @@ import pickle
 
 # read title data
 titlePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection'
-titleFileName = 'titleResultsUSCho.txt'
+titleFileName = 'titleResultsFinalGood.txt'
 
 f = open(titlePath + '\\' + titleFileName, "r")
 titleFile = f.read()
 titlePairs = titleFile.split('\n')
 if titlePairs[-1] ==None:
-    titlePairs = titlePairs[0:-2]
+    titlePairs = titlePairs[0:-1]
 
 imageNameList = []
 titleList = []
@@ -37,7 +37,7 @@ for titlePair in titlePairs:
     imageName = titlePair.split(',')[0]
     imageNameList.append(imageName)
     imgNameLength = len(imageName)
-    title = titlePair[imgNameLength+1:-1]
+    title = titlePair[imgNameLength+1:]
     if len(title) != 0 and title[-1] == '_':
         title = title[0:-2]
     if len(title) != 0:
@@ -47,7 +47,7 @@ for titlePair in titlePairs:
 
 strList = []
 # save model to output directory
-modelPath = r'C:\Users\jiali\OneDrive - The Ohio State University\Map understanding\NER'
+modelPath = r'D:\OneDrive - The Ohio State University\Map understanding\NER'
 with (open(modelPath + '\\' + 'en_core_web_sm_THEME.pkl', "rb")) as openfile:
     nlp = pickle.load(openfile)
 
@@ -63,7 +63,7 @@ for pair in pairList:
     strtemp = strtemp + '\n'
     strList.append(strtemp)
 
-file = open(r'C:\Users\jiali\Desktop\MapElementDetection\code\Name Entity Recognition\themeResultsFinalTest.txt','a')
+file = open(r'C:\Users\jiali\Desktop\MapElementDetection\code\Name Entity Recognition\themeResultsFinalGoodTest.txt','a')
 file.writelines(strList)
 
 print('test')

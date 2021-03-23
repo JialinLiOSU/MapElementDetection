@@ -60,18 +60,18 @@ def getUnionBbox(titleTextBboxes):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsOrigin.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsFinalGood.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrBoundsListOrigin.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrFinalGood.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
     # read image data
     # testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
-    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\original size choro maps'
+    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTest'
     testImageDir = os.listdir(testImagePath)
 
     titleResults = []
@@ -110,7 +110,7 @@ def main():
             textPolygon = box(bound[0][0][0],bound[0][0][1],bound[0][2][0],bound[0][2][1])
             if titleBbox.intersects(textPolygon) and bound[2]>pow(10,-10):
                 titleTextBboxes.append(bound)
-                strLine = strLine + bound[1] + '_'
+                strLine = strLine + bound[1] + ' '
                 print(bound[1])
         titleResults.append([imgName] + titleTextBboxes)
         
@@ -144,11 +144,11 @@ def main():
         
 
     print('test')
-    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResults.pickle', 'wb') as f:
-	    pickle.dump(titleResults,f)
+    # with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResultsFinalGood.pickle', 'wb') as f:
+	#     pickle.dump(titleResults,f)
     
 
-    file = open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResults.txt','a')
-    file.writelines(strList)
+    # file = open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResultsFinalGood.txt','a')
+    # file.writelines(strList)
 
 if __name__ == "__main__":    main()

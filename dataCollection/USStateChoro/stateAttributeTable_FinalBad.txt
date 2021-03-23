@@ -1,0 +1,1300 @@
+11.map-AmFact-6eqint-orange-80pct.jpg
+Alabama: 
+Arkansas: 
+Arizona: 
+California: 
+Colorado: 
+Connecticut: 
+District of Columbia: 
+Delaware: 
+Florida: 
+Georgia: 
+Iowa: 
+Idaho: 
+Illinois: 
+Indiana: 
+Kansas: 
+Kentucky: 
+Louisiana: 
+Massachusetts: 
+Maryland: 
+Maine: 
+Michigan: 
+Minnesota: 
+Missouri: 
+Mississippi: 
+Montana: 
+North Carolina: 
+North Dakota: 
+Nebraska: 
+New Hampshire: 
+New Jersey: 
+New Mexico: 
+Nevada: 
+New York: 
+Ohio: 
+Oklahoma: 
+Oregon: 
+Pennsylvania: 
+Rhode Island: 
+South Carolina: 
+South Dakota: 
+Tennessee: 
+Texas: 
+Utah: 
+Virginia: 
+Vermont: 
+Washington: 
+Wisconsin: 
+West Virginia: 
+Wyoming: 
+121.image001_12_18_2013-1.jpg
+Alabama: 
+Arkansas:  0104214112114
+Arizona:  0104214112114
+California:  0104214112114
+Colorado:  0104214112114
+Connecticut:  0104214112114
+District of Columbia:  0104214112114
+Delaware:  0104214112114
+Florida: 
+Georgia:  0104214112114
+Iowa:  z5nagns1s"""
+Idaho:  0104214112114
+Illinois:  0104214112114
+Indiana:  z5nagns1s"""
+Kansas:  z5nagns1s"""
+Kentucky:  0104214112114
+Louisiana: 
+Massachusetts:  0104214112114
+Maryland:  0104214112114
+Maine:  0104214112114
+Michigan:  0104214112114
+Minnesota:  z5nagns1s"""
+Missouri: 
+Mississippi: 
+Montana:  0104214112114
+North Carolina:  0104214112114
+North Dakota:  0104214112114
+Nebraska:  0104214112114
+New Hampshire:  0104214112114
+New Jersey:  0104214112114
+New Mexico:  0104214112114
+Nevada:  z5nagns1s"""
+New York:  0104214112114
+Ohio:  0104214112114
+Oklahoma:  0104214112114
+Oregon: 
+Pennsylvania:  0104214112114
+Rhode Island: 
+South Carolina:  0104214112114
+South Dakota:  0104214112114
+Tennessee:  0104214112114
+Texas:  0104214112114
+Utah:  z5nagns1s"""
+Virginia:  0104214112114
+Vermont:  0104214112114
+Washington:  0104214112114
+Wisconsin: 
+West Virginia:  0104214112114
+Wyoming:  z5nagns1s"""
+133.Choropleth-demand-for-CIC-returnables-by-county.jpg
+Alabama:  .25%
+Arkansas: 
+Arizona:  .25%
+California:  .25%
+Colorado:  50% .75%
+Connecticut:  .25%
+District of Columbia:  5% t0 6% ITuT=
+Delaware:  .25%
+Florida:  .25%
+Georgia:  50% .75%
+Iowa:  .25%
+Idaho:  .25%
+Illinois:  50% .75%
+Indiana:  .25%
+Kansas:  .25%
+Kentucky: 
+Louisiana:  50% .75%
+Massachusetts:  .25%
+Maryland: 
+Maine:  .25%
+Michigan:  .25%
+Minnesota:  .25%
+Missouri: 
+Mississippi:  .25%
+Montana:  .25%
+North Carolina: 
+North Dakota:  .25%
+Nebraska:  .25%
+New Hampshire:  .25%
+New Jersey:  5% t0 6% ITuT=
+New Mexico:  .25%
+Nevada:  .25%
+New York:  .25%
+Ohio: 
+Oklahoma:  .25%
+Oregon:  .25%
+Pennsylvania: 
+Rhode Island:  .25%
+South Carolina:  .25%
+South Dakota:  .25%
+Tennessee:  50% .75%
+Texas:  .25%
+Utah: 
+Virginia:  .25%
+Vermont: 
+Washington:  .25%
+Wisconsin:  .25%
+West Virginia:  .25%
+Wyoming:  .25%
+139994642_3832696723440714_5245189687878009485_n.png
+Alabama:  20%
+Arkansas:  20%
+Arizona:  20%
+California:  20%
+Colorado:  40%
+Connecticut:  20%
+District of Columbia:  20%
+Delaware:  40%
+Florida:  20%
+Georgia:  40%
+Iowa:  20%
+Idaho:  40%
+Illinois:  20%
+Indiana:  20%
+Kansas:  20%
+Kentucky:  20%
+Louisiana:  20%
+Massachusetts:  60%
+Maryland:  40%
+Maine:  40%
+Michigan:  20%
+Minnesota:  60%
+Missouri:  20%
+Mississippi:  20%
+Montana:  20%
+North Carolina:  20%
+North Dakota:  20%
+Nebraska:  20%
+New Hampshire:  20%
+New Jersey:  20%
+New Mexico:  40%
+Nevada:  20%
+New York:  60%
+Ohio:  20%
+Oklahoma:  20%
+Oregon:  40%
+Pennsylvania:  20%
+Rhode Island:  20%
+South Carolina:  20%
+South Dakota:  20%
+Tennessee:  80%
+Texas:  20%
+Utah:  20%
+Virginia:  20%
+Vermont:  20%
+Washington:  20%
+Wisconsin:  20%
+West Virginia:  20%
+Wyoming:  20%
+169.choro_hispanic.jpg
+Alabama:  al#e
+Arkansas:  al#e
+Arizona:  al#e
+California:  al#e
+Colorado:  al#e
+Connecticut:  al#e
+District of Columbia:  al#e
+Delaware:  al#e
+Florida:  al#e
+Georgia:  al#e
+Iowa:  44
+Idaho:  al#e
+Illinois:  al#e
+Indiana:  al#e
+Kansas:  6:11]=17 44!_]]=1451
+Kentucky:  al#e
+Louisiana:  al#e
+Massachusetts:  al#e
+Maryland:  13_11- ;1!2.72}
+Maine:  al#e
+Michigan:  al#e
+Minnesota:  al#e
+Missouri:  6:11]=17 44!_]]=1451
+Mississippi:  al#e
+Montana:  al#e
+North Carolina:  al#e
+North Dakota:  al#e
+Nebraska:  al#e
+New Hampshire:  al#e
+New Jersey:  al#e
+New Mexico:  al#e
+Nevada:  al#e
+New York:  al#e
+Ohio:  al#e
+Oklahoma:  al#e
+Oregon:  6:11]=17 44!_]]=1451
+Pennsylvania:  al#e
+Rhode Island:  al#e
+South Carolina:  al#e
+South Dakota:  6:11]=17 44!_]]=1451
+Tennessee:  al#e
+Texas:  al#e
+Utah:  al#e
+Virginia:  6:11]=17 44!_]]=1451
+Vermont:  13_11- ;1!2.72}
+Washington:  al#e
+Wisconsin:  44
+West Virginia:  al#e
+Wyoming:  al#e
+292_Chloro_folium.png
+Alabama:  Unemployment Rate |%)
+Arkansas:  Unemployment Rate |%)
+Arizona:  Unemployment Rate |%)
+California:  Unemployment Rate |%)
+Colorado:  Unemployment Rate |%)
+Connecticut:  Unemployment Rate |%)
+District of Columbia:  Unemployment Rate |%)
+Delaware:  Unemployment Rate |%)
+Florida:  Unemployment Rate |%)
+Georgia:  Unemployment Rate |%)
+Iowa:  Unemployment Rate |%)
+Idaho:  Unemployment Rate |%)
+Illinois:  Unemployment Rate |%)
+Indiana:  Unemployment Rate |%)
+Kansas:  Unemployment Rate |%)
+Kentucky:  Unemployment Rate |%)
+Louisiana:  Unemployment Rate |%)
+Massachusetts:  Unemployment Rate |%)
+Maryland:  Unemployment Rate |%)
+Maine:  Unemployment Rate |%)
+Michigan:  Unemployment Rate |%)
+Minnesota:  Unemployment Rate |%)
+Missouri:  Unemployment Rate |%)
+Mississippi:  Unemployment Rate |%)
+Montana:  Unemployment Rate |%)
+North Carolina:  Unemployment Rate |%)
+North Dakota:  Unemployment Rate |%)
+Nebraska:  Unemployment Rate |%)
+New Hampshire:  Unemployment Rate |%)
+New Jersey:  Unemployment Rate |%)
+New Mexico:  Unemployment Rate |%)
+Nevada:  Unemployment Rate |%)
+New York:  Unemployment Rate |%)
+Ohio:  Unemployment Rate |%)
+Oklahoma:  Unemployment Rate |%)
+Oregon:  Unemployment Rate |%)
+Pennsylvania:  Unemployment Rate |%)
+Rhode Island:  Unemployment Rate |%)
+South Carolina:  Unemployment Rate |%)
+South Dakota:  Unemployment Rate |%)
+Tennessee:  Unemployment Rate |%)
+Texas:  Unemployment Rate |%)
+Utah:  Unemployment Rate |%)
+Virginia:  Unemployment Rate |%)
+Vermont:  Unemployment Rate |%)
+Washington:  Unemployment Rate |%)
+Wisconsin:  Unemployment Rate |%)
+West Virginia:  Unemployment Rate |%)
+Wyoming:  Unemployment Rate |%)
+81.Equal%20Intervals-7.jpg
+Alabama:  Il.g
+Arkansas: 
+Arizona: 
+California: 
+Colorado: 
+Connecticut: 
+District of Columbia: 
+Delaware:  Il.g
+Florida: 
+Georgia: 
+Iowa: 
+Idaho: 
+Illinois: 
+Indiana: 
+Kansas: 
+Kentucky:  Il.g
+Louisiana:  Il.g
+Massachusetts: 
+Maryland: 
+Maine: 
+Michigan: 
+Minnesota: 
+Missouri: 
+Mississippi: 
+Montana: 
+North Carolina:  Il.g
+North Dakota: 
+Nebraska: 
+New Hampshire: 
+New Jersey: 
+New Mexico: 
+Nevada: 
+New York: 
+Ohio: 
+Oklahoma: 
+Oregon: 
+Pennsylvania: 
+Rhode Island: 
+South Carolina: 
+South Dakota: 
+Tennessee: 
+Texas:  Il.g
+Utah: 
+Virginia: 
+Vermont: 
+Washington: 
+Wisconsin: 
+West Virginia: 
+Wyoming: 
+86.5644OS_04_01.jpg
+Alabama: 
+Arkansas: 
+Arizona: 
+California: 
+Colorado: 
+Connecticut: 
+District of Columbia: 
+Delaware: 
+Florida: 
+Georgia: 
+Iowa: 
+Idaho: 
+Illinois: 
+Indiana: 
+Kansas: 
+Kentucky: 
+Louisiana: 
+Massachusetts: 
+Maryland: 
+Maine: 
+Michigan: 
+Minnesota: 
+Missouri: 
+Mississippi: 
+Montana: 
+North Carolina: 
+North Dakota: 
+Nebraska: 
+New Hampshire: 
+New Jersey: 
+New Mexico: 
+Nevada: 
+New York: 
+Ohio: 
+Oklahoma: 
+Oregon: 
+Pennsylvania: 
+Rhode Island: 
+South Carolina: 
+South Dakota: 
+Tennessee: 
+Texas: 
+Utah: 
+Virginia: 
+Vermont: 
+Washington: 
+Wisconsin: 
+West Virginia: 
+Wyoming: 
+construction_july16.jpg
+Alabama: 
+Arkansas: 
+Arizona:  10"
+California: 
+Colorado:  10% 15%
+Connecticut: 
+District of Columbia: 
+Delaware: 
+Florida: 
+Georgia:  10"
+Iowa:  15%
+Idaho:  10% 15%
+Illinois: 
+Indiana:  10"
+Kansas: 
+Kentucky: 
+Louisiana:  10"
+Massachusetts:  10"
+Maryland: 
+Maine: 
+Michigan: 
+Minnesota: 
+Missouri: 
+Mississippi: 
+Montana: 
+North Carolina: 
+North Dakota: 
+Nebraska: 
+New Hampshire: 
+New Jersey: 
+New Mexico: 
+Nevada:  10"
+New York: 
+Ohio: 
+Oklahoma:  10"
+Oregon:  10"
+Pennsylvania: 
+Rhode Island: 
+South Carolina:  10"
+South Dakota:  10"
+Tennessee: 
+Texas: 
+Utah:  10"
+Virginia: 
+Vermont: 
+Washington:  10"
+Wisconsin:  10"
+West Virginia: 
+Wyoming:  15%
+gallup-wellbeing-index-map.jpg
+Alabama:  Highsr rangs [66.0-60.4)
+Arkansas:  Highsr rangs [66.0-60.4)
+Arizona:  Highsr rangs [66.0-60.4)
+California:  Highsr rangs [66.0-60.4)
+Colorado:  Highsr rangs [66.0-60.4)
+Connecticut:  Hid-rangs [64.5-65.9)
+District of Columbia:  Hid-rangs [64.5-65.9)
+Delaware:  Hid-rangs [64.5-65.9)
+Florida:  Highsr rangs [66.0-60.4)
+Georgia:  Highsr rangs [66.0-60.4)
+Iowa:  Hid-rangs [64.5-65.9)
+Idaho:  Highsr rangs [66.0-60.4)
+Illinois:  Hid-rangs [64.5-65.9)
+Indiana:  Hid-rangs [64.5-65.9)
+Kansas:  Hid-rangs [64.5-65.9)
+Kentucky:  Hid-rangs [64.5-65.9)
+Louisiana:  Hid-rangs [64.5-65.9)
+Massachusetts:  Highsr rangs [66.0-60.4)
+Maryland:  Hid-rangs [64.5-65.9)
+Maine:  Highsr rangs [66.0-60.4)
+Michigan:  Highsr rangs [66.0-60.4)
+Minnesota:  Highsr rangs [66.0-60.4)
+Missouri:  Hid-rangs [64.5-65.9)
+Mississippi:  Hid-rangs [64.5-65.9)
+Montana:  Highsr rangs [66.0-60.4)
+North Carolina:  Highsr rangs [66.0-60.4)
+North Dakota:  Highsr rangs [66.0-60.4)
+Nebraska:  Hid-rangs [64.5-65.9)
+New Hampshire:  Highsr rangs [66.0-60.4)
+New Jersey:  Highsr rangs [66.0-60.4)
+New Mexico:  Hid-rangs [64.5-65.9)
+Nevada:  Highsr rangs [66.0-60.4)
+New York:  Highsr rangs [66.0-60.4)
+Ohio:  Highsr rangs [66.0-60.4)
+Oklahoma:  Hid-rangs [64.5-65.9)
+Oregon:  Highsr rangs [66.0-60.4)
+Pennsylvania:  Highsr rangs [66.0-60.4)
+Rhode Island:  Hid-rangs [64.5-65.9)
+South Carolina:  Highsr rangs [66.0-60.4)
+South Dakota:  Hid-rangs [64.5-65.9)
+Tennessee:  Highsr rangs [66.0-60.4)
+Texas:  Highsr rangs [66.0-60.4)
+Utah:  Highsr rangs [66.0-60.4)
+Virginia:  Highsr rangs [66.0-60.4)
+Vermont:  Highsr rangs [66.0-60.4)
+Washington:  Highsr rangs [66.0-60.4)
+Wisconsin:  Hid-rangs [64.5-65.9)
+West Virginia:  Highsr rangs [66.0-60.4)
+Wyoming:  Hid-rangs [64.5-65.9)
+iraq.png
+Alabama: 
+Arkansas:  50 - 100
+Arizona: 
+California: 
+Colorado:  50 - 100
+Connecticut: 
+District of Columbia: 
+Delaware:  50 - 100
+Florida: 
+Georgia: 
+Iowa:  50 - 100
+Idaho: 
+Illinois:  100 2u0
+Indiana:  100 2u0
+Kansas: 
+Kentucky:  100 2u0
+Louisiana: 
+Massachusetts: 
+Maryland: 
+Maine: 
+Michigan: 
+Minnesota: 
+Missouri:  50 - 100
+Mississippi: 
+Montana: 
+North Carolina: 
+North Dakota: 
+Nebraska: 
+New Hampshire: 
+New Jersey: 
+New Mexico: 
+Nevada:  50 - 100
+New York: 
+Ohio:  100 2u0
+Oklahoma:  3u0 4u0
+Oregon: 
+Pennsylvania:  100 2u0
+Rhode Island: 
+South Carolina: 
+South Dakota: 
+Tennessee:  50 - 100
+Texas: 
+Utah: 
+Virginia: 
+Vermont: 
+Washington: 
+Wisconsin: 
+West Virginia:  100 2u0
+Wyoming: 
+lab_81.jpg
+Alabama:  16,5 22,1
+Arkansas:  16,5 22,1
+Arizona:  16,5 22,1
+California:  16,5 22,1
+Colorado:  27,0 - 30.4
+Connecticut:  16,5 22,1
+District of Columbia:  16,5 22,1
+Delaware:  16,5 22,1
+Florida:  16,5 22,1
+Georgia:  16,5 22,1
+Iowa:  27,0 - 30.4
+Idaho:  30.5 45.9
+Illinois:  27,0 - 30.4
+Indiana:  22,7 . 24,8
+Kansas:  27,0 - 30.4
+Kentucky:  30.5 45.9
+Louisiana:  16,5 22,1
+Massachusetts:  16,5 22,1
+Maryland:  16,5 22,1
+Maine:  16,5 22,1
+Michigan:  16,5 22,1
+Minnesota:  16,5 22,1
+Missouri:  22,7 . 24,8
+Mississippi:  16,5 22,1
+Montana:  16,5 22,1
+North Carolina:  16,5 22,1
+North Dakota:  16,5 22,1
+Nebraska:  22,7 . 24,8
+New Hampshire:  16,5 22,1
+New Jersey:  16,5 22,1
+New Mexico:  16,5 22,1
+Nevada:  16,5 22,1
+New York:  25.1 - 26.9
+Ohio:  25.1 - 26.9
+Oklahoma:  22,7 . 24,8
+Oregon:  16,5 22,1
+Pennsylvania:  30.5 45.9
+Rhode Island:  16,5 22,1
+South Carolina:  16,5 22,1
+South Dakota:  25.1 - 26.9
+Tennessee:  25.1 - 26.9
+Texas:  16,5 22,1
+Utah:  16,5 22,1
+Virginia:  16,5 22,1
+Vermont:  16,5 22,1
+Washington:  30.5 45.9
+Wisconsin:  16,5 22,1
+West Virginia:  30.5 45.9
+Wyoming:  27,0 - 30.4
+license plate vanitization rate 2007.png
+Alabama: 
+Arkansas: 
+Arizona: 
+California: 
+Colorado: 
+Connecticut: 
+District of Columbia: 
+Delaware: 
+Florida: 
+Georgia: 
+Iowa: 
+Idaho: 
+Illinois: 
+Indiana: 
+Kansas: 
+Kentucky: 
+Louisiana: 
+Massachusetts: 
+Maryland: 
+Maine: 
+Michigan: 
+Minnesota: 
+Missouri: 
+Mississippi: 
+Montana: 
+North Carolina: 
+North Dakota: 
+Nebraska: 
+New Hampshire: 
+New Jersey: 
+New Mexico: 
+Nevada: 
+New York: 
+Ohio: 
+Oklahoma: 
+Oregon: 
+Pennsylvania: 
+Rhode Island: 
+South Carolina: 
+South Dakota: 
+Tennessee: 
+Texas: 
+Utah: 
+Virginia: 
+Vermont: 
+Washington: 
+Wisconsin: 
+West Virginia: 
+Wyoming: 
+percentPopl65andOlder.png
+Alabama: 
+Arkansas: 
+Arizona: 
+California: 
+Colorado: 
+Connecticut: 
+District of Columbia:  Lon
+Delaware: 
+Florida: 
+Georgia: 
+Iowa: 
+Idaho: 
+Illinois: 
+Indiana: 
+Kansas: 
+Kentucky: 
+Louisiana: 
+Massachusetts: 
+Maryland: 
+Maine: 
+Michigan: 
+Minnesota: 
+Missouri: 
+Mississippi: 
+Montana: 
+North Carolina: 
+North Dakota: 
+Nebraska: 
+New Hampshire: 
+New Jersey: 
+New Mexico: 
+Nevada: 
+New York: 
+Ohio: 
+Oklahoma: 
+Oregon: 
+Pennsylvania: 
+Rhode Island: 
+South Carolina: 
+South Dakota: 
+Tennessee: 
+Texas: 
+Utah: 
+Virginia: 
+Vermont:  Lon
+Washington: 
+Wisconsin: 
+West Virginia: 
+Wyoming: 
+Poverty 2012.jpg
+Alabama:  arinarmnne
+Arkansas:  arinarmnne
+Arizona:  arinarmnne
+California:  arinarmnne
+Colorado:  07144]2]11210
+Connecticut:  Gr7952 1a"r"nr.
+District of Columbia:  arinarmnne
+Delaware:  arinarmnne
+Florida:  Gr7952 1a"r"nr.
+Georgia:  arinarmnne
+Iowa:  [220
+Idaho:  07144]2]11210
+Illinois:  07144]2]11210
+Indiana:  07144]2]11210
+Kansas:  07144]2]11210
+Kentucky:  arinarmnne
+Louisiana:  arinarmnne
+Massachusetts:  arinarmnne
+Maryland:  arinarmnne
+Maine:  07144]2]11210
+Michigan:  arinarmnne
+Minnesota:  [220
+Missouri:  arinarmnne
+Mississippi:  arinarmnne
+Montana:  07144]2]11210
+North Carolina:  arinarmnne
+North Dakota:  [220
+Nebraska:  07144]2]11210
+New Hampshire:  eluHl:0
+New Jersey:  arinarmnne
+New Mexico:  arinarmnne
+Nevada:  arinarmnne
+New York:  07144]2]11210
+Ohio:  arinarmnne
+Oklahoma:  arinarmnne
+Oregon:  arinarmnne
+Pennsylvania:  07144]2]11210
+Rhode Island:  arinarmnne
+South Carolina:  arinarmnne
+South Dakota:  07144]2]11210
+Tennessee:  arinarmnne
+Texas:  arinarmnne
+Utah:  [220
+Virginia:  [220
+Vermont:  [220
+Washington:  07144]2]11210
+Wisconsin:  07144]2]11210
+West Virginia:  arinarmnne
+Wyoming:  [220
+Typical-choropleth-map-showing-black-percentage-of-total-population-Source-author-2000.png
+Alabama:  22 - 35 5
+Arkansas:  12:21,9
+Arizona:  37.11.9
+California:  37.11.9
+Colorado:  37.11.9
+Connecticut:  12:21,9
+District of Columbia:  37.11.9
+Delaware:  37.11.9
+Florida:  37.11.9
+Georgia:  22 - 35 5
+Iowa:  37.11.9
+Idaho:  37.11.9
+Illinois:  12:21,9
+Indiana:  12:21,9
+Kansas:  37.11.9
+Kentucky:  37.11.9
+Louisiana:  22 - 35 5
+Massachusetts:  12:21,9
+Maryland:  22 - 35 5
+Maine:  37.11.9
+Michigan:  37.11.9
+Minnesota:  37.11.9
+Missouri:  37.11.9
+Mississippi:  12:21,9
+Montana:  37.11.9
+North Carolina:  12:21,9
+North Dakota:  37.11.9
+Nebraska:  37.11.9
+New Hampshire:  12:21,9
+New Jersey:  37.11.9
+New Mexico:  37.11.9
+Nevada:  37.11.9
+New York:  37.11.9
+Ohio:  37.11.9
+Oklahoma:  37.11.9
+Oregon:  37.11.9
+Pennsylvania:  37.11.9
+Rhode Island:  12:21,9
+South Carolina:  22 - 35 5
+South Dakota:  37.11.9
+Tennessee:  12:21,9
+Texas:  37.11.9
+Utah:  37.11.9
+Virginia:  37.11.9
+Vermont:  37.11.9
+Washington:  37.11.9
+Wisconsin:  37.11.9
+West Virginia:  37.11.9
+Wyoming:  37.11.9
+univariate choropleth map.jpg
+Alabama:  819 131 84)2
+Arkansas:  7-10]1
+Arizona:  830] gaJul
+California:  8aauge 81384
+Colorado:  8aauge 81384
+Connecticut:  8aauge 81384
+District of Columbia:  8aauge 81384
+Delaware:  ae424011"3
+Florida: 
+Georgia:  830] gaJul
+Iowa:  830] gaJul
+Idaho:  14,173-411-11
+Illinois:  8aauge 81384
+Indiana:  830] gaJul
+Kansas:  830] gaJul
+Kentucky:  819 131 84)2
+Louisiana:  819 131 84)2
+Massachusetts:  ae424011"3
+Maryland:  ae424011"3
+Maine:  14,173-411-11
+Michigan:  830] gaJul
+Minnesota:  8aauge 81384
+Missouri:  14,173-411-11
+Mississippi:  7-10]1
+Montana:  819 131 84)2
+North Carolina:  14,173-411-11
+North Dakota:  14,173-411-11
+Nebraska:  830] gaJul
+New Hampshire:  830] gaJul
+New Jersey:  830] gaJul
+New Mexico:  819 131 84)2
+Nevada:  8aauge 81384
+New York:  8aauge 81384
+Ohio:  830] gaJul
+Oklahoma:  819 131 84)2
+Oregon:  830] gaJul
+Pennsylvania:  830] gaJul
+Rhode Island:  ae424011"3
+South Carolina:  819 131 84)2
+South Dakota:  14,173-411-11
+Tennessee:  819 131 84)2
+Texas:  830] gaJul
+Utah:  8aauge 81384
+Virginia:  8aauge 81384
+Vermont:  8aauge 81384
+Washington:  8aauge 81384
+Wisconsin:  830] gaJul
+West Virginia:  7-10]1
+Wyoming:  830] gaJul
+unnamed-chunk-23-1.png
+Alabama: 
+Arkansas: 
+Arizona: 
+California: 
+Colorado: 
+Connecticut: 
+District of Columbia: 
+Delaware: 
+Florida: 
+Georgia: 
+Iowa: 
+Idaho: 
+Illinois: 
+Indiana: 
+Kansas: 
+Kentucky: 
+Louisiana: 
+Massachusetts: 
+Maryland: 
+Maine: 
+Michigan: 
+Minnesota: 
+Missouri: 
+Mississippi: 
+Montana: 
+North Carolina: 
+North Dakota: 
+Nebraska: 
+New Hampshire: 
+New Jersey: 
+New Mexico: 
+Nevada: 
+New York: 
+Ohio: 
+Oklahoma: 
+Oregon: 
+Pennsylvania: 
+Rhode Island: 
+South Carolina: 
+South Dakota: 
+Tennessee: 
+Texas: 
+Utah: 
+Virginia: 
+Vermont: 
+Washington: 
+Wisconsin: 
+West Virginia: 
+Wyoming: 
+unnamed-chunk-25-1.png
+Alabama:  [3.24e+06,5.798+05|
+Arkansas:  li.Ge+05 24E+(5]
+Arizona:  1_.2_E+_0._!_E+_0
+California:  [9.34e+05,3.95e+07]
+Colorado:  [3.24e+06,5.798+05|
+Connecticut:  [3.24e+06,5.798+05|
+District of Columbia:  1_.2_E+_0._!_E+_0
+Delaware:  li.Ge+05 24E+(5]
+Florida:  [9.34e+05,3.95e+07]
+Georgia:  [9.34e+05,3.95e+07]
+Iowa:  li.Ge+05 24E+(5]
+Idaho:  li.Ge+05 24E+(5]
+Illinois:  [9.34e+05,3.95e+07]
+Indiana:  1_.2_E+_0._!_E+_0
+Kansas:  li.Ge+05 24E+(5]
+Kentucky:  [3.24e+06,5.798+05|
+Louisiana:  [3.24e+06,5.798+05|
+Massachusetts:  1_.2_E+_0._!_E+_0
+Maryland:  1_.2_E+_0._!_E+_0
+Maine:  [5.7&e+05,1.6e+05]
+Michigan:  [9.34e+05,3.95e+07]
+Minnesota:  [3.24e+06,5.798+05|
+Missouri:  1_.2_E+_0._!_E+_0
+Mississippi:  li.Ge+05 24E+(5]
+Montana:  [5.7&e+05,1.6e+05]
+North Carolina:  [9.34e+05,3.95e+07]
+North Dakota:  [5.7&e+05,1.6e+05]
+Nebraska:  li.Ge+05 24E+(5]
+New Hampshire:  [5.7&e+05,1.6e+05]
+New Jersey:  1_.2_E+_0._!_E+_0
+New Mexico:  li.Ge+05 24E+(5]
+Nevada:  li.Ge+05 24E+(5]
+New York:  [9.34e+05,3.95e+07]
+Ohio:  [9.34e+05,3.95e+07]
+Oklahoma:  [3.24e+06,5.798+05|
+Oregon:  [3.24e+06,5.798+05|
+Pennsylvania:  [9.34e+05,3.95e+07]
+Rhode Island:  [3.24e+06,5.798+05|
+South Carolina:  [3.24e+06,5.798+05|
+South Dakota:  [5.7&e+05,1.6e+05]
+Tennessee:  1_.2_E+_0._!_E+_0
+Texas:  [9.34e+05,3.95e+07]
+Utah:  li.Ge+05 24E+(5]
+Virginia:  1_.2_E+_0._!_E+_0
+Vermont:  [5.7&e+05,1.6e+05]
+Washington:  1_.2_E+_0._!_E+_0
+Wisconsin:  1_.2_E+_0._!_E+_0
+West Virginia:  li.Ge+05 24E+(5]
+Wyoming:  [5.7&e+05,1.6e+05]
+us_map16.jpg
+Alabama:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Arkansas:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Arizona:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+California:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Colorado:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Connecticut:  Shades ofgreen: greater thar the +2.0% orhigher
+District of Columbia:  Shades ofgreen: greater thar the +2.0% orhigher
+Delaware:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Florida:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Georgia:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Iowa:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Idaho:  Shades ofgreen: greater thar the +2.0% orhigher
+Illinois:  U.S. natian wide rate of+0.T% ess than O.O%
+Indiana:  Shades ofgreen: greater thar the +2.0% orhigher
+Kansas:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Kentucky:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Louisiana:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Massachusetts:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Maryland:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Maine:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Michigan:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Minnesota:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Missouri:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Mississippi:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Montana:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+North Carolina:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+North Dakota:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Nebraska:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+New Hampshire:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+New Jersey:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+New Mexico:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Nevada:  Shades ofgreen: greater thar the +2.0% orhigher
+New York:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Ohio:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Oklahoma:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Oregon:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Pennsylvania:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Rhode Island:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+South Carolina:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+South Dakota:  Shades ofgreen: greater thar the +2.0% orhigher
+Tennessee:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Texas:  Shades ofgreen: greater thar the +2.0% orhigher
+Utah:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Virginia:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Vermont:  Shades ofgreen: greater thar the +2.0% orhigher
+Washington:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+Wisconsin:  Shades blue: equa ta orless than tne 0.0% t0 +0.7%
+West Virginia:  U.S. natian wide rate of+0.T% ess than O.O%
+Wyoming:  U.S. natian wide rate of+0.T% ess than O.O%
+us_map30.jpg
+Alabama: 
+Arkansas: 
+Arizona: 
+California: 
+Colorado:  2517
+Connecticut:  2517
+District of Columbia:  2517
+Delaware:  2517
+Florida: 
+Georgia: 
+Iowa:  2517
+Idaho: 
+Illinois: 
+Indiana: 
+Kansas:  2517
+Kentucky: 
+Louisiana: 
+Massachusetts:  2517
+Maryland:  2517
+Maine:  2517
+Michigan: 
+Minnesota:  2517
+Missouri: 
+Mississippi: 
+Montana: 
+North Carolina: 
+North Dakota:  2517
+Nebraska:  2517
+New Hampshire:  2517
+New Jersey:  2517
+New Mexico: 
+Nevada: 
+New York: 
+Ohio: 
+Oklahoma: 
+Oregon: 
+Pennsylvania:  2517
+Rhode Island:  2517
+South Carolina: 
+South Dakota: 
+Tennessee: 
+Texas: 
+Utah:  2517
+Virginia:  2517
+Vermont:  2517
+Washington:  2517
+Wisconsin:  2517
+West Virginia: 
+Wyoming:  2517
+WeChat Screenshot_20210203111126.png
+Alabama: 
+Arkansas: 
+Arizona: 
+California: 
+Colorado: 
+Connecticut: 
+District of Columbia: 
+Delaware: 
+Florida: 
+Georgia: 
+Iowa: 
+Idaho: 
+Illinois: 
+Indiana: 
+Kansas: 
+Kentucky: 
+Louisiana: 
+Massachusetts: 
+Maryland: 
+Maine: 
+Michigan: 
+Minnesota: 
+Missouri: 
+Mississippi: 
+Montana: 
+North Carolina: 
+North Dakota: 
+Nebraska: 
+New Hampshire: 
+New Jersey: 
+New Mexico: 
+Nevada: 
+New York: 
+Ohio: 
+Oklahoma: 
+Oregon: 
+Pennsylvania: 
+Rhode Island: 
+South Carolina: 
+South Dakota: 
+Tennessee: 
+Texas: 
+Utah: 
+Virginia: 
+Vermont: 
+Washington: 
+Wisconsin: 
+West Virginia: 
+Wyoming: 
+WeChat Screenshot_20210203111207.png
+Alabama:  _e.c_t0 201;
+Arkansas:  .c_t0 5}
+Arizona:  -5 t0 -09
+California:  .c_t0 5}
+Colorado:  -5 t0 -09
+Connecticut:  -10 10 -5.019:
+District of Columbia:  5.c_to 10%
+Delaware:  -20 t0 -10.01%
+Florida:  -5 t0 -09
+Georgia:  -5 t0 -09
+Iowa:  5.c_to 10%
+Idaho:  _e.c_t0 201;
+Illinois:  5.c_to 10%
+Indiana:  5.c_to 10%
+Kansas:  .c_t0 5}
+Kentucky:  .c_t0 5}
+Louisiana:  5.c_to 10%
+Massachusetts:  -10 10 -5.019:
+Maryland:  5.c_to 10%
+Maine:  -5 t0 -09
+Michigan:  5.c_to 10%
+Minnesota:  -5 t0 -09
+Missouri:  5.c_to 10%
+Mississippi:  _e.c_t0 201;
+Montana:  NR or MA
+North Carolina:  .c_t0 5}
+North Dakota:  .c_t0 5}
+Nebraska:  Greater than 2O%
+New Hampshire:  _e.c_t0 201;
+New Jersey:  5.c_to 10%
+New Mexico:  NR or MA
+Nevada:  -5 t0 -09
+New York:  -10 10 -5.019:
+Ohio:  .c_t0 5}
+Oklahoma:  NR or MA
+Oregon:  NR or MA
+Pennsylvania:  5.c_to 10%
+Rhode Island:  -5 t0 -09
+South Carolina:  5.c_to 10%
+South Dakota:  _e.c_t0 201;
+Tennessee:  5.c_to 10%
+Texas:  -10 10 -5.019:
+Utah:  _e.c_t0 201;
+Virginia:  NR or MA
+Vermont:  -10 10 -5.019:
+Washington:  .c_t0 5}
+Wisconsin:  .c_t0 5}
+West Virginia:  5.c_to 10%
+Wyoming:  -20 t0 -10.01%
+WeChat Screenshot_20210203112601.png
+Alabama:  <6.5
+Arkansas:  <6.5
+Arizona:  <6.5
+California:  <6.5
+Colorado:  <6.5
+Connecticut:  <6.5
+District of Columbia:  <6.5
+Delaware:  <6.5
+Florida:  <6.5
+Georgia:  <6.5
+Iowa:  <6.5
+Idaho:  <6.5
+Illinois:  <6.5
+Indiana:  <6.5
+Kansas:  <6.5
+Kentucky:  <6.5
+Louisiana:  <6.5
+Massachusetts:  <6.5
+Maryland:  <6.5
+Maine:  <6.5
+Michigan:  <6.5
+Minnesota:  <6.5
+Missouri:  <6.5
+Mississippi:  <6.5
+Montana:  <6.5
+North Carolina:  <6.5
+North Dakota:  <6.5
+Nebraska:  <6.5
+New Hampshire:  <6.5
+New Jersey:  <6.5
+New Mexico:  <6.5
+Nevada:  <6.5
+New York:  <6.5
+Ohio:  <6.5
+Oklahoma:  <6.5
+Oregon:  <6.5
+Pennsylvania:  <6.5
+Rhode Island:  <6.5
+South Carolina:  <6.5
+South Dakota:  <6.5
+Tennessee:  <6.5
+Texas:  <6.5
+Utah:  <6.5
+Virginia:  <6.5
+Vermont:  <6.5
+Washington:  <6.5
+Wisconsin:  <6.5
+West Virginia:  <6.5
+Wyoming:  <6.5
+whbcu0gka0qnbjog2vnsca.png
+Alabama:  Iowest QV mido e QN highest QV
+Arkansas:  Iowest QV mido e QN highest QV
+Arizona:  Iowest QV mido e QN highest QV
+California:  Iowest QV mido e QN highest QV
+Colorado:  Iowest QV mido e QN highest QV
+Connecticut:  Iowest QV mido e QN highest QV
+District of Columbia:  Iowest QV mido e QN highest QV
+Delaware:  Iowest QV mido e QN highest QV
+Florida:  Iowest QV mido e QN highest QV
+Georgia:  Iowest QV mido e QN highest QV
+Iowa:  Iowest QV mido e QN highest QV
+Idaho:  Iowest QV mido e QN highest QV
+Illinois:  Iowest QV mido e QN highest QV
+Indiana:  Iowest QV mido e QN highest QV
+Kansas:  Iowest QV mido e QN highest QV
+Kentucky:  Iowest QV mido e QN highest QV
+Louisiana:  Iowest QV mido e QN highest QV
+Massachusetts:  Iowest QV mido e QN highest QV
+Maryland:  Iowest QV mido e QN highest QV
+Maine:  Iowest QV mido e QN highest QV
+Michigan:  Iowest QV mido e QN highest QV
+Minnesota:  Iowest QV mido e QN highest QV
+Missouri:  Iowest QV mido e QN highest QV
+Mississippi:  Iowest QV mido e QN highest QV
+Montana:  Iowest QV mido e QN highest QV
+North Carolina:  Iowest QV mido e QN highest QV
+North Dakota:  Iowest QV mido e QN highest QV
+Nebraska:  Iowest QV mido e QN highest QV
+New Hampshire:  Iowest QV mido e QN highest QV
+New Jersey:  Iowest QV mido e QN highest QV
+New Mexico:  Iowest QV mido e QN highest QV
+Nevada:  Iowest QV mido e QN highest QV
+New York:  Iowest QV mido e QN highest QV
+Ohio:  Iowest QV mido e QN highest QV
+Oklahoma:  Iowest QV mido e QN highest QV
+Oregon:  Iowest QV mido e QN highest QV
+Pennsylvania:  Iowest QV mido e QN highest QV
+Rhode Island:  Iowest QV mido e QN highest QV
+South Carolina:  Iowest QV mido e QN highest QV
+South Dakota:  Iowest QV mido e QN highest QV
+Tennessee:  Iowest QV mido e QN highest QV
+Texas:  Iowest QV mido e QN highest QV
+Utah:  Iowest QV mido e QN highest QV
+Virginia:  Iowest QV mido e QN highest QV
+Vermont:  Iowest QV mido e QN highest QV
+Washington:  Iowest QV mido e QN highest QV
+Wisconsin:  Iowest QV mido e QN highest QV
+West Virginia:  Iowest QV mido e QN highest QV
+Wyoming:  Iowest QV mido e QN highest QV
+YCOM4.0.2.png
+Alabama:  60% 55%
+Arkansas:  60% 55%
+Arizona:  60% 55%
+California:  65% 60%
+Colorado:  60% 55%
+Connecticut:  65% 60%
+District of Columbia: 
+Delaware: 
+Florida:  65% 60%
+Georgia:  65% 60%
+Iowa:  60% 55%
+Idaho:  60% 55%
+Illinois:  65% 60%
+Indiana:  60% 55%
+Kansas:  60% 55%
+Kentucky:  60% 55%
+Louisiana:  60% 55%
+Massachusetts:  65% 60%
+Maryland: 
+Maine:  60% 55%
+Michigan:  60% 55%
+Minnesota:  60% 55%
+Missouri:  60% 55%
+Mississippi:  60% 55%
+Montana:  60% 55%
+North Carolina:  60% 55%
+North Dakota:  45% 40%
+Nebraska:  60% 55%
+New Hampshire:  60% 55%
+New Jersey:  65% 60%
+New Mexico:  60% 55%
+Nevada:  60% 55%
+New York:  65% 60%
+Ohio:  60% 55%
+Oklahoma:  60% 55%
+Oregon:  65% 60%
+Pennsylvania:  60% 55%
+Rhode Island: 
+South Carolina:  60% 55%
+South Dakota:  60% 55%
+Tennessee:  60% 55%
+Texas:  60% 55%
+Utah:  60% 55%
+Virginia:  65% 60%
+Vermont:  65% 60%
+Washington:  65% 60%
+Wisconsin:  60% 55%
+West Virginia:  60% 55%
+Wyoming:  45% 40%

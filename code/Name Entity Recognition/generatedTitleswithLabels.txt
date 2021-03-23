@@ -1,0 +1,4000 @@
+(
+"In 2004 by census tract GDP Annual Growth Rate ",
+{"entities": [(3, 7, time),(11, 23, admin),(24, 46, theme)]},
+),
+(
+"In China Percent change of Jewish by county ",
+{"entities": [(3, 8, region),(9, 33, theme),(37, 43, admin)]},
+),
+(
+"In U.S. by township in 1995 Asbestos ",
+{"entities": [(3, 7, region),(11, 19, admin),(23, 27, time),(28, 36, theme)]},
+),
+(
+"By province Married-couple family in the United States ",
+{"entities": [(3, 11, admin),(12, 33, theme),(37, 54, region)]},
+),
+(
+"In 1961 Core Inflation Rate ",
+{"entities": [(3, 7, time),(8, 27, theme)]},
+),
+(
+"In 2001 Average poverty level for household by state in USA ",
+{"entities": [(3, 7, time),(8, 43, theme),(47, 52, admin),(56, 59, region)]},
+),
+(
+"In 1985 Percent change of above age 65 in US ",
+{"entities": [(3, 7, time),(8, 38, theme),(42, 44, region)]},
+),
+(
+"In 1999 Soil compaction caused by humans or animals by province ",
+{"entities": [(3, 7, time),(8, 51, theme),(55, 63, admin)]},
+),
+(
+"In the United States Percent change of separated by province ",
+{"entities": [(3, 20, region),(21, 48, theme),(52, 60, admin)]},
+),
+(
+"By township number of schools ",
+{"entities": [(3, 11, admin),(12, 29, theme)]},
+),
+(
+"By township Sales, receipts, or value of shipments of firms in France in 2010 ",
+{"entities": [(3, 11, admin),(12, 59, theme),(63, 69, region),(73, 77, time)]},
+),
+(
+"Export Prices in the United States in 1976 ",
+{"entities": [(0, 13, theme),(17, 34, region),(38, 42, time)]},
+),
+(
+"In 1976 Number of employees of Other miscellaneous manufacturing ",
+{"entities": [(3, 7, time),(8, 64, theme)]},
+),
+(
+"By township Average percent of time engaged in Household and personal mail and messages ",
+{"entities": [(3, 11, admin),(12, 87, theme)]},
+),
+(
+"By census tract Average family size in U.S. in 1984 ",
+{"entities": [(3, 15, admin),(16, 35, theme),(39, 43, region),(47, 51, time)]},
+),
+(
+"By state in 1963 GDP from Construction in China ",
+{"entities": [(3, 8, admin),(12, 16, time),(17, 38, theme),(42, 47, region)]},
+),
+(
+"Difference in number of people of people with elementary occupation in 1998 by county ",
+{"entities": [(0, 67, theme),(71, 75, time),(79, 85, admin)]},
+),
+(
+"In 1952 by state Mixed Radiological Wastes ",
+{"entities": [(3, 7, time),(11, 16, admin),(17, 42, theme)]},
+),
+(
+"By province in 1960 Homeowner Vacancy Rate (percent) in Canada ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 52, theme),(56, 62, region)]},
+),
+(
+"By census tract in the United States area of Deciduous Forest (km2) ",
+{"entities": [(3, 15, admin),(19, 36, region),(37, 67, theme)]},
+),
+(
+"In 1996 by state in UK Average percent of time engaged in Socializing, relaxing, and leisure ",
+{"entities": [(3, 7, time),(11, 16, admin),(20, 22, region),(23, 92, theme)]},
+),
+(
+"By province in 1993 number of people of Muslim in Canada ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 46, theme),(50, 56, region)]},
+),
+(
+"In USA Average hours per day by men spent on Caring for and helping nonhousehold children ",
+{"entities": [(3, 6, region),(7, 89, theme)]},
+),
+(
+"Indoor Air Quality in France in 1960 ",
+{"entities": [(0, 18, theme),(22, 28, region),(32, 36, time)]},
+),
+(
+"In South Korea Average hours per day by men spent on Household management by township in 1974 ",
+{"entities": [(3, 14, region),(15, 73, theme),(77, 85, admin),(89, 93, time)]},
+),
+(
+"In 2001 Average hours per day by women spent on Arts and entertainment (other than sports) ",
+{"entities": [(3, 7, time),(8, 90, theme)]},
+),
+(
+"By county in UK in 1969 Elementary-secondary revenue from special education ",
+{"entities": [(3, 9, admin),(13, 15, region),(19, 23, time),(24, 75, theme)]},
+),
+(
+"Race diversity index in 1952 ",
+{"entities": [(0, 20, theme),(24, 28, time)]},
+),
+(
+"By state in USA Average percent of time engaged in by womenActivities related to household children education ",
+{"entities": [(3, 8, admin),(12, 15, region),(16, 109, theme)]},
+),
+(
+"By county in 1991 Average percent of time engaged in Travel related to organizational, civic, and religious activities ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 118, theme)]},
+),
+(
+"By township Average hours per day spent on Medical and care services ",
+{"entities": [(3, 11, admin),(12, 68, theme)]},
+),
+(
+"In 1970 Credit Rating ",
+{"entities": [(3, 7, time),(8, 21, theme)]},
+),
+(
+"Average hours per day by women spent on Travel related to caring for and helping household members in 1975 by census tract ",
+{"entities": [(0, 98, theme),(102, 106, time),(110, 122, admin)]},
+),
+(
+"In 1980 in US Advance International Trade in Goods by province ",
+{"entities": [(3, 7, time),(11, 13, region),(14, 50, theme),(54, 62, admin)]},
+),
+(
+"By county in U.S. number of schools in 1963 ",
+{"entities": [(3, 9, admin),(13, 17, region),(18, 35, theme),(39, 43, time)]},
+),
+(
+"Average percent of time engaged in by menOrganizational, civic, and religious activities by county in 2001 ",
+{"entities": [(0, 88, theme),(92, 98, admin),(102, 106, time)]},
+),
+(
+"In 1951 by province in China Average square footage of houses ",
+{"entities": [(3, 7, time),(11, 19, admin),(23, 28, region),(29, 61, theme)]},
+),
+(
+"Number of people of All Race by township ",
+{"entities": [(0, 28, theme),(32, 40, admin)]},
+),
+(
+"In 1987 by state in South Korea Households with male householder, no wife present, family ",
+{"entities": [(3, 7, time),(11, 16, admin),(20, 31, region),(32, 89, theme)]},
+),
+(
+"In 1988 in USA by province Government Revenues ",
+{"entities": [(3, 7, time),(11, 14, region),(18, 26, admin),(27, 46, theme)]},
+),
+(
+"Estimated annual sales for Womens clothing stores by census tract ",
+{"entities": [(0, 49, theme),(53, 65, admin)]},
+),
+(
+"Total households in China by county in 2005 ",
+{"entities": [(0, 16, theme),(20, 25, region),(29, 35, admin),(39, 43, time)]},
+),
+(
+"In 1996 in U.S. Production workers average for year of Aerospace product and parts manufacturing by province ",
+{"entities": [(3, 7, time),(11, 15, region),(16, 96, theme),(100, 108, admin)]},
+),
+(
+"Average hours per day by men spent on Travel related to purchasing goods and services in UK by province in 1964 ",
+{"entities": [(0, 85, theme),(89, 91, region),(95, 103, admin),(107, 111, time)]},
+),
+(
+"Population density of Jewish by township in France ",
+{"entities": [(0, 28, theme),(32, 40, admin),(44, 50, region)]},
+),
+(
+"By census tract in 2016 gross domestic income (nominal or ppp) per capita in South Korea ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 73, theme),(77, 88, region)]},
+),
+(
+"By census tract Radon in 1959 in France ",
+{"entities": [(3, 15, admin),(16, 21, theme),(25, 29, time),(33, 39, region)]},
+),
+(
+"In France average price for honey per pound ",
+{"entities": [(3, 9, region),(10, 43, theme)]},
+),
+(
+"Dioxin Effects by census tract ",
+{"entities": [(0, 14, theme),(18, 30, admin)]},
+),
+(
+"Average percent of time engaged in by menCaring for and helping nonhousehold children in 1968 ",
+{"entities": [(0, 85, theme),(89, 93, time)]},
+),
+(
+"In 1993 in USA by census tract Exports value of firms ",
+{"entities": [(3, 7, time),(11, 14, region),(18, 30, admin),(31, 53, theme)]},
+),
+(
+"Production workers annual wages of Sugar and confectionery product manufacturing in France ",
+{"entities": [(0, 80, theme),(84, 90, region)]},
+),
+(
+"Foreign Direct Investment in US in 2019 by state ",
+{"entities": [(0, 25, theme),(29, 31, region),(35, 39, time),(43, 48, admin)]},
+),
+(
+"By province Percent of population of above age 65 ",
+{"entities": [(3, 11, admin),(12, 49, theme)]},
+),
+(
+"In 1990 accommodation revenue by township ",
+{"entities": [(3, 7, time),(8, 29, theme),(33, 41, admin)]},
+),
+(
+"By state Special Wastes ",
+{"entities": [(3, 8, admin),(9, 23, theme)]},
+),
+(
+"In France by state Average percent of time engaged in by menTravel related to caring for and helping household members in 1957 ",
+{"entities": [(3, 9, region),(13, 18, admin),(19, 118, theme),(122, 126, time)]},
+),
+(
+"In 2013 in France by township Estimated annual sales for Building material & garden eq. & supplies dealers ",
+{"entities": [(3, 7, time),(11, 17, region),(21, 29, admin),(30, 106, theme)]},
+),
+(
+"Number of firms by township ",
+{"entities": [(0, 15, theme),(19, 27, admin)]},
+),
+(
+"Area of Unconsolidated Shore (km2) in the United States ",
+{"entities": [(0, 34, theme),(38, 55, region)]},
+),
+(
+"By province in 2005 in UK Average poverty level for household ",
+{"entities": [(3, 11, admin),(15, 19, time),(23, 25, region),(26, 61, theme)]},
+),
+(
+"Number of Olympic game awards by state ",
+{"entities": [(0, 29, theme),(33, 38, admin)]},
+),
+(
+"By township difference in population density of males 15 years and over in 1999 in U.S. ",
+{"entities": [(3, 11, admin),(12, 71, theme),(75, 79, time),(83, 87, region)]},
+),
+(
+"In China Current Account to GDP by county ",
+{"entities": [(3, 8, region),(9, 31, theme),(35, 41, admin)]},
+),
+(
+"In U.S. Percent of population of people enrolled in Kindergarten by census tract ",
+{"entities": [(3, 7, region),(8, 64, theme),(68, 80, admin)]},
+),
+(
+"In France in 2017 by province Elementary-secondary revenue from compensatory programs ",
+{"entities": [(3, 9, region),(13, 17, time),(21, 29, admin),(30, 85, theme)]},
+),
+(
+"By census tract in US difference in population density of divorced ",
+{"entities": [(3, 15, admin),(19, 21, region),(22, 66, theme)]},
+),
+(
+"Corporate income tax of governments in the United States ",
+{"entities": [(0, 35, theme),(39, 56, region)]},
+),
+(
+"In South Korea Indoor Air Quality in your Home ",
+{"entities": [(3, 14, region),(15, 46, theme)]},
+),
+(
+"In 1960 Green Chemistry by census tract ",
+{"entities": [(3, 7, time),(8, 23, theme),(27, 39, admin)]},
+),
+(
+"By township in 1989 in USA Average family size ",
+{"entities": [(3, 11, admin),(15, 19, time),(23, 26, region),(27, 46, theme)]},
+),
+(
+"In 1964 Current spending of elementary-secondary expenditure in U.S. by township ",
+{"entities": [(3, 7, time),(8, 60, theme),(64, 68, region),(72, 80, admin)]},
+),
+(
+"Percent of population of death among children under 5 due to pediatric cancer by township in 1963 in USA ",
+{"entities": [(0, 77, theme),(81, 89, admin),(93, 97, time),(101, 104, region)]},
+),
+(
+"In South Korea Elementary-secondary revenue from compensatory programs in 2008 ",
+{"entities": [(3, 14, region),(15, 70, theme),(74, 78, time)]},
+),
+(
+"In 1958 in US by census tract Total cost of materials of Apparel knitting mills ",
+{"entities": [(3, 7, time),(11, 13, region),(17, 29, admin),(30, 79, theme)]},
+),
+(
+"In 1958 Households with one or more people under 18 years by census tract ",
+{"entities": [(3, 7, time),(8, 57, theme),(61, 73, admin)]},
+),
+(
+"In 2019 divorce rate in Canada ",
+{"entities": [(3, 7, time),(8, 20, theme),(24, 30, region)]},
+),
+(
+"By census tract Capital outlay of elementary-secondary expenditure ",
+{"entities": [(3, 15, admin),(16, 66, theme)]},
+),
+(
+"Number of paid employees in 1987 in the United States by county ",
+{"entities": [(0, 24, theme),(28, 32, time),(36, 53, region),(57, 63, admin)]},
+),
+(
+"By county difference in population density of now married, except separated in 2017 ",
+{"entities": [(3, 9, admin),(10, 75, theme),(79, 83, time)]},
+),
+(
+"By census tract Sales, receipts, or value of shipments of firms in 1997 in South Korea ",
+{"entities": [(3, 15, admin),(16, 63, theme),(67, 71, time),(75, 86, region)]},
+),
+(
+"Estimated annual sales for Warehouse clubs & supercenters in 1981 in the United States ",
+{"entities": [(0, 57, theme),(61, 65, time),(69, 86, region)]},
+),
+(
+"Number of people of people enrolled in College or graduate school in Canada in 1958 ",
+{"entities": [(0, 65, theme),(69, 75, region),(79, 83, time)]},
+),
+(
+"In 1990 by state producer prices change in China ",
+{"entities": [(3, 7, time),(11, 16, admin),(17, 39, theme),(43, 48, region)]},
+),
+(
+"By state Households with one or more people 65 years and over in 1954 in France ",
+{"entities": [(3, 8, admin),(9, 61, theme),(65, 69, time),(73, 79, region)]},
+),
+(
+"By census tract Estimated annual sales for Food & beverage stores ",
+{"entities": [(3, 15, admin),(16, 65, theme)]},
+),
+(
+"By township in USA Average hours per day by women spent on Caring for and helping nonhousehold adults ",
+{"entities": [(3, 11, admin),(15, 18, region),(19, 101, theme)]},
+),
+(
+"Full Time Employment by province in 1955 ",
+{"entities": [(0, 20, theme),(24, 32, admin),(36, 40, time)]},
+),
+(
+"By township Total households in South Korea in 1968 ",
+{"entities": [(3, 11, admin),(12, 28, theme),(32, 43, region),(47, 51, time)]},
+),
+(
+"Crime rate by state ",
+{"entities": [(0, 10, theme),(14, 19, admin)]},
+),
+(
+"In 1958 by census tract in Canada flu incidence ",
+{"entities": [(3, 7, time),(11, 23, admin),(27, 33, region),(34, 47, theme)]},
+),
+(
+"In 1990 energy consumption (per capita) by township ",
+{"entities": [(3, 7, time),(8, 39, theme),(43, 51, admin)]},
+),
+(
+"Estimated annual sales for Motor vehicle & parts Dealers in 1962 in France ",
+{"entities": [(0, 56, theme),(60, 64, time),(68, 74, region)]},
+),
+(
+"Exports By Metropolitan Area in Canada in 1962 by state ",
+{"entities": [(0, 28, theme),(32, 38, region),(42, 46, time),(50, 55, admin)]},
+),
+(
+"In 2020 Pharmaceutical hazardous wastes in US ",
+{"entities": [(3, 7, time),(8, 39, theme),(43, 45, region)]},
+),
+(
+"By township Average number of bedrooms of houses in 2005 in China ",
+{"entities": [(3, 11, admin),(12, 48, theme),(52, 56, time),(60, 65, region)]},
+),
+(
+"In U.S. sales of merchant wholesalers in 1953 ",
+{"entities": [(3, 7, region),(8, 37, theme),(41, 45, time)]},
+),
+(
+"By census tract Sales, receipts, or value of shipments of firms in 2006 in UK ",
+{"entities": [(3, 15, admin),(16, 63, theme),(67, 71, time),(75, 77, region)]},
+),
+(
+"In France in 1964 number of people of Muslim ",
+{"entities": [(3, 9, region),(13, 17, time),(18, 44, theme)]},
+),
+(
+"By province in China Percent of population of now married, except separated ",
+{"entities": [(3, 11, admin),(15, 20, region),(21, 75, theme)]},
+),
+(
+"Number of employees of Other electrical equipment and component manufacturing in UK by township ",
+{"entities": [(0, 77, theme),(81, 83, region),(87, 95, admin)]},
+),
+(
+"Households with one or more people under 18 years in 1952 ",
+{"entities": [(0, 49, theme),(53, 57, time)]},
+),
+(
+"International advance trade in goods deficit in 1963 ",
+{"entities": [(0, 44, theme),(48, 52, time)]},
+),
+(
+"In 2003 in France Annual payroll ",
+{"entities": [(3, 7, time),(11, 17, region),(18, 32, theme)]},
+),
+(
+"By census tract Green Chemistry in France ",
+{"entities": [(3, 15, admin),(16, 31, theme),(35, 41, region)]},
+),
+(
+"Average hours per day by women spent on Civic obligations and participation in the United States by census tract ",
+{"entities": [(0, 75, theme),(79, 96, region),(100, 112, admin)]},
+),
+(
+"Average square footage of houses in 1982 in Canada ",
+{"entities": [(0, 32, theme),(36, 40, time),(44, 50, region)]},
+),
+(
+"By township difference in race diversity ",
+{"entities": [(3, 11, admin),(12, 40, theme)]},
+),
+(
+"In 1987 in Canada Total value of shipments and receipts for services of Engine, turbine, and power transmission equipment manufacturing ",
+{"entities": [(3, 7, time),(11, 17, region),(18, 135, theme)]},
+),
+(
+"In 1995 by township international advance trade in goods deficit in USA ",
+{"entities": [(3, 7, time),(11, 19, admin),(20, 64, theme),(68, 71, region)]},
+),
+(
+"Average monthly housing cost as percentage of income by township ",
+{"entities": [(0, 52, theme),(56, 64, admin)]},
+),
+(
+"In 1970 by census tract in the United States arts, entertainment, and recreation revenue ",
+{"entities": [(3, 7, time),(11, 23, admin),(27, 44, region),(45, 88, theme)]},
+),
+(
+"In UK Gross national incomeMedian household income in 2019 ",
+{"entities": [(3, 5, region),(6, 50, theme),(54, 58, time)]},
+),
+(
+"By census tract Number of firms ",
+{"entities": [(3, 15, admin),(16, 31, theme)]},
+),
+(
+"In 1962 by province difference in race diversity ",
+{"entities": [(3, 7, time),(11, 19, admin),(20, 48, theme)]},
+),
+(
+"In US in 1997 Average hours per day by men spent on Household services by township ",
+{"entities": [(3, 5, region),(9, 13, time),(14, 70, theme),(74, 82, admin)]},
+),
+(
+"By province Estimated annual sales for Womens clothing stores in South Korea ",
+{"entities": [(3, 11, admin),(12, 61, theme),(65, 76, region)]},
+),
+(
+"By province in USA Credit Rating in 1974 ",
+{"entities": [(3, 11, admin),(15, 18, region),(19, 32, theme),(36, 40, time)]},
+),
+(
+"In US by census tract Number of firms in 1990 ",
+{"entities": [(3, 5, region),(9, 21, admin),(22, 37, theme),(41, 45, time)]},
+),
+(
+"By county in UK difference in population density of people working more than 49 hours per week in 1983 ",
+{"entities": [(3, 9, admin),(13, 15, region),(16, 94, theme),(98, 102, time)]},
+),
+(
+"In the United States professional, scientific, and technical services revenue in 1959 by county ",
+{"entities": [(3, 20, region),(21, 77, theme),(81, 85, time),(89, 95, admin)]},
+),
+(
+"In USA homicide rate ",
+{"entities": [(3, 6, region),(7, 20, theme)]},
+),
+(
+"Household income in 2002 ",
+{"entities": [(0, 16, theme),(20, 24, time)]},
+),
+(
+"In 1982 by census tract in US Mercury Effects ",
+{"entities": [(3, 7, time),(11, 23, admin),(27, 29, region),(30, 45, theme)]},
+),
+(
+"Average percent of time engaged in by menHomework and research in France ",
+{"entities": [(0, 62, theme),(66, 72, region)]},
+),
+(
+"In China Average poverty level for household in 2005 ",
+{"entities": [(3, 8, region),(9, 44, theme),(48, 52, time)]},
+),
+(
+"In 2002 Government Debt to GDP ",
+{"entities": [(3, 7, time),(8, 30, theme)]},
+),
+(
+"In USA Commodity ",
+{"entities": [(3, 6, region),(7, 16, theme)]},
+),
+(
+"By township Liquor stores expenditure of governments in South Korea ",
+{"entities": [(3, 11, admin),(12, 52, theme),(56, 67, region)]},
+),
+(
+"In 1986 by township Average square footage of houses in UK ",
+{"entities": [(3, 7, time),(11, 19, admin),(20, 52, theme),(56, 58, region)]},
+),
+(
+"In 1970 by township Average monthly housing cost as percentage of income ",
+{"entities": [(3, 7, time),(11, 19, admin),(20, 72, theme)]},
+),
+(
+"By province in USA Estimated annual sales for Food & beverage stores ",
+{"entities": [(3, 11, admin),(15, 18, region),(19, 68, theme)]},
+),
+(
+"By province Wood Burning Stoves and Appliances in US in 2014 ",
+{"entities": [(3, 11, admin),(12, 46, theme),(50, 52, region),(56, 60, time)]},
+),
+(
+"By state in the United States in 2010 Current charge of governments ",
+{"entities": [(3, 8, admin),(12, 29, region),(33, 37, time),(38, 67, theme)]},
+),
+(
+"Percent change of dentist in 1969 ",
+{"entities": [(0, 25, theme),(29, 33, time)]},
+),
+(
+"In 1962 in US Average number of bedrooms of houses by township ",
+{"entities": [(3, 7, time),(11, 13, region),(14, 50, theme),(54, 62, admin)]},
+),
+(
+"By state in 2020 Annual payroll in Canada ",
+{"entities": [(3, 8, admin),(12, 16, time),(17, 31, theme),(35, 41, region)]},
+),
+(
+"In the United States area of Developed, Low Intensity (km2) in 2004 ",
+{"entities": [(3, 20, region),(21, 59, theme),(63, 67, time)]},
+),
+(
+"Difference in population density of people enrolled in College or graduate school in 1973 in UK by census tract ",
+{"entities": [(0, 81, theme),(85, 89, time),(93, 95, region),(99, 111, admin)]},
+),
+(
+"In 1959 in South Korea by county area of Moss (km2) ",
+{"entities": [(3, 7, time),(11, 22, region),(26, 32, admin),(33, 51, theme)]},
+),
+(
+"In 1997 by state in USA Average percent of time engaged in by menTravel related to work ",
+{"entities": [(3, 7, time),(11, 16, admin),(20, 23, region),(24, 87, theme)]},
+),
+(
+"By township Estimated annual sales for Auto parts in South Korea ",
+{"entities": [(3, 11, admin),(12, 49, theme),(53, 64, region)]},
+),
+(
+"By state number of people of retailers of personal computer in France ",
+{"entities": [(3, 8, admin),(9, 59, theme),(63, 69, region)]},
+),
+(
+"Average hours per day by women spent on Relaxing and leisure by township ",
+{"entities": [(0, 60, theme),(64, 72, admin)]},
+),
+(
+"In Canada by census tract Consumer Confidence ",
+{"entities": [(3, 9, region),(13, 25, admin),(26, 45, theme)]},
+),
+(
+"By province Average hours per day by women spent on Leisure and sports in South Korea ",
+{"entities": [(3, 11, admin),(12, 70, theme),(74, 85, region)]},
+),
+(
+"Percent of population of Under age 18 in 2014 ",
+{"entities": [(0, 37, theme),(41, 45, time)]},
+),
+(
+"In China Population density of people whose permanent teeth have been removed because of tooth decay or gum disease ",
+{"entities": [(3, 8, region),(9, 115, theme)]},
+),
+(
+"Current Account to GDP in UK by county ",
+{"entities": [(0, 22, theme),(26, 28, region),(32, 38, admin)]},
+),
+(
+"In 1981 Average hours per day by men spent on Religious and spiritual activities in the United States by province ",
+{"entities": [(3, 7, time),(8, 80, theme),(84, 101, region),(105, 113, admin)]},
+),
+(
+"Average hours per day spent on Arts and entertainment (other than sports) in South Korea ",
+{"entities": [(0, 73, theme),(77, 88, region)]},
+),
+(
+"Government Spending to GDP in 1956 ",
+{"entities": [(0, 26, theme),(30, 34, time)]},
+),
+(
+"Elementary-secondary revenue from transportation programs in USA ",
+{"entities": [(0, 57, theme),(61, 64, region)]},
+),
+(
+"Deposit Interest Rate in 1988 ",
+{"entities": [(0, 21, theme),(25, 29, time)]},
+),
+(
+"In China in 1976 difference in number of people of people living in slums ",
+{"entities": [(3, 8, region),(12, 16, time),(17, 73, theme)]},
+),
+(
+"In 2000 in the United States Average hours per day spent on Caring for nonhousehold adults ",
+{"entities": [(3, 7, time),(11, 28, region),(29, 90, theme)]},
+),
+(
+"Elementary-secondary revenue from local sources by province ",
+{"entities": [(0, 47, theme),(51, 59, admin)]},
+),
+(
+"In 1993 by state difference in population density of Christian in South Korea ",
+{"entities": [(3, 7, time),(11, 16, admin),(17, 62, theme),(66, 77, region)]},
+),
+(
+"Number of employees of Beverage manufacturing in 1958 in US ",
+{"entities": [(0, 45, theme),(49, 53, time),(57, 59, region)]},
+),
+(
+"Households with householder living alone by county ",
+{"entities": [(0, 40, theme),(44, 50, admin)]},
+),
+(
+"In France by province Production workers average for year of Fruit and vegetable preserving and specialty food manufacturing in 1981 ",
+{"entities": [(3, 9, region),(13, 21, admin),(22, 124, theme),(128, 132, time)]},
+),
+(
+"By township in Canada Population density of Hispanic or Latino Origin ",
+{"entities": [(3, 11, admin),(15, 21, region),(22, 69, theme)]},
+),
+(
+"By province in China in 2012 Average percent of time engaged in by womenSports, exercise, and recreation ",
+{"entities": [(3, 11, admin),(15, 20, region),(24, 28, time),(29, 104, theme)]},
+),
+(
+"In 1994 by census tract Interest on debt of governments ",
+{"entities": [(3, 7, time),(11, 23, admin),(24, 55, theme)]},
+),
+(
+"By state in China Annual payroll of Boiler, tank, and shipping container manufacturing in 1963 ",
+{"entities": [(3, 8, admin),(12, 17, region),(18, 86, theme),(90, 94, time)]},
+),
+(
+"In 1979 number of multi-racial households in UK by state ",
+{"entities": [(3, 7, time),(8, 41, theme),(45, 47, region),(51, 56, admin)]},
+),
+(
+"By census tract in 1959 Average percent of time engaged in by womenWalking in Canada ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 74, theme),(78, 84, region)]},
+),
+(
+"Food insecurity rate by census tract in 1964 ",
+{"entities": [(0, 20, theme),(24, 36, admin),(40, 44, time)]},
+),
+(
+"By province in 1997 Employment Rate in Canada ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 35, theme),(39, 45, region)]},
+),
+(
+"By state Average percent of time engaged in by womenPurchasing goods and services in 1972 ",
+{"entities": [(3, 8, admin),(9, 81, theme),(85, 89, time)]},
+),
+(
+"Exports value of firms by census tract in US ",
+{"entities": [(0, 22, theme),(26, 38, admin),(42, 44, region)]},
+),
+(
+"By township Age of householder in China ",
+{"entities": [(3, 11, admin),(12, 30, theme),(34, 39, region)]},
+),
+(
+"In 1956 in U.S. area of Pasture/Hay (km2) ",
+{"entities": [(3, 7, time),(11, 15, region),(16, 41, theme)]},
+),
+(
+"New Residential Sales in 1988 by county in US ",
+{"entities": [(0, 21, theme),(25, 29, time),(33, 39, admin),(43, 45, region)]},
+),
+(
+"By census tract Capital outlay of governments ",
+{"entities": [(3, 15, admin),(16, 45, theme)]},
+),
+(
+"Solvent-Contaminated Wipes by province ",
+{"entities": [(0, 26, theme),(30, 38, admin)]},
+),
+(
+"Average percent of time engaged in by menFinancial management in the United States in 1999 ",
+{"entities": [(0, 61, theme),(65, 82, region),(86, 90, time)]},
+),
+(
+"By state Hazardous/Toxic Air Pollutants ",
+{"entities": [(3, 8, admin),(9, 39, theme)]},
+),
+(
+"By county Production workers average for year of Fruit and vegetable preserving and specialty food manufacturing in 1968 ",
+{"entities": [(3, 9, admin),(10, 112, theme),(116, 120, time)]},
+),
+(
+"In South Korea in 1969 GDP (nominal or ppp) per capita by census tract ",
+{"entities": [(3, 14, region),(18, 22, time),(23, 54, theme),(58, 70, admin)]},
+),
+(
+"Utilities revenue by census tract in U.S. ",
+{"entities": [(0, 17, theme),(21, 33, admin),(37, 41, region)]},
+),
+(
+"In South Korea Exports By Metropolitan Area ",
+{"entities": [(3, 14, region),(15, 43, theme)]},
+),
+(
+"In UK in 1984 Average year built by township ",
+{"entities": [(3, 5, region),(9, 13, time),(14, 32, theme),(36, 44, admin)]},
+),
+(
+"In U.S. in 1971 by state happiness score ",
+{"entities": [(3, 7, region),(11, 15, time),(19, 24, admin),(25, 40, theme)]},
+),
+(
+"In 2011 Value of Construction ",
+{"entities": [(3, 7, time),(8, 29, theme)]},
+),
+(
+"In 1951 percent of forest area in UK ",
+{"entities": [(3, 7, time),(8, 30, theme),(34, 36, region)]},
+),
+(
+"Annual payroll by township ",
+{"entities": [(0, 14, theme),(18, 26, admin)]},
+),
+(
+"By state in 1955 in USA Used Oil ",
+{"entities": [(3, 8, admin),(12, 16, time),(20, 23, region),(24, 32, theme)]},
+),
+(
+"In 1976 Insurance benefits and repayments of governments in U.S. by census tract ",
+{"entities": [(3, 7, time),(8, 56, theme),(60, 64, region),(68, 80, admin)]},
+),
+(
+"Difference in number of people of Christian by census tract ",
+{"entities": [(0, 43, theme),(47, 59, admin)]},
+),
+(
+"In 2016 by province in US Households with one or more people under 18 years ",
+{"entities": [(3, 7, time),(11, 19, admin),(23, 25, region),(26, 75, theme)]},
+),
+(
+"In 1953 difference in number of people of people living in slums in Canada ",
+{"entities": [(3, 7, time),(8, 64, theme),(68, 74, region)]},
+),
+(
+"In 1998 Household income ",
+{"entities": [(3, 7, time),(8, 24, theme)]},
+),
+(
+"Gross profit of companies in 1999 by census tract ",
+{"entities": [(0, 25, theme),(29, 33, time),(37, 49, admin)]},
+),
+(
+"In 2020 Estimated annual sales for Family clothing stores ",
+{"entities": [(3, 7, time),(8, 57, theme)]},
+),
+(
+"Estimated annual sales for Building material & garden eq. & supplies dealers in 1986 in the United States by township ",
+{"entities": [(0, 76, theme),(80, 84, time),(88, 105, region),(109, 117, admin)]},
+),
+(
+"Estimated annual sales for Beer, wine & liquor stores in UK ",
+{"entities": [(0, 53, theme),(57, 59, region)]},
+),
+(
+"Tourism Revenues in 1970 ",
+{"entities": [(0, 16, theme),(20, 24, time)]},
+),
+(
+"In U.S. Percent change of widowed ",
+{"entities": [(3, 7, region),(8, 33, theme)]},
+),
+(
+"In 1957 by state Elementary-secondary revenue in France ",
+{"entities": [(3, 7, time),(11, 16, admin),(17, 45, theme),(49, 55, region)]},
+),
+(
+"In 2019 by county Annual payroll ",
+{"entities": [(3, 7, time),(11, 17, admin),(18, 32, theme)]},
+),
+(
+" information sector revenue by county in South Korea ",
+{"entities": [(0, 27, theme),(31, 37, admin),(41, 52, region)]},
+),
+(
+"Initial Jobless Claims in U.S. by county ",
+{"entities": [(0, 22, theme),(26, 30, region),(34, 40, admin)]},
+),
+(
+"In 1981 Average hours per day by men spent on Reading for personal interest ",
+{"entities": [(3, 7, time),(8, 75, theme)]},
+),
+(
+"Difference in number of people of people with a bachelor's degree or higher in 1950 ",
+{"entities": [(0, 75, theme),(79, 83, time)]},
+),
+(
+"By state Average number of bedrooms of houses ",
+{"entities": [(3, 8, admin),(9, 45, theme)]},
+),
+(
+"By township in U.S. Average monthly housing cost in 1971 ",
+{"entities": [(3, 11, admin),(15, 19, region),(20, 48, theme),(52, 56, time)]},
+),
+(
+"Elementary-secondary revenue from local sources by township ",
+{"entities": [(0, 47, theme),(51, 59, admin)]},
+),
+(
+"Area of Perennial Ice/Snow (km2) by census tract ",
+{"entities": [(0, 32, theme),(36, 48, admin)]},
+),
+(
+"By county GDP (nominal or ppp) per capita in 1997 in US ",
+{"entities": [(3, 9, admin),(10, 41, theme),(45, 49, time),(53, 55, region)]},
+),
+(
+"By census tract in 2007 in China Corporate income tax of governments ",
+{"entities": [(3, 15, admin),(19, 23, time),(27, 32, region),(33, 68, theme)]},
+),
+(
+"In 1974 by province Population density of people working more than 49 hours per week ",
+{"entities": [(3, 7, time),(11, 19, admin),(20, 84, theme)]},
+),
+(
+"In 1986 in the United States GDP by Industry ",
+{"entities": [(3, 7, time),(11, 28, region),(29, 44, theme)]},
+),
+(
+"By province Number of paid employees ",
+{"entities": [(3, 11, admin),(12, 36, theme)]},
+),
+(
+"In 1967 Sea-Floor Sediment by census tract ",
+{"entities": [(3, 7, time),(8, 26, theme),(30, 42, admin)]},
+),
+(
+"Number of firms in the United States by census tract ",
+{"entities": [(0, 15, theme),(19, 36, region),(40, 52, admin)]},
+),
+(
+"Estimated annual sales for Furniture stores in USA ",
+{"entities": [(0, 43, theme),(47, 50, region)]},
+),
+(
+"By census tract in UK in 1989 Average number of bedrooms of houses ",
+{"entities": [(3, 15, admin),(19, 21, region),(25, 29, time),(30, 66, theme)]},
+),
+(
+"By province in China Herbicide use ",
+{"entities": [(3, 11, admin),(15, 20, region),(21, 34, theme)]},
+),
+(
+"License plate vanitization rate in 1981 ",
+{"entities": [(0, 31, theme),(35, 39, time)]},
+),
+(
+"Lead (Pb) in U.S. by census tract in 1951 ",
+{"entities": [(0, 9, theme),(13, 17, region),(21, 33, admin),(37, 41, time)]},
+),
+(
+"Average hours per day by men spent on Interior cleaning in 1977 ",
+{"entities": [(0, 55, theme),(59, 63, time)]},
+),
+(
+"In 1963 Average percent of time engaged in by menTravel related to work ",
+{"entities": [(3, 7, time),(8, 71, theme)]},
+),
+(
+"Polychlorinated Biphenyls (PCBs) by state ",
+{"entities": [(0, 32, theme),(36, 41, admin)]},
+),
+(
+"In UK Hazardous/Toxic Air Pollutants ",
+{"entities": [(3, 5, region),(6, 36, theme)]},
+),
+(
+"In the United States Average percent of time engaged in Attending religious services in 1964 by county ",
+{"entities": [(3, 20, region),(21, 84, theme),(88, 92, time),(96, 102, admin)]},
+),
+(
+"In 1951 Average square footage of houses by census tract ",
+{"entities": [(3, 7, time),(8, 40, theme),(44, 56, admin)]},
+),
+(
+"In 1971 by census tract Average number of bedrooms of houses ",
+{"entities": [(3, 7, time),(11, 23, admin),(24, 60, theme)]},
+),
+(
+"In 1979 by county in the United States Intergovernmental expenditure of governments ",
+{"entities": [(3, 7, time),(11, 17, admin),(21, 38, region),(39, 83, theme)]},
+),
+(
+"In 2003 in South Korea Annual payroll of Textile and fabric finishing and fabric coating mills by state ",
+{"entities": [(3, 7, time),(11, 22, region),(23, 94, theme),(98, 103, admin)]},
+),
+(
+"Households with male householder, no wife present, family by township ",
+{"entities": [(0, 57, theme),(61, 69, admin)]},
+),
+(
+"By state in 1969 Average percent of time engaged in Working in South Korea ",
+{"entities": [(3, 8, admin),(12, 16, time),(17, 59, theme),(63, 74, region)]},
+),
+(
+"Households with householder living alone in U.S. ",
+{"entities": [(0, 40, theme),(44, 48, region)]},
+),
+(
+"In 2008 crime rate ",
+{"entities": [(3, 7, time),(8, 18, theme)]},
+),
+(
+"Current spending of elementary-secondary expenditure by township in 2003 in U.S. ",
+{"entities": [(0, 52, theme),(56, 64, admin),(68, 72, time),(76, 80, region)]},
+),
+(
+"Flood Inundation in UK ",
+{"entities": [(0, 16, theme),(20, 22, region)]},
+),
+(
+"In 1960 Average year built ",
+{"entities": [(3, 7, time),(8, 26, theme)]},
+),
+(
+"Number of paid employees by province in China ",
+{"entities": [(0, 24, theme),(28, 36, admin),(40, 45, region)]},
+),
+(
+"Educational services revenue in UK by census tract ",
+{"entities": [(0, 28, theme),(32, 34, region),(38, 50, admin)]},
+),
+(
+"Estimated annual sales for Mens clothing stores by county in US ",
+{"entities": [(0, 47, theme),(51, 57, admin),(61, 63, region)]},
+),
+(
+"In UK Estimated annual sales for General merchandise stores in 1967 ",
+{"entities": [(3, 5, region),(6, 59, theme),(63, 67, time)]},
+),
+(
+"Average square footage of houses by province ",
+{"entities": [(0, 32, theme),(36, 44, admin)]},
+),
+(
+"Average monthly housing cost as percentage of income by province in 2017 ",
+{"entities": [(0, 52, theme),(56, 64, admin),(68, 72, time)]},
+),
+(
+"In U.S. number of hospitals in 1964 by township ",
+{"entities": [(3, 7, region),(8, 27, theme),(31, 35, time),(39, 47, admin)]},
+),
+(
+"In 1959 Average percent of time engaged in by womenHelping nonhousehold adults in US ",
+{"entities": [(3, 7, time),(8, 78, theme),(82, 84, region)]},
+),
+(
+"Difference in population density of People whose native language is Russian by province in China in 1961 ",
+{"entities": [(0, 75, theme),(79, 87, admin),(91, 96, region),(100, 104, time)]},
+),
+(
+"Total capital expenditures of Other nonmetallic mineral product manufacturing in US ",
+{"entities": [(0, 77, theme),(81, 83, region)]},
+),
+(
+"In 1962 by state monthly estimates of the total dollar value of construction work ",
+{"entities": [(3, 7, time),(11, 16, admin),(17, 81, theme)]},
+),
+(
+"In France by township in 1973 Married-couple family ",
+{"entities": [(3, 9, region),(13, 21, admin),(25, 29, time),(30, 51, theme)]},
+),
+(
+"By census tract in 2007 Households with householder living alone in China ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 64, theme),(68, 73, region)]},
+),
+(
+"By county in 1950 Average percent of time engaged in by womenLawn and garden care ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 81, theme)]},
+),
+(
+"In U.S. in 1999 Average percent of time engaged in by womenHelping household adults by state ",
+{"entities": [(3, 7, region),(11, 15, time),(16, 83, theme),(87, 92, admin)]},
+),
+(
+"In France Lead (Pb) in 1979 ",
+{"entities": [(3, 9, region),(10, 19, theme),(23, 27, time)]},
+),
+(
+"In China in 1983 Government Spending to GDP by township ",
+{"entities": [(3, 8, region),(12, 16, time),(17, 43, theme),(47, 55, admin)]},
+),
+(
+"By county Population density of American Indian and Alaska Native in US in 1969 ",
+{"entities": [(3, 9, admin),(10, 65, theme),(69, 71, region),(75, 79, time)]},
+),
+(
+"In 1975 in UK by township Glyphosate ",
+{"entities": [(3, 7, time),(11, 13, region),(17, 25, admin),(26, 36, theme)]},
+),
+(
+"By county Corporate Profits in 1957 ",
+{"entities": [(3, 9, admin),(10, 27, theme),(31, 35, time)]},
+),
+(
+"In USA Number of paid employees by census tract in 1955 ",
+{"entities": [(3, 6, region),(7, 31, theme),(35, 47, admin),(51, 55, time)]},
+),
+(
+"Wages by census tract in 2017 in France ",
+{"entities": [(0, 5, theme),(9, 21, admin),(25, 29, time),(33, 39, region)]},
+),
+(
+"Average percent of time engaged in Social service and care activities  in France ",
+{"entities": [(0, 70, theme),(74, 80, region)]},
+),
+(
+"In 1975 Sales, receipts, or value of shipments of firms by census tract ",
+{"entities": [(3, 7, time),(8, 55, theme),(59, 71, admin)]},
+),
+(
+"Annual payroll in the United States ",
+{"entities": [(0, 14, theme),(18, 35, region)]},
+),
+(
+"In France in 1985 by county Total value of shipments and receipts for services of Basic chemical manufacturing ",
+{"entities": [(3, 9, region),(13, 17, time),(21, 27, admin),(28, 110, theme)]},
+),
+(
+"By province Family households with own children of the householder under 18 years ",
+{"entities": [(3, 11, admin),(12, 81, theme)]},
+),
+(
+"In 2008 Total value of shipments and receipts for services of Apparel knitting mills in France ",
+{"entities": [(3, 7, time),(8, 84, theme),(88, 94, region)]},
+),
+(
+"In China by state Households Debt to GDP ",
+{"entities": [(3, 8, region),(12, 17, admin),(18, 40, theme)]},
+),
+(
+"In 1976 gross domestic income (nominal or ppp) per capita in Canada ",
+{"entities": [(3, 7, time),(8, 57, theme),(61, 67, region)]},
+),
+(
+"By census tract in 1996 Production workers annual hours of Sawmills and wood preservation ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 89, theme)]},
+),
+(
+"By census tract Seasonally adjusted sales in South Korea ",
+{"entities": [(3, 15, admin),(16, 41, theme),(45, 56, region)]},
+),
+(
+"Average household size in 1972 by state in UK ",
+{"entities": [(0, 22, theme),(26, 30, time),(34, 39, admin),(43, 45, region)]},
+),
+(
+"Number of pedestrian accidents in 1977 in UK by township ",
+{"entities": [(0, 30, theme),(34, 38, time),(42, 44, region),(48, 56, admin)]},
+),
+(
+"Difference in population density of Jewish in France by province in 2009 ",
+{"entities": [(0, 42, theme),(46, 52, region),(56, 64, admin),(68, 72, time)]},
+),
+(
+"Difference in number of people of American Indian and Alaska Native by county in China in 1986 ",
+{"entities": [(0, 67, theme),(71, 77, admin),(81, 86, region),(90, 94, time)]},
+),
+(
+"In 2008 Imports ",
+{"entities": [(3, 7, time),(8, 15, theme)]},
+),
+(
+"In Canada Estimated annual sales for Gasoline stations by census tract ",
+{"entities": [(3, 9, region),(10, 54, theme),(58, 70, admin)]},
+),
+(
+"By state Estimated annual sales for Elect. shopping & m/o houses in France ",
+{"entities": [(3, 8, admin),(9, 64, theme),(68, 74, region)]},
+),
+(
+"Area of Palustrine Emergent Wetland (Persistent) (km2) by province in 2018 in France ",
+{"entities": [(0, 54, theme),(58, 66, admin),(70, 74, time),(78, 84, region)]},
+),
+(
+"Radiocarbon dating of deep-sea (500 m to 700 m) black corals by state in US ",
+{"entities": [(0, 60, theme),(64, 69, admin),(73, 75, region)]},
+),
+(
+"By county Married-couple family ",
+{"entities": [(3, 9, admin),(10, 31, theme)]},
+),
+(
+"Exports value of firms by state in 1959 ",
+{"entities": [(0, 22, theme),(26, 31, admin),(35, 39, time)]},
+),
+(
+"Number of employees of Tobacco manufacturing in 2018 ",
+{"entities": [(0, 44, theme),(48, 52, time)]},
+),
+(
+"By county Population density of Asian ",
+{"entities": [(3, 9, admin),(10, 37, theme)]},
+),
+(
+"By county in 2000 Percent change of widowed in France ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 43, theme),(47, 53, region)]},
+),
+(
+"International Electronic Waste (E-Waste) in 1976 ",
+{"entities": [(0, 40, theme),(44, 48, time)]},
+),
+(
+"Production workers annual hours of Audio and video equipment manufacturing in U.S. ",
+{"entities": [(0, 74, theme),(78, 82, region)]},
+),
+(
+"Interest on general debt of governments in 1964 ",
+{"entities": [(0, 39, theme),(43, 47, time)]},
+),
+(
+"In the United States Government Debt to GDP in 2009 ",
+{"entities": [(3, 20, region),(21, 43, theme),(47, 51, time)]},
+),
+(
+"In China in 1983 by province Total cost of materials of Other electrical equipment and component manufacturing ",
+{"entities": [(3, 8, region),(12, 16, time),(20, 28, admin),(29, 110, theme)]},
+),
+(
+"GNP by province in 1956 ",
+{"entities": [(0, 3, theme),(7, 15, admin),(19, 23, time)]},
+),
+(
+"By township in 2012 Average hours per day by men spent on Health-related self care ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 82, theme)]},
+),
+(
+"In 2000 firearm death rate ",
+{"entities": [(3, 7, time),(8, 26, theme)]},
+),
+(
+"By township Total cost of materials of Leather and hide tanning and finishing in 1987 ",
+{"entities": [(3, 11, admin),(12, 77, theme),(81, 85, time)]},
+),
+(
+"Average hours per day spent on Travel related to caring for and helping household members in 1979 ",
+{"entities": [(0, 89, theme),(93, 97, time)]},
+),
+(
+"Population density of Christian in 1991 in China ",
+{"entities": [(0, 31, theme),(35, 39, time),(43, 48, region)]},
+),
+(
+"Nonfamily households in UK ",
+{"entities": [(0, 20, theme),(24, 26, region)]},
+),
+(
+"By township in 2016 percentage of respondents who did not provide a workplace address at Area unit level in UK ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 104, theme),(108, 110, region)]},
+),
+(
+"Percent of households above $200k in US in 1963 by state ",
+{"entities": [(0, 33, theme),(37, 39, region),(43, 47, time),(51, 56, admin)]},
+),
+(
+"Price of land by census tract ",
+{"entities": [(0, 13, theme),(17, 29, admin)]},
+),
+(
+"Gross profit of companies by county ",
+{"entities": [(0, 25, theme),(29, 35, admin)]},
+),
+(
+"By county Household income ",
+{"entities": [(3, 9, admin),(10, 26, theme)]},
+),
+(
+"By county Average percent of time engaged in by womenActivities related to household children health in UK ",
+{"entities": [(3, 9, admin),(10, 100, theme),(104, 106, region)]},
+),
+(
+"Households with one or more people 65 years and over in the United States ",
+{"entities": [(0, 52, theme),(56, 73, region)]},
+),
+(
+"In 1972 in UK number of McDonald's ",
+{"entities": [(3, 7, time),(11, 13, region),(14, 34, theme)]},
+),
+(
+"By census tract in the United States difference in number of people of divorced in 2014 ",
+{"entities": [(3, 15, admin),(19, 36, region),(37, 79, theme),(83, 87, time)]},
+),
+(
+"In the United States gross domestic product (GDP),GDP ",
+{"entities": [(3, 20, region),(21, 53, theme)]},
+),
+(
+"In 1971 gun violence rate by state ",
+{"entities": [(3, 7, time),(8, 25, theme),(29, 34, admin)]},
+),
+(
+"By province Average percent of time engaged in by womenGovernment services in France in 1954 ",
+{"entities": [(3, 11, admin),(12, 74, theme),(78, 84, region),(88, 92, time)]},
+),
+(
+"Number of firms in 2006 in UK ",
+{"entities": [(0, 15, theme),(19, 23, time),(27, 29, region)]},
+),
+(
+"In China Production workers annual hours of Ship and boat building in 1981 ",
+{"entities": [(3, 8, region),(9, 66, theme),(70, 74, time)]},
+),
+(
+"Area of Moss (km2) in 1972 in the United States by township ",
+{"entities": [(0, 18, theme),(22, 26, time),(30, 47, region),(51, 59, admin)]},
+),
+(
+"In France crime rate ",
+{"entities": [(3, 9, region),(10, 20, theme)]},
+),
+(
+"In Canada Average hours per day by men spent on Eating and drinking in 1970 by state ",
+{"entities": [(3, 9, region),(10, 67, theme),(71, 75, time),(79, 84, admin)]},
+),
+(
+"In U.S. by township in 1961 Ozone Effects ",
+{"entities": [(3, 7, region),(11, 19, admin),(23, 27, time),(28, 41, theme)]},
+),
+(
+"In 2005 radiocarbon dating of deep-sea (500 m to 700 m) black corals ",
+{"entities": [(3, 7, time),(8, 68, theme)]},
+),
+(
+"In 1962 by township Percent change of people whose permanent teeth have been removed because of tooth decay or gum disease ",
+{"entities": [(3, 7, time),(11, 19, admin),(20, 122, theme)]},
+),
+(
+"In 2016 Elementary-secondary revenue from federal sources ",
+{"entities": [(3, 7, time),(8, 57, theme)]},
+),
+(
+"International Trade in Goods by county ",
+{"entities": [(0, 28, theme),(32, 38, admin)]},
+),
+(
+"In the United States Average percent of time engaged in by womenTravel related to personal care] ",
+{"entities": [(3, 20, region),(21, 96, theme)]},
+),
+(
+"Homeownership rates in 1950 ",
+{"entities": [(0, 19, theme),(23, 27, time)]},
+),
+(
+"In 1980 in South Korea by county Elementary-secondary revenue from vocational programs ",
+{"entities": [(3, 7, time),(11, 22, region),(26, 32, admin),(33, 86, theme)]},
+),
+(
+"In Canada Average year built in 1972 by state ",
+{"entities": [(3, 9, region),(10, 28, theme),(32, 36, time),(40, 45, admin)]},
+),
+(
+"In 2002 Average hours per day spent on Health-related self care ",
+{"entities": [(3, 7, time),(8, 63, theme)]},
+),
+(
+"Total revenue of governments in 2020 by province in U.S. ",
+{"entities": [(0, 28, theme),(32, 36, time),(40, 48, admin),(52, 56, region)]},
+),
+(
+"In South Korea Number of paid employees by census tract ",
+{"entities": [(3, 14, region),(15, 39, theme),(43, 55, admin)]},
+),
+(
+"In 1980 in UK Average number of bedrooms of houses ",
+{"entities": [(3, 7, time),(11, 13, region),(14, 50, theme)]},
+),
+(
+"In UK Average hours per day by men spent on Educational activities in 2009 ",
+{"entities": [(3, 5, region),(6, 66, theme),(70, 74, time)]},
+),
+(
+"In US Annual payroll of Sawmills and wood preservation by province ",
+{"entities": [(3, 5, region),(6, 54, theme),(58, 66, admin)]},
+),
+(
+"In 1960 Balance of Trade ",
+{"entities": [(3, 7, time),(8, 24, theme)]},
+),
+(
+"In USA by county in 1964 Current Account to GDP ",
+{"entities": [(3, 6, region),(10, 16, admin),(20, 24, time),(25, 47, theme)]},
+),
+(
+"Median rent price by state ",
+{"entities": [(0, 17, theme),(21, 26, admin)]},
+),
+(
+"In 2000 Average hours per day by women spent on Socializing, relaxing, and leisure ",
+{"entities": [(3, 7, time),(8, 82, theme)]},
+),
+(
+"Average hours per day by men spent on Travel related to telephone calls in USA in 1965 ",
+{"entities": [(0, 71, theme),(75, 78, region),(82, 86, time)]},
+),
+(
+"Direct expenditure of governments in 1968 in France by township ",
+{"entities": [(0, 33, theme),(37, 41, time),(45, 51, region),(55, 63, admin)]},
+),
+(
+"In 1991 in the United States Estimated annual sales for All oth. gen. merch. Stores by township ",
+{"entities": [(3, 7, time),(11, 28, region),(29, 83, theme),(87, 95, admin)]},
+),
+(
+"In U.S. Elementary-secondary expenditure in 1968 by census tract ",
+{"entities": [(3, 7, region),(8, 40, theme),(44, 48, time),(52, 64, admin)]},
+),
+(
+"Average family size by township in 1972 ",
+{"entities": [(0, 19, theme),(23, 31, admin),(35, 39, time)]},
+),
+(
+"Number of people of people who are alumni of OSU in 2001 by township in China ",
+{"entities": [(0, 48, theme),(52, 56, time),(60, 68, admin),(72, 77, region)]},
+),
+(
+"In US by census tract Individual income tax of governments in 2013 ",
+{"entities": [(3, 5, region),(9, 21, admin),(22, 58, theme),(62, 66, time)]},
+),
+(
+"In 1995 in US difference in number of people of Christian ",
+{"entities": [(3, 7, time),(11, 13, region),(14, 57, theme)]},
+),
+(
+"Elementary-secondary revenue from special education in the United States ",
+{"entities": [(0, 51, theme),(55, 72, region)]},
+),
+(
+"Production workers average for year of Other food manufacturing by state in 2017 in the United States ",
+{"entities": [(0, 63, theme),(67, 72, admin),(76, 80, time),(84, 101, region)]},
+),
+(
+"By province Annual payroll ",
+{"entities": [(3, 11, admin),(12, 26, theme)]},
+),
+(
+"In the United States in 1982 Percent change of People who is infected by HIV ",
+{"entities": [(3, 20, region),(24, 28, time),(29, 76, theme)]},
+),
+(
+"In 1976 Percent change of White by census tract in Canada ",
+{"entities": [(3, 7, time),(8, 31, theme),(35, 47, admin),(51, 57, region)]},
+),
+(
+"By township area of open water (km2) in 1992 ",
+{"entities": [(3, 11, admin),(12, 36, theme),(40, 44, time)]},
+),
+(
+"Average hours per day by women spent on Working and work-related activities in 1958 in USA ",
+{"entities": [(0, 75, theme),(79, 83, time),(87, 90, region)]},
+),
+(
+"Area of Mixed Forest (km2) in 1963 in Canada ",
+{"entities": [(0, 26, theme),(30, 34, time),(38, 44, region)]},
+),
+(
+"By township in UK Average number of bedrooms of houses ",
+{"entities": [(3, 11, admin),(15, 17, region),(18, 54, theme)]},
+),
+(
+"Special Wastes in 1987 by province in China ",
+{"entities": [(0, 14, theme),(18, 22, time),(26, 34, admin),(38, 43, region)]},
+),
+(
+"In the United States by census tract Elementary-secondary revenue from state sources in 1950 ",
+{"entities": [(3, 20, region),(24, 36, admin),(37, 84, theme),(88, 92, time)]},
+),
+(
+"In 2020 by census tract Average square footage of houses in USA ",
+{"entities": [(3, 7, time),(11, 23, admin),(24, 56, theme),(60, 63, region)]},
+),
+(
+"By state Average hours per day spent on Playing games ",
+{"entities": [(3, 8, admin),(9, 53, theme)]},
+),
+(
+"By township in China Exports value of firms ",
+{"entities": [(3, 11, admin),(15, 20, region),(21, 43, theme)]},
+),
+(
+"In South Korea Estimated annual sales for Home furnishings stores ",
+{"entities": [(3, 14, region),(15, 65, theme)]},
+),
+(
+"By county difference in number of people of people who changed the job in the past one year in 1989 ",
+{"entities": [(3, 9, admin),(10, 91, theme),(95, 99, time)]},
+),
+(
+"In 1986 in USA by census tract Number of firms ",
+{"entities": [(3, 7, time),(11, 14, region),(18, 30, admin),(31, 46, theme)]},
+),
+(
+"By province in U.S. in 1957 Government Debt to GDP ",
+{"entities": [(3, 11, admin),(15, 19, region),(23, 27, time),(28, 50, theme)]},
+),
+(
+"By province rate of male in 1974 in UK ",
+{"entities": [(3, 11, admin),(12, 24, theme),(28, 32, time),(36, 38, region)]},
+),
+(
+"Labor Force Participation Rate in 2010 ",
+{"entities": [(0, 30, theme),(34, 38, time)]},
+),
+(
+"In France Average percent of time engaged in by womenTravel related to household activities ",
+{"entities": [(3, 9, region),(10, 91, theme)]},
+),
+(
+"By census tract food insecurity rate in 1981 in the United States ",
+{"entities": [(3, 15, admin),(16, 36, theme),(40, 44, time),(48, 65, region)]},
+),
+(
+"By county Elementary-secondary revenue from state sources ",
+{"entities": [(3, 9, admin),(10, 57, theme)]},
+),
+(
+"In 1984 Percent change of people who are confirm to be infected by 2019-Nov Coronavirus by township ",
+{"entities": [(3, 7, time),(8, 87, theme),(91, 99, admin)]},
+),
+(
+"By state finance and insurance revenue in 1974 ",
+{"entities": [(3, 8, admin),(9, 38, theme),(42, 46, time)]},
+),
+(
+"Annual payroll by county ",
+{"entities": [(0, 14, theme),(18, 24, admin)]},
+),
+(
+"By state in France number of people of Catholic in 2008 ",
+{"entities": [(3, 8, admin),(12, 18, region),(19, 47, theme),(51, 55, time)]},
+),
+(
+"Age of householder by census tract in 1969 in UK ",
+{"entities": [(0, 18, theme),(22, 34, admin),(38, 42, time),(46, 48, region)]},
+),
+(
+"In 2020 arts, entertainment, and recreation revenue ",
+{"entities": [(3, 7, time),(8, 51, theme)]},
+),
+(
+"By county Married-couple family in 1956 in France ",
+{"entities": [(3, 9, admin),(10, 31, theme),(35, 39, time),(43, 49, region)]},
+),
+(
+"In 2002 difference in population density of Hispanic or Latino Origin by census tract in Canada ",
+{"entities": [(3, 7, time),(8, 69, theme),(73, 85, admin),(89, 95, region)]},
+),
+(
+"Population density of people enrolled in College or graduate school in 1971 in UK ",
+{"entities": [(0, 67, theme),(71, 75, time),(79, 81, region)]},
+),
+(
+"In US number of McDonald's by county ",
+{"entities": [(3, 5, region),(6, 26, theme),(30, 36, admin)]},
+),
+(
+"Difference in population density of Muslim by province in Canada ",
+{"entities": [(0, 42, theme),(46, 54, admin),(58, 64, region)]},
+),
+(
+"In 2014 Average year built ",
+{"entities": [(3, 7, time),(8, 26, theme)]},
+),
+(
+"By township in 1958 Married-couple family in South Korea ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 41, theme),(45, 56, region)]},
+),
+(
+"In 1956 by province well-being index ",
+{"entities": [(3, 7, time),(11, 19, admin),(20, 36, theme)]},
+),
+(
+"In France Glyphosate in 1967 ",
+{"entities": [(3, 9, region),(10, 20, theme),(24, 28, time)]},
+),
+(
+"Number of paid employees in 1984 by province ",
+{"entities": [(0, 24, theme),(28, 32, time),(36, 44, admin)]},
+),
+(
+"In 2012 by county Long Term Unemployment Rate in South Korea ",
+{"entities": [(3, 7, time),(11, 17, admin),(18, 45, theme),(49, 60, region)]},
+),
+(
+"Median Asking Rent for Vacant for Rent Units in 1951 ",
+{"entities": [(0, 44, theme),(48, 52, time)]},
+),
+(
+"Number of employees of Fiber, yarn, and thread mills in 1974 ",
+{"entities": [(0, 52, theme),(56, 60, time)]},
+),
+(
+"By province in 1986 in South Korea Credit Rating ",
+{"entities": [(3, 11, admin),(15, 19, time),(23, 34, region),(35, 48, theme)]},
+),
+(
+"Number of people of Under age 18 in the United States ",
+{"entities": [(0, 32, theme),(36, 53, region)]},
+),
+(
+"In 1952 in South Korea Mixed Radiological Wastes ",
+{"entities": [(3, 7, time),(11, 22, region),(23, 48, theme)]},
+),
+(
+"In 1985 Average hours per day by men spent on Reading for personal interest in Canada by township ",
+{"entities": [(3, 7, time),(8, 75, theme),(79, 85, region),(89, 97, admin)]},
+),
+(
+"Estimated annual sales for Mens clothing stores in 2013 by census tract ",
+{"entities": [(0, 47, theme),(51, 55, time),(59, 71, admin)]},
+),
+(
+"By county Asbestos Effects ",
+{"entities": [(3, 9, admin),(10, 26, theme)]},
+),
+(
+"In the United States by township Percent of population of death among children under 5 due to pediatric cancer ",
+{"entities": [(3, 20, region),(24, 32, admin),(33, 110, theme)]},
+),
+(
+"In U.S. by township area of Evergreen Forest (km2) ",
+{"entities": [(3, 7, region),(11, 19, admin),(20, 50, theme)]},
+),
+(
+"In 2000 by census tract Wood Burning Stoves and Appliances ",
+{"entities": [(3, 7, time),(11, 23, admin),(24, 58, theme)]},
+),
+(
+"Age of householder in 1979 ",
+{"entities": [(0, 18, theme),(22, 26, time)]},
+),
+(
+"In U.S. Total capital expenditures of Other wood product manufacturing by province ",
+{"entities": [(3, 7, region),(8, 70, theme),(74, 82, admin)]},
+),
+(
+"By state Average percent of time engaged in by womenWalking, exercising, and playing with animals ",
+{"entities": [(3, 8, admin),(9, 97, theme)]},
+),
+(
+"Production workers annual wages of Dairy product manufacturing by census tract ",
+{"entities": [(0, 62, theme),(66, 78, admin)]},
+),
+(
+"Average percent of time engaged in by menGrocery shopping by state in 1994 ",
+{"entities": [(0, 57, theme),(61, 66, admin),(70, 74, time)]},
+),
+(
+"Percent change of women that were screened for breast and cervical cancer by jurisdiction in France ",
+{"entities": [(0, 89, theme),(93, 99, region)]},
+),
+(
+"By census tract in 1960 in U.S. Production workers average for year of Audio and video equipment manufacturing ",
+{"entities": [(3, 15, admin),(19, 23, time),(27, 31, region),(32, 110, theme)]},
+),
+(
+"New Residential Sales by province in 1951 in China ",
+{"entities": [(0, 21, theme),(25, 33, admin),(37, 41, time),(45, 50, region)]},
+),
+(
+"In Canada Households with one or more people under 18 years ",
+{"entities": [(3, 9, region),(10, 59, theme)]},
+),
+(
+"Estimated annual sales for acc. & tire store in 2008 ",
+{"entities": [(0, 44, theme),(48, 52, time)]},
+),
+(
+"By county number of patent in 1975 in US ",
+{"entities": [(3, 9, admin),(10, 26, theme),(30, 34, time),(38, 40, region)]},
+),
+(
+"By census tract Nonfamily households in USA in 1985 ",
+{"entities": [(3, 15, admin),(16, 36, theme),(40, 43, region),(47, 51, time)]},
+),
+(
+"In USA Elementary-secondary revenue from general formula assistance in 1974 ",
+{"entities": [(3, 6, region),(7, 67, theme),(71, 75, time)]},
+),
+(
+"In 1994 GDP from Mining in the United States ",
+{"entities": [(3, 7, time),(8, 23, theme),(27, 44, region)]},
+),
+(
+"In 1991 percentage of respondents who did not provide a workplace address at Area unit level ",
+{"entities": [(3, 7, time),(8, 92, theme)]},
+),
+(
+"In UK in 1986 Stable Isotope Data from Tundra Swan (Cygnus columbianus) Feathers ",
+{"entities": [(3, 5, region),(9, 13, time),(14, 80, theme)]},
+),
+(
+"By province in US grizzly bear mortality ",
+{"entities": [(3, 11, admin),(15, 17, region),(18, 40, theme)]},
+),
+(
+"Estimated annual sales for Auto parts by county in U.S. in 2020 ",
+{"entities": [(0, 37, theme),(41, 47, admin),(51, 55, region),(59, 63, time)]},
+),
+(
+"Average hours per day by men spent on Activities related to household children education in 1990 ",
+{"entities": [(0, 88, theme),(92, 96, time)]},
+),
+(
+"In France Estimated annual sales for Building material & garden eq. & supplies dealers in 1999 ",
+{"entities": [(3, 9, region),(10, 86, theme),(90, 94, time)]},
+),
+(
+"Lead in the United States ",
+{"entities": [(0, 4, theme),(8, 25, region)]},
+),
+(
+"In U.S. by county Productivity in 2009 ",
+{"entities": [(3, 7, region),(11, 17, admin),(18, 30, theme),(34, 38, time)]},
+),
+(
+"Zinc, oxygen, and pH in seawater in 1996 in US by province ",
+{"entities": [(0, 32, theme),(36, 40, time),(44, 46, region),(50, 58, admin)]},
+),
+(
+"In UK Households with householder living alone ",
+{"entities": [(3, 5, region),(6, 46, theme)]},
+),
+(
+"In France Elementary-secondary revenue from general formula assistance in 1995 by county ",
+{"entities": [(3, 9, region),(10, 70, theme),(74, 78, time),(82, 88, admin)]},
+),
+(
+"By township Income Taxes of governments ",
+{"entities": [(3, 11, admin),(12, 39, theme)]},
+),
+(
+"By state Liquor stores expenditure of governments ",
+{"entities": [(3, 8, admin),(9, 49, theme)]},
+),
+(
+"In France in 2003 Dissolved oxygen ",
+{"entities": [(3, 9, region),(13, 17, time),(18, 34, theme)]},
+),
+(
+"Average monthly housing cost as percentage of income in 1968 by township ",
+{"entities": [(0, 52, theme),(56, 60, time),(64, 72, admin)]},
+),
+(
+"In U.S. area of Estuarine Aquatic Bed (km2) ",
+{"entities": [(3, 7, region),(8, 43, theme)]},
+),
+(
+"In 1997 by census tract in the United States Elementary-secondary revenue from vocational programs ",
+{"entities": [(3, 7, time),(11, 23, admin),(27, 44, region),(45, 98, theme)]},
+),
+(
+"By census tract Elementary-secondary revenue from transportation programs in South Korea in 1954 ",
+{"entities": [(3, 15, admin),(16, 73, theme),(77, 88, region),(92, 96, time)]},
+),
+(
+"In US Percent change of people with elementary occupation by state ",
+{"entities": [(3, 5, region),(6, 57, theme),(61, 66, admin)]},
+),
+(
+"By township area of Unconsolidated Shore (km2) in 1955 ",
+{"entities": [(3, 11, admin),(12, 46, theme),(50, 54, time)]},
+),
+(
+"By township Pesticides in China ",
+{"entities": [(3, 11, admin),(12, 22, theme),(26, 31, region)]},
+),
+(
+"In 1991 Average percent of time engaged in by womenTravel related to organizational, civic, and religious activities by state ",
+{"entities": [(3, 7, time),(8, 116, theme),(120, 125, admin)]},
+),
+(
+"In 1999 Average hours per day by men spent on Food and drink preparation ",
+{"entities": [(3, 7, time),(8, 72, theme)]},
+),
+(
+"By state Special Wastes in the United States ",
+{"entities": [(3, 8, admin),(9, 23, theme),(27, 44, region)]},
+),
+(
+"By state Average percent of time engaged in Taking class for degree, certificate, or licensure ",
+{"entities": [(3, 8, admin),(9, 94, theme)]},
+),
+(
+"Number of people of Native Hawaiian and Other Pacific Islander by township in South Korea in 1968 ",
+{"entities": [(0, 62, theme),(66, 74, admin),(78, 89, region),(93, 97, time)]},
+),
+(
+"By state in 1990 Average hours per day by women spent on Helping household adults in Canada ",
+{"entities": [(3, 8, admin),(12, 16, time),(17, 81, theme),(85, 91, region)]},
+),
+(
+"By township in Canada in 2008 Elementary-secondary revenue ",
+{"entities": [(3, 11, admin),(15, 21, region),(25, 29, time),(30, 58, theme)]},
+),
+(
+"Total expenditure of governments in France ",
+{"entities": [(0, 32, theme),(36, 42, region)]},
+),
+(
+"GDP from Utilities in UK by census tract in 1955 ",
+{"entities": [(0, 18, theme),(22, 24, region),(28, 40, admin),(44, 48, time)]},
+),
+(
+"By township in 1952 in UK Social Security Rate For Companies ",
+{"entities": [(3, 11, admin),(15, 19, time),(23, 25, region),(26, 60, theme)]},
+),
+(
+"By county in US difference in number of people of separated ",
+{"entities": [(3, 9, admin),(13, 15, region),(16, 59, theme)]},
+),
+(
+"International trade deficit in 2008 ",
+{"entities": [(0, 27, theme),(31, 35, time)]},
+),
+(
+"Average hours per day by women spent on Socializing and communicating in 1992 ",
+{"entities": [(0, 69, theme),(73, 77, time)]},
+),
+(
+"By county in 1978 in the United States Intergovernmental expenditure of governments ",
+{"entities": [(3, 9, admin),(13, 17, time),(21, 38, region),(39, 83, theme)]},
+),
+(
+"In 1963 by county Average percent of time engaged in Attending sporting or recreational events ",
+{"entities": [(3, 7, time),(11, 17, admin),(18, 94, theme)]},
+),
+(
+"In U.S. Percent of population of black or African American ",
+{"entities": [(3, 7, region),(8, 58, theme)]},
+),
+(
+"By province Total value of shipments and receipts for services of Other wood product manufacturing ",
+{"entities": [(3, 11, admin),(12, 98, theme)]},
+),
+(
+"In 1960 by census tract Average hours per day by men spent on Caring for and helping household adults in UK ",
+{"entities": [(3, 7, time),(11, 23, admin),(24, 101, theme),(105, 107, region)]},
+),
+(
+"In UK Average hours per day by men spent on Household and personal e-mail and messages by state ",
+{"entities": [(3, 5, region),(6, 86, theme),(90, 95, admin)]},
+),
+(
+"Production workers annual hours of Commercial and service industry machinery manufacturing in South Korea by township ",
+{"entities": [(0, 90, theme),(94, 105, region),(109, 117, admin)]},
+),
+(
+"Elementary-secondary revenue from vocational programs by state ",
+{"entities": [(0, 53, theme),(57, 62, admin)]},
+),
+(
+"In 1968 Average percent of time engaged in Travel related to education in UK ",
+{"entities": [(3, 7, time),(8, 70, theme),(74, 76, region)]},
+),
+(
+"Estimated annual sales for Elect. shopping & m/o houses by township ",
+{"entities": [(0, 55, theme),(59, 67, admin)]},
+),
+(
+"Sulfur Dioxide (SO2) in 2017 by county ",
+{"entities": [(0, 20, theme),(24, 28, time),(32, 38, admin)]},
+),
+(
+"Other taxes of governments in 1987 by county ",
+{"entities": [(0, 26, theme),(30, 34, time),(38, 44, admin)]},
+),
+(
+"In 2006 by province in Canada Age of householder ",
+{"entities": [(3, 7, time),(11, 19, admin),(23, 29, region),(30, 48, theme)]},
+),
+(
+"In Canada Average hours per day by women spent on Animals and pets ",
+{"entities": [(3, 9, region),(10, 66, theme)]},
+),
+(
+"Burglary per 1000 household in China ",
+{"entities": [(0, 27, theme),(31, 36, region)]},
+),
+(
+"By province in China Current charge of governments in 2016 ",
+{"entities": [(3, 11, admin),(15, 20, region),(21, 50, theme),(54, 58, time)]},
+),
+(
+"In France Household income in 1995 ",
+{"entities": [(3, 9, region),(10, 26, theme),(30, 34, time)]},
+),
+(
+"In USA Elementary-secondary revenue from parent government contributions ",
+{"entities": [(3, 6, region),(7, 72, theme)]},
+),
+(
+"Average household size in France ",
+{"entities": [(0, 22, theme),(26, 32, region)]},
+),
+(
+"By county Number of paid employees ",
+{"entities": [(3, 9, admin),(10, 34, theme)]},
+),
+(
+"In 1958 Average hours per day by women spent on Caring for and helping household adults by township ",
+{"entities": [(3, 7, time),(8, 87, theme),(91, 99, admin)]},
+),
+(
+"By province in France in 1978 Number of paid employees ",
+{"entities": [(3, 11, admin),(15, 21, region),(25, 29, time),(30, 54, theme)]},
+),
+(
+"In USA Production workers annual wages of Aerospace product and parts manufacturing ",
+{"entities": [(3, 6, region),(7, 83, theme)]},
+),
+(
+"In 2012 in U.S. Average percent of time engaged in by menSocial service and care activities  ",
+{"entities": [(3, 7, time),(11, 15, region),(16, 92, theme)]},
+),
+(
+"Labor Force Participation Rate by township ",
+{"entities": [(0, 30, theme),(34, 42, admin)]},
+),
+(
+"In South Korea Interbank Rate by state ",
+{"entities": [(3, 14, region),(15, 29, theme),(33, 38, admin)]},
+),
+(
+"Annual payroll in China ",
+{"entities": [(0, 14, theme),(18, 23, region)]},
+),
+(
+"In 1962 Bromus tectorum ",
+{"entities": [(3, 7, time),(8, 23, theme)]},
+),
+(
+"In UK in 1968 Households with householder living alone by township ",
+{"entities": [(3, 5, region),(9, 13, time),(14, 54, theme),(58, 66, admin)]},
+),
+(
+"Average hours per day by men spent on Caring for and helping nonhousehold children in 1970 by township ",
+{"entities": [(0, 82, theme),(86, 90, time),(94, 102, admin)]},
+),
+(
+"By state Estimated annual sales for total (excl. gasoline stations) ",
+{"entities": [(3, 8, admin),(9, 67, theme)]},
+),
+(
+"By province GNP ",
+{"entities": [(3, 11, admin),(12, 15, theme)]},
+),
+(
+"Estimated annual sales for Department stores in 1983 ",
+{"entities": [(0, 44, theme),(48, 52, time)]},
+),
+(
+"Households with male householder, no wife present, family by census tract ",
+{"entities": [(0, 57, theme),(61, 73, admin)]},
+),
+(
+"In 2008 well-being index ",
+{"entities": [(3, 7, time),(8, 24, theme)]},
+),
+(
+"Number of people of Catholic in France ",
+{"entities": [(0, 28, theme),(32, 38, region)]},
+),
+(
+"In the United States Number of paid employees by census tract ",
+{"entities": [(3, 20, region),(21, 45, theme),(49, 61, admin)]},
+),
+(
+"Total expenditure of governments in 1994 ",
+{"entities": [(0, 32, theme),(36, 40, time)]},
+),
+(
+"In 1996 by census tract in South Korea mortality associated with arterial hypertension ",
+{"entities": [(3, 7, time),(11, 23, admin),(27, 38, region),(39, 86, theme)]},
+),
+(
+"Number of firms in France ",
+{"entities": [(0, 15, theme),(19, 25, region)]},
+),
+(
+"Other taxes of governments in Canada by county ",
+{"entities": [(0, 26, theme),(30, 36, region),(40, 46, admin)]},
+),
+(
+"In South Korea by census tract Average percent of time engaged in by womenFinancial services and banking in 2001 ",
+{"entities": [(3, 14, region),(18, 30, admin),(31, 104, theme),(108, 112, time)]},
+),
+(
+"Area of Cultivated Crops (km2) in China ",
+{"entities": [(0, 30, theme),(34, 39, region)]},
+),
+(
+"In 2020 Taxes of governments in UK by state ",
+{"entities": [(3, 7, time),(8, 28, theme),(32, 34, region),(38, 43, admin)]},
+),
+(
+"In U.S. by province Estimated annual sales for Gasoline stations in 1990 ",
+{"entities": [(3, 7, region),(11, 19, admin),(20, 64, theme),(68, 72, time)]},
+),
+(
+"In 2007 Elementary-secondary expenditure in U.S. by state ",
+{"entities": [(3, 7, time),(8, 40, theme),(44, 48, region),(52, 57, admin)]},
+),
+(
+"In 1975 Estimated annual sales for total ",
+{"entities": [(3, 7, time),(8, 40, theme)]},
+),
+(
+"Finance and insurance revenue by province in 1981 ",
+{"entities": [(0, 29, theme),(33, 41, admin),(45, 49, time)]},
+),
+(
+"In 1966 Estimated annual sales for Sporting goods hobby, musical instrument, & book stores ",
+{"entities": [(3, 7, time),(8, 90, theme)]},
+),
+(
+"By census tract in 1980 in China Percent of population of people with elementary occupation ",
+{"entities": [(3, 15, admin),(19, 23, time),(27, 32, region),(33, 91, theme)]},
+),
+(
+"By county in Canada Annual payroll of Other fabricated metal product manufacturing in 1988 ",
+{"entities": [(3, 9, admin),(13, 19, region),(20, 82, theme),(86, 90, time)]},
+),
+(
+"Sea-Floor Sediment in 1950 in Canada ",
+{"entities": [(0, 18, theme),(22, 26, time),(30, 36, region)]},
+),
+(
+"In 1984 Estimated annual sales for New car dealers by state ",
+{"entities": [(3, 7, time),(8, 50, theme),(54, 59, admin)]},
+),
+(
+"In USA Average percent of time engaged in by menHousehold management ",
+{"entities": [(3, 6, region),(7, 68, theme)]},
+),
+(
+"In 1981 in France Wages in Manufacturing ",
+{"entities": [(3, 7, time),(11, 17, region),(18, 40, theme)]},
+),
+(
+"In 1982 by census tract in UK Married-couple family ",
+{"entities": [(3, 7, time),(11, 23, admin),(27, 29, region),(30, 51, theme)]},
+),
+(
+"In U.S. in 1999 number of people of Muslim ",
+{"entities": [(3, 7, region),(11, 15, time),(16, 42, theme)]},
+),
+(
+"Average age in 1979 in UK by census tract ",
+{"entities": [(0, 11, theme),(15, 19, time),(23, 25, region),(29, 41, admin)]},
+),
+(
+"In 1977 by county in France Income Taxes of governments ",
+{"entities": [(3, 7, time),(11, 17, admin),(21, 27, region),(28, 55, theme)]},
+),
+(
+"In South Korea Average number of bedrooms of houses in 1981 ",
+{"entities": [(3, 14, region),(15, 51, theme),(55, 59, time)]},
+),
+(
+"By state Capital Flows ",
+{"entities": [(3, 8, admin),(9, 22, theme)]},
+),
+(
+"In Canada Personal Savings in 2002 ",
+{"entities": [(3, 9, region),(10, 26, theme),(30, 34, time)]},
+),
+(
+"By province in US Number of firms in 1975 ",
+{"entities": [(3, 11, admin),(15, 17, region),(18, 33, theme),(37, 41, time)]},
+),
+(
+"In USA number of people of separated by state in 1967 ",
+{"entities": [(3, 6, region),(7, 36, theme),(40, 45, admin),(49, 53, time)]},
+),
+(
+"In the United States by township in 1950 Total capital expenditures of Hardware manufacturing,Spring and wire product manufacturing ",
+{"entities": [(3, 20, region),(24, 32, admin),(36, 40, time),(41, 131, theme)]},
+),
+(
+"In Canada by census tract Rental Vacancy Rate ",
+{"entities": [(3, 9, region),(13, 25, admin),(26, 45, theme)]},
+),
+(
+"In 1962 Average monthly housing cost as percentage of income by township ",
+{"entities": [(3, 7, time),(8, 60, theme),(64, 72, admin)]},
+),
+(
+"In 1953 Current Account to GDP ",
+{"entities": [(3, 7, time),(8, 30, theme)]},
+),
+(
+"In USA Cirsium arvense ",
+{"entities": [(3, 6, region),(7, 22, theme)]},
+),
+(
+"Number of paid employees by state in the United States ",
+{"entities": [(0, 24, theme),(28, 33, admin),(37, 54, region)]},
+),
+(
+"In South Korea Number of paid employees in 2009 by state ",
+{"entities": [(3, 14, region),(15, 39, theme),(43, 47, time),(51, 56, admin)]},
+),
+(
+"In South Korea Households with householder living alone ",
+{"entities": [(3, 14, region),(15, 55, theme)]},
+),
+(
+"Volatile Organic Compounds (VOCs) in France in 1981 ",
+{"entities": [(0, 33, theme),(37, 43, region),(47, 51, time)]},
+),
+(
+"In US in 1966 Estimated annual sales for total (excl. gasoline stations) ",
+{"entities": [(3, 5, region),(9, 13, time),(14, 72, theme)]},
+),
+(
+"In South Korea by province Cash Reserve Ratio ",
+{"entities": [(3, 14, region),(18, 26, admin),(27, 45, theme)]},
+),
+(
+"Average percent of time engaged in by womenAttending religious services in Canada ",
+{"entities": [(0, 71, theme),(75, 81, region)]},
+),
+(
+"Assistance and subsidies of governments in 2019 ",
+{"entities": [(0, 39, theme),(43, 47, time)]},
+),
+(
+"In 1987 International Electronic Waste (E-Waste) ",
+{"entities": [(3, 7, time),(8, 48, theme)]},
+),
+(
+"In 1991 number of people of people enrolled in High school (grades 9-12) in US ",
+{"entities": [(3, 7, time),(8, 72, theme),(76, 78, region)]},
+),
+(
+"By state Average percent of time engaged in by menTravel related to household activities in 2006 ",
+{"entities": [(3, 8, admin),(9, 88, theme),(92, 96, time)]},
+),
+(
+"GDP from Transport by census tract ",
+{"entities": [(0, 18, theme),(22, 34, admin)]},
+),
+(
+"In China Estimated annual sales for Motor vehicle & parts Dealers ",
+{"entities": [(3, 8, region),(9, 65, theme)]},
+),
+(
+"Household income in France by county ",
+{"entities": [(0, 16, theme),(20, 26, region),(30, 36, admin)]},
+),
+(
+"In 1973 in South Korea Water Temperature ",
+{"entities": [(3, 7, time),(11, 22, region),(23, 40, theme)]},
+),
+(
+"In Canada by census tract in 1952 Specific conductance ",
+{"entities": [(3, 9, region),(13, 25, admin),(29, 33, time),(34, 54, theme)]},
+),
+(
+"By state area of Developed, Open Space (km2) in China in 1979 ",
+{"entities": [(3, 8, admin),(9, 44, theme),(48, 53, region),(57, 61, time)]},
+),
+(
+"In 1970 in U.S. Total value of shipments and receipts for services of Industrial machinery manufacturing by state ",
+{"entities": [(3, 7, time),(11, 15, region),(16, 104, theme),(108, 113, admin)]},
+),
+(
+"International Electronic Waste (E-Waste) in 1961 by township ",
+{"entities": [(0, 40, theme),(44, 48, time),(52, 60, admin)]},
+),
+(
+"In 2007 Lead (Pb) in Canada by province ",
+{"entities": [(3, 7, time),(8, 17, theme),(21, 27, region),(31, 39, admin)]},
+),
+(
+"Difference in population density of people enrolled in High school (grades 9-12) by census tract in 2008 ",
+{"entities": [(0, 80, theme),(84, 96, admin),(100, 104, time)]},
+),
+(
+"Number of paid employees in UK by province ",
+{"entities": [(0, 24, theme),(28, 30, region),(34, 42, admin)]},
+),
+(
+"Suicide rate in USA ",
+{"entities": [(0, 12, theme),(16, 19, region)]},
+),
+(
+"Difference in population density of who believe climate change in 1985 ",
+{"entities": [(0, 62, theme),(66, 70, time)]},
+),
+(
+"In 1982 Average percent of time engaged in by menMedical and care services in U.S. ",
+{"entities": [(3, 7, time),(8, 74, theme),(78, 82, region)]},
+),
+(
+"Liquor stores expenditure of governments in 2015 by province in U.S. ",
+{"entities": [(0, 40, theme),(44, 48, time),(52, 60, admin),(64, 68, region)]},
+),
+(
+"By census tract in U.S. area of Pasture/Hay (km2) ",
+{"entities": [(3, 15, admin),(19, 23, region),(24, 49, theme)]},
+),
+(
+"Households with male householder, no wife present, family in 1988 by county in the United States ",
+{"entities": [(0, 57, theme),(61, 65, time),(69, 75, admin),(79, 96, region)]},
+),
+(
+"In 1969 Percent change of American Indian and Alaska Native ",
+{"entities": [(3, 7, time),(8, 59, theme)]},
+),
+(
+"Production workers annual wages of Electric lighting equipment manufacturing in 2018 in the United States ",
+{"entities": [(0, 76, theme),(80, 84, time),(88, 105, region)]},
+),
+(
+"By state Number of employees of Animal slaughtering and processing ",
+{"entities": [(3, 8, admin),(9, 66, theme)]},
+),
+(
+"By state Population density of  never married ",
+{"entities": [(3, 8, admin),(9, 45, theme)]},
+),
+(
+"Sales and Gross Receipts Taxes of governments in 2010 by state ",
+{"entities": [(0, 45, theme),(49, 53, time),(57, 62, admin)]},
+),
+(
+"By county Production workers average for year of Other general purpose machinery manufacturing in USA ",
+{"entities": [(3, 9, admin),(10, 94, theme),(98, 101, region)]},
+),
+(
+"Average percent of time engaged in Interior maintenance, repair, and decoration in China ",
+{"entities": [(0, 79, theme),(83, 88, region)]},
+),
+(
+"By province Age of householder ",
+{"entities": [(3, 11, admin),(12, 30, theme)]},
+),
+(
+"By county Elementary-secondary revenue from local sources in UK ",
+{"entities": [(3, 9, admin),(10, 57, theme),(61, 63, region)]},
+),
+(
+"In 1957 Estimated annual sales for Motor vehicle & parts Dealers in China ",
+{"entities": [(3, 7, time),(8, 64, theme),(68, 73, region)]},
+),
+(
+"In 2016 in France Average percent of time engaged in Kitchen and food cleanup ",
+{"entities": [(3, 7, time),(11, 17, region),(18, 77, theme)]},
+),
+(
+"In the United States Estimated annual sales for Food & beverage stores ",
+{"entities": [(3, 20, region),(21, 70, theme)]},
+),
+(
+"In 2014 in US Sales, receipts, or value of shipments of firms by state ",
+{"entities": [(3, 7, time),(11, 13, region),(14, 61, theme),(65, 70, admin)]},
+),
+(
+"Difference in population density of people who are confirm to be infected by 2019-Nov Coronavirus in 1995 by province ",
+{"entities": [(0, 97, theme),(101, 105, time),(109, 117, admin)]},
+),
+(
+"Elementary-secondary revenue from other state aid by province ",
+{"entities": [(0, 49, theme),(53, 61, admin)]},
+),
+(
+"Average poverty level for household by county in 1956 ",
+{"entities": [(0, 35, theme),(39, 45, admin),(49, 53, time)]},
+),
+(
+"Age of householder in South Korea in 1963 ",
+{"entities": [(0, 18, theme),(22, 33, region),(37, 41, time)]},
+),
+(
+"Population density of who believe climate change in 2000 ",
+{"entities": [(0, 48, theme),(52, 56, time)]},
+),
+(
+"In China Number of paid employees ",
+{"entities": [(3, 8, region),(9, 33, theme)]},
+),
+(
+"GDP by Industry in 2015 in U.S. ",
+{"entities": [(0, 15, theme),(19, 23, time),(27, 31, region)]},
+),
+(
+"By census tract in 2015 Average hours per day spent on Caring for nonhousehold adults in U.S. ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 85, theme),(89, 93, region)]},
+),
+(
+"Annual payroll in U.S. ",
+{"entities": [(0, 14, theme),(18, 22, region)]},
+),
+(
+"In China Total capital expenditures of Medical equipment and supplies manufacturing ",
+{"entities": [(3, 8, region),(9, 83, theme)]},
+),
+(
+"Foreign Exchange Reserves in US ",
+{"entities": [(0, 25, theme),(29, 31, region)]},
+),
+(
+"In China by county area of Mixed Forest (km2) ",
+{"entities": [(3, 8, region),(12, 18, admin),(19, 45, theme)]},
+),
+(
+"By county in 1956 Insurance trust revenue of governments in US ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 56, theme),(60, 62, region)]},
+),
+(
+"By township Household income ",
+{"entities": [(3, 11, admin),(12, 28, theme)]},
+),
+(
+"In 1966 gross domestic income (nominal or ppp) per capita by county ",
+{"entities": [(3, 7, time),(8, 57, theme),(61, 67, admin)]},
+),
+(
+"Elementary-secondary revenue from local sources by township ",
+{"entities": [(0, 47, theme),(51, 59, admin)]},
+),
+(
+"By county in 2006 License taxes of governments in UK ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 46, theme),(50, 52, region)]},
+),
+(
+"Households with female householder, no husband present, family by province in 1957 ",
+{"entities": [(0, 62, theme),(66, 74, admin),(78, 82, time)]},
+),
+(
+"By census tract Sales Tax Rate in 2019 ",
+{"entities": [(3, 15, admin),(16, 30, theme),(34, 38, time)]},
+),
+(
+"Difference in number of people of  never married in 1954 ",
+{"entities": [(0, 48, theme),(52, 56, time)]},
+),
+(
+"In 1964 Average hours per day spent on Food and drink preparation by county ",
+{"entities": [(3, 7, time),(8, 65, theme),(69, 75, admin)]},
+),
+(
+"Average hours per day by women spent on Grocery shopping by state ",
+{"entities": [(0, 56, theme),(60, 65, admin)]},
+),
+(
+"By township in 1985 Average hours per day spent on Job search and interviewing in UK ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 78, theme),(82, 84, region)]},
+),
+(
+"In Canada Total capital expenditures of Other textile product mills ",
+{"entities": [(3, 9, region),(10, 67, theme)]},
+),
+(
+"In 1955 in UK Population density of Native Hawaiian and Other Pacific Islander ",
+{"entities": [(3, 7, time),(11, 13, region),(14, 78, theme)]},
+),
+(
+"Manufacturing corporations' seasonally adjusted after-tax profits by township ",
+{"entities": [(0, 65, theme),(69, 77, admin)]},
+),
+(
+"By county Percent change of above age 65 in 1973 ",
+{"entities": [(3, 9, admin),(10, 40, theme),(44, 48, time)]},
+),
+(
+"Family households (families) by county in China in 2005 ",
+{"entities": [(0, 28, theme),(32, 38, admin),(42, 47, region),(51, 55, time)]},
+),
+(
+"In South Korea Households with male householder, no wife present, family ",
+{"entities": [(3, 14, region),(15, 72, theme)]},
+),
+(
+"Average percent of time engaged in Household and personal messages in US ",
+{"entities": [(0, 66, theme),(70, 72, region)]},
+),
+(
+"Capital outlay of elementary-secondary expenditure in U.S. in 1953 by census tract ",
+{"entities": [(0, 50, theme),(54, 58, region),(62, 66, time),(70, 82, admin)]},
+),
+(
+"By census tract Average hours per day by women spent on Volunteer activities ",
+{"entities": [(3, 15, admin),(16, 76, theme)]},
+),
+(
+"In 1960 difference in number of people of Jewish in US by state ",
+{"entities": [(3, 7, time),(8, 48, theme),(52, 54, region),(58, 63, admin)]},
+),
+(
+"By census tract Estimated annual sales for Building mat. & sup. dealers in 1990 ",
+{"entities": [(3, 15, admin),(16, 71, theme),(75, 79, time)]},
+),
+(
+"By county GDP from Public Administration ",
+{"entities": [(3, 9, admin),(10, 40, theme)]},
+),
+(
+"Sale amounts of beer in China in 1960 ",
+{"entities": [(0, 20, theme),(24, 29, region),(33, 37, time)]},
+),
+(
+"Average monthly housing cost in USA ",
+{"entities": [(0, 28, theme),(32, 35, region)]},
+),
+(
+"GDP Advance Estimate by province in France ",
+{"entities": [(0, 20, theme),(24, 32, admin),(36, 42, region)]},
+),
+(
+"Sales and Gross Receipts Taxes of governments in 2002 by province ",
+{"entities": [(0, 45, theme),(49, 53, time),(57, 65, admin)]},
+),
+(
+"Average percent of time engaged in Caring for and helping nonhousehold members in 1951 in France ",
+{"entities": [(0, 78, theme),(82, 86, time),(90, 96, region)]},
+),
+(
+"By township Percent change of people living in slums in 2001 ",
+{"entities": [(3, 11, admin),(12, 52, theme),(56, 60, time)]},
+),
+(
+"Radon Effects in 1956 ",
+{"entities": [(0, 13, theme),(17, 21, time)]},
+),
+(
+"In France Radon by county in 1991 ",
+{"entities": [(3, 9, region),(10, 15, theme),(19, 25, admin),(29, 33, time)]},
+),
+(
+"Elementary-secondary revenue from general formula assistance in 2005 ",
+{"entities": [(0, 60, theme),(64, 68, time)]},
+),
+(
+"In 2011 New Home Sales ",
+{"entities": [(3, 7, time),(8, 22, theme)]},
+),
+(
+"In 2000 Households with one or more people under 18 years ",
+{"entities": [(3, 7, time),(8, 57, theme)]},
+),
+(
+"By census tract Total cost of materials of Manufacturing and reproducing magnetic and optical media in the United States ",
+{"entities": [(3, 15, admin),(16, 99, theme),(103, 120, region)]},
+),
+(
+"In China Number of firms ",
+{"entities": [(3, 8, region),(9, 24, theme)]},
+),
+(
+"By township in Canada number of people of above age 65 in 2007 ",
+{"entities": [(3, 11, admin),(15, 21, region),(22, 54, theme),(58, 62, time)]},
+),
+(
+"In USA Estimated annual sales for All oth. gen. merch. Stores by county ",
+{"entities": [(3, 6, region),(7, 61, theme),(65, 71, admin)]},
+),
+(
+"Estimated annual sales for total (excl. motor vehicle & parts) by state in 2008 in France ",
+{"entities": [(0, 62, theme),(66, 71, admin),(75, 79, time),(83, 89, region)]},
+),
+(
+"Households with male householder, no wife present, family by state in 1951 ",
+{"entities": [(0, 57, theme),(61, 66, admin),(70, 74, time)]},
+),
+(
+"By census tract Hazardous/Toxic Air Pollutants in 1958 in South Korea ",
+{"entities": [(3, 15, admin),(16, 46, theme),(50, 54, time),(58, 69, region)]},
+),
+(
+"GDP from Mining in China ",
+{"entities": [(0, 15, theme),(19, 24, region)]},
+),
+(
+"Average year built by census tract in France ",
+{"entities": [(0, 18, theme),(22, 34, admin),(38, 44, region)]},
+),
+(
+"Difference in number of people of per Walmart store in UK in 1997 ",
+{"entities": [(0, 51, theme),(55, 57, region),(61, 65, time)]},
+),
+(
+"Fertility rate in USA in 1977 ",
+{"entities": [(0, 14, theme),(18, 21, region),(25, 29, time)]},
+),
+(
+"Soil Loss/Root Exposure in China in 1952 by province ",
+{"entities": [(0, 23, theme),(27, 32, region),(36, 40, time),(44, 52, admin)]},
+),
+(
+"In the United States by county in 1986 annual average precipitation ",
+{"entities": [(3, 20, region),(24, 30, admin),(34, 38, time),(39, 67, theme)]},
+),
+(
+"In 1962 by county in China health care and social assistance revenue ",
+{"entities": [(3, 7, time),(11, 17, admin),(21, 26, region),(27, 68, theme)]},
+),
+(
+"Population density of people enrolled in High school (grades 9-12) by census tract ",
+{"entities": [(0, 66, theme),(70, 82, admin)]},
+),
+(
+"In US by state Asthma ",
+{"entities": [(3, 5, region),(9, 14, admin),(15, 21, theme)]},
+),
+(
+"In 1951 number of people of Muslim ",
+{"entities": [(3, 7, time),(8, 34, theme)]},
+),
+(
+"In China Annual payroll of Basic chemical manufacturing by census tract in 2014 ",
+{"entities": [(3, 8, region),(9, 55, theme),(59, 71, admin),(75, 79, time)]},
+),
+(
+"Households with male householder, no wife present, family in 1997 ",
+{"entities": [(0, 57, theme),(61, 65, time)]},
+),
+(
+"Average percent of time engaged in by menHelping household children with Homework in 2011 by province in South Korea ",
+{"entities": [(0, 81, theme),(85, 89, time),(93, 101, admin),(105, 116, region)]},
+),
+(
+"In South Korea Average percent of time engaged in by womenCaring for and helping household children in 1991 ",
+{"entities": [(3, 14, region),(15, 99, theme),(103, 107, time)]},
+),
+(
+"By census tract in 2010 in France Estimated annual sales for Auto parts ",
+{"entities": [(3, 15, admin),(19, 23, time),(27, 33, region),(34, 71, theme)]},
+),
+(
+"By province Percent change of per Walmart store in UK ",
+{"entities": [(3, 11, admin),(12, 47, theme),(51, 53, region)]},
+),
+(
+"In 1995 in USA Commodity ",
+{"entities": [(3, 7, time),(11, 14, region),(15, 24, theme)]},
+),
+(
+"By state in 2000 number of species in France ",
+{"entities": [(3, 8, admin),(12, 16, time),(17, 34, theme),(38, 44, region)]},
+),
+(
+"In US difference in number of people of who believe climate change ",
+{"entities": [(3, 5, region),(6, 66, theme)]},
+),
+(
+"In Canada Assistance and subsidies of governments ",
+{"entities": [(3, 9, region),(10, 49, theme)]},
+),
+(
+"Other taxes of governments in the United States ",
+{"entities": [(0, 26, theme),(30, 47, region)]},
+),
+(
+"In China by province GDP Growth Rate in 2016 ",
+{"entities": [(3, 8, region),(12, 20, admin),(21, 36, theme),(40, 44, time)]},
+),
+(
+"In 1995 Average hours per day by women spent on Travel related to telephone calls ",
+{"entities": [(3, 7, time),(8, 81, theme)]},
+),
+(
+"By county Annual payroll in France ",
+{"entities": [(3, 9, admin),(10, 24, theme),(28, 34, region)]},
+),
+(
+"Production workers annual hours of Pharmaceutical and medicine manufacturing in France ",
+{"entities": [(0, 76, theme),(80, 86, region)]},
+),
+(
+"In U.S. Estimated annual sales for Health & personal care stores in 1967 ",
+{"entities": [(3, 7, region),(8, 64, theme),(68, 72, time)]},
+),
+(
+"In US Percent change of people who are confirm to be infected by 2019-Nov Coronavirus ",
+{"entities": [(3, 5, region),(6, 85, theme)]},
+),
+(
+"Utility revenue of governments in Canada ",
+{"entities": [(0, 30, theme),(34, 40, region)]},
+),
+(
+"In 1978 in France Annual payroll by state ",
+{"entities": [(3, 7, time),(11, 17, region),(18, 32, theme),(36, 41, admin)]},
+),
+(
+"In 1951 by province in South Korea Number of firms ",
+{"entities": [(3, 7, time),(11, 19, admin),(23, 34, region),(35, 50, theme)]},
+),
+(
+"By province in UK in 2019 Households with female householder, no husband present, family ",
+{"entities": [(3, 11, admin),(15, 17, region),(21, 25, time),(26, 88, theme)]},
+),
+(
+"Average percent of time engaged in by womenWork-related activities by census tract ",
+{"entities": [(0, 66, theme),(70, 82, admin)]},
+),
+(
+"By province in US Universal Waste in 1984 ",
+{"entities": [(3, 11, admin),(15, 17, region),(18, 33, theme),(37, 41, time)]},
+),
+(
+"By county Family households with own children of the householder under 18 years in 2018 in France ",
+{"entities": [(3, 9, admin),(10, 79, theme),(83, 87, time),(91, 97, region)]},
+),
+(
+"Hazardous/Toxic Air Pollutants in 1999 ",
+{"entities": [(0, 30, theme),(34, 38, time)]},
+),
+(
+"By county in France Annual payroll in 1983 ",
+{"entities": [(3, 9, admin),(13, 19, region),(20, 34, theme),(38, 42, time)]},
+),
+(
+"Area of Perennial Ice/Snow (km2) by township in 1990 ",
+{"entities": [(0, 32, theme),(36, 44, admin),(48, 52, time)]},
+),
+(
+"In France by county Lending Rate ",
+{"entities": [(3, 9, region),(13, 19, admin),(20, 32, theme)]},
+),
+(
+"In Canada in 2014 Age of householder ",
+{"entities": [(3, 9, region),(13, 17, time),(18, 36, theme)]},
+),
+(
+"Personal Savings in 1962 ",
+{"entities": [(0, 16, theme),(20, 24, time)]},
+),
+(
+"Area of Developed, Low Intensity (km2) in 2016 ",
+{"entities": [(0, 38, theme),(42, 46, time)]},
+),
+(
+"By census tract in 1985 Average percent of time engaged in by womenSocial service and care activities  in the United States ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 102, theme),(106, 123, region)]},
+),
+(
+"In 1993 in China Percent of population of widowed ",
+{"entities": [(3, 7, time),(11, 16, region),(17, 49, theme)]},
+),
+(
+"Number of pedestrian accidents by province ",
+{"entities": [(0, 30, theme),(34, 42, admin)]},
+),
+(
+"In USA by province Family households with own children of the householder under 18 years ",
+{"entities": [(3, 6, region),(10, 18, admin),(19, 88, theme)]},
+),
+(
+"By township Garbage (Solid Waste) in UK in 1985 ",
+{"entities": [(3, 11, admin),(12, 33, theme),(37, 39, region),(43, 47, time)]},
+),
+(
+"By county Total cost of materials of Iron and steel mills and ferroalloy manufacturing in Canada ",
+{"entities": [(3, 9, admin),(10, 86, theme),(90, 96, region)]},
+),
+(
+"Area of Deciduous Forest (km2) by township in 1973 ",
+{"entities": [(0, 30, theme),(34, 42, admin),(46, 50, time)]},
+),
+(
+"By province Total value of shipments and receipts for services of Other electrical equipment and component manufacturing ",
+{"entities": [(3, 11, admin),(12, 120, theme)]},
+),
+(
+"By township Foreign Direct Investment ",
+{"entities": [(3, 11, admin),(12, 37, theme)]},
+),
+(
+"In UK Estimated annual sales for total (excl. motor vehicle & parts & gasoline stations) by township ",
+{"entities": [(3, 5, region),(6, 88, theme),(92, 100, admin)]},
+),
+(
+"Estimated annual sales for Motor vehicle & parts Dealers in 1969 by province ",
+{"entities": [(0, 56, theme),(60, 64, time),(68, 76, admin)]},
+),
+(
+"In 1971 Population density of  never married by county ",
+{"entities": [(3, 7, time),(8, 44, theme),(48, 54, admin)]},
+),
+(
+"Households with one or more people 65 years and over in 1991 ",
+{"entities": [(0, 52, theme),(56, 60, time)]},
+),
+(
+"In 2012 by state Percent change of American Indian and Alaska Native in the United States ",
+{"entities": [(3, 7, time),(11, 16, admin),(17, 68, theme),(72, 89, region)]},
+),
+(
+"Food Waste and Recovery in South Korea by county in 2014 ",
+{"entities": [(0, 23, theme),(27, 38, region),(42, 48, admin),(52, 56, time)]},
+),
+(
+"In U.S. difference in number of people of People who is infected by HIV in 1996 by province ",
+{"entities": [(3, 7, region),(8, 71, theme),(75, 79, time),(83, 91, admin)]},
+),
+(
+"Household income by state ",
+{"entities": [(0, 16, theme),(20, 25, admin)]},
+),
+(
+"Average year built in China by county in 2016 ",
+{"entities": [(0, 18, theme),(22, 27, region),(31, 37, admin),(41, 45, time)]},
+),
+(
+"In 1966 by township Average year built ",
+{"entities": [(3, 7, time),(11, 19, admin),(20, 38, theme)]},
+),
+(
+"In U.S. Average household size ",
+{"entities": [(3, 7, region),(8, 30, theme)]},
+),
+(
+"In China Number of paid employees ",
+{"entities": [(3, 8, region),(9, 33, theme)]},
+),
+(
+"Estimated annual sales for New car dealers in 1976 by state in US ",
+{"entities": [(0, 42, theme),(46, 50, time),(54, 59, admin),(63, 65, region)]},
+),
+(
+"Gross Fixed Capital Formation by township in 1996 ",
+{"entities": [(0, 29, theme),(33, 41, admin),(45, 49, time)]},
+),
+(
+"In 2011 Estimated annual sales for Home furnishings stores in China ",
+{"entities": [(3, 7, time),(8, 58, theme),(62, 67, region)]},
+),
+(
+"In 1978 Crude Oil Production by township ",
+{"entities": [(3, 7, time),(8, 28, theme),(32, 40, admin)]},
+),
+(
+"In 1982 Average monthly housing cost ",
+{"entities": [(3, 7, time),(8, 36, theme)]},
+),
+(
+"In USA Annual payroll by county ",
+{"entities": [(3, 6, region),(7, 21, theme),(25, 31, admin)]},
+),
+(
+"Percent change of People whose native language is Russian in 1960 in the United States ",
+{"entities": [(0, 57, theme),(61, 65, time),(69, 86, region)]},
+),
+(
+"In South Korea in 1975 Households with male householder, no wife present, family ",
+{"entities": [(3, 14, region),(18, 22, time),(23, 80, theme)]},
+),
+(
+"In UK Population density of frauds in 1997 by township ",
+{"entities": [(3, 5, region),(6, 34, theme),(38, 42, time),(46, 54, admin)]},
+),
+(
+"In US in 1987 by province Number of paid employees ",
+{"entities": [(3, 5, region),(9, 13, time),(17, 25, admin),(26, 50, theme)]},
+),
+(
+"In 1996 Capital outlay of governments ",
+{"entities": [(3, 7, time),(8, 37, theme)]},
+),
+(
+"Estimated annual sales for Pharmacies & drug stores by state ",
+{"entities": [(0, 51, theme),(55, 60, admin)]},
+),
+(
+"In 1969 NBA player origins (per capita) ",
+{"entities": [(3, 7, time),(8, 39, theme)]},
+),
+(
+"In 2007 in Canada by province Average hours per day spent on Telephone calls, mail, and e-mail ",
+{"entities": [(3, 7, time),(11, 17, region),(21, 29, admin),(30, 94, theme)]},
+),
+(
+"Average monthly housing cost in 1984 in France ",
+{"entities": [(0, 28, theme),(32, 36, time),(40, 46, region)]},
+),
+(
+"Production workers annual wages of Cement and concrete product manufacturing by county ",
+{"entities": [(0, 76, theme),(80, 86, admin)]},
+),
+(
+"By county Total value of shipments and receipts for services of Nonferrous metal (except aluminum) production and processing in the United States ",
+{"entities": [(3, 9, admin),(10, 124, theme),(128, 145, region)]},
+),
+(
+"In USA in 1971 median rent price ",
+{"entities": [(3, 6, region),(10, 14, time),(15, 32, theme)]},
+),
+(
+"Population density of people who are confirm to be infected by 2019-Nov Coronavirus in South Korea in 1998 ",
+{"entities": [(0, 83, theme),(87, 98, region),(102, 106, time)]},
+),
+(
+"Percent of population of people enrolled in Nursery school, people enrolled in preschool by province in South Korea in 1986 ",
+{"entities": [(0, 88, theme),(92, 100, admin),(104, 115, region),(119, 123, time)]},
+),
+(
+"In U.S. Current spending of elementary-secondary expenditure ",
+{"entities": [(3, 7, region),(8, 60, theme)]},
+),
+(
+"In the United States percent of houses with annual income of $300,000 and over ",
+{"entities": [(3, 20, region),(21, 78, theme)]},
+),
+(
+"Estimated annual sales for Grocery stores by township ",
+{"entities": [(0, 41, theme),(45, 53, admin)]},
+),
+(
+"Percent change of people below poverty level in U.S. by province ",
+{"entities": [(0, 44, theme),(48, 52, region),(56, 64, admin)]},
+),
+(
+"In China Production workers annual hours of Boiler, tank, and shipping container manufacturing ",
+{"entities": [(3, 8, region),(9, 94, theme)]},
+),
+(
+"In 1985 in USA by state Hazardous Air Pollutants ",
+{"entities": [(3, 7, time),(11, 14, region),(18, 23, admin),(24, 48, theme)]},
+),
+(
+"Married-couple family by county in 2010 in France ",
+{"entities": [(0, 21, theme),(25, 31, admin),(35, 39, time),(43, 49, region)]},
+),
+(
+"In France Current Account to GDP ",
+{"entities": [(3, 9, region),(10, 32, theme)]},
+),
+(
+"Cirsium arvense in USA in 2013 ",
+{"entities": [(0, 15, theme),(19, 22, region),(26, 30, time)]},
+),
+(
+"In USA in 1983 life expectancy ",
+{"entities": [(3, 6, region),(10, 14, time),(15, 30, theme)]},
+),
+(
+"Production workers annual wages of Forging and stamping,Cutlery and handtool manufacturing by province in Canada ",
+{"entities": [(0, 90, theme),(94, 102, admin),(106, 112, region)]},
+),
+(
+"By province in France number of fixed residential broadband providers ",
+{"entities": [(3, 11, admin),(15, 21, region),(22, 69, theme)]},
+),
+(
+"In 1951 Sales, receipts, or value of shipments of firms in USA ",
+{"entities": [(3, 7, time),(8, 55, theme),(59, 62, region)]},
+),
+(
+"By township Total capital expenditures of Household and institutional furniture and kitchen cabinet manufacturing in the United States in 1956 ",
+{"entities": [(3, 11, admin),(12, 113, theme),(117, 134, region),(138, 142, time)]},
+),
+(
+"By county Lotus corniculatus ",
+{"entities": [(3, 9, admin),(10, 28, theme)]},
+),
+(
+"In 1951 by census tract Sales, receipts, or value of shipments of firms in France ",
+{"entities": [(3, 7, time),(11, 23, admin),(24, 71, theme),(75, 81, region)]},
+),
+(
+"By province Green Chemistry ",
+{"entities": [(3, 11, admin),(12, 27, theme)]},
+),
+(
+"By census tract in U.S. Number of employees of Beverage and tobacco product manufacturing in 1995 ",
+{"entities": [(3, 15, admin),(19, 23, region),(24, 89, theme),(93, 97, time)]},
+),
+(
+"Average hours per day by men spent on Home maintenance, repair, decoration, and construction (not done by self) by province in USA in 1980 ",
+{"entities": [(0, 111, theme),(115, 123, admin),(127, 130, region),(134, 138, time)]},
+),
+(
+"Water Temperature in 1954 ",
+{"entities": [(0, 17, theme),(21, 25, time)]},
+),
+(
+"In 2013 by province in Canada Nonfamily households ",
+{"entities": [(3, 7, time),(11, 19, admin),(23, 29, region),(30, 50, theme)]},
+),
+(
+"By county in 2006 Age of householder ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 36, theme)]},
+),
+(
+"Annual payroll by province ",
+{"entities": [(0, 14, theme),(18, 26, admin)]},
+),
+(
+"Average percent of time engaged in by menReading to and with household children in UK in 1986 ",
+{"entities": [(0, 79, theme),(83, 85, region),(89, 93, time)]},
+),
+(
+"By county in the United States Number of firms ",
+{"entities": [(3, 9, admin),(13, 30, region),(31, 46, theme)]},
+),
+(
+"In China by state in 1962 difference in number of people of Jewish ",
+{"entities": [(3, 8, region),(12, 17, admin),(21, 25, time),(26, 66, theme)]},
+),
+(
+"By county in 1959 Estimated annual sales for total (excl. motor vehicle & parts & gasoline stations) in USA ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 100, theme),(104, 107, region)]},
+),
+(
+"Soil moisture and temperature by state in 2010 in U.S. ",
+{"entities": [(0, 29, theme),(33, 38, admin),(42, 46, time),(50, 54, region)]},
+),
+(
+"Percent of population of retailers of personal computer in 1957 ",
+{"entities": [(0, 55, theme),(59, 63, time)]},
+),
+(
+"In 1969 by census tract Total households in the United States ",
+{"entities": [(3, 7, time),(11, 23, admin),(24, 40, theme),(44, 61, region)]},
+),
+(
+"In the United States by township Average hours per day by men spent on Household services ",
+{"entities": [(3, 20, region),(24, 32, admin),(33, 89, theme)]},
+),
+(
+"Average percent of time engaged in by menHelping household adults in 1968 by province ",
+{"entities": [(0, 65, theme),(69, 73, time),(77, 85, admin)]},
+),
+(
+"In Canada Average hours per day by women spent on Animals and pets ",
+{"entities": [(3, 9, region),(10, 66, theme)]},
+),
+(
+"In UK by state Production workers annual wages of Petroleum and coal products manufacturing in 2018 ",
+{"entities": [(3, 5, region),(9, 14, admin),(15, 91, theme),(95, 99, time)]},
+),
+(
+"By township Average hours per day spent on Helping household children with Homework ",
+{"entities": [(3, 11, admin),(12, 83, theme)]},
+),
+(
+"Number of McDonald's in 2015 ",
+{"entities": [(0, 20, theme),(24, 28, time)]},
+),
+(
+"Average hours per day spent on Helping household adults by census tract in 1989 ",
+{"entities": [(0, 55, theme),(59, 71, admin),(75, 79, time)]},
+),
+(
+"In 1994 Intergovernmental expenditure of governments by census tract in U.S. ",
+{"entities": [(3, 7, time),(8, 52, theme),(56, 68, admin),(72, 76, region)]},
+),
+(
+"In 1979 GDP Growth Rate in U.S. ",
+{"entities": [(3, 7, time),(8, 23, theme),(27, 31, region)]},
+),
+(
+"Sales, receipts, or value of shipments of firms in South Korea in 1979 ",
+{"entities": [(0, 47, theme),(51, 62, region),(66, 70, time)]},
+),
+(
+"Flu incidence in China ",
+{"entities": [(0, 13, theme),(17, 22, region)]},
+),
+(
+"By census tract in France Current spending of elementary-secondary expenditure ",
+{"entities": [(3, 15, admin),(19, 25, region),(26, 78, theme)]},
+),
+(
+"Hazardous Air Pollutant Effects in Canada ",
+{"entities": [(0, 31, theme),(35, 41, region)]},
+),
+(
+"Production workers average for year of Computer and electronic product manufacturing in US in 2002 ",
+{"entities": [(0, 84, theme),(88, 90, region),(94, 98, time)]},
+),
+(
+"In US by township Average hours per day spent on Work-related activities ",
+{"entities": [(3, 5, region),(9, 17, admin),(18, 72, theme)]},
+),
+(
+"In France by province Utility revenue of governments ",
+{"entities": [(3, 9, region),(13, 21, admin),(22, 52, theme)]},
+),
+(
+"Total cost of materials of Industrial machinery manufacturing by state in 2019 in France ",
+{"entities": [(0, 61, theme),(65, 70, admin),(74, 78, time),(82, 88, region)]},
+),
+(
+"Number of employees of Industrial machinery manufacturing by census tract ",
+{"entities": [(0, 57, theme),(61, 73, admin)]},
+),
+(
+"In 1989 Annual payroll by state in U.S. ",
+{"entities": [(3, 7, time),(8, 22, theme),(26, 31, admin),(35, 39, region)]},
+),
+(
+"By county in 1984 Carbon Monoxide Poisoning in UK ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 43, theme),(47, 49, region)]},
+),
+(
+"Average percent of time engaged in by menTravel related to work in Canada in 1973 by province ",
+{"entities": [(0, 63, theme),(67, 73, region),(77, 81, time),(85, 93, admin)]},
+),
+(
+"Sales, receipts, or value of shipments of firms in the United States in 1989 by state ",
+{"entities": [(0, 47, theme),(51, 68, region),(72, 76, time),(80, 85, admin)]},
+),
+(
+"By province Average hours per day spent on Arts and entertainment (other than sports) in 1952 in South Korea ",
+{"entities": [(3, 11, admin),(12, 85, theme),(89, 93, time),(97, 108, region)]},
+),
+(
+"Long Term Unemployment Rate in 1962 in Canada ",
+{"entities": [(0, 27, theme),(31, 35, time),(39, 45, region)]},
+),
+(
+"By township Households with one or more people under 18 years ",
+{"entities": [(3, 11, admin),(12, 61, theme)]},
+),
+(
+"Elementary-secondary revenue from vocational programs by township in U.S. ",
+{"entities": [(0, 53, theme),(57, 65, admin),(69, 73, region)]},
+),
+(
+"In Canada by township Lotus corniculatus in 1960 ",
+{"entities": [(3, 9, region),(13, 21, admin),(22, 40, theme),(44, 48, time)]},
+),
+(
+"In 1960 Producer Prices in South Korea ",
+{"entities": [(3, 7, time),(8, 23, theme),(27, 38, region)]},
+),
+(
+"By county in China Individual income tax of governments ",
+{"entities": [(3, 9, admin),(13, 18, region),(19, 55, theme)]},
+),
+(
+"In 1975 in China international trade deficit in goods and services ",
+{"entities": [(3, 7, time),(11, 16, region),(17, 66, theme)]},
+),
+(
+"By township Average hours per day spent on Religious and spiritual activities ",
+{"entities": [(3, 11, admin),(12, 77, theme)]},
+),
+(
+"In Canada After-Tax Profits and Sales ",
+{"entities": [(3, 9, region),(10, 37, theme)]},
+),
+(
+"Professional, scientific, and technical services revenue by county ",
+{"entities": [(0, 56, theme),(60, 66, admin)]},
+),
+(
+"Percent of population of widowed by township in US ",
+{"entities": [(0, 32, theme),(36, 44, admin),(48, 50, region)]},
+),
+(
+"Average hours per day by women spent on Reading to and with household children in U.S. by county ",
+{"entities": [(0, 78, theme),(82, 86, region),(90, 96, admin)]},
+),
+(
+"By census tract in 2004 Age of householder ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 42, theme)]},
+),
+(
+"Number of people of people enrolled in Kindergarten in US in 1999 ",
+{"entities": [(0, 51, theme),(55, 57, region),(61, 65, time)]},
+),
+(
+"In Canada Sea-Floor Sediment in 2000 ",
+{"entities": [(3, 9, region),(10, 28, theme),(32, 36, time)]},
+),
+(
+"Elementary-secondary revenue from property taxes in China by census tract ",
+{"entities": [(0, 48, theme),(52, 57, region),(61, 73, admin)]},
+),
+(
+"In South Korea in 1992 Number of paid employees by state ",
+{"entities": [(3, 14, region),(18, 22, time),(23, 47, theme),(51, 56, admin)]},
+),
+(
+"By province in 2017 in US New Residential Sales ",
+{"entities": [(3, 11, admin),(15, 19, time),(23, 25, region),(26, 47, theme)]},
+),
+(
+"Households with female householder, no husband present, family by province in 2002 ",
+{"entities": [(0, 62, theme),(66, 74, admin),(78, 82, time)]},
+),
+(
+"In 1988 Average hours per day spent on Educational activities ",
+{"entities": [(3, 7, time),(8, 61, theme)]},
+),
+(
+"By census tract Annual payroll in 2002 in U.S. ",
+{"entities": [(3, 15, admin),(16, 30, theme),(34, 38, time),(42, 46, region)]},
+),
+(
+"Average hours per day spent on Travel related to organizational, civic, and religious activities in 1989 in China ",
+{"entities": [(0, 96, theme),(100, 104, time),(108, 113, region)]},
+),
+(
+"By county in 2009 Number of paid employees ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 42, theme)]},
+),
+(
+"In South Korea in 1964 Percent of population of people with elementary occupation ",
+{"entities": [(3, 14, region),(18, 22, time),(23, 81, theme)]},
+),
+(
+"By state Estimated annual sales for Gasoline stations ",
+{"entities": [(3, 8, admin),(9, 53, theme)]},
+),
+(
+"Intergovernmental expenditure of governments by state ",
+{"entities": [(0, 44, theme),(48, 53, admin)]},
+),
+(
+"Tourism Revenues by census tract in USA in 1995 ",
+{"entities": [(0, 16, theme),(20, 32, admin),(36, 39, region),(43, 47, time)]},
+),
+(
+"Average hours per day spent on Financial management by county in UK ",
+{"entities": [(0, 51, theme),(55, 61, admin),(65, 67, region)]},
+),
+(
+"In China by province in 1950 Utility expenditure of governments ",
+{"entities": [(3, 8, region),(12, 20, admin),(24, 28, time),(29, 63, theme)]},
+),
+(
+"In US Average percent of time engaged in by menPhysical care for household children by state in 2013 ",
+{"entities": [(3, 5, region),(6, 83, theme),(87, 92, admin),(96, 100, time)]},
+),
+(
+"In UK in 1966 by county Total capital expenditures of Other food manufacturing ",
+{"entities": [(3, 5, region),(9, 13, time),(17, 23, admin),(24, 78, theme)]},
+),
+(
+"Area of Palustrine Emergent Wetland (km2) in France in 1972 ",
+{"entities": [(0, 41, theme),(45, 51, region),(55, 59, time)]},
+),
+(
+"Volatile Organic Compounds (VOCs) in 1964 ",
+{"entities": [(0, 33, theme),(37, 41, time)]},
+),
+(
+"In UK Average percent of time engaged in by womenGovernment services by state ",
+{"entities": [(3, 5, region),(6, 68, theme),(72, 77, admin)]},
+),
+(
+"In 1969 Indoor Air Quality in your Home in USA by census tract ",
+{"entities": [(3, 7, time),(8, 39, theme),(43, 46, region),(50, 62, admin)]},
+),
+(
+"By township number of patent in 1972 ",
+{"entities": [(3, 11, admin),(12, 28, theme),(32, 36, time)]},
+),
+(
+"In UK Interbank Rate in 1997 ",
+{"entities": [(3, 5, region),(6, 20, theme),(24, 28, time)]},
+),
+(
+"In France Average hours per day by women spent on activities ",
+{"entities": [(3, 9, region),(10, 60, theme)]},
+),
+(
+"In 2003 difference in population density of Native Hawaiian and Other Pacific Islander by census tract ",
+{"entities": [(3, 7, time),(8, 86, theme),(90, 102, admin)]},
+),
+(
+"Foreign Exchange Reserves by province in 1994 in UK ",
+{"entities": [(0, 25, theme),(29, 37, admin),(41, 45, time),(49, 51, region)]},
+),
+(
+"Average hours per day by men spent on Playing games in 1973 ",
+{"entities": [(0, 51, theme),(55, 59, time)]},
+),
+(
+"Difference in number of people of frauds by province in Canada in 1987 ",
+{"entities": [(0, 40, theme),(44, 52, admin),(56, 62, region),(66, 70, time)]},
+),
+(
+"In 1951 Population density of above age 65 in Canada by county ",
+{"entities": [(3, 7, time),(8, 42, theme),(46, 52, region),(56, 62, admin)]},
+),
+(
+"In 1956 Sales, receipts, or value of shipments of firms by province ",
+{"entities": [(3, 7, time),(8, 55, theme),(59, 67, admin)]},
+),
+(
+"In 1972 Average hours per day by women spent on Kitchen and food cleanup by township ",
+{"entities": [(3, 7, time),(8, 72, theme),(76, 84, admin)]},
+),
+(
+"In South Korea Average percent of time engaged in Working and work-related activities ",
+{"entities": [(3, 14, region),(15, 85, theme)]},
+),
+(
+"Percentage of respondents who did not provide a workplace address at Area unit level by province ",
+{"entities": [(0, 84, theme),(88, 96, admin)]},
+),
+(
+"By census tract in 1973 happiness score ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 39, theme)]},
+),
+(
+"Homeowner Vacancy Rate (percent) by county in 1987 ",
+{"entities": [(0, 32, theme),(36, 42, admin),(46, 50, time)]},
+),
+(
+"In US Full Time Employment in 1989 ",
+{"entities": [(3, 5, region),(6, 26, theme),(30, 34, time)]},
+),
+(
+"By province Estimated annual sales for Auto & other motor veh. Dealers ",
+{"entities": [(3, 11, admin),(12, 70, theme)]},
+),
+(
+"In 1958 by census tract in USA rental and homeowner vacancy rates ",
+{"entities": [(3, 7, time),(11, 23, admin),(27, 30, region),(31, 65, theme)]},
+),
+(
+"Sales, receipts, or value of shipments of firms by province ",
+{"entities": [(0, 47, theme),(51, 59, admin)]},
+),
+(
+"Average square footage of houses by township in UK ",
+{"entities": [(0, 32, theme),(36, 44, admin),(48, 50, region)]},
+),
+(
+"Current charge of governments by county in 1962 ",
+{"entities": [(0, 29, theme),(33, 39, admin),(43, 47, time)]},
+),
+(
+"Fertility rate in UK ",
+{"entities": [(0, 14, theme),(18, 20, region)]},
+),
+(
+"Average hours per day by men spent on Participating in religious practices by township in 1987 ",
+{"entities": [(0, 74, theme),(78, 86, admin),(90, 94, time)]},
+),
+(
+"In USA lung cancer mortality rate ",
+{"entities": [(3, 6, region),(7, 33, theme)]},
+),
+(
+"In 2004 Household income in Canada by township ",
+{"entities": [(3, 7, time),(8, 24, theme),(28, 34, region),(38, 46, admin)]},
+),
+(
+"By county in 1973 Average hours per day by men spent on Care for animals and pets, not veterinary care ",
+{"entities": [(3, 9, admin),(13, 17, time),(18, 102, theme)]},
+),
+(
+"Used Oil in UK ",
+{"entities": [(0, 8, theme),(12, 14, region)]},
+),
+(
+"By county Cash and security holdings of governments in 1980 in China ",
+{"entities": [(3, 9, admin),(10, 51, theme),(55, 59, time),(63, 68, region)]},
+),
+(
+"By province rate of male in the United States in 2020 ",
+{"entities": [(3, 11, admin),(12, 24, theme),(28, 45, region),(49, 53, time)]},
+),
+(
+"Acid Rain by township ",
+{"entities": [(0, 9, theme),(13, 21, admin)]},
+),
+(
+"Difference in population density of people who are alumni of OSU in 1984 ",
+{"entities": [(0, 64, theme),(68, 72, time)]},
+),
+(
+"Average hours per day by women spent on Household management in South Korea ",
+{"entities": [(0, 60, theme),(64, 75, region)]},
+),
+(
+"By township in UK Production workers annual hours of Clay product and refractory manufacturing ",
+{"entities": [(3, 11, admin),(15, 17, region),(18, 94, theme)]},
+),
+(
+"In 1965 Annual payroll of Nonmetallic mineral product manufacturing in Canada ",
+{"entities": [(3, 7, time),(8, 67, theme),(71, 77, region)]},
+),
+(
+"In France by county in 1973 Individual income tax of governments ",
+{"entities": [(3, 9, region),(13, 19, admin),(23, 27, time),(28, 64, theme)]},
+),
+(
+"By census tract in 1970 Total capital expenditures of Textile furnishings mills ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 79, theme)]},
+),
+(
+"Annual payroll of Aerospace product and parts manufacturing by census tract ",
+{"entities": [(0, 59, theme),(63, 75, admin)]},
+),
+(
+"Number of firms in Canada ",
+{"entities": [(0, 15, theme),(19, 25, region)]},
+),
+(
+"In 1979 in Canada by state Married-couple family ",
+{"entities": [(3, 7, time),(11, 17, region),(21, 26, admin),(27, 48, theme)]},
+),
+(
+"Number of paid employees by township in UK ",
+{"entities": [(0, 24, theme),(28, 36, admin),(40, 42, region)]},
+),
+(
+"Difference in number of people of people enrolled in Kindergarten in U.S. by census tract in 1975 ",
+{"entities": [(0, 65, theme),(69, 73, region),(77, 89, admin),(93, 97, time)]},
+),
+(
+"By county Elementary-secondary revenue from other state aid ",
+{"entities": [(3, 9, admin),(10, 59, theme)]},
+),
+(
+"By census tract in Canada Production workers average for year of Machine shops; turned product; and screw, nut, and bolt manscrewufacturing in 1957 ",
+{"entities": [(3, 15, admin),(19, 25, region),(26, 139, theme),(143, 147, time)]},
+),
+(
+"In 2009 Percent change of All Race ",
+{"entities": [(3, 7, time),(8, 34, theme)]},
+),
+(
+"In 1965 Utility expenditure of governments in South Korea ",
+{"entities": [(3, 7, time),(8, 42, theme),(46, 57, region)]},
+),
+(
+"In 1972 Credit Rating by census tract ",
+{"entities": [(3, 7, time),(8, 21, theme),(25, 37, admin)]},
+),
+(
+"Number of employees of Agriculture, construction, and mining machinery manufacturing in 1967 ",
+{"entities": [(0, 84, theme),(88, 92, time)]},
+),
+(
+"By county in France in 1959 Ozone Effects ",
+{"entities": [(3, 9, admin),(13, 19, region),(23, 27, time),(28, 41, theme)]},
+),
+(
+"Difference in population density of dentist in US in 1953 ",
+{"entities": [(0, 43, theme),(47, 49, region),(53, 57, time)]},
+),
+(
+"In UK in 1976 by province Number of employees of Engine, turbine, and power transmission equipment manufacturing ",
+{"entities": [(3, 5, region),(9, 13, time),(17, 25, admin),(26, 112, theme)]},
+),
+(
+"By province Average percent of time engaged in by menVolunteer activities ",
+{"entities": [(3, 11, admin),(12, 73, theme)]},
+),
+(
+"NBA player origins (per capita) in 1972 by county ",
+{"entities": [(0, 31, theme),(35, 39, time),(43, 49, admin)]},
+),
+(
+"In UK Sales, receipts, or value of shipments of firms in 1990 by township ",
+{"entities": [(3, 5, region),(6, 53, theme),(57, 61, time),(65, 73, admin)]},
+),
+(
+"In China in 1952 Soil moisture and temperature by state ",
+{"entities": [(3, 8, region),(12, 16, time),(17, 46, theme),(50, 55, admin)]},
+),
+(
+"Percent change of women that were screened for breast and cervical cancer by jurisdiction by township in France ",
+{"entities": [(0, 89, theme),(93, 101, admin),(105, 111, region)]},
+),
+(
+"Elementary-secondary revenue from compensatory programs in Canada by census tract ",
+{"entities": [(0, 55, theme),(59, 65, region),(69, 81, admin)]},
+),
+(
+"In South Korea by state Liquor stores expenditure of governments in 2010 ",
+{"entities": [(3, 14, region),(18, 23, admin),(24, 64, theme),(68, 72, time)]},
+),
+(
+"Estimated annual sales for Beer, wine & liquor stores by province in 1980 ",
+{"entities": [(0, 53, theme),(57, 65, admin),(69, 73, time)]},
+),
+(
+"Average hours per day by women spent on Travel related to organizational, civic, and religious activities in 2008 ",
+{"entities": [(0, 105, theme),(109, 113, time)]},
+),
+(
+"Gold Reserves in 1957 in Canada by census tract ",
+{"entities": [(0, 13, theme),(17, 21, time),(25, 31, region),(35, 47, admin)]},
+),
+(
+"Average percent of time engaged in Socializing, relaxing, and leisure in China in 1964 by province ",
+{"entities": [(0, 69, theme),(73, 78, region),(82, 86, time),(90, 98, admin)]},
+),
+(
+"In China Estimated annual sales for Miscellaneous store retailer ",
+{"entities": [(3, 8, region),(9, 64, theme)]},
+),
+(
+"In US Acid Rain by township ",
+{"entities": [(3, 5, region),(6, 15, theme),(19, 27, admin)]},
+),
+(
+"By state Exports value of firms ",
+{"entities": [(3, 8, admin),(9, 31, theme)]},
+),
+(
+"In USA Estimated annual sales for New car dealers ",
+{"entities": [(3, 6, region),(7, 49, theme)]},
+),
+(
+"Estimated annual sales for Miscellaneous store retailer in China ",
+{"entities": [(0, 55, theme),(59, 64, region)]},
+),
+(
+"Average hours per day by men spent on Leisure and sports by census tract in Canada ",
+{"entities": [(0, 56, theme),(60, 72, admin),(76, 82, region)]},
+),
+(
+"By township Average percent of time engaged in by menCaring for and helping household members ",
+{"entities": [(3, 11, admin),(12, 93, theme)]},
+),
+(
+"Arts, entertainment, and recreation revenue in 2004 in U.S. by census tract ",
+{"entities": [(0, 43, theme),(47, 51, time),(55, 59, region),(63, 75, admin)]},
+),
+(
+"In 1958 Gold Reserves by census tract ",
+{"entities": [(3, 7, time),(8, 21, theme),(25, 37, admin)]},
+),
+(
+"Average percent of time engaged in Interior cleaning in USA ",
+{"entities": [(0, 52, theme),(56, 59, region)]},
+),
+(
+"Average hours per day by women spent on Civic obligations and participation in 1959 in China ",
+{"entities": [(0, 75, theme),(79, 83, time),(87, 92, region)]},
+),
+(
+"By census tract Average percent of time engaged in by womenactivities in 1985 ",
+{"entities": [(3, 15, admin),(16, 69, theme),(73, 77, time)]},
+),
+(
+"In 2011 Average hours per day spent on Travel related to leisure and sports ",
+{"entities": [(3, 7, time),(8, 75, theme)]},
+),
+(
+"By province in 1979 Average hours per day spent on Participating in religious practices ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 87, theme)]},
+),
+(
+"In 2001 in China Nonfamily households ",
+{"entities": [(3, 7, time),(11, 16, region),(17, 37, theme)]},
+),
+(
+"In US average age in 1962 by county ",
+{"entities": [(3, 5, region),(6, 17, theme),(21, 25, time),(29, 35, admin)]},
+),
+(
+"Number of employees of Computer and peripheral equipment manufacturing in USA ",
+{"entities": [(0, 70, theme),(74, 77, region)]},
+),
+(
+"By province in US Households with one or more people 65 years and over in 1980 ",
+{"entities": [(3, 11, admin),(15, 17, region),(18, 70, theme),(74, 78, time)]},
+),
+(
+"In 1987 in U.S. by state Bank Lending Rate ",
+{"entities": [(3, 7, time),(11, 15, region),(19, 24, admin),(25, 42, theme)]},
+),
+(
+"By township in Canada in 1959 number of people of People whose native language is Russian ",
+{"entities": [(3, 11, admin),(15, 21, region),(25, 29, time),(30, 89, theme)]},
+),
+(
+"In 2015 Total cost of materials of Foundries ",
+{"entities": [(3, 7, time),(8, 44, theme)]},
+),
+(
+"Family households (families) in South Korea ",
+{"entities": [(0, 28, theme),(32, 43, region)]},
+),
+(
+"Age of householder in China ",
+{"entities": [(0, 18, theme),(22, 27, region)]},
+),
+(
+"Population density of widowed by county in Canada ",
+{"entities": [(0, 29, theme),(33, 39, admin),(43, 49, region)]},
+),
+(
+"In 2003 Average hours per day spent on Travel related to purchasing goods and services ",
+{"entities": [(3, 7, time),(8, 86, theme)]},
+),
+(
+"Indoor Air Quality in your Home in 2002 ",
+{"entities": [(0, 31, theme),(35, 39, time)]},
+),
+(
+"Taxes of governments in 2010 ",
+{"entities": [(0, 20, theme),(24, 28, time)]},
+),
+(
+"In 2013 Elementary-secondary revenue from local government in U.S. by township ",
+{"entities": [(3, 7, time),(8, 58, theme),(62, 66, region),(70, 78, admin)]},
+),
+(
+"In South Korea in 1969 Average hours per day by men spent on Caring for and helping nonhousehold adults ",
+{"entities": [(3, 14, region),(18, 22, time),(23, 103, theme)]},
+),
+(
+"Number of people of Muslim by state ",
+{"entities": [(0, 26, theme),(30, 35, admin)]},
+),
+(
+"In China by township in 2005 Gross Fixed Capital Formation ",
+{"entities": [(3, 8, region),(12, 20, admin),(24, 28, time),(29, 58, theme)]},
+),
+(
+"By county License taxes of governments in 1984 in France ",
+{"entities": [(3, 9, admin),(10, 38, theme),(42, 46, time),(50, 56, region)]},
+),
+(
+"In Canada Percent change of people with elementary occupation by county ",
+{"entities": [(3, 9, region),(10, 61, theme),(65, 71, admin)]},
+),
+(
+"Average square footage of houses in US in 2019 ",
+{"entities": [(0, 32, theme),(36, 38, region),(42, 46, time)]},
+),
+(
+"By census tract Total expenditure of governments in 1967 in France ",
+{"entities": [(3, 15, admin),(16, 48, theme),(52, 56, time),(60, 66, region)]},
+),
+(
+"In France Total households ",
+{"entities": [(3, 9, region),(10, 26, theme)]},
+),
+(
+"By province difference in race diversity in 1959 ",
+{"entities": [(3, 11, admin),(12, 40, theme),(44, 48, time)]},
+),
+(
+"In the United States in 1950 by province percent of farmland ",
+{"entities": [(3, 20, region),(24, 28, time),(32, 40, admin),(41, 60, theme)]},
+),
+(
+"By census tract Government Bond 10y ",
+{"entities": [(3, 15, admin),(16, 35, theme)]},
+),
+(
+"Imports in UK by state ",
+{"entities": [(0, 7, theme),(11, 13, region),(17, 22, admin)]},
+),
+(
+"In France Average number of bedrooms of houses by census tract ",
+{"entities": [(3, 9, region),(10, 46, theme),(50, 62, admin)]},
+),
+(
+"In 1962 Elementary-secondary revenue ",
+{"entities": [(3, 7, time),(8, 36, theme)]},
+),
+(
+"In Canada Government Debt by county in 1962 ",
+{"entities": [(3, 9, region),(10, 25, theme),(29, 35, admin),(39, 43, time)]},
+),
+(
+"Difference in number of people of divorced in USA by census tract ",
+{"entities": [(0, 42, theme),(46, 49, region),(53, 65, admin)]},
+),
+(
+"Homeowner Vacancy Rate (percent) in 1966 ",
+{"entities": [(0, 32, theme),(36, 40, time)]},
+),
+(
+"Percent of households above $200k in France ",
+{"entities": [(0, 33, theme),(37, 43, region)]},
+),
+(
+"In the United States by census tract Production workers annual wages of Electrical equipment manufacturing in 1983 ",
+{"entities": [(3, 20, region),(24, 36, admin),(37, 106, theme),(110, 114, time)]},
+),
+(
+"Households with female householder, no husband present, family in China in 1956 ",
+{"entities": [(0, 62, theme),(66, 71, region),(75, 79, time)]},
+),
+(
+"In 1985 Annual payroll by township in U.S. ",
+{"entities": [(3, 7, time),(8, 22, theme),(26, 34, admin),(38, 42, region)]},
+),
+(
+"In the United States by province in 2016 Population density of American Indian and Alaska Native ",
+{"entities": [(3, 20, region),(24, 32, admin),(36, 40, time),(41, 96, theme)]},
+),
+(
+"In China Percent change of American Indian and Alaska Native ",
+{"entities": [(3, 8, region),(9, 60, theme)]},
+),
+(
+"By province in 1972 Age of householder in UK ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 38, theme),(42, 44, region)]},
+),
+(
+"In 1997 in South Korea economic growth rate by province ",
+{"entities": [(3, 7, time),(11, 22, region),(23, 43, theme),(47, 55, admin)]},
+),
+(
+"In 2009 by state in France Elementary-secondary revenue from other state aid ",
+{"entities": [(3, 7, time),(11, 16, admin),(20, 26, region),(27, 76, theme)]},
+),
+(
+"Total expenditure of governments in 1998 ",
+{"entities": [(0, 32, theme),(36, 40, time)]},
+),
+(
+"In US in 1972 Average percent of time engaged in Activities related to household children health ",
+{"entities": [(3, 5, region),(9, 13, time),(14, 96, theme)]},
+),
+(
+"Average hours per day by women spent on Socializing and communicating in UK in 1950 by province ",
+{"entities": [(0, 69, theme),(73, 75, region),(79, 83, time),(87, 95, admin)]},
+),
+(
+"In US in 1960 by state Sales, receipts, or value of shipments of firms ",
+{"entities": [(3, 5, region),(9, 13, time),(17, 22, admin),(23, 70, theme)]},
+),
+(
+"Households with householder living alone in China in 2004 by state ",
+{"entities": [(0, 40, theme),(44, 49, region),(53, 57, time),(61, 66, admin)]},
+),
+(
+"Government Spending to GDP in 2015 ",
+{"entities": [(0, 26, theme),(30, 34, time)]},
+),
+(
+"In 1990 in Canada Population density of per Walmart store ",
+{"entities": [(3, 7, time),(11, 17, region),(18, 57, theme)]},
+),
+(
+"By census tract Production workers annual hours of Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing ",
+{"entities": [(3, 15, admin),(16, 143, theme)]},
+),
+(
+"In 2004 in USA by state Indoor Air Quality in your Home ",
+{"entities": [(3, 7, time),(11, 14, region),(18, 23, admin),(24, 55, theme)]},
+),
+(
+"Other taxes of governments in 1981 ",
+{"entities": [(0, 26, theme),(30, 34, time)]},
+),
+(
+"By census tract Married-couple family ",
+{"entities": [(3, 15, admin),(16, 37, theme)]},
+),
+(
+"Average year built in Canada ",
+{"entities": [(0, 18, theme),(22, 28, region)]},
+),
+(
+"Average percent of time engaged in by menArts and entertainment (other than sports) by census tract in South Korea in 1987 ",
+{"entities": [(0, 83, theme),(87, 99, admin),(103, 114, region),(118, 122, time)]},
+),
+(
+"In 2011 Average number of bedrooms of houses ",
+{"entities": [(3, 7, time),(8, 44, theme)]},
+),
+(
+"Retail inventories by state in France in 2013 ",
+{"entities": [(0, 18, theme),(22, 27, admin),(31, 37, region),(41, 45, time)]},
+),
+(
+"In UK Average hours per day by women spent on Consumer goods purchases ",
+{"entities": [(3, 5, region),(6, 70, theme)]},
+),
+(
+"In 1966 by state renter occupied ",
+{"entities": [(3, 7, time),(11, 16, admin),(17, 32, theme)]},
+),
+(
+"In 1995 Production workers annual wages of Footwear manufacturing by county in USA ",
+{"entities": [(3, 7, time),(8, 65, theme),(69, 75, admin),(79, 82, region)]},
+),
+(
+"In U.S. Youth Unemployment Rate ",
+{"entities": [(3, 7, region),(8, 31, theme)]},
+),
+(
+"By township pH in UK ",
+{"entities": [(3, 11, admin),(12, 14, theme),(18, 20, region)]},
+),
+(
+"Soil Loss/Root Exposure by township in the United States ",
+{"entities": [(0, 23, theme),(27, 35, admin),(39, 56, region)]},
+),
+(
+"In 2008 in US homicide rate ",
+{"entities": [(3, 7, time),(11, 13, region),(14, 27, theme)]},
+),
+(
+"In the United States in 2015 Production workers annual wages of Semiconductor and other electronic component manufacturing by township ",
+{"entities": [(3, 20, region),(24, 28, time),(29, 122, theme),(126, 134, admin)]},
+),
+(
+"Import and export statistics by state in 2017 ",
+{"entities": [(0, 28, theme),(32, 37, admin),(41, 45, time)]},
+),
+(
+"By county Average hours per day spent on Caring for and helping nonhousehold members ",
+{"entities": [(3, 9, admin),(10, 84, theme)]},
+),
+(
+"Number of people of Under age 18 in 1986 ",
+{"entities": [(0, 32, theme),(36, 40, time)]},
+),
+(
+"In 2004 Balance of Trade by census tract in South Korea ",
+{"entities": [(3, 7, time),(8, 24, theme),(28, 40, admin),(44, 55, region)]},
+),
+(
+"In 2011 Household income by township ",
+{"entities": [(3, 7, time),(8, 24, theme),(28, 36, admin)]},
+),
+(
+"Households with female householder, no husband present, family by county in China in 2006 ",
+{"entities": [(0, 62, theme),(66, 72, admin),(76, 81, region),(85, 89, time)]},
+),
+(
+"In 1991 in U.S. by township number of people of males 15 years and over ",
+{"entities": [(3, 7, time),(11, 15, region),(19, 27, admin),(28, 71, theme)]},
+),
+(
+"Average year built in US ",
+{"entities": [(0, 18, theme),(22, 24, region)]},
+),
+(
+"In 1973 Hazardous/Toxic Air Pollutants ",
+{"entities": [(3, 7, time),(8, 38, theme)]},
+),
+(
+"In 1986 in USA Average monthly housing cost as percentage of income by township ",
+{"entities": [(3, 7, time),(11, 14, region),(15, 67, theme),(71, 79, admin)]},
+),
+(
+"Average hours per day spent on Educational activities by township in U.S. ",
+{"entities": [(0, 53, theme),(57, 65, admin),(69, 73, region)]},
+),
+(
+"By census tract in China selected services total revenue ",
+{"entities": [(3, 15, admin),(19, 24, region),(25, 56, theme)]},
+),
+(
+"In 1970 by county in France Average hours per day by women spent on Religious and spiritual activities ",
+{"entities": [(3, 7, time),(11, 17, admin),(21, 27, region),(28, 102, theme)]},
+),
+(
+"Households with one or more people under 18 years in Canada ",
+{"entities": [(0, 49, theme),(53, 59, region)]},
+),
+(
+"Elementary-secondary revenue from general formula assistance in China by state in 2010 ",
+{"entities": [(0, 60, theme),(64, 69, region),(73, 78, admin),(82, 86, time)]},
+),
+(
+"In 2004 by county in France sale amounts of beer ",
+{"entities": [(3, 7, time),(11, 17, admin),(21, 27, region),(28, 48, theme)]},
+),
+(
+"Seasonally adjusted sales by county in US ",
+{"entities": [(0, 25, theme),(29, 35, admin),(39, 41, region)]},
+),
+(
+"Homicide rate by township ",
+{"entities": [(0, 13, theme),(17, 25, admin)]},
+),
+(
+"By state Estimated annual sales for Pharmacies & drug stores ",
+{"entities": [(3, 8, admin),(9, 60, theme)]},
+),
+(
+"Average hours per day by women spent on Working and work-related activities in Canada ",
+{"entities": [(0, 75, theme),(79, 85, region)]},
+),
+(
+"By county Hazardous Air Pollutant Effects ",
+{"entities": [(3, 9, admin),(10, 41, theme)]},
+),
+(
+"Population density of people living in slums by township in 1961 ",
+{"entities": [(0, 44, theme),(48, 56, admin),(60, 64, time)]},
+),
+(
+"In 2013 by county Total households in China ",
+{"entities": [(3, 7, time),(11, 17, admin),(18, 34, theme),(38, 43, region)]},
+),
+(
+"In the United States in 1992 Total capital expenditures of Sugar and confectionery product manufacturing ",
+{"entities": [(3, 20, region),(24, 28, time),(29, 104, theme)]},
+),
+(
+"Elementary-secondary revenue from property taxes in 1974 by township ",
+{"entities": [(0, 48, theme),(52, 56, time),(60, 68, admin)]},
+),
+(
+"In UK Average number of bedrooms of houses in 2020 by state ",
+{"entities": [(3, 5, region),(6, 42, theme),(46, 50, time),(54, 59, admin)]},
+),
+(
+"By province in 1985 CO2 emission (per capita) ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 45, theme)]},
+),
+(
+"In the United States in 1961 Production workers annual wages of Manufacturing by county ",
+{"entities": [(3, 20, region),(24, 28, time),(29, 77, theme),(81, 87, admin)]},
+),
+(
+"Estimated annual sales for Food & beverage stores in 2019 ",
+{"entities": [(0, 49, theme),(53, 57, time)]},
+),
+(
+"Elementary-secondary revenue from local government by county in 2013 ",
+{"entities": [(0, 50, theme),(54, 60, admin),(64, 68, time)]},
+),
+(
+"Age of householder by province ",
+{"entities": [(0, 18, theme),(22, 30, admin)]},
+),
+(
+"In 2012 in China GDP Annual Growth Rate by county ",
+{"entities": [(3, 7, time),(11, 16, region),(17, 39, theme),(43, 49, admin)]},
+),
+(
+"Estimated annual sales for Health & personal care stores by county in U.S. in 1962 ",
+{"entities": [(0, 56, theme),(60, 66, admin),(70, 74, region),(78, 82, time)]},
+),
+(
+"In 1965 Households with one or more people under 18 years in China by census tract ",
+{"entities": [(3, 7, time),(8, 57, theme),(61, 66, region),(70, 82, admin)]},
+),
+(
+"In 2007 Average percent of time engaged in by womenInterior maintenance, repair, and decoration in USA by province ",
+{"entities": [(3, 7, time),(8, 95, theme),(99, 102, region),(106, 114, admin)]},
+),
+(
+"By province in 1981 Sales, receipts, or value of shipments of firms ",
+{"entities": [(3, 11, admin),(15, 19, time),(20, 67, theme)]},
+),
+(
+"Percent change of people enrolled in Elementary school (grades 1-8) by township ",
+{"entities": [(0, 67, theme),(71, 79, admin)]},
+),
+(
+"In the United States in 1977 by state Long Term Unemployment Rate ",
+{"entities": [(3, 20, region),(24, 28, time),(32, 37, admin),(38, 65, theme)]},
+),
+(
+"In 1954 lung cancer mortality rate by township in USA ",
+{"entities": [(3, 7, time),(8, 34, theme),(38, 46, admin),(50, 53, region)]},
+),
+(
+"In USA by township Radon in 1957 ",
+{"entities": [(3, 6, region),(10, 18, admin),(19, 24, theme),(28, 32, time)]},
+),
+(
+"Households with one or more people 65 years and over in South Korea by county in 1976 ",
+{"entities": [(0, 52, theme),(56, 67, region),(71, 77, admin),(81, 85, time)]},
+),
+(
+"In South Korea Production workers annual hours of Printing and related support activities by township in 2005 ",
+{"entities": [(3, 14, region),(15, 89, theme),(93, 101, admin),(105, 109, time)]},
+),
+(
+"Zinc, oxygen, and pH in seawater by county in USA ",
+{"entities": [(0, 32, theme),(36, 42, admin),(46, 49, region)]},
+),
+(
+"In China Balance of Trade ",
+{"entities": [(3, 8, region),(9, 25, theme)]},
+),
+(
+"In 1961 Average number of bedrooms of houses in UK by county ",
+{"entities": [(3, 7, time),(8, 44, theme),(48, 50, region),(54, 60, admin)]},
+),
+(
+"In USA Production workers annual wages of Other miscellaneous manufacturing by province in 1952 ",
+{"entities": [(3, 6, region),(7, 75, theme),(79, 87, admin),(91, 95, time)]},
+),
+(
+"Difference in number of people of All Race in South Korea in 1971 by state ",
+{"entities": [(0, 42, theme),(46, 57, region),(61, 65, time),(69, 74, admin)]},
+),
+(
+"In 2011 Estimated annual sales for Food services & drinking places ",
+{"entities": [(3, 7, time),(8, 66, theme)]},
+),
+(
+"In 2009 in France firearm death rate ",
+{"entities": [(3, 7, time),(11, 17, region),(18, 36, theme)]},
+),
+(
+"By county in 1978 in US difference in number of people of people enrolled in Kindergarten ",
+{"entities": [(3, 9, admin),(13, 17, time),(21, 23, region),(24, 89, theme)]},
+),
+(
+"Percent of population of widowed in South Korea in 1989 ",
+{"entities": [(0, 32, theme),(36, 47, region),(51, 55, time)]},
+),
+(
+"In 1962 in U.S. Annual payroll of Other leather and allied product manufacturing ",
+{"entities": [(3, 7, time),(11, 15, region),(16, 80, theme)]},
+),
+(
+"By census tract in 1956 Total capital expenditures of Hardware manufacturing,Spring and wire product manufacturing ",
+{"entities": [(3, 15, admin),(19, 23, time),(24, 114, theme)]},
+),
+(
+"Annual payroll by state in Canada in 2012 ",
+{"entities": [(0, 14, theme),(18, 23, admin),(27, 33, region),(37, 41, time)]},
+),
+(
+"By census tract Estimated annual sales for Building material & garden eq. & supplies dealers ",
+{"entities": [(3, 15, admin),(16, 92, theme)]},
+),
+(
+"In 2004 Estimated annual sales for Nonstore retailers by county ",
+{"entities": [(3, 7, time),(8, 53, theme),(57, 63, admin)]},
+),
+(
+"Total households by township ",
+{"entities": [(0, 16, theme),(20, 28, admin)]},
+),
+(
+"In 1983 by state Elementary-secondary revenue from compensatory programs in USA ",
+{"entities": [(3, 7, time),(11, 16, admin),(17, 72, theme),(76, 79, region)]},
+),
+(
+"In 1955 Average number of bedrooms of houses ",
+{"entities": [(3, 7, time),(8, 44, theme)]},
+),
+(
+"By census tract difference in number of people of people enrolled in Kindergarten ",
+{"entities": [(3, 15, admin),(16, 81, theme)]},
+),
+(
+"Average percent of time engaged in Playing with household children, not sports in China in 1973 by province ",
+{"entities": [(0, 78, theme),(82, 87, region),(91, 95, time),(99, 107, admin)]},
+),
+(
+"By census tract Average hours per day by men spent on Computer use for leisure, excluding games in 2002 ",
+{"entities": [(3, 15, admin),(16, 95, theme),(99, 103, time)]},
+),
+(
+"Current Account in USA ",
+{"entities": [(0, 15, theme),(19, 22, region)]},
+),
+(
+"Production workers annual wages of Other nonmetallic mineral product manufacturing in U.S. ",
+{"entities": [(0, 82, theme),(86, 90, region)]},
+),
+(
+"By county in the United States Average percent of time engaged in Attending household children events in 1977 ",
+{"entities": [(3, 9, admin),(13, 30, region),(31, 101, theme),(105, 109, time)]},
+),
+(
+"Elementary-secondary revenue from vocational programs in 1974 ",
+{"entities": [(0, 53, theme),(57, 61, time)]},
+),
+(
+"By census tract PM2.5 in US ",
+{"entities": [(3, 15, admin),(16, 21, theme),(25, 27, region)]},
+),
+(
+"In South Korea Elementary-secondary revenue from transportation programs by province ",
+{"entities": [(3, 14, region),(15, 72, theme),(76, 84, admin)]},
+),
+(
+"By township Production workers annual hours of Other miscellaneous manufacturing ",
+{"entities": [(3, 11, admin),(12, 80, theme)]},
+),
+(
+"By township number of Olympic game awards in 1954 in China ",
+{"entities": [(3, 11, admin),(12, 41, theme),(45, 49, time),(53, 58, region)]},
+),
+(
+"In 1989 number of people of Under age 18 ",
+{"entities": [(3, 7, time),(8, 40, theme)]},
+),
+(
+"By county Average square footage of houses ",
+{"entities": [(3, 9, admin),(10, 42, theme)]},
+),
+(
+"Utility expenditure of governments by census tract in South Korea ",
+{"entities": [(0, 34, theme),(38, 50, admin),(54, 65, region)]},
+),
+(
+"Percent change of Under age 18 in 1988 in South Korea by state ",
+{"entities": [(0, 30, theme),(34, 38, time),(42, 53, region),(57, 62, admin)]},
+),
+(
+"In 1992 Households with male householder, no wife present, family by census tract ",
+{"entities": [(3, 7, time),(8, 65, theme),(69, 81, admin)]},
+),
+(
+"Number of employees of Wood product manufacturing in France by county in 2011 ",
+{"entities": [(0, 49, theme),(53, 59, region),(63, 69, admin),(73, 77, time)]},
+),
+(
+"By province Indoor Air Quality in your Home in South Korea in 1957 ",
+{"entities": [(3, 11, admin),(12, 43, theme),(47, 58, region),(62, 66, time)]},
+),
+(
+"In USA by census tract Average percent of time engaged in Indoor and outdoor maintenance, building, and cleanup activities ",
+{"entities": [(3, 6, region),(10, 22, admin),(23, 122, theme)]},
+),
+(
+"Lead in Canada ",
+{"entities": [(0, 4, theme),(8, 14, region)]},
+),
+(
+"Family households with own children of the householder under 18 years in 2018 in Canada ",
+{"entities": [(0, 69, theme),(73, 77, time),(81, 87, region)]},
+),
+(
+"In the United States Employment Rate in 2002 by county ",
+{"entities": [(3, 20, region),(21, 36, theme),(40, 44, time),(48, 54, admin)]},
+),
+(
+"In US Consumer Confidence ",
+{"entities": [(3, 5, region),(6, 25, theme)]},
+),
+(
+"In 2014 in France Age of householder ",
+{"entities": [(3, 7, time),(11, 17, region),(18, 36, theme)]},
+),
+(
+"In U.S. in 2014 by census tract Total households ",
+{"entities": [(3, 7, region),(11, 15, time),(19, 31, admin),(32, 48, theme)]},
+),
+(
+"By county Family households with own children of the householder under 18 years in UK ",
+{"entities": [(3, 9, admin),(10, 79, theme),(83, 85, region)]},
+),
+(
+"Area of Estuarine Forested Wetlands (km2) in France in 1986 ",
+{"entities": [(0, 41, theme),(45, 51, region),(55, 59, time)]},
+),
+(
+"In 1998 by county in USA General revenue of governments ",
+{"entities": [(3, 7, time),(11, 17, admin),(21, 24, region),(25, 55, theme)]},
+),
+(
+"In U.S. Family households (families) in 1968 ",
+{"entities": [(3, 7, region),(8, 36, theme),(40, 44, time)]},
+),
+(
+"Average hours per day spent on Arts and entertainment (other than sports) by state ",
+{"entities": [(0, 73, theme),(77, 82, admin)]},
+),
+(
+"Area of Estuarine Aquatic Bed (km2) in 1969 in the United States by county ",
+{"entities": [(0, 35, theme),(39, 43, time),(47, 64, region),(68, 74, admin)]},
+),
+(
+"Area of Perennial Ice/Snow (km2) in 2013 in Canada by township ",
+{"entities": [(0, 32, theme),(36, 40, time),(44, 50, region),(54, 62, admin)]},
+),
+(
+"By county Special Wastes ",
+{"entities": [(3, 9, admin),(10, 24, theme)]},
+),

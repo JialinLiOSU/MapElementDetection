@@ -12,6 +12,8 @@ import pickle
 import sys
 sys.path.append(r'C:\Users\jiali\Desktop\Map_Identification_Classification\world map generation\getCartoCoordExtent')
 from shapex import *
+from geom.point import *
+from geom.centroid import *
 
 # us state name and acronym
 short_state_names = {
@@ -45,7 +47,7 @@ short_state_names = {
         # 'MP': 'Northern Mariana Islands',
         'MS': 'Mississippi',
         'MT': 'Montana',
-        'NA': 'National',
+
         'NC': 'North Carolina',
         'ND': 'North Dakota',
         'NE': 'Nebraska',
@@ -101,18 +103,51 @@ def getStateExtent(shp, country):
 
     return minLat,maxLat, minLon, maxLon
 
+# get the point list of a state from the shapefile
+def getPointList(shp, country):
+    for c in shp:
+        if c['properties']['NAME'] == country:
+            print('test')
+            break
+    # c = [sfor s in shp]
+    typeGeom = c['geometry']['type']
+    coordGeom = c['geometry']['coordinates']
+
+    if typeGeom != 'MultiPolygon':
+#         print(coordGeom[0]) 
+        coordList = coordGeom[0]
+    else:
+        lenList = [len(poly[0]) for poly in coordGeom]
+#         print(lenList)
+        index = lenList.index(max(lenList))
+#         print(index)
+#         print(coordGeom[index]) 
+        coordList = coordGeom[index][0]
+    return [ Point(p[0], p[1]) for p in coordList ]
 
 
 if __name__ == "__main__":
     # path of the cartogram shapefiles
-    shapefilePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\shpFiles\USA_ADM1.shp'
+    # get geographic information from shape file
+    shapefilePath = r'C:\Users\jiali\Desktop\MapElementDetection\code\shpFiles\USA_Contiguous_Albers_Equal_Area_Conic'
 
-    fileName = 'USA_ADM1.shp'
+    fileName = 'USA_Contiguous_Albers_Equal_Area_Conic.shp'
     shp = shapex(shapefilePath + '\\' + fileName)
-    state = 'Ohio'
-    extent = getStateExtent(shp, country)
-    print(fileName+','+country)
-    print(extent)
+
+    stateNames = list(short_state_names.values())
+    stateCentroidGeoCoordList = []
+    for state in stateNames:
+        # state = 'Ohio'
+        pointList = getPointList(shp,state)
+        centroidGeo = centroid(pointList)[1]
+
+        xCentroidGeo = centroidGeo.x
+        yCentroidGeo = centroidGeo.y
+        stateCentroidGeoCoordList.append((state, (xCentroidGeo,yCentroidGeo)))
+        
+    
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\state identification\stateCentroidGeoCoordsConic.pickle', 'wb') as f:
+	    pickle.dump(USBoundResults,f)
 
 
 

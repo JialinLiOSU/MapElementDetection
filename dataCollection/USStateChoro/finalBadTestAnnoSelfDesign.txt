@@ -1,88 +1,88 @@
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/11.map-AmFact-6eqint-orange-80pct.jpg,1,3,103,129,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/11.map-AmFact-6eqint-orange-80pct.jpg,303,9,492,24,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/118.9786EN_05_05.jpg,2,239,156,293,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/121.image001_12_18_2013-1.jpg,1,3,85,81,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/133.Choropleth-demand-for-CIC-returnables-by-county.jpg,21,7,515,41,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/133.Choropleth-demand-for-CIC-returnables-by-county.jpg,2,270,120,445,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/135563077_3788276924549361_3077918134073304948_o.png,198,6,1883,124,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/135563077_3788276924549361_3077918134073304948_o.png,1800,129,2032,387,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/139994642_3832696723440714_5245189687878009485_n.png,848,388,936,625,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/139994642_3832696723440714_5245189687878009485_n.png,14,13,730,63,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/151.9d8d51b68d3892720b0ca2138b21a7ec--choropleth-map-maps.jpg,380,179,456,275,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/162.choropleth-map-definition_1108500.jpg,620,195,699,268,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/162.choropleth-map-definition_1108500.jpg,45,46,687,94,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/169.choro_hispanic.jpg,9,19,142,88,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/169.choro_hispanic.jpg,9,206,134,274,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/2020 census self-response by State.png,3,814,927,864,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/2020 census self-response by State.png,252,4,844,48,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/21.8264524_f520.jpg,49,8,430,25,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/21.8264524_f520.jpg,10,237,85,283,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/292_Chloro_folium.png,554,5,972,51,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/42.moood-map-of-us.jpg,20,405,288,473,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/6.map-AmFact-5nat-breaks-green-80pct.jpg,1,2,99,118,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/6.map-AmFact-5nat-breaks-green-80pct.jpg,303,9,493,25,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/77297739_2771795239530873_2730099745568587776_o.png,401,6,1247,76,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/77297739_2771795239530873_2730099745568587776_o.png,1052,73,1387,150,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/81.Equal%20Intervals-7.jpg,4,10,140,212,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/81.Equal%20Intervals-7.jpg,346,19,650,38,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/86.5644OS_04_01.jpg,531,85,597,220,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/88.f1-basicchoroplethmap_0.jpg,27,378,554,420,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/88.f1-basicchoroplethmap_0.jpg,158,16,412,42,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/93.kisspng-united-states-choropleth-map-u-s-state-botched-5b1f544c3c1997.3561436615287798522462.jpg,2,0,206,37,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/93.kisspng-united-states-choropleth-map-u-s-state-botched-5b1f544c3c1997.3561436615287798522462.jpg,2,107,430,164,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/business application 19Q4-20Q4.png,611,500,850,567,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/business application 19Q4-20Q4.png,237,11,535,95,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/construction_july16.jpg,185,27,569,50,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/construction_july16.jpg,443,386,536,513,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/COVID-19_outbreak_USA_per_capita_cases_map.svg.png,1013,448,1199,738,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/demo_120_none-1.png,758,675,1105,745,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/download.png,18,20,236,38,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/download.png,18,40,77,108,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/ff15l.png,745,131,820,281,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/gallup-wellbeing-index-map.jpg,8,75,140,140,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/gallup-wellbeing-index-map.jpg,9,8,318,40,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/images.png,59,0,216,9,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/images.png,2,173,270,182,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/iraq.png,565,504,770,671,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/lab_81.jpg,681,367,795,509,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/lab_81.jpg,50,49,805,108,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/license plate vanitization rate 2007.png,145,126,277,180,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/Map_of_states_by_median_household_income_in_2014.svg.png,1047,367,1179,555,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/PerCapitaMap-LN-jumbo.png,369,47,722,107,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/PerCapitaMap-LN-jumbo.png,367,7,727,44,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/percentPopl65andOlder.png,204,295,447,358,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/percentPopl65andOlder.png,505,250,602,347,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/Poverty 2012.jpg,416,258,508,325,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/Poverty 2012.jpg,95,14,416,58,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/stressed.png,96,0,245,14,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/stressed.png,324,43,352,195,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/Typical-choropleth-map-showing-black-percentage-of-total-population-Source-author-2000.png,3,422,177,628,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/Uninsured-benefit-(1)-378f.jpg,1311,804,1526,1033,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/Uninsured-benefit-(1)-378f.jpg,187,7,1409,100,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/univariate choropleth map.jpg,583,311,663,411,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/univariate choropleth map.jpg,216,42,524,80,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/unnamed-chunk-23-1.png,9,275,59,420,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/unnamed-chunk-25-1.png,8,275,136,414,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/unnamed.png,429,231,504,352,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/unnamed.png,139,13,390,46,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/us_map108.jpg,51,0,310,35,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/us_map108.jpg,287,192,345,254,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/us_map124.jpg,281,216,355,282,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/us_map124.jpg,51,12,314,64,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/us_map16.jpg,269,364,394,463,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/us_map30.jpg,285,201,352,262,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/us_map30.jpg,47,12,311,57,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/us_map65.jpg,263,392,582,459,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/uuid-007615b7-5371-15ed-ad1b-7ed241c59433-en.png,198,405,413,452,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111126.png,675,495,956,564,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111126.png,276,9,661,50,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111207.png,5,13,758,85,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111207.png,781,204,930,468,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111706.png,13,493,207,567,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111706.png,11,28,437,79,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203112601.png,11,13,1621,90,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203112601.png,1386,651,1621,912,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/whbcu0gka0qnbjog2vnsca.png,9,4,381,45,0
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/whbcu0gka0qnbjog2vnsca.png,163,78,447,124,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/YCOM4.0.2.png,844,123,916,468,1
-/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/finalBad/YCOM4.0.2.png,58,34,940,101,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/11.map-AmFact-6eqint-orange-80pct.jpg,1,3,103,129,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/11.map-AmFact-6eqint-orange-80pct.jpg,303,9,492,24,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/118.9786EN_05_05.jpg,2,239,156,293,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/121.image001_12_18_2013-1.jpg,1,3,85,81,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/133.Choropleth-demand-for-CIC-returnables-by-county.jpg,21,7,515,41,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/133.Choropleth-demand-for-CIC-returnables-by-county.jpg,2,270,120,445,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/135563077_3788276924549361_3077918134073304948_o.png,198,6,1883,124,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/135563077_3788276924549361_3077918134073304948_o.png,1800,129,2032,387,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/139994642_3832696723440714_5245189687878009485_n.png,848,388,936,625,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/139994642_3832696723440714_5245189687878009485_n.png,14,13,730,63,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/151.9d8d51b68d3892720b0ca2138b21a7ec--choropleth-map-maps.jpg,380,179,456,275,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/162.choropleth-map-definition_1108500.jpg,620,195,699,268,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/162.choropleth-map-definition_1108500.jpg,45,46,687,94,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/169.choro_hispanic.jpg,9,19,142,88,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/169.choro_hispanic.jpg,9,206,134,274,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/2020 census self-response by State.png,3,814,927,864,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/2020 census self-response by State.png,252,4,844,48,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/21.8264524_f520.jpg,49,8,430,25,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/21.8264524_f520.jpg,10,237,85,283,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/292_Chloro_folium.png,554,5,972,51,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/42.moood-map-of-us.jpg,20,405,288,473,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/6.map-AmFact-5nat-breaks-green-80pct.jpg,1,2,99,118,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/6.map-AmFact-5nat-breaks-green-80pct.jpg,303,9,493,25,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/77297739_2771795239530873_2730099745568587776_o.png,401,6,1247,76,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/77297739_2771795239530873_2730099745568587776_o.png,1052,73,1387,150,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/81.Equal%20Intervals-7.jpg,4,10,140,212,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/81.Equal%20Intervals-7.jpg,346,19,650,38,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/86.5644OS_04_01.jpg,531,85,597,220,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/88.f1-basicchoroplethmap_0.jpg,27,378,554,420,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/88.f1-basicchoroplethmap_0.jpg,158,16,412,42,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/93.kisspng-united-states-choropleth-map-u-s-state-botched-5b1f544c3c1997.3561436615287798522462.jpg,2,0,206,37,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/93.kisspng-united-states-choropleth-map-u-s-state-botched-5b1f544c3c1997.3561436615287798522462.jpg,2,107,430,164,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/business application 19Q4-20Q4.png,611,500,850,567,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/business application 19Q4-20Q4.png,237,11,535,95,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/construction_july16.jpg,185,27,569,50,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/construction_july16.jpg,443,386,536,513,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/COVID-19_outbreak_USA_per_capita_cases_map.svg.png,1013,448,1199,738,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/demo_120_none-1.png,758,675,1105,745,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/download.png,18,20,236,38,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/download.png,18,40,77,108,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/ff15l.png,745,131,820,281,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/gallup-wellbeing-index-map.jpg,8,75,140,140,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/gallup-wellbeing-index-map.jpg,9,8,318,40,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/images.png,59,0,216,9,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/images.png,2,173,270,182,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/iraq.png,565,504,770,671,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/lab_81.jpg,681,367,795,509,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/lab_81.jpg,50,49,805,108,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/license plate vanitization rate 2007.png,145,126,277,180,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/Map_of_states_by_median_household_income_in_2014.svg.png,1047,367,1179,555,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/PerCapitaMap-LN-jumbo.png,369,47,722,107,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/PerCapitaMap-LN-jumbo.png,367,7,727,44,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/percentPopl65andOlder.png,204,295,447,358,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/percentPopl65andOlder.png,505,250,602,347,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/Poverty 2012.jpg,416,258,508,325,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/Poverty 2012.jpg,95,14,416,58,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/stressed.png,96,0,245,14,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/stressed.png,324,43,352,195,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/Typical-choropleth-map-showing-black-percentage-of-total-population-Source-author-2000.png,3,422,177,628,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/Uninsured-benefit-(1)-378f.jpg,1311,804,1526,1033,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/Uninsured-benefit-(1)-378f.jpg,187,7,1409,100,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/univariate choropleth map.jpg,583,311,663,411,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/univariate choropleth map.jpg,216,42,524,80,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/unnamed-chunk-23-1.png,9,275,59,420,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/unnamed-chunk-25-1.png,8,275,136,414,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/unnamed.png,429,231,504,352,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/unnamed.png,139,13,390,46,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map108.jpg,51,0,310,35,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map108.jpg,287,192,345,254,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map124.jpg,281,216,355,282,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map124.jpg,51,12,314,64,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map16.jpg,269,364,394,463,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map30.jpg,285,201,352,262,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map30.jpg,47,12,311,57,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map65.jpg,263,392,582,459,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/uuid-007615b7-5371-15ed-ad1b-7ed241c59433-en.png,198,405,413,452,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111126.png,675,495,956,564,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111126.png,276,9,661,50,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111207.png,5,13,758,85,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111207.png,781,204,930,468,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111706.png,13,493,207,567,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203111706.png,11,28,437,79,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203112601.png,11,13,1621,90,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/WeChat Screenshot_20210203112601.png,1386,651,1621,912,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/whbcu0gka0qnbjog2vnsca.png,9,4,381,45,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/whbcu0gka0qnbjog2vnsca.png,163,78,447,124,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/YCOM4.0.2.png,844,123,916,468,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/YCOM4.0.2.png,58,34,940,101,0

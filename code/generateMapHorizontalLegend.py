@@ -7,6 +7,8 @@
 from PIL import Image
 import pandas as pd
 import numpy as np
+import matplotlib
+
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import os
@@ -17,6 +19,7 @@ from matplotlib.collections import PatchCollection
 from matplotlib.patches import PathPatch
 from scipy.spatial import ConvexHull, Voronoi
 import matplotlib.patches as mpatches
+
 
 
 # libaries ---------- color scheme
@@ -323,7 +326,8 @@ def getStyleValue():
 
 
 def getcolor_scheme():
-    a = random.randint(0, 18)
+    a = random.randint(4, 18)
+    print('color scheme: ' + str(a))
     return a
 
 # get color, i: random number, a: color scheme
@@ -406,8 +410,9 @@ def getTitle():
     else:
         b = random.randint(0, 99)
         title = brown_title[b]
-    if len(title) > 50:
-        title = title[0:50]
+    if len(title) > 30:
+        title = title[0:30]
+    # title = '' # for Horizontal legend, don't add title
     return title
 
 # generate text on state
@@ -420,20 +425,14 @@ def getText():
 # generate legend
 
 
-def getLegend(a):
-    labels = random.sample(range(0, 99), 5)
-
-    patch_1 = mpatches.Patch(color=getColor(
-        1, a), label=frequent_words[labels[0]])
-    patch_2 = mpatches.Patch(color=getColor(
-        3, a), label=frequent_words[labels[1]])
-    patch_3 = mpatches.Patch(color=getColor(
-        5, a), label=frequent_words[labels[2]])
-    patch_4 = mpatches.Patch(color=getColor(
-        7, a), label=frequent_words[labels[3]])
-    patch_5 = mpatches.Patch(color=getColor(
-        9, a), label=frequent_words[labels[4]])
-    return patch_1, patch_2, patch_3, patch_4, patch_5
+def getLegend(a,numCol):
+    labels = random.sample(range(0, 99), numCol)
+    patchList = []
+    for i in range(numCol):
+        patch = mpatches.Patch(color=getColor(
+        i * 2 + 1, a),  label=frequent_words[labels[i]])
+        patchList.append(patch)
+    return patchList
 
 # get projection method
 def getProjection():
@@ -455,6 +454,21 @@ def get_concat_v(im1, im2):
     dst.paste(im2, (0, im1.height))
     return dst
 
+def setLegendSymbolShape(shapeCode):
+    # no return value, just change the rect parameter of matplotlib
+    if shapeCode == 0:
+        l,h = 1,1
+    elif shapeCode == 1:
+        l,h = 2**0.5, 1
+    elif shapeCode == 2:
+        l,h = 2, 1
+    else:
+        l,h = 1,1
+        print('Shape code is not correct')
+
+    matplotlib.rcParams['legend.handlelength'] = l
+    matplotlib.rcParams['legend.handleheight'] = h
+
 path = 'C:\\Users\\jiali\\Desktop\\Map_Identification_Classification\\world map generation\\'
 shpFileName = 'shpfile/cartogram/pop2007_0'
 strList = []
@@ -467,14 +481,246 @@ def drawWmap(index, filename):
     asp_x = random.randint(7, 8)
     asp_y = random.randint(4, 5)
 
-    fig = plt.figure(figsize=(8, 4), dpi=1000)
+    fig = plt.figure(figsize=(8, 4), dpi=500)
 
     # 1. size and location
     mapSize = getSize()
     # x1, y1, x2, y2 = 73.62, 18.16, 134.76, 53.55 # china wgs84
-    # x1, y1, x2, y2 = -124.70, 24.94, -66.97, 49.37 # US
+    x1, y1, x2, y2 = -124.70, 24.94, -66.97, 49.37 # US
     # x1, y1, x2, y2 = 126.11, 33.18, 129.58, 38.62 # South Korea
-    x1, y1, x2, y2 = -141.00, 41.67, -52.61, 83.11 # Canada
+    # x1, y1, x2, y2 = -141.00, 41.67, -52.61, 83.11 # Canada
+    # x1, y1, x2, y2 = 112.91, -43.66, 153.62, -10.71 # Austrilia
+    # x1, y1, x2, y2 = -10.47, 34.92, 40.17, 71.11 # Europe
+
+    deltaX = x2 - x1
+    deltaY = y2 - y1
+
+    # map location and bounding box
+    m = Basemap(lon_0=0, 
+                projection='cyl', fix_aspect=True)
+    # m.drawcoastlines(linewidth=0.25)
+    # m.drawcountries(linewidth=0.25)
+
+    # 2. administraitive level
+    admin_level = 0
+
+    ax = plt.gca()  # get current axes instance
+    # ax = plt.Axes(fig, [0.25, 0.25, 0.75, 0.75], )
+
+    # read polygon information from shape file, only show admin0 and admin1
+    if (admin_level == 0):
+        shp_info = m.readshapefile(
+            path + shpFileName, 'state', drawbounds=True, linewidth=0.01)
+        # 3. color scheme
+        colorscheme = getcolor_scheme()
+        # 4. if show text on each state
+        isStateName = get_IsStateName()
+        # 5. identify the text size
+        font_size = random.randint(1, 2)
+        # font_size = 0.5
+        # 6. if add texture # no textures needed
+        # mapTexture = isTexture()
+        # 7. if draw Alaska and Hawaii
+        isMainland = 1
+        # 8. identify the opacity value
+        opaVal = getValue()
+        printed_names = []
+        for info, shape in zip(m.state_info, m.state):
+            # if (mapTexture == 1):
+            #     poly = Polygon(shape, facecolor=getColor(len(info['CNTRY_NAME']), colorscheme),
+            #                    edgecolor='k', alpha=opaVal, linewidth=0.5, hatch=getTexture())
+            # else:
+            poly = Polygon(shape, facecolor=getColor(len(info['CNTRY_NAME']), colorscheme),
+                               alpha=opaVal, edgecolor='k', linewidth=0.05)
+
+            ax.add_patch(poly)
+
+            # add text on each state
+            if (isStateName != 0):
+                x, y = np.array(shape).mean(axis=0)
+                hull = ConvexHull(shape)
+                hull_points = np.array(shape)[hull.vertices]
+                x, y = hull_points.mean(axis=0)
+                short_name = info['CNTRY_NAME']
+                if short_name in printed_names:
+                    continue
+                if (isStateName == 1):
+                    plt.text(x + .1, y, short_name,
+                             ha="center", fontsize=font_size)
+                elif (isStateName == 2):
+                    state_text = getText()
+                    plt.text(x + .1, y, state_text,
+                             ha="center", fontsize=font_size)
+                printed_names += [short_name, ]
+
+    # draw map
+
+    # 9. if add long and lat
+    isLat, isLong = getLatLong()
+    # if (isLat == 1):
+    #     margin = random.randint(2, 4) * 10
+    #     m.drawparallels(np.arange(-90, 90, margin), labels=[1, 0, 0, 0], linewidth=0.2, fontsize=5)
+    #     m.drawmeridians(np.arange(-180, 180, margin), labels=[0, 0, 0, 1], linewidth=0.2, fontsize=5)
+
+    # 10. background color
+    mapBackground = getBackgroundColor()
+    ax.set_facecolor(mapBackground)
+
+    # store the information into meta
+    # plt.show()
+    plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
+    # plt.show()
+    plt.savefig(path+filename)
+    # plt.savefig(path+filename,bbox_inches='tight',pad_inches=0.5)
+    plt.close()
+    original = Image.open(path+filename)
+    width, height = original.size   # Get dimensions
+
+    # left = (x1 - (-180)-deltaX/20 + 45)/360  * width  # us merc
+    # top = (90 - y2 - deltaY/20 + 13) / 180 *height
+    # right = (x2 - (-180)+deltaX/20 + 23)/360 * width
+    # bottom = (90 - y1 + deltaY/20 + 8) / 180 * height 
+
+    # left = (x1 - (-180)-deltaX/20 -25)/360  * width   # china merc
+    # top = (90 - y2 - deltaY/20 +13) / 180 *height
+    # right = (x2 - (-180)+deltaX/20 -49 )/360 * width
+    # bottom = (90 - y1 + deltaY/20 +6 ) / 180 * height
+
+    # left = (x1 - (-180)-deltaX/20 +10.5)/360  * width   # sk merc with china coordinates
+    # top = (90 - y2 - deltaY/20 +28) / 180 *height
+    # right = (x2 - (-180)+deltaX/20  -54)/360 * width
+    # bottom = (90 - y1 + deltaY/20 -6 ) / 180 * height
+
+    left = (x1 - (-180)-deltaX/20 )/360  * width   # standard cyl
+    top = (90 - y2 - deltaY/20 ) / 180 *height
+    right = (x2 - (-180)+deltaX/20 )/360 * width
+    bottom = (90 - y1 + deltaY/20 ) / 180 * height
+    # croppedImage = original.crop((left, top, right, bottom))
+
+    croppedImage = original.crop((left, top, right, bottom))
+
+
+    # rightImage.show()
+    # leftImage.show()Image.show()
+    # croppedImage.show()
+    croppedImage.save(path+filename)
+
+    # img = Image.open(path+filename)
+    img = mpimg.imread(path+filename)
+    w_img = img.shape[1]
+    h_img = img.shape[0]
+    # fig = plt.figure(dpi=150)
+    asp_y = 5
+    asp_x = asp_y/h_img*w_img
+    fig = plt.figure(figsize=(asp_x, asp_y), dpi=150)
+    r = fig.canvas.get_renderer()
+    ax = plt.gca()  # get current axes instance
+    
+    # plt.subplots_adjust(top = 1, bottom = 0, right = 1, left = 0, 
+    #         hspace = 0, wspace = 0)
+    # plt.margins(0,0)
+    # plt.gca().xaxis.set_major_locator(plt.NullLocator())
+    # plt.gca().yaxis.set_major_locator(plt.NullLocator())
+    imgplot = plt.imshow(img)
+
+    # 11. if add title
+    title = getTitle()
+    titlePosition = random.randint(0, 1)
+    # if titlePosition == 0:
+    #     t = plt.title(title, y = 1.2)
+    # else:
+    #     t = plt.title(title, y=-0.2)
+    # bb_t = t.get_window_extent(renderer=r)
+    # width_t = bb_t.width
+    # height_t = bb_t.height
+    # print('width_t:',width_t)
+    # print('height_t:',height_t)
+    # plt.show()
+    # 12. if add legends
+    bbox_to_anchor_list=[(0.1, 1),(0.1, 0),(0.9,1),(0.9,0)] # position of legends
+    numCol = random.randint(3, 6)
+    legendSize = random.randint(6, 10)
+    shapeCode = random.randint(0, 3)
+    setLegendSymbolShape(shapeCode)
+
+    if (colorscheme >= 4):
+        showLegend = 1
+        loc_var = random.randint(1, 4)
+        if (loc_var == 1):
+            patchList = getLegend(colorscheme, numCol)
+            l = plt.legend(handles=patchList,bbox_to_anchor = bbox_to_anchor_list[0], loc='upper left',
+                        prop={'size': legendSize},ncol = numCol, framealpha=1)
+        elif (loc_var == 2):
+            patchList = getLegend(colorscheme, numCol)
+            l = plt.legend(handles=patchList,bbox_to_anchor = bbox_to_anchor_list[1],loc='lower left',
+                        prop={'size': legendSize},ncol = numCol, framealpha=1)
+        elif (loc_var == 3):
+            patchList = getLegend(colorscheme, numCol)
+            l = plt.legend(handles=patchList,bbox_to_anchor = bbox_to_anchor_list[2], loc='upper right',
+                        prop={'size': legendSize},ncol = numCol, framealpha=1)
+        elif (loc_var == 4):
+            patchList = getLegend(colorscheme, numCol)
+            l = plt.legend(handles=patchList,bbox_to_anchor = bbox_to_anchor_list[3],loc='lower right',
+                        prop={'size': legendSize},ncol = numCol, framealpha=1)
+    else:
+        showLegend = 0
+    plt.axis('off')
+    # plt.show()
+
+    
+
+    # legend size
+    if showLegend != 0:
+        bb_l = l.get_window_extent(renderer=r)
+        width_l = bb_l.width
+        height_l = bb_l.height
+
+    # figure size
+    bb_fig = fig.get_window_extent(renderer = r)
+    width_fig = bb_fig.width
+    height_fig = bb_fig.height
+
+    # add title position to strList
+    # if title != '':
+    #     x1 = bb_t.bounds[0] / width_fig
+    #     y1 = bb_t.bounds[1] / height_fig
+    #     wid = bb_t.bounds[2] / width_fig
+    #     heig = bb_t.bounds[3] / height_fig
+    #     strLine = filename + ',' + str(x1) + ',' + str(y1) + ',' + str(wid) + ',' + str(heig) + ',0' + '\n'
+    #     strList.append(strLine)
+
+    # add legend position to strList
+    if showLegend != 0:
+        x1 = bb_l.bounds[0] / width_fig
+        y1 = bb_l.bounds[1] / height_fig
+        wid = bb_l.bounds[2] / width_fig
+        heig = bb_l.bounds[3] / height_fig
+        strLine = filename + ',' + str(x1) + ',' + str(y1) + ',' + str(wid) + ',' + str(heig) + ',1' + '\n'
+        strList.append(strLine)
+
+    # remove borders
+    
+    
+    plt.savefig(path+filename)
+    # plt.savefig(path+filename,bbox_inches='tight',pad_inches = 0)
+    plt.close()
+    plt.show()
+
+# draw world map with style
+def drawMapUnclassed(index, filename):
+
+    # check aspect ratio
+    asp_x = random.randint(7, 8)
+    asp_y = random.randint(4, 5)
+
+    fig = plt.figure(figsize=(8, 4), dpi=500)
+
+    # 1. size and location
+    mapSize = getSize()
+    # x1, y1, x2, y2 = 73.62, 18.16, 134.76, 53.55 # china wgs84
+    x1, y1, x2, y2 = -124.70, 24.94, -66.97, 49.37 # US
+    # x1, y1, x2, y2 = 126.11, 33.18, 129.58, 38.62 # South Korea
+    # x1, y1, x2, y2 = -141.00, 41.67, -52.61, 83.11 # Canada
     # x1, y1, x2, y2 = 112.91, -43.66, 153.62, -10.71 # Austrilia
     # x1, y1, x2, y2 = -10.47, 34.92, 40.17, 71.11 # Europe
 
@@ -600,7 +846,11 @@ def drawWmap(index, filename):
 
     # 11. if add title
     title = getTitle()
-    t = plt.title(title,y=-0.1)
+    titlePosition = random.randint(0, 1)
+    if titlePosition == 0:
+        t = plt.title(title, y = 1.1)
+    else:
+        t = plt.title(title, y=-0.1)
     bb_t = t.get_window_extent(renderer=r)
     width_t = bb_t.width
     height_t = bb_t.height
@@ -608,29 +858,31 @@ def drawWmap(index, filename):
     # print('height_t:',height_t)
     # plt.show()
     # 12. if add legends
-    bbox_to_anchor=(0.7, 1) # position of legends
-    numCol = 5
+    bbox_to_anchor_list=[(0.1, 1),(0.1, 0),(0.9,1),(0.9,0)] # position of legends
+    numCol = random.randint(3, 6)
+    legendSize = random.randint(6, 10)
+    shapeCode = random.randint(0, 3)
+    setLegendSymbolShape(shapeCode)
+
     if (colorscheme >= 4):
         showLegend = 1
-        loc_var = random.randint(1, 5)
+        loc_var = random.randint(1, 4)
         if (loc_var == 1):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
-                        prop={'size': 6},ncol = numCol)
+            patchList = getLegend(colorscheme, numCol)
+            l = plt.legend(handles=patchList,bbox_to_anchor = bbox_to_anchor_list[0], loc='lower left',
+                        prop={'size': legendSize},ncol = numCol)
         elif (loc_var == 2):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
-                        prop={'size': 6},ncol = numCol)
+            patchList = getLegend(colorscheme, numCol)
+            l = plt.legend(handles=patchList,bbox_to_anchor = bbox_to_anchor_list[1],loc='upper left',
+                        prop={'size': legendSize},ncol = numCol)
         elif (loc_var == 3):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
-                        prop={'size': 6},ncol = numCol)
+            patchList = getLegend(colorscheme, numCol)
+            l = plt.legend(handles=patchList,bbox_to_anchor = bbox_to_anchor_list[2], loc='lower right',
+                        prop={'size': legendSize},ncol = numCol)
         elif (loc_var == 4):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            l = plt.legend(handles=[p1, p2, p3, p4, p5],bbox_to_anchor = bbox_to_anchor,
-                        prop={'size': 6},ncol = numCol)
-        else:
-            showLegend = 0
+            patchList = getLegend(colorscheme, numCol)
+            l = plt.legend(handles=patchList,bbox_to_anchor = bbox_to_anchor_list[3],loc='upper right',
+                        prop={'size': legendSize},ncol = numCol)
     else:
         showLegend = 0
     # plt.show()
@@ -670,431 +922,14 @@ def drawWmap(index, filename):
     plt.close()
     plt.show()
 
-# draw world map with style
-
-
-def drawWmapStyle(index, filename):
-
-    # check aspect ratio
-    asp_x = random.randint(7, 8)
-    asp_y = random.randint(4, 5)
-
-    fig = plt.figure(figsize=(asp_x, asp_y), dpi=150)
-
-    # 1. size and location
-    mapSize = getSize()
-    x1, y1, x2, y2 = getPosition(mapSize)
-
-    # map location and bounding box
-    m = Basemap(projection='cea', lon_0=0, fix_aspect=True)
-    # m = Basemap(lon_0 = 90,
-    #             projection='cyl', fix_aspect=True, epsg=3410)
-
-    # 2. administraitive level
-    admin_level = 0
-
-    ax = plt.gca()  # get current axes instance
-
-    # read polygon information from shape file, only show admin0 and admin1
-    if (admin_level == 0):
-        shp_info = m.readshapefile(
-            path + 'shpfile/world/ne_50m_admin_0_countries', 'state', drawbounds=True, linewidth=0.02)
-        # 3. color scheme
-        colorscheme = getcolor_scheme()
-        # 4. if show text on each state
-        isStateName = get_IsStateName()
-        # 5. identify the text size
-        font_size = random.randint(4, 8)
-        # 6. if add texture
-        mapTexture = isTexture()
-        # 7. if draw Alaska and Hawaii
-        isMainland = 1
-        # 8. identify the opacity value
-        opaVal = getStyleValue()
-        printed_names = []
-        for info, shape in zip(m.state_info, m.state):
-            if (mapTexture == 1):
-                poly = Polygon(shape, facecolor=getColor(len(info['NAME']), colorscheme),
-                               edgecolor='k', alpha=opaVal, linewidth=0.1, hatch=getTexture())
-            else:
-                poly = Polygon(shape, facecolor=getColor(len(info['NAME']), colorscheme),
-                               alpha=opaVal, edgecolor='k', linewidth=0.1)
-
-            ax.add_patch(poly)
-
-            # add text on each state
-            if (isStateName != 0):
-                x, y = np.array(shape).mean(axis=0)
-                hull = ConvexHull(shape)
-                hull_points = np.array(shape)[hull.vertices]
-                x, y = hull_points.mean(axis=0)
-                short_name = info['NAME']
-                if short_name in printed_names:
-                    continue
-                if (isStateName == 1):
-                    plt.text(x + .1, y, short_name,
-                             ha="center", fontsize=font_size)
-                elif (isStateName == 2):
-                    state_text = getText()
-                    plt.text(x + .1, y, state_text,
-                             ha="center", fontsize=font_size)
-                printed_names += [short_name, ]
-
-    # draw map
-
-    # 9. if add long and lat
-    isLat, isLong = getLatLong()
-    if (isLat == 1):
-        margin = random.randint(2, 4) * 10
-        m.drawparallels(np.arange(-90, 90, margin),
-                        labels=[1, 0, 0, 0], linewidth=0.2, fontsize=5)
-        m.drawmeridians(np.arange(-180, 180, margin),
-                        labels=[0, 0, 0, 1], linewidth=0.2, fontsize=5)
-
-    # 10. background color
-    mapBackground = getBackgroundColor()
-    ax.set_facecolor(mapBackground)
-
-    # 11. if add title
-    title = getTitle()
-    plt.title(title)
-
-    # 12. if add legends
-    if (colorscheme >= 4):
-        showLegend = 1
-        loc_var = random.randint(1, 5)
-        if (loc_var == 1):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5],
-                       loc='upper left', prop={'size': 6})
-        elif (loc_var == 2):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5],
-                       loc='upper right', prop={'size': 6})
-        elif (loc_var == 3):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5],
-                       loc='lower left', prop={'size': 6})
-        elif (loc_var == 4):
-            p1, p2, p3, p4, p5 = getLegend(colorscheme)
-            plt.legend(handles=[p1, p2, p3, p4, p5],
-                       loc='lower right', prop={'size': 6})
-        else:
-            showLegend = 0
-    else:
-        showLegend = 0
-
-    # remove borders
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['bottom'].set_visible(False)
-    ax.spines['left'].set_visible(False)
-
-    mapStyle = getStyle()
-
-    # m.arcgisimage(service=mapStyle, xpixels=1000, verbose=True,epsg=3410)
-
-    # # store the information into meta
-    # meta_data.loc[index, 'filename'] = filename
-    # meta_data.loc[index, 'country'] = 'World'
-    # meta_data.loc[index, 'statename'] = isStateName
-    # meta_data.loc[index, 'mainland'] = isMainland
-    # meta_data.loc[index, 'lat and long'] = isLat
-    # meta_data.loc[index, 'background'] = mapBackground
-    # meta_data.loc[index, 'style'] = mapStyle
-    # meta_data.loc[index, 'position'] = str(x1) + ',' +  str(x2) + ',' + str(y1) + ',' + str(y2)
-    # meta_data.loc[index, 'size'] = mapSize
-    # meta_data.loc[index, 'projection'] = 'Mercator'
-    # meta_data.loc[index, 'opacity'] = opaVal
-    # meta_data.loc[index, 'color'] = colorscheme
-    # meta_data.loc[index, 'texture'] = mapTexture
-    # meta_data.loc[index, 'title'] = title
-    # meta_data.loc[index, 'legend'] = showLegend
-    # meta_data.loc[index, 'adminlevel'] = admin_level
-
-    # plt.show()
-    plt.savefig(path+filename)
-    plt.close()
-
-# draw world map, Hammer or robinson projection
-
-
-def drawWmapProjection(index, filename):
-
-    # check aspect ratio
-    asp_x = random.randint(7, 8)
-    asp_y = random.randint(4, 5)
-
-    fig = plt.figure(figsize=(asp_x, asp_y), dpi=150)
-
-    # 1. size and location
-    mapSize = getSize()
-    x1, y1, x2, y2 = 73.6, 18.1, 134.8, 53.6
-
-    # check projection method, robin or hammer
-
-    mapProjection = getProjection()
-    # map location and bounding box
-    m = Basemap(projection='cyl', lon_0=0, fix_aspect=True)
-
-    # 2. administraitive level
-    admin_level = 0
-
-    ax = plt.gca()  # get current axes instance
-
-    # read polygon information from shape file, only show admin0 and admin1
-    if (admin_level == 0):
-        shp_info = m.readshapefile(
-            path + shpFileName, 'state', drawbounds=True, linewidth=0.1)
-        # 3. color scheme
-        colorscheme = getcolor_scheme()
-        # 4. if show text on each state
-        isStateName = get_IsStateName()
-        # 5. identify the text size
-        font_size = random.randint(1, 3)
-        # 6. if add texture
-        # mapTexture = isTexture()
-        # 7. if draw Alaska and Hawaii
-        isMainland = 1
-        # 8. identify the opacity value
-        opaVal = getValue()
-        printed_names = []
-        for info, shape in zip(m.state_info, m.state):
-            # if (mapTexture == 1):
-            #     poly = Polygon(shape, facecolor=getColor(len(info['CNTRY_NAME']), colorscheme),
-            #                    edgecolor='k', alpha=opaVal, linewidth=0.5, hatch=getTexture())
-            # else:
-            poly = Polygon(shape, facecolor=getColor(len(info['CNTRY_NAME']), colorscheme),
-                               alpha=opaVal, edgecolor='k', linewidth=0.5)
-
-            ax.add_patch(poly)
-
-            # add text on each state
-            if (isStateName != 0):
-                x, y = np.array(shape).mean(axis=0)
-                hull = ConvexHull(shape)
-                hull_points = np.array(shape)[hull.vertices]
-                x, y = hull_points.mean(axis=0)
-                short_name = info['CNTRY_NAME']
-                if short_name in printed_names:
-                    continue
-                if (isStateName == 1):
-                    plt.text(x + .1, y, short_name,
-                             ha="center", fontsize=font_size)
-                elif (isStateName == 2):
-                    state_text = getText()
-                    plt.text(x + .1, y, state_text,
-                             ha="center", fontsize=font_size)
-                printed_names += [short_name, ]
-
-    # draw map
-
-    # 9. if add long and lat
-    # isLat, isLong = getLatLong()
-    # if (isLat == 1):
-    #     margin = random.randint(2, 4) * 10
-    #     m.drawparallels(np.arange(-90, 90, margin), linewidth=0.4, fontsize=5)
-    #     m.drawmeridians(np.arange(-180, 180, margin), linewidth=0.4, fontsize=5)
-
-    m.drawmapboundary(fill_color='#278eab')
-
-    # 10. background color
-    mapBackground = getBackgroundColor()
-    ax.set_facecolor(mapBackground)
-
-    # # store the information into meta
-    # plt.show()
-    plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
-    # plt.show()
-    plt.savefig(path+filename)
-    # plt.savefig(path+filename,bbox_inches='tight',pad_inches=0.5)
-    plt.close()
-    original = Image.open(path+filename)
-    width, height = original.size   # Get dimensions
-    left = (x1 - (-180) -5)/360  * width
-    top = (83.62 - y2) / 180 *height
-    right = (x2 - (-180)+2)/360 * width
-    bottom = (83.62 - y1+7) / 180 * height
-    croppedImage = original.crop((left, top, right, bottom))
-
-    # rightImage.show()
-    # leftImage.show()
-    croppedImage.save(path+filename)
-
-    # # 11. if add title
-    # title = getTitle()
-    # plt.title(title)
-
-    # # 12. if add legends
-    # if (colorscheme >= 4):
-    #     showLegend = 1
-    #     loc_var = random.randint(1, 5)
-    #     fontName = getFontName()
-    #     if (loc_var == 1):
-    #         p1, p2, p3, p4, p5 = getLegend(colorscheme)
-    #         plt.legend(handles=[p1, p2, p3, p4, p5],
-    #                    loc='upper left', prop={'size': 6})
-    #         plt.title(title,y = -0.1, fontname= fontName)
-    #     elif (loc_var == 2):
-    #         p1, p2, p3, p4, p5 = getLegend(colorscheme)
-    #         plt.legend(handles=[p1, p2, p3, p4, p5],
-    #                    loc='upper right', prop={'size': 6})
-    #         plt.title(title,y = -0.1, fontname= fontName)
-    #     elif (loc_var == 3):
-    #         p1, p2, p3, p4, p5 = getLegend(colorscheme)
-    #         plt.legend(handles=[p1, p2, p3, p4, p5],
-    #                    loc='lower left', prop={'size': 6})
-    #         plt.title(title,y = 1, fontname= fontName)
-    #     elif (loc_var == 4):
-    #         p1, p2, p3, p4, p5 = getLegend(colorscheme)
-    #         plt.legend(handles=[p1, p2, p3, p4, p5],
-    #                    loc='lower right', prop={'size': 6})
-    #         plt.title(title,y = 1, fontname= fontName)
-    #     else:
-    #         showLegend = 0
-    # else:
-    #     showLegend = 0
-
-    # plt.axis('off')
-    # plt.savefig(path+filename)
-    # plt.close()
-
-# draw world map, Hammer or robinson projection with style
-
-
-def drawWmapProjectionStyle(index, filename):
-
-    # check aspect ratio
-    asp_x = random.randint(7, 8)
-    asp_y = random.randint(4, 5)
-
-    fig = plt.figure(figsize=(8, 4), dpi=150)
-
-    # 1. size and location
-    mapSize = getSize()
-    x1, y1, x2, y2 = -180, -90, 180, 90
-
-    # check projection method, robin or hammer
-
-    mapProjection = getProjection()
-    # map location and bounding box
-    m = Basemap(projection='cyl', lon_0=0, fix_aspect=True)
-
-    # 2. administraitive level
-    admin_level = 0
-
-    ax = plt.gca()  # get current axes instance
-
-    # read polygon information from shape file, only show admin0 and admin1
-    if (admin_level == 0):
-        shp_info = m.readshapefile(
-            path + 'shpfile/world/ne_50m_admin_0_countries', 'state', drawbounds=True, linewidth=0.01)
-        # 3. color scheme
-        colorscheme = getcolor_scheme()
-        # 4. if show text on each state
-        isStateName = 0
-        # 5. identify the text size
-        font_size = random.randint(1, 2)
-        # 6. if add texture
-        mapTexture = isTexture()
-        # 7. if draw Alaska and Hawaii
-        isMainland = 1
-        # 8. identify the opacity value
-        opaVal = getStyleValue()
-        printed_names = []
-        for info, shape in zip(m.state_info, m.state):
-            if (mapTexture == 1):
-                poly = Polygon(shape, facecolor=getColor(len(info['NAME']), colorscheme),
-                               edgecolor='k', alpha=opaVal, linewidth=0.1, hatch=getTexture())
-            else:
-                poly = Polygon(shape, facecolor=getColor(len(info['NAME']), colorscheme),
-                               alpha=opaVal, edgecolor='k', linewidth=0.1)
-
-            ax.add_patch(poly)
-
-            # add text on each state
-            if (isStateName != 0):
-                x, y = np.array(shape).mean(axis=0)
-                hull = ConvexHull(shape)
-                hull_points = np.array(shape)[hull.vertices]
-                x, y = hull_points.mean(axis=0)
-                short_name = info['NAME']
-                if short_name in printed_names:
-                    continue
-                if (isStateName == 1):
-                    plt.text(x + .1, y, short_name,
-                             ha="center", fontsize=font_size)
-                elif (isStateName == 2):
-                    state_text = getText()
-                    plt.text(x + .1, y, state_text,
-                             ha="center", fontsize=font_size)
-                printed_names += [short_name, ]
-
-    # draw map
-
-    # 9. if add long and lat
-    isLat, isLong = getLatLong()
-    if (isLat == 1):
-        margin = random.randint(2, 4) * 10
-        m.drawparallels(np.arange(-90, 90, margin), linewidth=0.4, fontsize=5)
-        m.drawmeridians(np.arange(-180, 180, margin), linewidth=0.4, fontsize=5)
-
-    # m.drawmapboundary(fill_color='#278eab')
-
-    # 10. background color
-    mapBackground = getBackgroundColor()
-    ax.set_facecolor(mapBackground)
-
-    # 11. if add title
-    title = getTitle()
-    plt.title(title)
-
-
-    # remove borders
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['bottom'].set_visible(False)
-    ax.spines['left'].set_visible(False)
-
-    # check style
-    mapStyle = getInnerStyle()
-    if(mapStyle == 1):
-        m.bluemarble()
-    elif(mapStyle == 2):
-        m.shadedrelief()
-    elif(mapStyle == 3):
-        m.etopo()
-
-    # store the information into meta
-    # meta_data.loc[index, 'filename'] = filename
-    # meta_data.loc[index, 'country'] = 'World'
-    # meta_data.loc[index, 'statename'] = isStateName
-    # meta_data.loc[index, 'mainland'] = isMainland
-    # meta_data.loc[index, 'lat and long'] = isLat
-    # meta_data.loc[index, 'background'] = mapBackground
-    # meta_data.loc[index, 'style'] = mapStyle
-    # meta_data.loc[index, 'position'] = str(x1) + ',' +  str(x2) + ',' + str(y1) + ',' + str(y2)
-    # meta_data.loc[index, 'size'] = mapSize
-    # meta_data.loc[index, 'projection'] = mapProjection
-    # meta_data.loc[index, 'opacity'] = opaVal
-    # meta_data.loc[index, 'color'] = colorscheme
-    # meta_data.loc[index, 'texture'] = mapTexture
-    # meta_data.loc[index, 'title'] = title
-    # meta_data.loc[index, 'legend'] = showLegend
-    # meta_data.loc[index, 'adminlevel'] = admin_level
-
-    # plt.show()
-    plt.savefig(path+filename)
-    plt.close()
-
 # generate map image
 
 
 def main():
     
-    for i in range(0,20):
+    for i in range(0,50):
         # for i in range(len(meta_data)):
-        filename = 'generated_legend_CA_' + str(i) + '.png'
+        filename = 'generated_legend_US_' + str(i) + '.png'
         # if(i >= 40 and i < 50):
         drawWmap(i, filename)
         # elif(i >= 15 and i < 30):
@@ -1106,7 +941,7 @@ def main():
         # drawWmapProjectionStyle(i,filename)
 
     # meta_data.to_csv('result.csv', index=False)
-    filename='generated_Hlegend_annotation_CA'+'.txt'
+    filename='generated_Hlegend_annotation_US'+'.txt'
     file = open(path + filename,'a')
     file.writelines(strList)
     # file.writelines(incorrectImgNameStrList)

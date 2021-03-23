@@ -20,15 +20,94 @@ demographic = ['Percent of population', 'Percent change', 'number of people',
 
 # 1. economic indicator
 economic = ["unemployment rate", "gross domestic income (nominal or ppp)", "gross domestic income (nominal or ppp) per capita",
-            "GDP (nominal or ppp)", "GDP (nominal or ppp) per capita", "Median household income", "Household income", "price of land",
-            "percent of houses with annual income of $300,000 and over", "percent of houses with annual income of $50,000 and less",
-            "poverty rate", "economic growth rate", "percent of households above $200k", "average price for honey per pound",
-            "federal government expenditure (per capita)", "median rent price", "sale amounts of beer", "NSF funding for \"Catalogue\"",
-            "Agriculture exports", "number of McDonald's", "import and export statistics", "Gross profit of companies"]
+            "GDP (nominal or ppp)","gross domestic income","gross domestic product (GDP)," "GDP", "GNP","Gross National Product",
+            "Gross National Product (GNP)", "GDP (nominal or ppp) per capita", 'Gross national income'
+            "Median household income", "Household income", "price of land","Gross Domestic Product (Third Estimate)",
+            "Corporate Profits", "GDP by Industry",'sales of merchant wholesalers', 'Monthly Wholesale Trade','Foreign Trade',
+            'international trade deficit in goods and services','international advance trade in goods deficit',
+            'Exports By Metropolitan Area','Imports & Exports by Related-Parties','Manufacturing and International Trade',
+            'Sales, value of shipments, or revenue','Manufacturers’ Shipments, Inventories, and Orders',
+            'Construction Spending','monthly estimates of the total dollar value of construction work','Value of Construction',
+            'Wholesale and Retail Inventories','Advance International Trade in Goods', 'Advance Wholesale Inventories',
+            'Advance Retail Inventories','international trade deficit','Exports of goods','Imports of goods','Wholesale inventories',
+            'Retail inventories','International Trade in Goods','New Residential Sales',
+            'the number of new single-family houses sold and for sale', 'median and average prices','New Home Sales','Sales Price',
+            'For Sale Inventory and Months’ Supply', 'selected services total revenue', 'transportation and warehousing revenue',
+            'utilities revenue',' information sector revenue','real estate and rental and leasing revenue',
+            'professional, scientific, and technical services revenue',
+            'administrative and support and waste management and remediation services revenue','health care and social assistance revenue',
+            'arts, entertainment, and recreation revenue','finance and insurance revenue','educational services revenue',
+            'accommodation revenue','Manufacturing Corporations Quarterly After-Tax Profits','After-Tax Profits and Sales',
+            'manufacturing corporations\' seasonally adjusted after-tax profits', 'Seasonally adjusted sales',
+            'Rental Vacancy Rate', 'Housing Vacancies and Homeownership','rental and homeowner vacancy rates','Homeownership rates',
+            'Homeowner Vacancy Rate (percent)','Median Asking Rent for Vacant for Rent Units',
+            'Total Housing Inventory','Business Applications','Annual Business Applications',
+            'ADVANCE MONTHLY SALES FOR RETAIL AND FOOD SERVICES','Advance Estimates of U.S. Retail and Food Services',
+            'GDP Growth Rate','Interest Rate','Inflation Rate','Unemployment Rate','Government Debt to GDP','Balance of Trade',
+            'Current Account to GDP','Credit Rating','Commodity','Currency','Government Bond 10y','Stock Market','Employed Persons',
+            'Employment Change','Employment Rate','Full Time Employment','Initial Jobless Claims','Job Vacancies',
+            'Labor Force Participation Rate','Labour Costs','Long Term Unemployment Rate','Minimum Wages',
+            'Non Farm Payrolls','Part Time Employment','Productivity','Unemployed Persons','Wage Growth','Wages',
+            'Wages in Manufacturing','Youth Unemployment Rate','Fiscal Expenditure','Government Budget','Government Budget Value',
+            'Government Debt','Government Debt to GDP','Government Revenues','Government Spending','Government Spending to GDP',
+            'Consumer Price Index CPI','Core Consumer Prices','Core Inflation Rate','Export Prices','Food Inflation','GDP Deflator',
+            'Harmonised Consumer Prices','Import Prices','Inflation Rate Mom','Producer Prices','producer prices change',
+            'Cash Reserve Ratio','Deposit Interest Rate','Foreign Exchange Reserves','Interbank Rate','Interest Rate',
+            'Lending Rate','Loan Growth','Money Supply','Balance of Trade','Capital Flows','Crude Oil Production',
+            'Current Account','Current Account to GDP','Exports','External Debt','Foreign Direct Investment','Gold Reserves',
+            'Imports','Remittances','Terms of Trade','Terrorism Index','Tourism Revenues','Tourist Arrivals',
+            'GDP Annual Growth Rate','GDP Constant Prices','GDP from Agriculture','GDP from Construction',
+            'GDP from Manufacturing','GDP from Mining','GDP from Public Administration','GDP from Services',
+            'GDP from Transport','GDP from Utilities','GDP Growth Rate','GDP per capita','GDP per capita PPP','Gross Fixed Capital Formation',
+            'Gross National Product','Corporate Tax Rate','Personal Income Tax Rate','Sales Tax Rate','Social Security Rate',
+            'Social Security Rate For Companies','Social Security Rate For Employees','Bank Lending Rate','Consumer Confidence',
+            'Consumer Credit','Consumer Spending','Disposable Personal Income','Gasoline Prices','Households Debt to GDP',
+            'Households Debt to Income','Personal Savings','Personal Spending','Private Sector Credit','Development Indicators',
+            'Price of crude oil',"percent of houses with annual income of $300,000 and over", 
+            "percent of houses with annual income of $50,000 and less","poverty rate", "economic growth rate", 
+            "percent of households above $200k", "average price for honey per pound","federal government expenditure (per capita)", 
+            "median rent price", "sale amounts of beer", "NSF funding for \"Catalogue\"",
+            "Agriculture exports", "number of McDonald's", "import and export statistics", "Gross profit of companies",
+            "Outdoor Recreation Value Added as Percent of State GDP", "GDP Advance Estimate" ]
+            # labor force and journey to work
 
-# 2. physical indicator
+# 2. physical indicator (environmental) add more indicators
 physical = ["annual average temperature", "annual average precipitation",
-            "number of fire points", "number of earthquake"]
+            "number of fire points", "number of earthquake",
+            'Acid Rain','Transportation Emissions','Asbestos','Indoor Air Quality',
+            'Volatile Organic Compounds (VOCs)','Mold',
+            'Radon','Wood Burning Appliances','Carbon Monoxide (CO)','Lead (Pb)',
+            'Nitrogen Dioxide (NO2)','Ozone, Ground Level','Particulate Matter (PM)',
+            'PM2.5','PM10','Sulfur Dioxide (SO2)','Greenhouse Gas (GHG) Emissions',
+            'Hazardous Air Pollutants','Coal Ash','grizzly bear mortality',
+            'wildfire and beetle-caused canopy mortality','Stable Isotope Data from Tundra Swan (Cygnus columbianus) Feathers',
+            'nesting information for birds breeding','radiocarbon dating of deep-sea (500 m to 700 m) black corals',
+            'Lotus corniculatus','Cirsium arvense','Bromus tectorum','phragmites australis',
+            'Formaldehyde','Mercury','Lead','Asbestos','Hazardous/Toxic Air Pollutants',
+            'Per- and Polyfluoroalkyl Substances (PFAS)','Pesticide Chemicals','Glyphosate',
+            'Polychlorinated Biphenyls (PCBs)','Green Chemistry',
+            'Asthma','Carbon Monoxide Poisoning','Indoor Air Quality in your Home','Wood Burning Stoves and Appliances',
+            'Asbestos Effects','Dioxin Effects','Hazardous Air Pollutant Effects','Lead Effects',
+            'Mercury Effects','Mold Effects','Ozone Effects','Radiation Effects','Radon Effects',
+            'Pesticides','Land Cover Series Estimates','estimated land cover types','Soil moisture and temperature',
+            'Flood Inundation','Sea-Floor Sediment','Soil erosion','Soil compaction caused by humans or animals',
+            'Soil Loss/Root Exposure','area of open water (km2)','area of Perennial Ice/Snow (km2)',
+            'area of Developed, Open Space (km2)','area of Developed, Low Intensity (km2)','area of Developed, Medium Intensity (km2)',
+            'area of Developed, High Intensity (km2)','area of Barren Land (km2)','area of Unconsolidated Shore (km2)',
+            'area of Deciduous Forest (km2)','area of Evergreen Forest (km2)','area of Mixed Forest (km2)',
+            'area of Dwarf Scrub (km2)','area of Dwarf Scrub (km2)','area of Grassland/Herbaceous (km2)',
+            'area of Sedge Herbaceous (km2)','area of Lichens (km2)','area of Moss (km2)',
+            'area of Pasture/Hay (km2)','area of Cultivated Crops (km2)','area of Woody Wetlands (km2)',
+            'area of Palustrine Forested Wetland (km2)','area of Palustrine Scrub/Shrub (km2)',
+            'area of Estuarine Forested Wetlands (km2)','area of Estuarine Scrub/Shrub (km2)',
+            'area of Emergent Herbaceoous Wetland (km2)','area of Palustrine Emergent Wetland (Persistent) (km2)',
+            'area of Palustrine Emergent Wetland (km2)','area of Palustrine Aquatic Bed (km2)',
+            'area of Estuarine Aquatic Bed (km2)','Garbage (Solid Waste)','Landfills',
+            'Food Waste and Recovery','International Electronic Waste (E-Waste)','Academic Laboratory Wastes',
+            'Cathode Ray Tubes (CRTs)','Household Hazardous Waste','Mixed Radiological Wastes',
+            'Pharmaceutical hazardous wastes','Polychlorinated Biphenyls (PCBs)','Solvent-Contaminated Wipes',
+            'Special Wastes','Universal Waste','Used Oil','zinc, oxygen, and pH in seawater','Dissolved oxygen',
+            'Water Temperature','Specific conductance','pH','Turbidity','Herbicide use']
 
 # 3. social indicator
 social = ["number of libraries", "average age", "adult obesity", "measles incidence", "flu incidence", "Human Development Index",
@@ -42,11 +121,11 @@ social = ["number of libraries", "average age", "adult obesity", "measles incide
           "renter occupied", "burglary per 1000 household", "infant mortality rate", "number of pedestrian accidents", "number of academic articles published",
           "number of Olympic game awards", "percent of forest area", "percent of farms with female principal operator", "percentage of respondents who did not provide a workplace address at Area unit level",
           "License plate vanitization rate", 'Race diversity index', 'difference in race diversity', ]
-# 4. housing indicator
+# 4. housing indicator - economic
 housing = ['Average number of bedrooms of houses', 'Average square footage of houses', 'Age of householder', 'Average year built', 'Household income', 'Average monthly housing cost',
            'Average monthly housing cost as percentage of income', 'Average poverty level for household']
 
-# 5. retail indicator
+# 5. retail indicator - economic
 salesForRetail = 'Estimated annual sales for '
 retailBusiness = ['total', 'total (excl. motor vehicle & parts)', 'total (excl. gasoline stations)', 'total (excl. motor vehicle & parts & gasoline stations)',
                   'Motor vehicle & parts Dealers', 'Auto & other motor veh. Dealers', 'New car dealers', 'Auto parts', 'acc. & tire store', 'Furniture & home furn. Stores', 'Furniture stores', 'Home furnishings stores',
@@ -55,7 +134,7 @@ retailBusiness = ['total', 'total (excl. motor vehicle & parts)', 'total (excl. 
                   'Shoe stores', 'Sporting goods hobby, musical instrument, & book stores', 'General merchandise stores', 'Department stores', 'Other general merch. Stores', 'Warehouse clubs & supercenters',
                   'All oth. gen. merch. Stores', 'Miscellaneous store retailer', 'Nonstore retailers', 'Elect. shopping & m/o houses', 'Food services & drinking places']
 
-# 6. manufacturing indicator
+# 6. manufacturing indicator - economic
 capitalExpenses = ['Number of employees', 'Annual payroll',	'Production workers average for year', 'Production workers annual hours', 'Production workers annual wages', 'Total cost of materials',
                    'Total value of shipments and receipts for services', 'Total capital expenditures']
 connectWordManu = ' of '
@@ -144,7 +223,7 @@ timeUseType = ['Sleeping', 'Grooming', 'Health-related self care', 'Personal act
 
 # generate title
 def getTitle():
-    titleTypeID = random.randint(0, 11)
+    titleTypeID = random.randint(0, 15)
     year = random.randint(1950, 2020)
     geoRegion = ['the United States', 'U.S.','US', 'USA', 'UK',
                  'China', 'Canada', 'South Korea', 'France']
@@ -152,15 +231,15 @@ def getTitle():
     adminLevel = ['state','province','county', 'township', 'census tract']
     lenAdminLevel = len(adminLevel)
 
-    if (titleTypeID == 0):
+    if (titleTypeID == 0 or titleTypeID == 12):
         lenDemo = len(demographic)
         lenSub = len(subgroupPeople)
         theme = demographic[random.randint(
             0, lenDemo-1)] + " of " + subgroupPeople[random.randint(0, lenSub-1)]
-    elif (titleTypeID == 1):
+    elif (titleTypeID == 1 or titleTypeID == 13):
         lenEco = len(economic)
         theme = economic[random.randint(0, lenEco-1)]
-    elif (titleTypeID == 2):
+    elif (titleTypeID == 2 or titleTypeID == 14):
         lenPhy = len(physical)
         theme = physical[random.randint(0, lenPhy-1)]
     elif (titleTypeID == 3):
@@ -252,12 +331,12 @@ def getTitleList(numTitle):
 
 
 def main():
-    numTitle = 50
+    numTitle = 1000
     titleList = getTitleList(numTitle)
-    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\testTitleList.txt', 'w') as f:
+    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\generatedTitles.txt', 'w') as f:
         for item, labelList in titleList:
             f.write("%s\n" % item)
-    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\labelTemplate.txt', 'w') as f:
+    with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\generatedTitleswithLabels.txt', 'w') as f:
         for item, labelList in titleList:
             f.write("(\n")
             f.write('"%s",\n' % item)
