@@ -486,11 +486,11 @@ def drawWmap(index, filename):
     # 1. size and location
     mapSize = getSize()
     # x1, y1, x2, y2 = 73.62, 18.16, 134.76, 53.55 # china wgs84
-    x1, y1, x2, y2 = -124.70, 24.94, -66.97, 49.37 # US
+    # x1, y1, x2, y2 = -124.70, 24.94, -66.97, 49.37 # US
     # x1, y1, x2, y2 = 126.11, 33.18, 129.58, 38.62 # South Korea
     # x1, y1, x2, y2 = -141.00, 41.67, -52.61, 83.11 # Canada
     # x1, y1, x2, y2 = 112.91, -43.66, 153.62, -10.71 # Austrilia
-    # x1, y1, x2, y2 = -10.47, 34.92, 40.17, 71.11 # Europe
+    x1, y1, x2, y2 = -10.47, 34.92, 40.17, 71.11 # Europe
 
     deltaX = x2 - x1
     deltaY = y2 - y1
@@ -929,7 +929,7 @@ def main():
     
     for i in range(0,50):
         # for i in range(len(meta_data)):
-        filename = 'generated_legend_US_' + str(i) + '.png'
+        filename = 'generated_legend_EU_' + str(i) + '.png'
         # if(i >= 40 and i < 50):
         drawWmap(i, filename)
         # elif(i >= 15 and i < 30):
@@ -941,7 +941,7 @@ def main():
         # drawWmapProjectionStyle(i,filename)
 
     # meta_data.to_csv('result.csv', index=False)
-    filename='generated_Hlegend_annotation_US'+'.txt'
+    filename='generated_Hlegend_annotation_EU'+'.txt'
     file = open(path + filename,'a')
     file.writelines(strList)
     # file.writelines(incorrectImgNameStrList)

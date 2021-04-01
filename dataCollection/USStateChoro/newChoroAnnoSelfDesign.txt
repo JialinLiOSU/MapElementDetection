@@ -1,0 +1,21 @@
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/choropleth-map-intro-example.png,8,29,347,60,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/choropleth-map-intro-example.png,7,1,316,27,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/choropleth.png,25,357,334,439,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/choropleth_example.png,567,84,1114,181,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/choropleth_example.png,380,2,1202,81,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/covid19_map2.png,720,6,3168,238,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/covid19_map2.png,229,1660,568,2114,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/file-EkN4KY9skJ.png,1249,65,1630,178,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/js_NYT_unemploymentMap.png,9,11,155,66,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/population-density-counties-1.png,1,13,302,354,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/RIK9t.png,1058,37,1203,489,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/RIK9t.png,178,3,874,38,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/Screenshot_3.png,562,380,736,407,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100123.png,9,873,483,938,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100123.png,274,8,1251,187,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100147.png,7,867,1160,931,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100147.png,274,2,1261,169,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/coronavirus_us.png,44,8,758,67,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/coronavirus_us.png,3,567,796,596,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100136.png,280,3,1255,175,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalGood/WeChat Screenshot_20210203100136.png,7,865,674,935,1

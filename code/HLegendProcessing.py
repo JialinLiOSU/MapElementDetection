@@ -12,10 +12,10 @@ import numpy as np
 import matplotlib.pyplot as plt  
 
 path = r'C:\Users\jiali\Desktop\MapElementDetection\code\generatedHLegendImages'
-imagePath = r'C:\Users\jiali\Desktop\Map_Identification_Classification\world map generation'
+imagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\generatedHLegendForDetection'
 
 # read annotation file
-annoFilename='generated_Hlegend_annotation_US.txt'
+annoFilename='generated_Hlegend_annotation_AU.txt'
 file = open(imagePath +'\\'+ annoFilename,'r')
 annotations = file.read()
 # file.writelines(incorrectImgNameStrList)

@@ -18,7 +18,6 @@
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/21.8264524_f520.jpg,49,8,430,25,0
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/21.8264524_f520.jpg,10,237,85,283,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/292_Chloro_folium.png,554,5,972,51,1
-/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/42.moood-map-of-us.jpg,20,405,288,473,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/6.map-AmFact-5nat-breaks-green-80pct.jpg,1,2,99,118,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/6.map-AmFact-5nat-breaks-green-80pct.jpg,303,9,493,25,0
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/77297739_2771795239530873_2730099745568587776_o.png,401,6,1247,76,0
@@ -26,10 +25,6 @@
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/81.Equal%20Intervals-7.jpg,4,10,140,212,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/81.Equal%20Intervals-7.jpg,346,19,650,38,0
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/86.5644OS_04_01.jpg,531,85,597,220,1
-/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/88.f1-basicchoroplethmap_0.jpg,27,378,554,420,1
-/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/88.f1-basicchoroplethmap_0.jpg,158,16,412,42,0
-/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/93.kisspng-united-states-choropleth-map-u-s-state-botched-5b1f544c3c1997.3561436615287798522462.jpg,2,0,206,37,0
-/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/93.kisspng-united-states-choropleth-map-u-s-state-botched-5b1f544c3c1997.3561436615287798522462.jpg,2,107,430,164,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/business application 19Q4-20Q4.png,611,500,850,567,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/business application 19Q4-20Q4.png,237,11,535,95,0
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/construction_july16.jpg,185,27,569,50,0
@@ -48,8 +43,6 @@
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/lab_81.jpg,50,49,805,108,0
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/license plate vanitization rate 2007.png,145,126,277,180,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/Map_of_states_by_median_household_income_in_2014.svg.png,1047,367,1179,555,1
-/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/PerCapitaMap-LN-jumbo.png,369,47,722,107,1
-/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/PerCapitaMap-LN-jumbo.png,367,7,727,44,0
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/percentPopl65andOlder.png,204,295,447,358,0
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/percentPopl65andOlder.png,505,250,602,347,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/Poverty 2012.jpg,416,258,508,325,1
@@ -65,6 +58,8 @@
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/unnamed-chunk-25-1.png,8,275,136,414,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/unnamed.png,429,231,504,352,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/unnamed.png,139,13,390,46,0
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/US Covid-19 average daily case rate in last 7 days.png,20,872,1044,932,1
+/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/US Covid-19 average daily case rate in last 7 days.png,25,0,1182,31,0
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map108.jpg,51,0,310,35,0
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map108.jpg,287,192,345,254,1
 /content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/finalBad/us_map124.jpg,281,216,355,282,1

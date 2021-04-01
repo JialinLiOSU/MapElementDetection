@@ -18,7 +18,7 @@ def main():
 
     finalTestGoodPath = json_folder + '\\' + 'train_finaltest_good.json'
     finalTestBadPath = json_folder + '\\' + 'train_finaltest_bad.json'
-    drivePath = '/content/drive/My Drive/Map element detection/cocoFormatDataTrainTest/'
+    drivePath = '/content/drive/My Drive/Map_element_detection/cocoFormatDataTrainTest/'
     
     with open(finalTestGoodPath) as json_file: 
         finalTestGoodJson = json.load(json_file) 
@@ -48,10 +48,10 @@ def main():
                         str(xMax) + ',' + str(yMax) + ',' +str(label_id) + '\n'
         goodStrList.append(goodLineStr)
 
-    # finalGoodAnnName = json_folder + '\\' + 'finalGoodTestAnnoSelfDesign.txt'
-    # file = open(finalGoodAnnName, 'a')
-    # file.writelines(goodStrList)
-    # file.close()
+    finalGoodAnnName = json_folder + '\\' + 'finalGoodTestAnnoSelfDesign.txt'
+    file = open(finalGoodAnnName, 'a')
+    file.writelines(goodStrList)
+    file.close()
 
     # process label data for final test bad
     badStrList = []
