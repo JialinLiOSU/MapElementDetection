@@ -35,6 +35,10 @@ def getTitleBboxImage(imgName,detectResults):
     return bbox
 
 def getTextBboxes(imgName, ocrResults):
+    if imgName =='1990 census data % of population 65 and older.png':
+        imgName = '1990 census data _ of population 65 and older.png'
+    if imgName == '81.Equal%20Intervals-7.jpg':
+        imgName = '81.Equal_20Intervals-7.jpg'
     for result in ocrResults:
         if result[0] == imgName:
             return result[1:]
@@ -60,19 +64,20 @@ def getUnionBbox(titleTextBboxes):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsFinalGood.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsFinalBad.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrFinalGood.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\easyOCRFinalBad.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
     # read image data
     # testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
-    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTest'
+    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTestBad'
     testImageDir = os.listdir(testImagePath)
+    testImageDir.sort()
 
     titleResults = []
     strList = []
@@ -85,9 +90,9 @@ def main():
         
         img = cv2.imread(testImagePath + '\\'+imgName)
 
-        cv2.imshow(imgName, img)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        # cv2.imshow(imgName, img)
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
 
         # get title bboxes and text bboxes
         titleBbox = getTitleBboxImage(imgName,detectResults)
@@ -135,20 +140,14 @@ def main():
         #         numLinesTitle = len(titleTextBboxes)
         #         unionBbox = getUnionBbox(titleTextBboxes) 
         #         enlargPoly = box(unionBbox[0],unionBbox[1],unionBbox[2],unionBbox[3] + titleLineHeight)
-
-        
-
-
-
-        print('test')
         
 
     print('test')
-    # with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResultsFinalGood.pickle', 'wb') as f:
-	#     pickle.dump(titleResults,f)
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResultsFinalBad.pickle', 'wb') as f:
+	    pickle.dump(titleResults,f)
     
 
-    # file = open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResultsFinalGood.txt','a')
-    # file.writelines(strList)
+    file = open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResultsFinalBad.txt','a')
+    file.writelines(strList)
 
 if __name__ == "__main__":    main()

@@ -353,20 +353,21 @@ def getTextForRect(rect,numerTextBboxes):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsFinalGood.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsFinalBad.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\OCR\ocrFinalGood.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\easyOCRFinalBad.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
     # read image data
     # testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
-    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTest'
+    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTestBad'
     testImageDir = os.listdir(testImagePath)
-    savePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\legendAnalysisFinalGood'
+    testImageDir.sort()
+    savePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\legendPostProcessFinalBad'
         
 
     legendResults = []
@@ -392,7 +393,7 @@ def main():
         # get legend bboxes, text bboxes, and rectangles
         legendBbox = getLegendBboxImage(imgName,detectResults)
         if legendBbox == None:
-            print('no legend detected!')
+            # print('no legend detected!')
             # cv2.imshow(imgName, img)
             # cv2.waitKey(0)
             # cv2.destroyAllWindows()
@@ -409,7 +410,12 @@ def main():
         if len(textBBoxes) == 0:
             print('No text in the map image!')
             finalLegendBox = legendShapelyBox
-            # cv2.imwrite(savePath + '\\' + imgName, img) 
+                # visualize results
+            legendResults.append((imgName,finalLegendBox,[],[],[]))
+            startPoint = (int(finalLegendBox.bounds[0]), int(finalLegendBox.bounds[1]))
+            endPoint = (int(finalLegendBox.bounds[2]), int(finalLegendBox.bounds[3]))
+            cv2.rectangle(img,startPoint,endPoint,(255, 0, 0),2)
+            cv2.imwrite(savePath + '\\' + imgName, img) 
             # cv2.imshow(imgName, img)
             # cv2.waitKey(0)
             # cv2.destroyAllWindows()
@@ -418,8 +424,8 @@ def main():
         # get TextShapelyBoxList and text bboxes in legend
         legendTextShapelyBoxList = getLegendTextShapelyBoxList(legendShapelyBox, textShapelyBoxList)
         legendTextBboxes = getLegendTextBboxes(legendShapelyBox,textBBoxes)
-        if len(legendTextBboxes) == 0:
-            print('No text in legend of the map image!')
+        # if len(legendTextBboxes) == 0:
+        #     print('No text in legend of the map image!')
             # cv2.imwrite(savePath + '\\' + imgName, img) 
             # finalLegendBox = legendShapelyBox
             # cv2.imshow(imgName, img)
@@ -433,14 +439,14 @@ def main():
         # identify the alignment of numeric text bboxes
         align, numerTextShapeBoxList,numerTextBboxes, numTextBboxHeightList = alignmentValueText(legendTextBboxes)
         if align == -1:
-            print('No numerical text in legend of the map image!')
+            # print('No numerical text in legend of the map image!')
             finalLegendBox = unionLegendShapelyBox
             # cv2.imwrite(savePath + '\\' + imgName, img) 
             # cv2.imshow(imgName, img)
             # cv2.waitKey(0)
             # cv2.destroyAllWindows()
             # continue
-        print('test')
+        # print('test')
 
         #### if alighnment is vertical
         # calculate median heigh of numTextPolygon
@@ -450,7 +456,7 @@ def main():
         # rect detection
         legendRectShapeBoxList = getRectShapeBox(img, unionLegendShapelyBox, legendTextShapelyBoxList)
         numLegendRectShapelyBox = len(legendRectShapeBoxList)
-        print('legend rect numbers: ' + str(numLegendRectShapelyBox))
+        # print('legend rect numbers: ' + str(numLegendRectShapelyBox))
         unionLegendShapelyBox = getUnionBbox(unionLegendShapelyBox,legendRectShapeBoxList) # union of legend text bbox
 
         # downward enlarge legend bbox
@@ -552,7 +558,7 @@ def main():
         #         compLegendRectList.append([compRect,textBbox])
         # legendResults.append([imgName] + [finalLegendBox.bounds])
 
-        print('test')
+        # print('test')
         colorCategoryList = []
         # for legendRect in legendRectShapeBoxList:
         #     startPoint = (int(legendRect.bounds[0]), int(legendRect.bounds[1]))
@@ -583,7 +589,7 @@ def main():
         # save the position of the legend rects, texts and contents
         legendResults.append((imgName,finalLegendBox,legendRectShapeBoxList,legendTextShapelyBoxList,legendTextBboxes))
     print('test')
-    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendFinalGoodResults.pickle', 'wb') as f:
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendFinalBadResults.pickle', 'wb') as f:
 	    pickle.dump(legendResults,f)
 
         #### No need to crop the image to get the US boundary

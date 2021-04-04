@@ -1,69 +1,61 @@
 105045179_3236770016366724_6425280166765659680_o.jpg,United States Passport Ownership 
-120512495_3531289553581434_859214603117834042_n.png,Interest in United States Presidential Debates September 29-30, 2020
-122.US-map-7custom-pink-red-bigtitle.jpg,1990 Census Data % of Population 65 and Older
-13.gg_state_temperatures.jpg,Average Temperature for the US States from July 2015
-131.choropleth.jpg,Choropleth Map
-1473973551390.jpg,Median Household Income in the United States: 2015
-15.7398965884_f0b7e9c177_c.jpg,Population per square mile by state
-1505335362936.jpg,Poverty in the United States Percentage of People in Poverty by State
-1536798495904.jpg,2017 Poverty Rate in the United States
-1569504622191.jpg,Figure 2 Percentage of People in Poverty for the United States and Puerto Rico: 2018
-187.slide_3.jpg,Change in Divorce Rates Between 1980 and 1990
-192.map-catalog-gis-3015-univariate-choropleth-map-percentage_fb_grafy.jpg,Figure 1 Percentage of the People Living in Poverty Areas by State: 2006-2010 
-1_RR-cmQrDtwBSJKXIdJpshQ.png,Share of High School Students Attending a School with a Sworn Law Enforcement Officer 
+120512495_3531289553581434_859214603117834042_n.png,Interest in United States Presidential Debates (September 29-30, 20201 
+122.US-map-7custom-pink-red-bigtitle.jpg,1990 Census Data % of Population 65 and Older 
+13.gg_state_temperatures.jpg,Average Temperature for the US States from July 2015 
+131.choropleth.jpg,Choropleth Map 
+1473973551390.jpg,Median Household Income in the United States: 2015 
+1505335362936.jpg,Poverty in the United States Percentage of People in Poverty by State 
+1536798495904.jpg,2017 Poverty Rate in the United States 
+1569504622191.jpg,Figure 2. Percentage of People in Poverty for the United States and Puerto Rico: 2018 E0O Miles 
+187.slide_3.jpg,Change in Divorce Rates Between 1980 and 1990 
+192.map-catalog-gis-3015-univariate-choropleth-map-percentage_fb_grafy.jpg,Figure 1 _ Percentage of the People Living in Poverty Areas by State: 2006-2010 
+1990 census data % of population 65 and older.png,1990 Census Data % of Population 65 and Older 
+1_RR-cmQrDtwBSJKXIdJpshQ.png,Share of High School Students Attending a School with aSworn Law Enforcement Officer 
 2019-09-06-us-state-choropleth.png,State Rankings 
-22.Map.jpg,Estimated Median Household Income 2008 Contiguous United States 
 27356127_1747333678643706_235335965965930808_o.jpg,Amish Population per state (2010) 
 35.lab-7.jpg,Percent of People Below Poverty Level 2004 
-7.7886413.jpg,US Population Density
-750px-2000-census-percent-change.png,Figure 1. Percent Change in Resident Population for the 50 States the District of Columbia and Puerto Rico: 1990 to 2000 
-800px-USA_states_population_density_map.PNG,Population per square mile by state 
+7.7886413.jpg,US Population Density Hover over state 
+750px-2000-census-percent-change.png,Figure Percent Change in Resident Population for the 50 States the District of Columbia and Puerto Rico: 1990 to 2000 
 8174f3a2c3d81dbb43a316b8a8deff53.jpg,Total withdrawals and deliveries 
-9017-figure-1.png,Figure1 Share of Nonelderly Population in Rural Area by State, 2015
-99.obesity-2010.jpg,Obesity Trends* Among U.S. Adults BRFSS, 2010 ("BMMI =30 30 Ibs overweight for 5' person) 
-cdc-map-03-24-2020.jpg,States Reporting Cases ofCOVID-19 to CDC* 
-ch-07-firstmap-06-1.png,Trump vote 
-ch-07-purple2nd-1.png,Winning margins 
-chinastatefeature.png,Trade in goods with China as a % ofstate GDP
-Choropleth-map-of-policy-conditions-across-US-states-Colours-represent-existing.png,Smoke-free air law coverage by state (2017) 
-choropleth.png,U.S. Motor Vehicle Fatalities, 2008
-coronavirus-covid-19-united-states-statista.jpg,Confirmed COVID-19 Cases in the U.S. U.S. states with current COVID-19 cases, by number of patients infected* 
-coronavirus_us-1.png,1,170 Coronavirus (COVID-19) Cases in the US Data source: Johns Hopkins CSSE (March 11, 2O20 snapshot) 
-coronavirus_us.png,5,473,317 Confirmed Coronavirus (COVID-19) Cases in US States Data source: Johns Hopkins CSSE (August 20, 2020 snapshot) 
-economix-28statepoverty-custom1.jpg,Percentage of People in Poverty in the Past 12 Months by State and Puerto Rico: 2009 
-economix-31fedfundstostates3-custom1.jpg,Federal Gaverment Expendilure. Per capila Ranges Dy State: Fiscal Year 2009 
+9017-figure-1.png,Figure 1 Share of Nonelderly Population in Rural Area by State, 
+99.obesity-2010.jpg,Obesity Trends* Among U.S. Adults BRFSS, 2010 (*BMI 230 30 Ibs- overweight for 5' person) 
+Choropleth-map-of-policy-conditions-across-US-states-Colours-represent-existing.png,Smoke-free air law coverage by state (2017) 50% 100% 
 EiofKsyXkAE-Iug.jpg,United States COVID-19 Cases in the Last 7 Days By State and Jurisdiction 
 IRB_choropleth.png,Influenza Research Database Reported Cases 2017-18 
-kG5w83Kc9AEyBDC8vnymkf.jpg,COVID 19 in the US. 
-maps12-1.png,Mexican American Population 2010 US Census 
-map_wm_persons.jpg,Number of Persons per Wal Mart Store 
-map_wm_sf.jpg,Wal Mart Square Footage per Person 
+MW-GN051_gdp_gr_20180724125451_MG.jpg,GDP growth by state in the first quarter of 2018 Percent change 
 Median-income-change-chart-from-census.jpg,Median Household Income in the Past 12 Months for the United States and Puerto Rico: 2015 
-median_income_2016.png,Median Income, 2016 CPS Data 
-MW-GN051_gdp_gr_20180724125451_MG.jpg,GDP growth by state in the frst quarter of 2018 
-Obese_by_state-2007.png,Percentage of Individuals with BMI >=30* by State - 2007
-oct2020-01.png,State Gross Domestic Product, Second Quarter of 2020 Seasonally and inflation-adjusted percent change year over year 
-pj3w22wd2nn01.png,Percent Change in Real GDP by State, 2017:Q2-2017:03, Seasonally Adjusted at Annual Rates 
-qgdpstate0720.png,Percent Change in Real GDP by State, 2019:04-2020:01 
+Obese_by_state-2007.png,Percentage of Individuals with BMI 230* by State 2007 (Source BRFSS; 1990, 1998, 2007) 
 ShareFigure1990.png,Federal Grants Vary as a Share of State Budgets Percentage of state revenue from federal funds, state fiscal year 2014 
-slide_57.jpg,Percentage of secondary schools that provide curricula or supplementary materials and engage in 5 practices related to LGBTQ youth 
-states-mortality-map_0.jpg,Coronavirus mortality in US, per million population 
 Static-Choropleth-of-the-US-1.jpg,American Community Survey 5-year Estimates Percentage of Rural Population in Poverty for the United States: 2011-2015 
-title-choropleth-map.png,2011 U.S. Agriculture Exports by State 
-unstandardized.jpg,Unemployment 2008 
-US Covid-19 average daily case rate in last 7 days.png,US COVID-19 Average Daily Case Rate in Last 7 Days, by State/Territory (cases per 100K) 
-US Venture Capital Landscape 2011.png,Geo Choropleth Chart: US Venture Capital Landscape 2011
-USA_states_population_density_map.png,Population per square mile by state 2000 census figures 
-us_map87.jpg,Q3 2018 Installed Wind Power Capacity (MW) 
-uUjYD.png,2011 US Agriculture Exports by State (Hover for breakdown) 
-WeChat Screenshot_20210203100052.png,Obesity Trends* Among U.S. Adults BRFSS, 1986 (*BMI>30, or~30 Ibs. overweight for 5'4" person) 
-WeChat Screenshot_20210203100123.png,Obesity Trends* Among U.S. Adults BRFSS, 1986 (*BMI>30, or~30 Ibs., overweight for 5'4" person) 
-WeChat Screenshot_20210203100136.png,Obesity Trends* Among U.S. Adults BRFSS, 1996 (*BMI>30, or~30 Ibs. overweight for 5'4" person) 
-WeChat Screenshot_20210203100147.png,Obesity Trends* Among U.S. Adults BRFSS, 2008 *BMI230, or~30 Ibs. overweight for 5'4" person) 
+U.S._states_by_GDP_per_capita_2017.jpg,
+US Venture Capital Landscape 2011.png,Geo Choropleth Chart: US Venture Capital Landscape 2011 
+WeChat Screenshot_20210203100052.png,Obesity Trends* Among U.S. Adults BRFSS, 1986 (XBMI 230,or ~ 30 Ibs, overweight for 5' 4" person) 
 WeChat Screenshot_20210203101633.png,Most states still have too many daily cases per capita Daily new coronavirus cases were mostly above 4 per 100,000 people as of August 10 
 WeChat Screenshot_20210203101649.png,Many states have high coronavirus infection rates The effective reproduction number, or Rt, for Covid-19 in each state as of August 10 
 WeChat Screenshot_20210203101705.png,Most states have positive rates that are too high Positive rates for daily new coronavirus tests were mostly above 5 percent as of August 10 
-WeChat Screenshot_20210203110034.png,State Outdoor Recreation Value Added as a Percent of State GDP,2019 
+WeChat Screenshot_20210203110034.png,State Outdoor Recreation Value Added as a Percent of State GDP; 2019 
 WeChat Screenshot_20210203112622.png,Age-Adjusted Prevalence of Diagnosed Diabetes Among US Adults 
 WeChat Screenshot_20210203112642.png,Age-Adjusted Prevalence of Diagnosed Diabetes Among US Adults 
-_113143802_optimised-usmapcases_jh_29jun-nc.png,Cases still high in many US states
+_113143802_optimised-usmapcases_jh_29jun-nc.png,Cases still high in many US states Average daily cases in the last week per million people 0-49 50-99 100-149 150-199 200+ 
+cdc-map-03-24-2020.jpg,States Reporting Cases of COVID-19 to CDC* 
+ch-07-firstmap-06-1.png,Trump vote 
+ch-07-purple2nd-1.png,Winning margins 
+chinastatefeature.png,% of state GDP 
+coronavirus-covid-19-united-states-statista.jpg,Confirmed COVID-19 Cases in the U.S. U.S. states with current COVID-19 cases, by number of patients infected* 
+coronavirus_us-1.png,1,170 Coronavirus (COVID-19) Cases in the US Data source; Johns Hopkins CSSE (March 11,2020 snapshot) 
+economix-28statepoverty-custom1.jpg,Percentage of People in Poverty in the Past 12 Months by State and Puerto Rico: 2009 
+economix-31fedfundstostates3-custom1.jpg,Federal Govemment Expenciture Per Capita Ranges by State: Fiscal Year 2009 
+kG5w83Kc9AEyBDC8vnymkf.jpg,COVID-1 9 in the Ua?a 
+map_wm_persons.jpg,Number of Persons per Wal-Mart Store 
+map_wm_sf.jpg,Wal-Mart Square Footage per Person 
+maps12-1.png,Mexican American Population 2010 US Census 
+median_income_2016.png,Median Income, 2016 CPS Data 
+oct2020-01.png,State Gross Domestic Product; Second Quarter of 2020 Seasonally and inflation-adjusted percent change year over year 
+pj3w22wd2nn01.png,Percent Change in Real GDP by State, 2017.02-2017.03, Seasonally Adjusted at Annual Rates 
+qgdpstate0720.png,Percent Change in Real GDP by State, 2019.04-2020:01 
+slide_57.jpg,Percentage of secondary schools thatprovide curricula or supplementary materials and engage in 5 practices related to LGBTQ youth 
+states-mortality-map_0.jpg,Coronavirus mortality in US, per million population 
+title-choropleth-map.png,201 = U.S. Agriculture Exports by State 
+uUjYD.png,2011 US Agriculture Exports by State (Hover for breakdown) 
+unstandardized.jpg,Unemployment 2008 
+us_map87.jpg,Q3 2018 Installed Wind Power Capacity (MW) 

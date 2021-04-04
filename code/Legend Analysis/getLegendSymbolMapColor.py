@@ -258,7 +258,7 @@ def main():
         legendResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrFinalGood.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\easyOCRFinalGood.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
