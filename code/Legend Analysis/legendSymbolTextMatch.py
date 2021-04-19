@@ -91,6 +91,17 @@ def isVertIntersectBoxBox(legendTextShapelyBox,vertIntervalText):
         isVertIntersect = True
     return isVertIntersect
 
+def isHorizonIntersectBoxBox(textBox,horizonRangeLegendRect):
+    isHorizonIntersect = False
+    xMinText = textBox.bounds[0]
+    xMaxText = textBox.bounds[2]
+    xMinLegRec = horizonRangeLegendRect[0]
+    xMaxLegRec = horizonRangeLegendRect[1]
+    if (xMaxText >= xMinLegRec and xMaxLegRec >= xMinText) :
+        isHorizonIntersect = True
+    return isHorizonIntersect
+
+
 def isVertIntersectBoxList(legendTextShapelyBox,vertIntervalTextList):
     isVertIntersect = False
     yMin = legendTextShapelyBox.bounds[1]
@@ -124,28 +135,106 @@ def getTextsForLegendRect(LegendRectBounds,legendTextShapelyBoxList,legendTextBb
         if isVertIntersectBoxBox(legendTextShapelyBoxList[i],vertRangeLegendRect):
             text = text + ' ' + legendTextBboxes[i][1]
     return text
+def getTextsForLegendRectNew(LegendRectBounds,centroidLegendRect,isVertAligned,isFromSP,legendTextShapelyBoxList,legendTextBboxes):
+    # dont identify whether vertically intersected
+    # but find texts according to vertically or horizontally distance
+    if isVertAligned:
+        if not isFromSP:
+            vertRangeLegendRect = (LegendRectBounds[1],LegendRectBounds[3])
+            text = ''
+            textBox = None
+            for i in range(len(legendTextShapelyBoxList)):
+                if isVertIntersectBoxBox(legendTextShapelyBoxList[i],vertRangeLegendRect):
+                    text = text + ' ' + legendTextBboxes[i][1]
+                    textBox = legendTextShapelyBoxList[i]
+            return text,textBox
+        else:
+            # find text box with smallest y distance
+            yTarget = centroidLegendRect.y
+            yDistanceList = []
+            for i in range(len(legendTextShapelyBoxList)):
+                yText = legendTextShapelyBoxList[i].centroid.y
+                yDistance = abs(yText - yTarget)
+                yDistanceList.append(yDistance)
+            indexMinYDistance = yDistanceList.index(min(yDistanceList))
+            text = legendTextBboxes[indexMinYDistance][1]
+            textBox = legendTextShapelyBoxList[indexMinYDistance]
+    else:
+        xTarget = centroidLegendRect.x
+        xDistanceList = []
+        vertRangeLegendRect = (LegendRectBounds[1],LegendRectBounds[3])
+        for i in range(len(legendTextShapelyBoxList)):
+            textBox = legendTextShapelyBoxList[i]
+            isVIntersect = isVertIntersectBoxBox(textBox,vertRangeLegendRect)
+            if isVIntersect:
+                xText = legendTextShapelyBoxList[i].centroid.x
+                xDistance = abs(xText - xTarget)
+                xDistanceList.append(xDistance)
+            else:
+                xDistanceList.append(999999999999)
+        indexMinXDistance = xDistanceList.index(min(xDistanceList))
+        text = legendTextBboxes[indexMinXDistance][1]
+        textBox = legendTextShapelyBoxList[indexMinXDistance]
+    return text, textBox
+
+def isVerticallyAligned(procLegendRectBoundsList):
+    # identify the alignment of legend rects
+    isVerticallyAligned = True
+    isVertAlignedListI = []
+    if len(procLegendRectBoundsList)==1:
+        return isVerticallyAligned
+    for i in range(len(procLegendRectBoundsList)):
+        legendRectBounds = procLegendRectBoundsList[i]
+        xMin = legendRectBounds[0]
+        xMax = legendRectBounds[2]
+        isVertAlignedListJ = []
+        for j in range(len(procLegendRectBoundsList)):
+            if i == j:
+                isVertAlignedListJ.append(True)
+                continue
+            targetLegendRectBounds = procLegendRectBoundsList[j]
+            xMinTarg = targetLegendRectBounds[0]
+            xMaxTarg = targetLegendRectBounds[2]
+            #X2 >= Y1 and Y2 >= X1
+            if (xMax >= xMinTarg and xMaxTarg >= xMin):
+                isVertIntersect = True
+            else:
+                isVertIntersect = False
+            isVertAlignedListJ.append(isVertIntersect)
+        if isVertAlignedListJ.count(False) > len(isVertAlignedListJ)/3:
+            isVertAlignedListI.append(False)
+        else:
+            isVertAlignedListI.append(True)
+    return isVertAlignedListI.count(True) >= len(isVertAlignedListI)*2/3
 
 def main():
     # read detection results from pickle file
-    legendResultsName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendFinalBadResults.pickle'
-    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTestBad'
+    legendResultsName = r'C:\Users\jiali\Desktop\MapElementDetection\code\Legend Analysis\legendPostProcessMappingColorResultsShuaichen.pickle'
+    testImagePath = r'C:\Users\jiali\Desktop\shuaichen\images'
     testImageDir = os.listdir(testImagePath)
+    savePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\legendSymbolTextMatchingShuaichen'
     with open(legendResultsName, 'rb') as flegendResultsResults:
-        # legend results format: (imgName,finalLegendBox,legendRectShapeBoxList,legendTextShapelyBoxList,legendTextBboxes))
+        # format: (imgName,finalLegendBox,legendRectShapeBoxList,legendRectDomiGreyList,isFromSuperPixelList,legendTextShapelyBoxList,legendTextBboxes))
         legendResults = pickle.load(flegendResultsResults)
+    
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\titleResultsFinalGood.pickle', 'rb') as f:
+	    titleResults = pickle.load(f)
+    legendPostProcessMappingColorResults = []
 
     legendMatchingResults = []
-    for legResult in legendResults:
-        imgName = legResult[0]
-        if imgName == '93.kisspng-united-states-choropleth-map-u-s-state-botched-5b1f544c3c1997.3561436615287798522462.jpg' \
-            or imgName == 'PerCapitaMap-LN-jumbo.png':
-            continue
+    for i in range(len(legendResults)):
+        imgName = legendResults[i][0]
+        # if imgName == '93.kisspng-united-states-choropleth-map-u-s-state-botched-5b1f544c3c1997.3561436615287798522462.jpg' \
+        #     or imgName == 'PerCapitaMap-LN-jumbo.png':
+        #     continue
         print(imgName)
         img = cv2.imread(testImagePath + '\\'+imgName)
-        finalLegendBox = legResult[1]
-        legendRectShapeBoxList = legResult[2]
-        legendTextShapelyBoxList =legResult[3]
-        legendTextBboxes = legResult[4]
+        finalLegendBox = legendResults[i][1]
+        legendRectShapeBoxList = legendResults[i][2]
+        legendRectDomiGreyList = legendResults[i][3]
+        isFromSuperPixelList = legendResults[i][4]
+        legendTextShapelyBoxList =legendResults[i][5]
+        legendTextBboxes = legendResults[i][6]
 
         numRectBoxes = len(legendRectShapeBoxList)
         numTextBoxes = len(legendTextBboxes)
@@ -157,29 +246,50 @@ def main():
             print("No text to match")
             continue
 
-        vertRangeText = findVertRangeText(legendTextShapelyBoxList)
+        vertRangeText = findVertRangeText(legendTextShapelyBoxList) # get most common text height
 
         vertIntervalTextList = findVertIntervalTextList(legendTextShapelyBoxList,legendTextBboxes)
 
+        # if there are bboxes with a large height, break it into small ones based on texts
         procLegendRectBoundsList = []
-        for legendRectShapeBox in legendRectShapeBoxList:
+        centroidLegendRectList = []
+        dominantColorList = []
+        isFromSuperPixelListMatch = []
+        for i in range(len(legendRectShapeBoxList)):
+            legendRectShapeBox = legendRectShapeBoxList[i]
             rectHeight = legendRectShapeBox.bounds[3] - legendRectShapeBox.bounds[1]
-            if rectHeight >= vertRangeText * 2:
+            isFromSuperPixel = isFromSuperPixelList[i]
+            if rectHeight >= vertRangeText * 2 and not isFromSuperPixel:
                 for vertIntervalText in vertIntervalTextList:
                     if isVertIntersectBoxBox(legendRectShapeBox,vertIntervalText):
-                        LegendRectBounds = (legendRectShapeBox.bounds[0],vertIntervalText[0],\
+                        LegendRectBox = box(legendRectShapeBox.bounds[0],vertIntervalText[0],\
                             legendRectShapeBox.bounds[2],vertIntervalText[1])
-                        procLegendRectBoundsList.append(LegendRectBounds)
+                        procLegendRectBoundsList.append(LegendRectBox.bounds)
+                        centroidLegendRectList.append(LegendRectBox.centroid)
+                        isFromSuperPixelListMatch.append(0)
                     # print('test')
             else:
-                LegendRectBounds = legendRectShapeBox.bounds
-                procLegendRectBoundsList.append(LegendRectBounds)
+                legendRectBounds = legendRectShapeBox.bounds
+                centroidLegendRect = legendRectShapeBox.centroid
+                procLegendRectBoundsList.append(legendRectBounds)
+                centroidLegendRectList.append(centroidLegendRect)
+                isFromSuperPixelListMatch.append(isFromSuperPixel)
+
+        # identify alignment of the legend symbols
+        isVertAligned = isVerticallyAligned(procLegendRectBoundsList)
 
         textList = []
         dominantColorList = []
-        for LegendRectBounds in procLegendRectBoundsList:
+        centroidLegendRectListVisual = []
+        LegendRectBoundsListVisual = []
+        textBoxList = []
+        for i in range(len(procLegendRectBoundsList)):
+            LegendRectBounds = procLegendRectBoundsList[i]
+            centroidLegendRect = centroidLegendRectList[i]
+            isFromSP = isFromSuperPixelListMatch[i]
             # from LegendRectBounds to get corresponding texts
-            texts = getTextsForLegendRect(LegendRectBounds,legendTextShapelyBoxList,legendTextBboxes)
+            texts,textBox = getTextsForLegendRectNew(LegendRectBounds,centroidLegendRect,isVertAligned,isFromSP,legendTextShapelyBoxList,legendTextBboxes)
+            
             # legendRectShapeBox
             startPoint = (int(LegendRectBounds[0]), int(LegendRectBounds[1]))
             endPoint = (int(LegendRectBounds[2]), int(LegendRectBounds[3]))
@@ -188,8 +298,35 @@ def main():
             dominantColor = unique_count_app(crop_img)
             dominantColorList.append(dominantColor)
             textList.append(texts)
+            textBoxList.append(textBox)
         legendMatchingResults.append((imgName, dominantColorList,textList))
-        # print('test')
+        if all([t == '' for t in textList]):
+            print('imgName: '+ imgName + ', No Text matched')
+            continue
+        
+        # visualize results
+        startPoint = (int(finalLegendBox.bounds[0]), int(finalLegendBox.bounds[1]))
+        endPoint = (int(finalLegendBox.bounds[2]), int(finalLegendBox.bounds[3]))
+        cv2.rectangle(img,startPoint,endPoint,(255, 0, 0),2)
+        for i in range(len(procLegendRectBoundsList)):
+            color = list(np.random.choice(range(256), size=3))
+            colorTuple = (int(color[0]), int(color[1]), int(color[2]))
+            LegendRectBounds = procLegendRectBoundsList[i]
+            startPoint = (int(LegendRectBounds[0]), int(LegendRectBounds[1]))
+            endPoint = (int(LegendRectBounds[2]), int(LegendRectBounds[3]))
+            cv2.rectangle(img,startPoint,endPoint,colorTuple,2)
+
+            TextBox = textBoxList[i]
+            if TextBox != None:
+                startPoint = (int(TextBox.bounds[0]), int(TextBox.bounds[1]))
+                endPoint = (int(TextBox.bounds[2]), int(TextBox.bounds[3]))
+                cv2.rectangle(img,startPoint,endPoint,colorTuple,2)
+
+        cv2.imwrite(savePath + '\\' + imgName, img) 
+        # cv2.imshow(imgName, img)
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
+        print('test')
 
     with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\Legend Analysis\legendMatchingResultsFinalBad.pickle', 'wb') as f:
 	    pickle.dump(legendMatchingResults,f)

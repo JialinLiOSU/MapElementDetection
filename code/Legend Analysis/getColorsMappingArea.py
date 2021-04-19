@@ -252,17 +252,17 @@ def getLegSymbolBboxes(imgName,detectResults):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendFinalGoodResults.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendFinalShuaichen.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         # imgName,finalLegendBox,legendRectShapeBoxList,legendTextShapelyBoxList,legendTextBboxes))
         legendResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\easyOCRFinalGood.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\easyOCRFinalBad.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
-    path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTest'
+    path = r'C:\Users\jiali\Desktop\shuaichen\images'
 
     colorsMappingAreaResults = []
     
@@ -290,8 +290,17 @@ def main():
                 imgDetectResult = dr
 
         # read images and remove texts on the images
-        img = cv2.imread(path + '\\' + img1Name) # Image1 to be matched
-        img1 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        try:
+            img = cv2.imread(path + '\\' + img1Name) # Image1 to be matched
+            img1 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        except:
+            print("not working image: " + img1Name + '\n')
+            continue
+
+        if img.shape[0] > 1000 or img.shape[1] > 1000:
+            print("large image: " + img1Name + '\n')
+            continue
+        
         # imgGrey = cv2.imread(path + '\\' + img1Name, 0) 
         ocrImg1 = [ocr[1:] for ocr in ocrResults if ocr[0]==img1Name]
             
@@ -397,7 +406,7 @@ def main():
         #     print('test')
         # compare legendRectDomPixelValueList and superPixelValueList
 
-    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\legendAnalysis\colorsMappingAreaResultsFinalGood.pickle', 'wb') as f:
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\Legend Analysis\colorsMappingAreaResultsShuaichen.pickle', 'wb') as f:
 	    pickle.dump(colorsMappingAreaResults,f)
 
     

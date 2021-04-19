@@ -4964,7 +4964,7 @@ TEST_DATA_Good = [
         {"entities": [(0, 8, theme),(26, 46, theme),(12, 25, region),(48, 63, time)]},
 ),
 (
-        "1990 Census Data % of Population 65 and Older ",
+        "1990 Census Data percent of Population 65 and Older ",
         {"entities": [(17, 45, theme),(0, 4, time)]},
 ),
 (
@@ -4996,11 +4996,11 @@ TEST_DATA_Good = [
         {"entities": [(0, 23, theme),(32, 36, time),(41, 45, time)]},
 ),
 (
-        "Figure 1 _ Percentage of the People Living in Poverty Areas by State: 2006-2010",
+        "Figure 1   Percentage of the People Living in Poverty Areas by State: 2006-2010",
         {"entities": [(11, 59, theme),(63, 68, admin),(70, 74, time),(75, 79, time)]},
 ),
 (
-        "1990 Census Data % of Population 65 and Older",
+        "1990 Census Data percent of Population 65 and Older",
         {"entities": [(17, 45, theme),(0, 4, time)]},
 ),
 (
@@ -5040,7 +5040,7 @@ TEST_DATA_Good = [
         {"entities": [(0, 14, theme),(21, 25, region),(39, 43, time)]},
 ),
 (
-        "Smoke-free air law coverage by state (2017) 50% 100%",
+        "Smoke-free air law coverage by state (2017) 50percent 100percent",
         {"entities": [(0, 27, theme),(31, 36, admin),(38, 42, time)]},
 ),
 (
@@ -5120,7 +5120,7 @@ TEST_DATA_Good = [
         {"entities": [(10, 15, theme)]},
 ),
 (
-        "% of state GDP",
+        "percent of state GDP",
         {"entities": [(0, 14, theme)]},
 ),
 (
@@ -5216,7 +5216,7 @@ TEST_DATA_Bad = [
         {"entities": [(16, 30, theme),(38, 40, region),(45, 47, region),(48, 52, time)]},
 ),
 (
-        "% Pop of State's Living in it's Largest Metro Area",
+        "percent Pop of State's Living in it's Largest Metro Area",
         {"entities": [(0, 50, theme)]},
 ),
 (
@@ -5276,7 +5276,7 @@ TEST_DATA_Bad = [
         {"entities": []},
 ),
 (
-        "Estimated % of adults who think the President should do more to address global warming (60%) 2019",
+        "Estimated percent of adults who think the President should do more to address global warming (60percent) 2019",
         {"entities": [(0, 86, theme), (93, 97, time)]},
 ),
 (
@@ -5440,7 +5440,22 @@ def main(model="en_core_web_sm", new_model_name="animal", output_dir=None, n_ite
     with open(r"D:\OneDrive - The Ohio State University\Map understanding\NER\en_core_web_sm_THEME.pkl", "rb") as input_file:
         nlp = pickle.load(input_file)
 
-    results = evaluate(nlp, TEST_DATA_Bad)
+    TEST_DATA_Good_update = []
+    for data in TEST_DATA_Good:
+        title = data[0].replace("&", "and")
+        title = title.replace("%", "percent")
+        # title = title.lower()
+        TEST_DATA_Good_update.append((title,data[1]))
+
+    TEST_DATA_Bad_update = []
+    for data in TEST_DATA_Bad:
+        title = data[0].replace("&", "and")
+        title = title.replace("%", "percent")
+        # title = title.lower()
+        TEST_DATA_Bad_update.append((title,data[1]))
+
+    results_good = evaluate(nlp, TEST_DATA_Good_update)
+    results_bad = evaluate(nlp, TEST_DATA_Bad_update)
 
     with open('C:\\Users\\jiali\\Desktop\\MapElementDetection\\code\\Name Entity Recognition\\results.pkl', 'wb') as f:
         pickle.dump(results,f)

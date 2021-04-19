@@ -320,6 +320,7 @@ def main():
         ax = fig.add_subplot(1, 1, 1)
         bounds = mark_boundaries(image, segments)
         ax.imshow(bounds)
+        
 
         bgColor,bgColorSec = getBackgroundColor(img1Proc, imgGrey)
 

@@ -326,12 +326,12 @@ def bfs(root,spShapelyBoxList):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendFinalBadResults.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendFinalGoodResultsNew.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\ocrFinalBad.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\easyOCRFinalGood.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
@@ -340,7 +340,7 @@ def main():
     with open(usBoundResultName, 'rb') as fUSBoundResults:
         USBoundResults = pickle.load(fUSBoundResults)
 
-    savePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\CentroidStatesFinalBad'
+    savePath = r'C:\Users\jiali\Desktop\shuaichen\processed_images'
 
     # get geographic information from shape file
     # conic projection file
@@ -358,22 +358,25 @@ def main():
     deltaGeoWGSX = x2w - x1w
     deltaGeoWGSY = y2w - y1w
 
-    path = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTestBad'
+    path = r'C:\Users\jiali\Desktop\shuaichen\images'
 
     beforeOrAfter = 0
     centroidImgCoordList = [] # save the centroid coordinates of each state for each image
     
     for usBoundResult in USBoundResults:
         img1Name = usBoundResult[0]
+        # img1Name = "115936742_3317778874932504_6087693444288850821_o.jpg"
         print('image name: ' + img1Name)
         img = cv2.imread(path + '\\' + img1Name) # Image1 to be matched
-        img1 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        # img1 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        img1 = img
         img1Area = img1.shape[0] *img1.shape[1]
         usBound = usBoundResult[1]
         usBoundArea = cv2.contourArea(usBound)
         centroidStateCoordList = []
 
-        if usBoundArea > img1Area / 4: # usBound is correct
+        # if usBoundArea > img1Area / 4: # usBound is correct
+        if False: # usBound is correct
             ### need to remove text for dominant color detecting
             maxCoordImg = np.amax(usBound,0)
             minCoordImg = np.amin(usBound,0)
@@ -433,7 +436,7 @@ def main():
             print('wire frame')
 
         else:
-            # img1Name = "WeChat Screenshot_20210203111207.png"
+            # img1Name = "115936742_3317778874932504_6087693444288850821_o.jpg"
             # if beforeOrAfter == 0:
             #     if img1Name == 'lab_81.jpg':
             #         beforeOrAfter = 1
@@ -461,7 +464,8 @@ def main():
             
             if len(ocrImg1) != 0:
                 ocrImg1 = ocrImg1[0]
-                img1Proc = removeText(img1NoTL,ocrImg1)
+                # img1Proc = removeText(img1NoTL,ocrImg1)
+                img1Proc = img1NoTL
             else:
                 img1Proc = img1NoTL
             imgGrey = cv2.cvtColor(img1Proc, cv2.COLOR_BGR2GRAY)
@@ -481,9 +485,9 @@ def main():
             ax = fig.add_subplot(1, 1, 1)
             bounds = mark_boundaries(image, segments)
             ax.imshow(bounds)
-            # plt.axis("off")
+            plt.axis("off")
             # show the plots
-            # plt.show()
+            plt.show()
             # fig.savefig(savePath + '\\' + 'superPixel_' + img1Name)
 
             bgColor,bgColorSec = getBackgroundColor(img1Proc, imgGrey)
@@ -690,7 +694,7 @@ def main():
             fig.savefig(savePath + '\\' + img1Name)
             print('superpixel')
         centroidImgCoordList.append((img1Name,centroidStateCoordList))
-    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\state identification\centroidImgCoordListFinalBad.pickle', 'wb') as f:
+    with open(r'C:\Users\jiali\Desktop\shuaichen\processed_images' + '\\' + 'centroidImgCoordList.pickle', 'wb') as f:
 	    pickle.dump(centroidImgCoordList,f)
 
     

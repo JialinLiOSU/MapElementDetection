@@ -353,21 +353,21 @@ def getTextForRect(rect,numerTextBboxes):
 
 def main():
     # read detection results from pickle file
-    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsFinalBad.pickle'
+    detectResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\detectResultsShuaichen.pickle'
     with open(detectResultName, 'rb') as fDetectResults:
         detectResults = pickle.load(fDetectResults)
 
     # read ocr results from pickle file
-    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\easyOCRFinalBad.pickle'
+    ocrResultName = r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\easyOCRShuaichen.pickle'
     with open(ocrResultName, 'rb') as fOCRResults:
         ocrResults = pickle.load(fOCRResults)
 
     # read image data
     # testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\cocoFormatLabeledImages\val'
-    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTestBad'
+    testImagePath = r'C:\Users\jiali\Desktop\shuaichen\images'
     testImageDir = os.listdir(testImagePath)
     testImageDir.sort()
-    savePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\legendPostProcessFinalBad'
+    savePath = r'C:\Users\jiali\Desktop\shuaichen\legendPostProcess'
         
 
     legendResults = []
@@ -379,7 +379,7 @@ def main():
         print(imgName)
 
     for imgName in testImageDir:
-        # imgName = '122.US-map-7custom-pink-red-bigtitle.jpg'
+        # imgName = 'ShareFigure1990.png'
 
         print('image name: ', imgName)
         postFix = imgName[-4:]
@@ -387,8 +387,13 @@ def main():
             continue
         
         img = cv2.imread(testImagePath + '\\'+imgName)
-        height = img.shape[0]
-        width = img.shape[1]
+        try:
+            height = img.shape[0]
+            width = img.shape[1]
+          
+        except:
+          print("not working image: " + imgName + '\n')
+          continue
         
         # get legend bboxes, text bboxes, and rectangles
         legendBbox = getLegendBboxImage(imgName,detectResults)
@@ -571,17 +576,16 @@ def main():
         startPoint = (int(finalLegendBox.bounds[0]), int(finalLegendBox.bounds[1]))
         endPoint = (int(finalLegendBox.bounds[2]), int(finalLegendBox.bounds[3]))
         cv2.rectangle(img,startPoint,endPoint,(255, 0, 0),2)
-        for legendRect in legendRectShapeBoxList:
-            startPoint = (int(legendRect.bounds[0]), int(legendRect.bounds[1]))
-            endPoint = (int(legendRect.bounds[2]), int(legendRect.bounds[3]))
-            cv2.rectangle(img,startPoint,endPoint,(0, 255, 0),2)
+        # for legendRect in legendRectShapeBoxList:
+        #     startPoint = (int(legendRect.bounds[0]), int(legendRect.bounds[1]))
+        #     endPoint = (int(legendRect.bounds[2]), int(legendRect.bounds[3]))
+        #     cv2.rectangle(img,startPoint,endPoint,(0, 255, 0),2)
 
-        for TextRect in legendTextShapelyBoxList:
-            startPoint = (int(TextRect.bounds[0]), int(TextRect.bounds[1]))
-            endPoint = (int(TextRect.bounds[2]), int(TextRect.bounds[3]))
-            cv2.rectangle(img,startPoint,endPoint,(0, 0, 255),2)
+        # for TextRect in legendTextShapelyBoxList:
+        #     startPoint = (int(TextRect.bounds[0]), int(TextRect.bounds[1]))
+        #     endPoint = (int(TextRect.bounds[2]), int(TextRect.bounds[3]))
+        #     cv2.rectangle(img,startPoint,endPoint,(0, 0, 255),2)
 
-        cv2.rectangle(img,startPoint,endPoint,(255, 0, 0),2)
         cv2.imwrite(savePath + '\\' + imgName, img) 
         # cv2.imshow(imgName, img)
         # cv2.waitKey(0)
@@ -589,7 +593,7 @@ def main():
         # save the position of the legend rects, texts and contents
         legendResults.append((imgName,finalLegendBox,legendRectShapeBoxList,legendTextShapelyBoxList,legendTextBboxes))
     print('test')
-    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendFinalBadResults.pickle', 'wb') as f:
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\postProcessingDetection\legendPostProcessShuaichen.pickle', 'wb') as f:
 	    pickle.dump(legendResults,f)
 
         #### No need to crop the image to get the US boundary
