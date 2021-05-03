@@ -210,7 +210,7 @@ def isVerticallyAligned(procLegendRectBoundsList):
 def main():
     # read detection results from pickle file
     legendResultsName = r'C:\Users\jiali\Desktop\MapElementDetection\code\Legend Analysis\legendPostProcessMappingColorResultsShuaichen.pickle'
-    testImagePath = r'C:\Users\jiali\Desktop\shuaichen\images'
+    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\images'
     testImageDir = os.listdir(testImagePath)
     savePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\legendSymbolTextMatchingShuaichen'
     with open(legendResultsName, 'rb') as flegendResultsResults:

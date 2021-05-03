@@ -148,13 +148,13 @@ def findIndexCloseColor(dominantColor,refColorList):
 
 def main():
     # read detection results from pickle file
-    testImagePath = r'C:\Users\jiali\Desktop\MapElementDetection\dataCollection\USStateChoro\finalTestBad'
+    testImagePath = r'C:\Users\jiali\Desktop\shuaichen\images'
     testImageDir = os.listdir(testImagePath)
 
-    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\Legend Analysis\legendMatchingResultsFinalBad.pickle', 'rb') as f:
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\Legend Analysis\legendMatchingResultsShuaichen.pickle', 'rb') as f:
         # legendMatchingResults.append((imgName, dominantColorList,textList))
 	    legendMatchingResults = pickle.load(f)
-    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\state identification\centroidImgCoordListFinalBad.pickle', 'rb') as f:
+    with open(r'C:\Users\jiali\Desktop\MapElementDetection\code\state identification\centroidImgCoordList.pickle', 'rb') as f:
         # centroidImgCoordList.append((img1Name,centroidStateCoordList))
 	    centroidImgCoordList = pickle.load(f)
     
